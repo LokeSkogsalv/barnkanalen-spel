@@ -1,0 +1,216 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<map mapId='1'>
+	<!-- Row 0 -->
+	<row>  
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 1 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 2 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 3 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 4 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 5 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 6 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 7 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 8 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 9 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 10 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 11 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 12 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 13 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 14 -->
+	</row>
+	<!-- Row 1 -->
+	<row>  
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 1 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 2 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 3 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 4 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 5 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 6 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 7 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 8 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 9 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 10 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 11 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 12 -->
+		<tile gfx='Tr'	walkable='true'		door='false'/> <!-- col 13 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 14 -->
+	</row>
+	<!-- Row 2 -->
+	<row>  
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 1 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 2 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 3 -->
+		<tile gfx='p17'	walkable='false'	door='false'/> <!-- col 4 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 5 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 6 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 7 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 8 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 9 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 10 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 11 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 12 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 13 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 14 -->
+	</row>
+	<!-- Row 3 -->
+	<row>  
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 1 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 2 -->
+		<tile gfx='p09'	walkable='true'		door='false'/> <!-- col 3 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 4 -->
+		<tile gfx='p07'	walkable='true'		door='false'/> <!-- col 5 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 6 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 7 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 8 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 9 -->
+		<tile gfx='p02'	walkable='true'		door='false'/> <!-- col 10 -->
+		<tile gfx='p17'	walkable='false'	door='false'/> <!-- col 11 -->
+		<tile gfx='p16'	walkable='false'	door='false'/> <!-- col 12 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 13 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 14 -->
+	</row>
+	<!-- Row 4 -->
+	<row>  
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 1 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 2 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 3 -->
+		<tile gfx='p11'	walkable='false'	door='false'/> <!-- col 4 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 5 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 6 -->
+		<tile gfx='p02'	walkable='true'		door='false'/> <!-- col 7 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 8 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 9 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 10 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 11 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 12 -->
+		<tile gfx='p08'	walkable='true'		door='false'/> <!-- col 13 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 14 -->
+	</row>
+	<!-- Row 5 -->
+	<row>  
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 1 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 2 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 3 -->
+		<tile gfx='p05'	walkable='true'		door='false'/> <!-- col 4 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 5 -->
+		<tile gfx='p12'	walkable='false'	door='false'/> <!-- col 6 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 7 -->
+		<tile gfx='p17'	walkable='false'	door='false'/> <!-- col 8 -->
+		<tile gfx='p16'	walkable='false'	door='false'/> <!-- col 9 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 10 -->
+		<tile gfx='p10'	walkable='false'	door='false'/> <!-- col 11 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 12 -->
+		<tile gfx='p14'	walkable='false'	door='false'/> <!-- col 13 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 14 -->
+	</row>
+	<!-- Row 6 -->
+	<row>  
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 1 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 2 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 3 -->
+		<tile gfx='p15'	walkable='false'	door='false'/> <!-- col 4 -->
+		<tile gfx='p09'	walkable='true'		door='false'/> <!-- col 5 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 6 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 7 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 8 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 9 -->
+		<tile gfx='p08'	walkable='true'		door='false'/> <!-- col 10 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 11 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 12 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 13 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 14 -->
+	</row>
+	<!-- Row 7 -->
+	<row>  
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 1 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 2 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 3 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 4 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 5 -->
+		<tile gfx='p15'	walkable='false'	door='false'/> <!-- col 6 -->
+		<tile gfx='p01'	walkable='true'		door='false'/> <!-- col 7 -->
+		<tile gfx='p14'	walkable='false'	door='false'/> <!-- col 8 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 9 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 10 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 11 -->
+		<tile gfx='p04'	walkable='true'		door='false'/> <!-- col 12 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 13 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 14 -->
+	</row>
+	<!-- Row 8 -->
+	<row>  
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 1 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 2 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 3 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 4 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 5 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 6 -->
+		<tile gfx='p04'	walkable='true'		door='false'/> <!-- col 7 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 8 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 9 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 10 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 11 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 12 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 13 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 14 -->
+	</row>
+	<!-- Row 9 -->
+	<row>  
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 1 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 2 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 3 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 4 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 5 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 6 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 7 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 8 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 9 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 10 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 11 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 12 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 13 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 14 -->
+	</row>
+	<!-- Row 10 -->
+	<row>  
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 1 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 2 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 3 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 4 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 5 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 6 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 7 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 8 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 9 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 10 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 11 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 12 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 13 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 14 -->
+	</row>
+	<!-- Row 11 -->
+	<row>  
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 1 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 2 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 3 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 4 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 5 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 6 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 7 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 8 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 9 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 10 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 11 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 12 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 13 -->
+		<tile gfx='Tr'	walkable='false'	door='false'/> <!-- col 14 -->
+	</row>
+	<!--DEFINE heroStartTile ONLY IN FIRTS MAP-->
+	<heroStartTile tileX='2' tileY='2'/>
+	<monsters>
+		<monster type='WORM' dir='1' startX='6' startY='6' speed='4'/>
+		<monster type='WORM' dir='1' startX='11' startY='6' speed='4'/>
+	</monsters>
+	<items map='1'>
+		<item type='1' startX='7' startY='9' value='4'/>
+	</items>
+</map>
