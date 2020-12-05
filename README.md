@@ -4,7 +4,8 @@ Some games only work if hosted on a web server. A website may be built. Until th
 
 # Contributers
 * HolmDev (me)
-* FrankoTheThird
+* u/FrankoTheThird (Poiku)
+* Walllessloki39
 
 # Credits
 This is property of SVT. We are only trying to back everything up for the preservation to future generations.
