@@ -1,0 +1,1724 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Stu</author>
+      <authoring_tool>Maya2008 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=0;exportCameraAsLookat=0;
+exportLights=0;exportCameras=0;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=0;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=0;exportPhysics=0;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Documents%20and%20Settings/Stu/My%20Documents/Plug-in%20Media/3D/MysteriousWoods/woods.mb</source_data>
+    </contributor>
+    <created>2009-07-03T15:04:01Z</created>
+    <modified>2009-07-03T15:04:01Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file4" name="file4">
+      <init_from>./pathsection.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file6" name="file6">
+      <init_from>./pathsection_junction1.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file5" name="file5">
+      <init_from>./grass_patchy.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file3" name="file3">
+      <init_from>./deadend_tree02.png</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file2" name="file2">
+      <init_from>./deadend_tree01.png</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file1" name="file1">
+      <init_from>./deadend.png</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file7" name="file7">
+      <init_from>./bush.png</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file11" name="file11">
+      <init_from>./deadend_tree03.png</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="pathsection" name="pathsection">
+      <instance_effect url="#pathsection-fx"/>
+    </material>
+    <material id="pathsection1" name="pathsection1">
+      <instance_effect url="#pathsection1-fx"/>
+    </material>
+    <material id="green" name="green">
+      <instance_effect url="#green-fx"/>
+    </material>
+    <material id="deadend_tree02_tex" name="deadend_tree02_tex">
+      <instance_effect url="#deadend_tree02_tex-fx"/>
+    </material>
+    <material id="deadend_tree01_tex" name="deadend_tree01_tex">
+      <instance_effect url="#deadend_tree01_tex-fx"/>
+    </material>
+    <material id="deadend_tex" name="deadend_tex">
+      <instance_effect url="#deadend_tex-fx"/>
+    </material>
+    <material id="bush_tex" name="bush_tex">
+      <instance_effect url="#bush_tex-fx"/>
+    </material>
+    <material id="deadend_tree01_tex1" name="deadend_tree01_tex1">
+      <instance_effect url="#deadend_tree01_tex1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="pathsection-fx">
+      <profile_COMMON>
+        <newparam sid="file4-surface">
+          <surface type="2D">
+            <init_from>file4</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file4-sampler">
+          <sampler2D>
+            <source>file4-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file4-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="pathsection1-fx">
+      <profile_COMMON>
+        <newparam sid="file6-surface">
+          <surface type="2D">
+            <init_from>file6</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file6-sampler">
+          <sampler2D>
+            <source>file6-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file6-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="green-fx">
+      <profile_COMMON>
+        <newparam sid="file5-surface">
+          <surface type="2D">
+            <init_from>file5</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file5-sampler">
+          <sampler2D>
+            <source>file5-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file5-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="deadend_tree02_tex-fx">
+      <profile_COMMON>
+        <newparam sid="file3-surface">
+          <surface type="2D">
+            <init_from>file3</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file3-sampler">
+          <sampler2D>
+            <source>file3-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file3-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="file3-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="deadend_tree01_tex-fx">
+      <profile_COMMON>
+        <newparam sid="file2-surface">
+          <surface type="2D">
+            <init_from>file2</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file2-sampler">
+          <sampler2D>
+            <source>file2-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file2-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="file2-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="deadend_tex-fx">
+      <profile_COMMON>
+        <newparam sid="file1-surface">
+          <surface type="2D">
+            <init_from>file1</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file1-sampler">
+          <sampler2D>
+            <source>file1-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file1-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="file1-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="bush_tex-fx">
+      <profile_COMMON>
+        <newparam sid="file7-surface">
+          <surface type="2D">
+            <init_from>file7</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file7-sampler">
+          <sampler2D>
+            <source>file7-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file7-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="file7-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="deadend_tree01_tex1-fx">
+      <profile_COMMON>
+        <newparam sid="file11-surface">
+          <surface type="2D">
+            <init_from>file11</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file11-sampler">
+          <sampler2D>
+            <source>file11-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file11-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="file11-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="floorShape" name="floorShape">
+      <mesh>
+        <source id="floorShape-positions" name="position">
+          <float_array id="floorShape-positions-array" count="132">-24.8749 0.005294 0.495655 -8.43464 0.005294 0.495687 7.6911 0.005294 0.495647 -11.6941 0.005294 -8.51024 1.52913 0.005294 -17.5936 0.565033 0.005294 -16.9313 2.15093 0.005294 -15.9281 -16.0607 0.005294 -5.52671 -14.9571 0.005294 0.495679 -0.208977 0.005294 -39.6838 -14.6071 0.005294 -13.0922 -4.83042 0.005294 -27.2251 -18.3666 0.005294 -8.11709 -12.7755 0.005294 -49.1548 -19.0302 0.005294 -16.6161 -15.7923 0.005294 -32.7484 -21.4433 0.005294 -9.5511 -24.8749 0.005294 -49.1548 -24.8735 0.002579 -16.5332 -24.8735 0.00258 -33.7668 -24.8739 0.00335 -41.8655 -24.8741 0.003674 -9.6653 24.7756 0.005294 0.495726 12.7823 0.005294 -8.27954 2.55299 0.005294 -16.7462 15.2421 0.005294 0.495679 18.2825 0.005294 -4.25512 24.7756 0.005294 -16.0677 10.2667 0.005294 -28.7344 18.6913 0.005294 -15.3647 21.5498 0.005294 -7.91336 24.7756 0.005294 -8.42269 24.7756 0.005294 -33.1777 24.7756 0.005294 -49.1548 -71.2331 0.005249 -48.3296 -23.2179 0.005248 -78.0556 23.9543 0.005248 -62.7807 3.25775 0.005248 -74.1733 -47.8208 0.005249 -48.3296 -48.6458 0.005248 -74.2239 -65.1632 0.005248 -63.1087 -69.3327 0.005248 -56.3661 -24.3193 0.005279 -58.846 6.00006 0.005294 -49.1548</float_array>
+          <technique_common>
+            <accessor source="#floorShape-positions-array" count="44" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floorShape-normals" name="normal">
+          <float_array id="floorShape-normals-array" count="471">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -0.000466 1 -0.000159 -0.000466 1 -0.000159 -0.000466 1 -0.000159 -0.000466 1 -0.000159 0 1 0.000266 0 1 0.000266 0 1 0.000266 -0.000361 1 -0.000035 -0.000361 1 -0.000035 -0.000361 1 -0.000035 -0.000361 1 -0.000035 -0.00018 1 -0.000033 -0.00018 1 -0.000033 -0.00018 1 -0.000033 -0.000309 1 0.000095 -0.000309 1 0.000095 -0.000309 1 0.000095 -0.000466 1 -0.000159 -0.000466 1 -0.000159 -0.000466 1 -0.000159 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -0.000003 0 1 -0.000003 0 1 -0.000003 -0.000000 1 -0.000001 0.000000 1 -0.000001 0.000000 1 -0.000001 -0.000000 1 -0.000001 -0.000000 1 -0.000000 -0.000000 1 -0.000000 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 -0.000001 1 -0.000001 -0.000001 1 -0.000001 -0.000002 1 -0.000001 0 1 -0.000001 0.000000 1 -0.000001 0.000000 1 -0.000001 0.000000 1 -0.000001 0.000000 1 -0.000001 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#floorShape-normals-array" count="157" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floorShape-map1" name="map1">
+          <float_array id="floorShape-map1-array" count="200">0.039071 0.089002 0.321267 0.018207 0.268122 0.200692 0.997067 0.006031 1.00034 0.994103 0.002735 0.996056 0.002735 0.00547 0.927601 0.994245 0.998092 0.900232 0.19205 0.163598 0.2142 0.045067 0.417054 0.584242 0.536245 0.363574 0.50703 0.855531 0.192432 0.163784 0.268122 0.200692 0.210864 0.314087 0.147653 0.231267 0.008206 0.006471 0.997265 0.007833 0.997265 0.997265 0.008206 0.997265 0.039071 0.089002 0.148273 0.23208 0.210864 0.314087 0.109168 0.375159 0.080207 0.256934 0.14999 0.684328 0.417054 0.584242 0.50703 0.855531 0.190813 0.993497 0.002735 0.00547 0.994529 0.00547 0.994529 0.996307 0.002735 0.993794 0.039071 0.089002 0.080246 0.257091 0.109168 0.375159 0 0.36622 0.015758 0.254416 0 0.854039 0.190813 0.993497 0 0.993497 0.004712 0.004125 0.994529 0.005476 0.994529 0.994529 0.004712 0.994529 0.14999 0.684328 0 0.699567 0.039071 0.089002 0.800143 0.003787 0.758762 0.183681 0.667908 0.003787 0.983871 0 1 1 0 0.38715 0.087139 0.352861 0.089361 0.441916 0.981279 0.003787 0.860745 0.101233 0.536245 0.363574 0.715258 0.604677 0.50703 0.855531 0.954145 0.189788 0.997675 0.264447 0.922838 0.354604 0.092606 0 1 0 1 1 0 1 0.864637 0.101127 0.758762 0.183681 0 0 0.989477 0.003787 0.993891 0.144137 0.50703 0.855531 0.715258 0.604677 0.997675 0.683961 0 0 1 0 1 1 0 1 0.50703 0.855531 0.997675 0.993497 0.997675 0.683961 0.016408 0.978865 0.98407 0.978865 0.98407 0.683302 0.016408 0.509853 0.016407 0.624147 0.98407 0.509853 0.98407 0.277786 0.016408 0.277582 0.316087 0.056521 0.016408 0.041279 0.991773 0.071764 0.925153 0.007734 0.34089 0.509853 0.594244 0.993497 0.016408 0.801506</float_array>
+          <technique_common>
+            <accessor source="#floorShape-map1-array" count="100" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="floorShape-vertices">
+          <input semantic="POSITION" source="#floorShape-positions"/>
+        </vertices>
+        <triangles material="lambert3SG" count="15">
+          <input semantic="VERTEX" source="#floorShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#floorShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#floorShape-map1" offset="2" set="0"/>
+          <p>5 26 96 4 27 19 11 28 20 10 39 31 11 40 32 14 42 34 14 42 34 11 40 32 15 41 33 15 57 44 19 58 45 14 56 43 14 56 43 19 58 45 18 59 46 6 72 56 23 73 54 24 74 57 4 75 55 6 76 56 24 77 57 24 90 66 28 91 69 4 92 72 28 111 78 29 112 79 32 114 81 32 114 81 29 112 79 27 113 80 3 135 18 5 136 96 10 138 21 10 138 21 5 136 96 11 137 20 23 139 67 29 140 68 24 142 66 24 142 66 29 140 68 28 141 69 2 143 53 23 144 54 6 145 56</p>
+        </triangles>
+        <triangles material="pathsection1SG" count="4">
+          <input semantic="VERTEX" source="#floorShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#floorShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#floorShape-map1" offset="2" set="0"/>
+          <p>6 4 8 4 5 4 5 6 7 2 7 3 3 8 5 1 9 6 3 10 5 6 11 8 5 12 7 2 13 3 6 14 8 3 15 5</p>
+        </triangles>
+        <triangles material="lambert4SG" count="44">
+          <input semantic="VERTEX" source="#floorShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#floorShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#floorShape-map1" offset="2" set="0"/>
+          <p>1 1 1 3 2 2 8 0 10 8 0 10 3 2 2 7 3 9 0 16 0 8 17 10 7 18 9 11 19 11 4 20 12 9 21 13 7 22 14 3 23 15 12 25 17 12 25 17 3 23 15 10 24 16 0 29 22 7 30 14 12 31 17 12 32 23 10 33 24 16 35 26 16 35 26 10 33 24 14 34 25 15 36 27 11 37 28 9 38 29 15 43 27 9 44 29 13 45 30 0 46 35 12 47 23 16 48 26 14 50 37 18 51 38 16 49 36 16 49 36 18 51 38 21 52 39 20 53 40 13 54 41 17 55 42 20 60 40 15 61 47 13 62 41 19 63 48 15 64 47 20 65 40 0 66 49 16 67 36 21 68 39 25 69 50 23 70 51 2 71 52 22 78 58 26 79 59 25 80 50 26 81 59 23 82 51 25 83 50 4 84 60 28 85 61 9 86 62 30 87 63 27 88 64 29 89 65 26 93 70 29 94 65 23 95 71 22 96 73 30 97 63 26 98 70 22 99 73 31 100 74 30 101 63 30 102 63 29 103 65 26 104 70 31 105 74 27 106 64 30 107 63 9 108 75 28 109 76 32 110 77 9 115 82 33 116 83 43 117 98 9 118 82 32 119 84 33 120 83 43 121 99 33 122 85 36 123 86 42 124 97 13 125 89 35 127 90 35 127 90 13 125 89 37 126 87 35 127 90 39 128 91 42 124 97 42 124 97 39 128 91 38 129 92 38 130 92 41 131 93 34 132 94 39 128 91 40 133 95 38 129 92 38 129 92 40 133 95 41 134 93 17 146 88 42 147 97 38 148 92 17 146 88 13 149 89 42 147 97 13 150 89 43 151 99 37 153 87 37 153 87 43 151 99 36 152 86 9 154 82 43 155 98 13 156 30</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="junctree0Shape1" name="junctree0Shape1">
+      <mesh>
+        <source id="junctree0Shape1-positions" name="position">
+          <float_array id="junctree0Shape1-positions-array" count="51">0.339577 -0.000003 -24.8958 -14.3454 0.000006 1.98437 14.3454 -0.000015 1.72376 5.19002 -0.000012 -24.8958 11.1286 -0.000011 -20.4648 14.3454 -0.000015 -8.17048 -10.8607 -0.000004 -20.4346 -14.3454 -0.000006 -10.3099 -7.50883 -0.000001 25.2077 7.05417 -0.000011 25.2077 -8.60862 -0.000004 21.4718 -7.55717 0 5.83631 -11.647 -0.000003 5.05608 5.08729 -0.000013 20.6672 7.76702 -0.000011 22.9117 5.69506 -0.000011 8.20556 12.3132 -0.000014 8.26918</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape1-positions-array" count="17" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape1-normals" name="normal">
+          <float_array id="junctree0Shape1-normals-array" count="75">-0.000000 -1 0.000000 0.000000 -1 0.000000 -0.000001 -1 -0.000002 0.000000 -1 0.000001 0.000000 -1 -0.000000 -0.000000 -1 -0.000000 0.000000 -1 0.000000 -0.000000 -1 -0.000000 0.000001 -1 0 -0.000001 -1 0 -0.000001 -1 0 0.000001 -1 0 0.000001 -1 0 -0.000000 -1 -0.000000 0.000000 -1 -0.000000 -0.000000 -1 0.000000 -0.000000 -1 0.000000 -0.000001 -1 0.000000 -0.000001 -1 -0.000000 -0.000000 -1 0 -0.000000 -1 0 -0.000000 -1 -0.000000 -0.000000 -1 0.000000 -0.000000 -1 -0.000000 0.000000 -1 0.000000</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape1-normals-array" count="25" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape1-map1" name="map1">
+          <float_array id="junctree0Shape1-map1-array" count="34">0.509626 0.995953 0.001348 0.461631 0.994395 0.466812 0.677509 0.995953 0.883056 0.907875 0.994395 0.663489 0.12196 0.907275 0.001348 0.706015 0.237977 0 0.742031 0 0.199911 0.074262 0.236304 0.385063 0.094747 0.400572 0.673953 0.090254 0.766704 0.045639 0.694989 0.337967 0.924056 0.336702</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape1-map1-array" count="17" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="junctree0Shape1-vertices">
+          <input semantic="POSITION" source="#junctree0Shape1-positions"/>
+        </vertices>
+        <triangles material="deadend_tree02_texSG" count="15">
+          <input semantic="VERTEX" source="#junctree0Shape1-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#junctree0Shape1-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#junctree0Shape1-map1" offset="2" set="0"/>
+          <p>0 0 0 11 1 11 6 5 6 6 5 6 11 1 11 7 4 7 11 1 11 12 2 12 7 4 7 12 2 12 1 3 1 7 4 7 15 7 15 13 8 13 11 6 11 11 6 11 13 8 13 10 9 10 10 10 10 13 11 13 8 14 8 9 13 9 8 14 8 14 12 14 13 11 13 14 12 14 8 14 8 0 15 0 3 16 3 15 21 15 3 16 3 4 17 4 15 21 15 4 17 4 5 18 5 15 21 15 5 18 5 2 19 2 15 21 15 2 19 2 16 20 16 15 21 15 0 22 0 15 23 15 11 24 11</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="junctree0Shape2" name="junctree0Shape2">
+      <mesh>
+        <source id="junctree0Shape2-positions" name="position">
+          <float_array id="junctree0Shape2-positions-array" count="30">-0.526978 -0.00001 -24.8958 -9.69337 -0.00002 -16.8018 -14.3454 -0.000011 -7.62935 8.84374 -0.000014 -24.8958 14.3454 -0.000012 -11.3405 11.567 -0.000008 -0.167997 7.34032 -0.000012 25.1862 14.3454 -0.000012 -4.91872 -2.9183 -0.000011 25.1862 -14.3454 -0.000011 2.64165</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape2-positions-array" count="10" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape2-normals" name="normal">
+          <float_array id="junctree0Shape2-normals-array" count="30">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape2-normals-array" count="10" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape2-map1" name="map1">
+          <float_array id="junctree0Shape2-map1-array" count="20">0.485226 0.998651 0.171407 0.837255 0.01214 0.654353 0.806041 0.998651 0.994395 0.728355 0.899275 0.505571 0.75457 0 0.994395 0.600302 0.403357 0 0.01214 0.449546</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape2-map1-array" count="10" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="junctree0Shape2-vertices">
+          <input semantic="POSITION" source="#junctree0Shape2-positions"/>
+          <input semantic="NORMAL" source="#junctree0Shape2-normals"/>
+        </vertices>
+        <triangles material="deadend_tree01_texSG" count="8">
+          <input semantic="VERTEX" source="#junctree0Shape2-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#junctree0Shape2-map1" offset="1" set="0"/>
+          <p>6 6 5 5 8 8 8 8 5 5 9 9 9 9 5 5 2 2 2 2 5 5 1 1 1 1 5 5 0 0 5 5 7 7 0 0 7 7 4 4 0 0 4 4 3 3 0 0</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="juntiontreesShape" name="juntiontreesShape">
+      <mesh>
+        <source id="juntiontreesShape-positions" name="position">
+          <float_array id="juntiontreesShape-positions-array" count="78">-23.2184 -0.493871 -122.729 -48.628 -0.493871 -118.851 -65.1445 -0.493871 -107.808 -69.3162 -0.493871 -101.077 -23.2184 50.5586 -122.729 -48.628 50.5586 -118.851 -65.1445 50.5586 -107.808 -69.3162 50.5586 -101.077 23.9525 -0.493871 -93.0474 23.9525 -0.493871 -107.496 3.2535 -0.493871 -118.851 23.9525 50.5586 -93.0474 23.9525 50.5586 -107.496 3.2535 50.5586 -118.851 -71.2309 -0.493871 -93.0474 -71.2309 50.5586 -93.0474 -71.2309 37.0962 -93.0474 -23.2184 37.0962 -122.729 -48.628 37.0962 -118.851 -65.1446 37.0962 -107.808 -69.3162 37.0962 -101.077 23.9525 37.0962 -93.0474 23.9525 37.0962 -107.496 3.2535 37.0962 -118.851 -69.3162 13.0417 -101.077 -71.2309 12.995 -93.0474</float_array>
+          <technique_common>
+            <accessor source="#juntiontreesShape-positions-array" count="26" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="juntiontreesShape-normals" name="normal">
+          <float_array id="juntiontreesShape-normals-array" count="90">0.150863 0 0.988555 -0.144939 0 0.989441 0.150863 0 0.988555 0.361979 0 0.932186 0.478683 0 0.877988 0.719201 0 0.694802 0.773689 0 0.633566 0.923206 0 0.384305 0.942559 0 0.334038 0.972729 0 0.231945 0.972729 0 0.231945 0.773689 0 0.633566 -1 0 -0.000275 -1 0 -0.000275 -1 0 -0.000000 -0.860515 0 0.509425 -0.317989 0 0.948094 -0.317989 0 0.948094 -0.144939 0 0.989441 -0.14494 0 0.98944 0.972729 0 0.231945 0.972729 0 0.231945 -0.144939 0 0.989441 0.150863 0 0.988555 0.478683 0 0.877988 -1 0 -0.000275 -1 0 -0.000275 -0.496334 0 0.868132 -0.144939 0 0.989441 0.972729 0 0.231946</float_array>
+          <technique_common>
+            <accessor source="#juntiontreesShape-normals-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="juntiontreesShape-map1" name="map1">
+          <float_array id="juntiontreesShape-map1-array" count="58">0.695167 0.001608 0.596773 0.001608 0.455615 0.001608 0.399983 0.001608 0.695167 0.994133 0.596773 0.994133 0.455615 0.994133 0.399983 0.994133 0.99035 0.001608 0.99035 0.994133 0.891956 0.994133 0.891956 0.001608 0.793562 0.994133 0.793562 0.001608 0.695167 0.994133 0.695167 0.001608 0.360688 0.001608 0.360182 0.994133 0.360317 0.730408 0.695167 0.730408 0.695167 0.730408 0.596773 0.730408 0.455615 0.730408 0.399983 0.730408 0.99035 0.730408 0.891956 0.730408 0.793562 0.730408 0.399983 0.259186 0.360557 0.257733</float_array>
+          <technique_common>
+            <accessor source="#juntiontreesShape-map1-array" count="29" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="juntiontreesShape-vertices">
+          <input semantic="POSITION" source="#juntiontreesShape-positions"/>
+        </vertices>
+        <triangles material="lambert2SG" count="31">
+          <input semantic="VERTEX" source="#juntiontreesShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#juntiontreesShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#juntiontreesShape-map1" offset="2" set="0"/>
+          <p>1 0 1 0 1 0 18 3 21 18 3 21 0 1 0 17 2 19 2 4 2 1 0 1 19 5 22 19 5 22 1 0 1 18 3 21 2 4 2 19 5 22 3 6 3 3 6 3 19 5 22 24 8 27 19 5 22 20 7 23 24 8 27 15 9 17 16 10 18 7 11 7 7 11 7 16 10 18 20 7 23 9 12 11 8 13 8 22 15 25 22 15 25 8 13 8 21 14 24 10 16 13 9 12 11 23 17 26 23 17 26 9 12 11 22 15 25 0 18 15 10 16 13 17 19 20 17 19 20 10 16 13 23 17 26 24 8 27 25 20 28 3 6 3 3 6 3 25 20 28 14 21 16 18 3 21 17 2 19 5 23 5 5 23 5 17 2 19 4 22 4 19 5 22 18 3 21 6 24 6 6 24 6 18 3 21 5 23 5 20 7 23 19 5 22 7 11 7 7 11 7 19 5 22 6 24 6 22 15 25 21 14 24 12 26 10 12 26 10 21 14 24 11 25 9 23 17 26 22 15 25 13 27 12 13 27 12 22 15 25 12 26 10 17 19 20 23 17 26 4 28 14 4 28 14 23 17 26 13 27 12 20 7 23 16 10 18 24 8 27 24 8 27 16 10 18 25 29 28</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="juncbush0Shape1" name="juncbush0Shape1">
+      <mesh>
+        <source id="juncbush0Shape1-positions" name="position">
+          <float_array id="juncbush0Shape1-positions-array" count="24">-7.76658 0 7.76658 -7.76658 0 -7.76658 -7.76658 0 -0.308533 -2.84205 0 -0.308533 -2.84205 0 -1.99486 -6.34863 0 -7.76658 -2.84205 0 1.28779 -3.80645 0 4.1088</float_array>
+          <technique_common>
+            <accessor source="#juncbush0Shape1-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="juncbush0Shape1-normals" name="normal">
+          <float_array id="juncbush0Shape1-normals-array" count="24">0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#juncbush0Shape1-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="juncbush0Shape1-map1" name="map1">
+          <float_array id="juncbush0Shape1-map1-array" count="16">0.991323 0.006512 0.006512 0.008677 0.479356 0.007637 0.481521 0.992448 0.374607 0.992683 0.007135 0.292241 0.582729 0.992226 0.761159 0.798971</float_array>
+          <technique_common>
+            <accessor source="#juncbush0Shape1-map1-array" count="8" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="juncbush0Shape1-vertices">
+          <input semantic="POSITION" source="#juncbush0Shape1-positions"/>
+          <input semantic="NORMAL" source="#juncbush0Shape1-normals"/>
+        </vertices>
+        <triangles material="lambert5SG" count="6">
+          <input semantic="VERTEX" source="#juncbush0Shape1-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#juncbush0Shape1-map1" offset="1" set="0"/>
+          <p>0 0 2 2 7 7 7 7 2 2 6 6 2 2 3 3 6 6 2 2 1 1 3 3 3 3 1 1 4 4 1 1 5 5 4 4</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="juncbush0Shape2" name="juncbush0Shape2">
+      <mesh>
+        <source id="juncbush0Shape2-positions" name="position">
+          <float_array id="juncbush0Shape2-positions-array" count="18">-7.76658 0 7.76658 -7.76658 0 -7.76658 -2.63982 0 1.96348 -6.06622 0 7.76658 -2.63982 0 -2.29775 -3.49501 0 -4.42645</float_array>
+          <technique_common>
+            <accessor source="#juncbush0Shape2-positions-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="juncbush0Shape2-normals" name="normal">
+          <float_array id="juncbush0Shape2-normals-array" count="18">0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#juncbush0Shape2-normals-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="juncbush0Shape2-map1" name="map1">
+          <float_array id="juncbush0Shape2-map1-array" count="12">0.005943 0.006512 0.996233 0.008677 0.373734 0.992131 0.005221 0.333137 0.645401 0.992725 0.781475 0.828746</float_array>
+          <technique_common>
+            <accessor source="#juncbush0Shape2-map1-array" count="6" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="juncbush0Shape2-vertices">
+          <input semantic="POSITION" source="#juncbush0Shape2-positions"/>
+          <input semantic="NORMAL" source="#juncbush0Shape2-normals"/>
+        </vertices>
+        <triangles material="lambert5SG" count="4">
+          <input semantic="VERTEX" source="#juncbush0Shape2-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#juncbush0Shape2-map1" offset="1" set="0"/>
+          <p>1 1 5 5 0 0 5 5 4 4 0 0 4 4 2 2 0 0 0 0 2 2 3 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="junctree0Shape5" name="junctree0Shape5">
+      <mesh>
+        <source id="junctree0Shape5-positions" name="position">
+          <float_array id="junctree0Shape5-positions-array" count="54">21.034 0.000011 7.76655 20.9859 0.00001 -7.76661 31.8386 0.000012 1.06806 21.0134 0.000017 1.12633 31.8386 0.000018 -1.82211 21.0043 0.000014 -1.82034 11.8559 0.000011 7.76655 -7.76658 0.00001 2.32295 -4.54393 0.000014 -1.82531 -7.76658 0.000007 -3.48515 6.45581 0.000014 -1.81797 9.30586 0.000009 -5.83393 16.3695 0.00001 -7.73998 31.8386 0.000013 -5.60663 26.7249 0.000011 7.76655 -4.55567 0.000011 1.26397 6.97151 0.000014 1.20192 7.74421 0.000012 4.81773</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape5-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape5-normals" name="normal">
+          <float_array id="junctree0Shape5-normals-array" count="90">0.000000 -1 -0.000000 0.000000 -1 -0.000000 0.000001 -1 -0.000000 0.000001 -1 -0.000000 0 -1 0.000000 0 -1 0.000000 0 -1 -0.000000 0.000000 -1 0 -0.000000 -1 -0.000000 -0.000000 -1 -0.000000 0.000000 -1 0.000000 0 -1 0.000000 0 -1 0.000000 0 -1 0.000000 0.000000 -1 0.000000 0.000000 -1 -0.000000 0.000000 -1 -0.000000 0.000000 -1 -0.000000 0 -1 -0.000000 0 -1 -0.000000 0 -1 -0.000000 0.000000 -1 -0.000000 0.000000 -1 -0.000000 0.000000 -1 -0.000000 0 -1 -0.000000 0.000000 -1 0.000001 0.000000 -1 0.000000 0.000000 -1 0.000000 0.000000 -1 0.000000 0 -1 0.000001</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape5-normals-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape5-map1" name="map1">
+          <float_array id="junctree0Shape5-map1-array" count="36">0.004485 0.722658 0.994528 0.723626 0.430834 0.992256 0.427715 0.723072 0.615045 0.992659 0.615528 0.723256 0.00499 0.494438 0.353028 0.00727 0.617249 0.087982 0.72322 0.00808 0.616177 0.361498 0.871986 0.432926 0.993084 0.608833 0.856261 0.993186 0.004173 0.864167 0.420348 0.08726 0.423669 0.3739 0.193165 0.39261</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape5-map1-array" count="18" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="junctree0Shape5-vertices">
+          <input semantic="POSITION" source="#junctree0Shape5-positions"/>
+        </vertices>
+        <triangles material="deadend_tree01_tex1SG" count="18">
+          <input semantic="VERTEX" source="#junctree0Shape5-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#junctree0Shape5-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#junctree0Shape5-map1" offset="2" set="0"/>
+          <p>15 1 15 7 2 7 8 0 8 8 0 8 7 2 7 9 3 9 10 4 10 5 5 5 16 7 16 16 7 16 5 5 5 3 6 3 14 8 14 3 6 3 2 9 2 4 10 4 2 9 2 5 5 5 5 5 5 2 9 2 3 6 3 5 11 5 12 12 12 1 13 1 13 14 13 5 11 5 1 13 1 16 15 16 15 1 15 10 16 10 10 16 10 15 1 15 8 0 8 3 6 3 17 17 17 16 7 16 0 18 0 3 19 3 14 20 14 6 21 6 17 22 17 3 23 3 6 24 6 3 19 3 0 18 0 4 10 4 5 5 5 13 25 13 5 26 5 11 27 11 12 28 12 5 5 5 10 4 10 11 29 11</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="junctree0Shape8" name="junctree0Shape8">
+      <mesh>
+        <source id="junctree0Shape8-positions" name="position">
+          <float_array id="junctree0Shape8-positions-array" count="36">0.505126 -0.000004 25.2077 0.339579 0.000000 -24.8958 -14.3454 0.00001 1.98437 14.3454 -0.000003 1.72376 0.427951 -0.000003 1.85018 5.19002 0.000000 -24.8958 11.1286 0.000000 -20.4648 14.3454 -0.000003 -8.17048 -10.8607 0.000002 -20.4346 -14.3454 0.000005 -10.3099 -7.50883 0.000003 25.2077 7.05417 -0.000003 25.2077</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape8-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape8-normals" name="normal">
+          <float_array id="junctree0Shape8-normals-array" count="36">0.000000 1 0 0.000000 1 0 0.000000 1 0 0 1 0 0.000000 1 0 0 1 0.000000 0 1 0.000000 0 1 0.000000 0.000000 1 0 0.000000 1 0 0.000000 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape8-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape8-map1" name="map1">
+          <float_array id="junctree0Shape8-map1-array" count="24">0.515355 0 0.509626 0.995953 0.001348 0.461631 0.994395 0.466812 0.512684 0.464299 0.677509 0.995953 0.883056 0.907875 0.994395 0.663489 0.12196 0.907275 0.001348 0.706015 0.237977 0 0.742031 0</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape8-map1-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="junctree0Shape8-vertices">
+          <input semantic="POSITION" source="#junctree0Shape8-positions"/>
+          <input semantic="NORMAL" source="#junctree0Shape8-normals"/>
+        </vertices>
+        <triangles material="deadend_tree02_texSG" count="11">
+          <input semantic="VERTEX" source="#junctree0Shape8-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#junctree0Shape8-map1" offset="1" set="0"/>
+          <p>2 2 10 10 4 4 4 4 10 10 0 0 3 3 4 4 11 11 11 11 4 4 0 0 4 4 3 3 1 1 3 3 7 7 1 1 1 1 7 7 5 5 7 7 6 6 5 5 1 1 8 8 4 4 8 8 9 9 4 4 9 9 2 2 4 4</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="juncbush0Shape4" name="juncbush0Shape4">
+      <mesh>
+        <source id="juncbush0Shape4-positions" name="position">
+          <float_array id="juncbush0Shape4-positions-array" count="36">-7.76658 -0.000001 7.76658 -7.76658 -0.000006 -7.76657 -7.76658 0.000006 -0.308532 0.108644 0.000006 -0.308532 -7.76658 0.000005 -4.17458 -7.76658 0.000004 3.69649 -1.06889 0.000008 3.74441 -6.30781 -0.000001 7.76658 0.108644 0.000007 1.07738 0.108644 0.000005 -1.76921 -1.67524 0.000003 -3.97108 -5.66133 -0.000006 -7.76657</float_array>
+          <technique_common>
+            <accessor source="#juncbush0Shape4-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="juncbush0Shape4-normals" name="normal">
+          <float_array id="juncbush0Shape4-normals-array" count="36">0.000000 -1 -0.000001 -0.000000 -1 0.000003 0 -1 0.000000 0 -1 0.000000 -0.000000 -1 0.000001 0.000000 -1 -0.000000 0.000000 -1 -0.000000 0.000000 -1 -0.000001 0.000000 -1 0 -0.000000 -1 0.000000 -0.000000 -1 0.000001 -0.000000 -1 0.000003</float_array>
+          <technique_common>
+            <accessor source="#juncbush0Shape4-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="juncbush0Shape4-map1" name="map1">
+          <float_array id="juncbush0Shape4-map1-array" count="24">0.991323 0.006512 0.006512 0.008677 0.479356 0.007637 0.481521 0.992448 0.234247 0.008176 0.733277 0.007079 0.738156 0.844631 0.991724 0.188934 0.569389 0.992255 0.388914 0.992652 0.248823 0.76988 0.007091 0.271942</float_array>
+          <technique_common>
+            <accessor source="#juncbush0Shape4-map1-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="juncbush0Shape4-vertices">
+          <input semantic="POSITION" source="#juncbush0Shape4-positions"/>
+          <input semantic="NORMAL" source="#juncbush0Shape4-normals"/>
+        </vertices>
+        <triangles material="lambert5SG" count="10">
+          <input semantic="VERTEX" source="#juncbush0Shape4-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#juncbush0Shape4-map1" offset="1" set="0"/>
+          <p>0 0 5 5 7 7 7 7 5 5 6 6 2 2 3 3 5 5 3 3 8 8 5 5 8 8 6 6 5 5 4 4 10 10 2 2 3 3 2 2 9 9 2 2 10 10 9 9 10 10 4 4 11 11 11 11 4 4 1 1</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="junctree0Shape10" name="junctree0Shape10">
+      <mesh>
+        <source id="junctree0Shape10-positions" name="position">
+          <float_array id="junctree0Shape10-positions-array" count="45">-7.76658 -0.000017 0.743068 31.8386 -0.00001 1.00803 -7.76658 -0.000017 -1.42358 20.1027 -0.000011 7.76657 20.2975 -0.000001 -7.76659 20.1884 -0.000018 0.930088 6.04558 -0.000027 0.835475 5.98171 -0.000009 -1.32332 -7.76658 -0.000015 2.64916 9.87265 -0.000011 7.76657 -7.76658 -0.000012 -3.3156 11.1287 -0.000001 -7.76659 25.9707 -0.000011 7.76657 31.8386 -0.000005 -4.83368 23.9722 -0.000001 -7.76659</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape10-positions-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape10-normals" name="normal">
+          <float_array id="junctree0Shape10-normals-array" count="45">-0.000000 -1 -0.000001 0.000000 -1 -0.000000 0.000000 -1 -0.000003 0.000000 -1 0.000001 0.000000 -1 -0.000002 0.000000 -1 -0.000000 -0.000000 -1 -0.000001 0.000000 -1 -0.000003 -0.000000 -1 0.000000 0.000000 -1 0.000001 0.000000 -1 -0.000002 0 -1 -0.000002 0.000000 -1 0.000000 0.000000 -1 -0.000001 0.000000 -1 -0.000001</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape10-normals-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape10-map1" name="map1">
+          <float_array id="junctree0Shape10-map1-array" count="30">0.453727 0.007491 0.434663 0.992265 0.591823 0.007793 0.004537 0.699501 0.994566 0.706509 0.440271 0.702585 0.447078 0.350927 0.584677 0.34964 0.332238 0.007225 0.005099 0.445124 0.712415 0.008056 0.99507 0.478521 0.004214 0.845412 0.806996 0.993079 0.994364 0.797884</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape10-map1-array" count="15" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="junctree0Shape10-vertices">
+          <input semantic="POSITION" source="#junctree0Shape10-positions"/>
+          <input semantic="NORMAL" source="#junctree0Shape10-normals"/>
+        </vertices>
+        <triangles material="deadend_tree01_tex1SG" count="14">
+          <input semantic="VERTEX" source="#junctree0Shape10-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#junctree0Shape10-map1" offset="1" set="0"/>
+          <p>2 2 7 7 0 0 0 0 7 7 6 6 3 3 5 5 12 12 12 12 5 5 1 1 1 1 5 5 13 13 13 13 5 5 14 14 5 5 4 4 14 14 4 4 5 5 11 11 6 6 7 7 5 5 5 5 7 7 11 11 8 8 0 0 6 6 6 6 5 5 9 9 9 9 5 5 3 3 10 10 7 7 2 2</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="junctree0Shape11" name="junctree0Shape11">
+      <mesh>
+        <source id="junctree0Shape11-positions" name="position">
+          <float_array id="junctree0Shape11-positions-array" count="39">-7.76658 -0.000017 0.743068 31.8386 -0.00001 1.00803 -7.76658 -0.000017 -1.42358 20.1884 -0.000018 0.930088 6.04558 -0.000027 0.835475 5.98171 -0.000009 -1.32332 -7.76658 -0.000015 2.64916 9.87265 -0.000011 7.76657 -7.76658 -0.000012 -3.3156 11.1287 -0.000001 -7.76659 25.9707 -0.000011 7.76657 31.8386 -0.000005 -4.83368 23.9722 -0.000001 -7.76659</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape11-positions-array" count="13" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape11-normals" name="normal">
+          <float_array id="junctree0Shape11-normals-array" count="72">-0.000000 -1 -0.000001 0.000000 -1 -0.000003 0.000000 -1 -0.000004 0.000000 -1 -0.000002 0 -1 -0.000001 0 -1 -0.000001 0 -1 -0.000001 -0.000000 -1 0.000000 0.000000 -1 0.000001 0.000000 -1 -0.000003 0.000000 -1 -0.000002 0.000000 -1 -0.000001 0.000000 -1 -0.000001 0.000000 -1 -0.000001 0.000000 -1 0.000000 0.000000 -1 -0.000000 0.000000 -1 -0.000000 0 -1 0.000001 0 -1 0.000001 0 -1 0.000001 -0.000000 -1 -0.000001 -0.000000 -1 -0.000001 -0.000000 -1 -0.000001 0.000000 -1 -0.000000</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape11-normals-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape11-map1" name="map1">
+          <float_array id="junctree0Shape11-map1-array" count="26">0.453727 0.007491 0.434663 0.992265 0.591823 0.007793 0.440271 0.702585 0.447078 0.350927 0.584677 0.34964 0.332238 0.007225 0.005099 0.445124 0.712415 0.008056 0.99507 0.478521 0.004214 0.845412 0.806996 0.993079 0.994364 0.797884</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape11-map1-array" count="13" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="junctree0Shape11-vertices">
+          <input semantic="POSITION" source="#junctree0Shape11-positions"/>
+        </vertices>
+        <triangles material="deadend_tree01_tex1SG" count="12">
+          <input semantic="VERTEX" source="#junctree0Shape11-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#junctree0Shape11-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#junctree0Shape11-map1" offset="2" set="0"/>
+          <p>2 1 2 5 2 5 0 0 0 0 0 0 5 2 5 4 3 4 9 4 9 12 5 12 3 6 3 6 7 6 0 0 0 4 3 4 7 8 7 4 3 4 3 9 3 8 10 8 5 2 5 2 1 2 11 11 11 3 12 3 12 13 12 10 14 10 3 15 3 1 16 1 10 17 10 7 18 7 3 19 3 3 9 3 4 3 4 5 2 5 3 20 3 5 21 5 9 22 9 11 23 11 1 16 1 3 15 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="junctree0Shape12" name="junctree0Shape12">
+      <mesh>
+        <source id="junctree0Shape12-positions" name="position">
+          <float_array id="junctree0Shape12-positions-array" count="54">-7.76658 -0.000067 0.753082 -7.76658 -0.000067 -1.38063 6.75098 -0.000067 -1.35535 22.0231 -0.00006 7.76659 21.7211 -0.000073 -7.76657 -7.76658 -0.000068 1.17887 31.8386 -0.000055 1.18062 6.70972 -0.000061 1.17951 21.8951 -0.000053 1.18018 -7.76658 -0.000067 1.98063 -7.76658 -0.000069 -3.17948 14.2948 -0.00006 7.76659 7.55167 -0.000061 4.47305 26.9309 -0.00006 6.79628 31.8386 -0.000064 -4.06493 29.8806 -0.000069 -5.78731 16.24 -0.000073 -7.76657 9.88429 -0.000071 -5.72185</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape12-positions-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape12-normals" name="normal">
+          <float_array id="junctree0Shape12-normals-array" count="54">0.000000 -1 0.000001 0 -1 0.000000 0.000000 -1 0.000001 0 -1 -0.000000 0.000000 -1 0.000002 0.000000 -1 0.000001 -0.000000 -1 0.000000 0.000000 -1 0.000000 0.000000 -1 0.000000 0.000000 -1 0.000001 0 -1 0.000000 0.000000 -1 -0.000000 0.000000 -1 -0.000000 -0.000000 -1 -0.000001 0 -1 0.000002 0 -1 0.000002 0.000000 -1 0.000001 0.000000 -1 0.000001</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape12-normals-array" count="18" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape12-map1" name="map1">
+          <float_array id="junctree0Shape12-map1-array" count="36">0.453089 0.007489 0.589086 0.007787 0.586677 0.368773 0.004431 0.747254 0.994487 0.741909 0.42595 0.00743 0.423663 0.99224 0.425114 0.367393 0.424237 0.744987 0.374849 0.007318 0.70374 0.008037 0.004856 0.555084 0.215147 0.38787 0.066006 0.869423 0.758 0.992972 0.867886 0.944525 0.994789 0.605617 0.864813 0.447293</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape12-map1-array" count="18" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="junctree0Shape12-vertices">
+          <input semantic="POSITION" source="#junctree0Shape12-positions"/>
+          <input semantic="NORMAL" source="#junctree0Shape12-normals"/>
+        </vertices>
+        <triangles material="deadend_tree01_tex1SG" count="17">
+          <input semantic="VERTEX" source="#junctree0Shape12-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#junctree0Shape12-map1" offset="1" set="0"/>
+          <p>9 9 5 5 7 7 1 1 2 2 0 0 7 7 5 5 2 2 5 5 0 0 2 2 8 8 7 7 4 4 4 4 7 7 16 16 7 7 2 2 16 16 2 2 17 17 16 16 4 4 15 15 8 8 6 6 8 8 14 14 14 14 8 8 15 15 10 10 2 2 1 1 7 7 8 8 12 12 12 12 8 8 11 11 8 8 3 3 11 11 3 3 8 8 13 13 13 13 8 8 6 6</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="junctree0Shape13" name="junctree0Shape13">
+      <mesh>
+        <source id="junctree0Shape13-positions" name="position">
+          <float_array id="junctree0Shape13-positions-array" count="45">20.9859 0.00001 -7.76661 31.8386 0.000012 1.06806 21.0134 0.000017 1.12633 11.8559 0.000011 7.76655 -7.76658 0.00001 2.32295 -4.54393 0.000014 -1.82531 -7.76658 0.000007 -3.48515 6.45581 0.000014 -1.81797 9.30586 0.000009 -5.83393 16.3695 0.00001 -7.73998 31.8386 0.000013 -5.60663 26.7249 0.000011 7.76655 -4.55567 0.000011 1.26397 6.97151 0.000014 1.20192 7.74421 0.000012 4.81773</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape13-positions-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape13-normals" name="normal">
+          <float_array id="junctree0Shape13-normals-array" count="96">0.000000 -1 -0.000000 0.000000 -1 -0.000000 0.000000 -1 -0.000000 0.000000 -1 -0.000000 -0.000000 -1 -0.000000 -0.000000 -1 -0.000000 -0.000000 -1 -0.000000 0.000000 -1 0 0.000000 -1 -0.000000 0.000000 -1 -0.000000 -0.000000 -1 -0.000000 0.000000 -1 -0.000000 0.000000 -1 -0.000000 0.000000 -1 -0.000000 0.000000 -1 -0.000000 0 -1 -0.000000 0 -1 -0.000000 0 -1 -0.000000 0.000001 -1 -0.000000 0.000001 -1 -0.000000 0.000001 -1 -0.000000 0.000001 -1 -0.000000 0 -1 0.000001 0 -1 0.000001 0 -1 0.000001 0.000000 -1 0.000000 0.000000 -1 0.000000 0.000000 -1 0.000000 0 -1 0.000000 0.000000 -1 0.000000 0 -1 0.000000 0 -1 0.000000</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape13-normals-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape13-map1" name="map1">
+          <float_array id="junctree0Shape13-map1-array" count="30">0.994528 0.723626 0.430834 0.992256 0.427715 0.723072 0.00499 0.494438 0.353028 0.00727 0.617249 0.087982 0.72322 0.00808 0.616177 0.361498 0.871986 0.432926 0.993084 0.608833 0.856261 0.993186 0.004173 0.864167 0.420348 0.08726 0.423669 0.3739 0.193165 0.39261</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape13-map1-array" count="15" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="junctree0Shape13-vertices">
+          <input semantic="POSITION" source="#junctree0Shape13-positions"/>
+        </vertices>
+        <triangles material="deadend_tree01_tex1SG" count="14">
+          <input semantic="VERTEX" source="#junctree0Shape13-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#junctree0Shape13-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#junctree0Shape13-map1" offset="2" set="0"/>
+          <p>5 0 5 7 1 7 12 3 12 12 3 12 7 1 7 13 2 13 11 4 11 2 5 2 1 6 1 7 7 7 2 8 2 13 9 13 2 5 2 10 10 10 1 6 1 2 8 2 14 11 14 13 9 13 3 12 3 14 13 14 2 14 2 11 15 11 3 16 3 2 17 2 12 19 12 4 20 4 5 18 5 5 18 5 4 20 4 6 21 6 8 22 8 2 23 2 7 24 7 8 25 8 9 26 9 2 27 2 0 28 0 10 29 10 2 30 2 2 30 2 9 31 9 0 28 0</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="juncbush0Shape5" name="juncbush0Shape5">
+      <mesh>
+        <source id="juncbush0Shape5-positions" name="position">
+          <float_array id="juncbush0Shape5-positions-array" count="45">-7.76658 -0.000001 7.76658 -7.76658 -0.000006 -7.76657 -7.76658 0.000006 -0.308532 0.108644 0.000006 -0.308532 -7.76658 0.000005 -4.17458 -7.76658 0.000004 3.69649 -1.06889 0.000008 3.74441 -6.30781 -0.000001 7.76658 0.108644 0.000007 1.07738 0.108644 0.000005 -1.76921 -1.67524 0.000003 -3.97108 -5.66133 -0.000006 -7.76657 -6.00678 0.000005 3.70908 -6.01495 0.000006 -0.308532 -6.24029 0.000005 -4.12359</float_array>
+          <technique_common>
+            <accessor source="#juncbush0Shape5-positions-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="juncbush0Shape5-normals" name="normal">
+          <float_array id="juncbush0Shape5-normals-array" count="60">0.000000 -1 -0.000001 0.000000 -1 -0.000000 0.000000 -1 -0.000000 0.000000 -1 0 0 -1 0.000000 0 -1 0.000000 -0.000000 -1 0.000001 -0.000000 -1 0.000001 -0.000000 -1 0.000000 -0.000000 -1 0.000003 0.000000 -1 -0.000001 0.000000 -1 -0.000000 0.000000 -1 -0.000000 0.000000 -1 -0.000001 0 -1 0 0 -1 0 -0.000000 -1 0.000001 -0.000000 -1 0.000001 -0.000000 -1 0.000003 -0.000000 -1 0.000003</float_array>
+          <technique_common>
+            <accessor source="#juncbush0Shape5-normals-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="juncbush0Shape5-map1" name="map1">
+          <float_array id="juncbush0Shape5-map1-array" count="30">0.991323 0.006512 0.006512 0.008677 0.479356 0.007637 0.481521 0.992448 0.234247 0.008176 0.733277 0.007079 0.738156 0.844631 0.991724 0.188934 0.569389 0.992255 0.388914 0.992652 0.248823 0.76988 0.007091 0.271942 0.734559 0.227144 0.479838 0.226683 0.237899 0.199035</float_array>
+          <technique_common>
+            <accessor source="#juncbush0Shape5-map1-array" count="15" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="juncbush0Shape5-vertices">
+          <input semantic="POSITION" source="#juncbush0Shape5-positions"/>
+        </vertices>
+        <triangles material="lambert5SG" count="16">
+          <input semantic="VERTEX" source="#juncbush0Shape5-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#juncbush0Shape5-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#juncbush0Shape5-map1" offset="2" set="0"/>
+          <p>7 0 7 12 1 12 6 2 6 13 4 13 3 5 3 12 1 12 3 5 3 8 3 8 12 1 12 8 3 8 6 2 6 12 1 12 14 6 14 10 7 10 13 4 13 10 7 10 9 8 9 13 4 13 13 4 13 9 8 9 3 5 3 11 9 11 10 7 10 14 6 14 0 10 0 5 11 5 7 13 7 7 13 7 5 11 5 12 12 12 12 12 12 5 11 5 13 14 13 13 14 13 5 11 5 2 15 2 4 16 4 14 17 14 2 15 2 2 15 2 14 17 14 13 14 13 11 18 11 14 17 14 1 19 1 1 19 1 14 17 14 4 16 4</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="woods">
+      <node id="junction1" name="junction1" type="NODE">
+        <translate sid="translate">0 0 95.2233</translate>
+        <translate sid="rotatePivot">0 0 -95.2233</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="rotatePivotInverse">0 0 95.2233</translate>
+        <translate sid="scalePivot">0 0 -95.2233</translate>
+        <translate sid="scalePivotInverse">0 0 95.2233</translate>
+        <node id="junction1_floor" name="floor" type="NODE">
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <node id="junction1_floor_floor" name="floor" type="NODE">
+            <translate sid="translate">0 0 -95.2233</translate>
+            <rotate sid="rotateZ">0 0 1 0</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 0</rotate>
+            <instance_geometry url="#floorShape">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="lambert3SG" target="#pathsection">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                  <instance_material symbol="pathsection1SG" target="#pathsection1">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                  <instance_material symbol="lambert4SG" target="#green">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+        <node id="junction1_trees" name="trees" type="NODE">
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <node id="junctree01" name="junctree01" type="NODE">
+            <translate sid="translate">-27.2927 24.8619 -148.443</translate>
+            <rotate sid="rotateZ">0 0 1 0</rotate>
+            <rotate sid="rotateY">0 1 0 16.5598</rotate>
+            <rotate sid="rotateX">1 0 0 90</rotate>
+            <scale sid="scale">-1.781 1 1</scale>
+            <instance_geometry url="#junctree0Shape1">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="deadend_tree02_texSG" target="#deadend_tree02_tex">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="junctree02" name="junctree02" type="NODE">
+            <translate sid="translate">18.733 30.692 -141.373</translate>
+            <rotate sid="rotateZ">0 0 1 0</rotate>
+            <rotate sid="rotateY">0 1 0 -34.8883</rotate>
+            <rotate sid="rotateX">1 0 0 90</rotate>
+            <scale sid="scale">1.75924 1.23129 1.23129</scale>
+            <instance_geometry url="#junctree0Shape2">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="deadend_tree01_texSG" target="#deadend_tree01_tex">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="juntiontrees" name="juntiontrees" type="NODE">
+            <translate sid="translate">-0.002141 0 -50.5054</translate>
+            <rotate sid="rotateZ">0 0 1 0</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 0</rotate>
+            <instance_geometry url="#juntiontreesShape">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="lambert2SG" target="#deadend_tex">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="juncbush01" name="juncbush01" type="NODE">
+            <translate sid="translate">-4.30257 7.70402 -147.713</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 -105.413</rotate>
+            <scale sid="scale">0.996734 0.996734 0.833651</scale>
+            <instance_geometry url="#juncbush0Shape1">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="lambert5SG" target="#bush_tex">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="juncbush02" name="juncbush02" type="NODE">
+            <translate sid="translate">14.9607 9.69257 -156.474</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 -131.03</rotate>
+            <scale sid="scale">1.25987 1.25987 1.08602</scale>
+            <instance_geometry url="#juncbush0Shape2">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="lambert5SG" target="#bush_tex">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="junctree05" name="junctree05" type="NODE">
+            <translate sid="translate">-50.4604 9.52107 -151.65</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 -61.0321</rotate>
+            <scale sid="scale">1.25987 1.25987 2.44245</scale>
+            <instance_geometry url="#junctree0Shape5">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="deadend_tree01_tex1SG" target="#deadend_tree01_tex1">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="junctree08" name="junctree08" type="NODE">
+            <translate sid="translate">6.25466 24.8619 -132.135</translate>
+            <rotate sid="rotateZ">0 0 1 0</rotate>
+            <rotate sid="rotateY">0 1 0 -15.8766</rotate>
+            <rotate sid="rotateX">1 0 0 90</rotate>
+            <scale sid="scale">1.78065 1 1</scale>
+            <instance_geometry url="#junctree0Shape8">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="deadend_tree02_texSG" target="#deadend_tree02_tex">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="juncbush04" name="juncbush04" type="NODE">
+            <translate sid="translate">-6.77379 7.13206 -129.567</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 -76.0305</rotate>
+            <scale sid="scale">0.942719 0.942719 0.942719</scale>
+            <instance_geometry url="#juncbush0Shape4">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="lambert5SG" target="#bush_tex">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="junctree010" name="junctree010" type="NODE">
+            <translate sid="translate">-23.744 8.37978 -104.698</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 56.84</rotate>
+            <scale sid="scale">1.09733 1.09733 2.12735</scale>
+            <instance_geometry url="#junctree0Shape10">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="deadend_tree01_tex1SG" target="#deadend_tree01_tex1">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="junctree011" name="junctree011" type="NODE">
+            <translate sid="translate">26.9396 9.32395 -107.469</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 127.259</rotate>
+            <scale sid="scale">1.25987 1.25987 2.44245</scale>
+            <instance_geometry url="#junctree0Shape11">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="deadend_tree01_tex1SG" target="#deadend_tree01_tex1">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="junctree012" name="junctree012" type="NODE">
+            <translate sid="translate">8.48206 8.1428 -155.652</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 -113.282</rotate>
+            <scale sid="scale">1.07288 1.07288 2.07995</scale>
+            <instance_geometry url="#junctree0Shape12">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="deadend_tree01_tex1SG" target="#deadend_tree01_tex1">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="junctree013" name="junctree013" type="NODE">
+            <translate sid="translate">-13.82 9.52107 -161.482</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 -75.4589</rotate>
+            <scale sid="scale">1.25987 1.25987 2.44245</scale>
+            <instance_geometry url="#junctree0Shape13">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="deadend_tree01_tex1SG" target="#deadend_tree01_tex1">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="juncbush05" name="juncbush05" type="NODE">
+            <translate sid="translate">-23.0914 9.09634 -146.17</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 -75.4137</rotate>
+            <scale sid="scale">1.19758 1.19758 1.19758</scale>
+            <instance_geometry url="#juncbush0Shape5">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="lambert5SG" target="#bush_tex">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>5</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

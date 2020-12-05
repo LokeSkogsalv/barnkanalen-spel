@@ -1,0 +1,736 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Sarah Bird</author>
+      <authoring_tool>Maya2008 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=0;exportCameraAsLookat=0;
+exportLights=0;exportCameras=0;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=0;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=0;exportPhysics=0;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Documents%20and%20Settings/Sarah%20Bird/My%20Documents/BigAndSmall/papervision/Lounge/Room_v01_27October.mb</source_data>
+    </contributor>
+    <created>2008-10-27T12:22:03Z</created>
+    <modified>2008-10-27T12:22:03Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file22" name="file22">
+      <init_from>./A_Baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file26" name="file26">
+      <init_from>./BuildingBlocks_Baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file47" name="file47">
+      <init_from>./ToyBox_Baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file49" name="file49">
+      <init_from>./PaintPot_Baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file54" name="file54">
+      <init_from>./Paper.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="ABlock" name="ABlock">
+      <instance_effect url="#ABlock-fx"/>
+    </material>
+    <material id="BuildingBlocks1" name="BuildingBlocks1">
+      <instance_effect url="#BuildingBlocks1-fx"/>
+    </material>
+    <material id="ToyBox1" name="ToyBox1">
+      <instance_effect url="#ToyBox1-fx"/>
+    </material>
+    <material id="PaintPot" name="PaintPot">
+      <instance_effect url="#PaintPot-fx"/>
+    </material>
+    <material id="PaperOnTable" name="PaperOnTable">
+      <instance_effect url="#PaperOnTable-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="ABlock-fx">
+      <profile_COMMON>
+        <newparam sid="file22-surface">
+          <surface type="2D">
+            <init_from>file22</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file22-sampler">
+          <sampler2D>
+            <source>file22-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file22-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="BuildingBlocks1-fx">
+      <profile_COMMON>
+        <newparam sid="file26-surface">
+          <surface type="2D">
+            <init_from>file26</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file26-sampler">
+          <sampler2D>
+            <source>file26-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file26-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="ToyBox1-fx">
+      <profile_COMMON>
+        <newparam sid="file47-surface">
+          <surface type="2D">
+            <init_from>file47</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file47-sampler">
+          <sampler2D>
+            <source>file47-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file47-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="PaintPot-fx">
+      <profile_COMMON>
+        <newparam sid="file49-surface">
+          <surface type="2D">
+            <init_from>file49</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file49-sampler">
+          <sampler2D>
+            <source>file49-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file49-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="PaperOnTable-fx">
+      <profile_COMMON>
+        <newparam sid="file54-surface">
+          <surface type="2D">
+            <init_from>file54</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file54-sampler">
+          <sampler2D>
+            <source>file54-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file54-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="BlocksShape1" name="BlocksShape1">
+      <mesh>
+        <source id="BlocksShape1-positions" name="position">
+          <float_array id="BlocksShape1-positions-array" count="69">27.799 0.563324 -8.20264 28.3597 0.563324 -8.30852 27.7984 1.13465 -8.20232 28.3597 1.13465 -8.30852 27.6922 1.13465 -8.76369 28.2535 1.13465 -8.86989 27.6922 0.563324 -8.76369 28.2532 0.563324 -8.87053 28.197 0.563324 -8.27876 27.7226 0.563324 -8.60211 28.3266 0.563324 -8.4722 27.8542 0.563324 -8.79697 28.3242 -0.008004 -8.47355 28.6504 -0.008004 -8.94257 28.6504 0.563324 -8.94257 28.1814 0.563324 -9.26881 27.8551 -0.008004 -8.79978 27.4029 -0.008004 -8.12631 27.8762 -0.008004 -7.80632 27.4029 0.563324 -8.12631 27.8762 0.563324 -7.80632 27.7229 -0.008004 -8.59962 28.1962 -0.008004 -8.27963</float_array>
+          <technique_common>
+            <accessor source="#BlocksShape1-positions-array" count="23" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BlocksShape1-normals" name="normal">
+          <float_array id="BlocksShape1-normals-array" count="189">0.185706 -0.001005 0.982605 0.185706 -0.001005 0.982605 0.185706 -0.001005 0.982605 0.185706 -0.001005 0.982605 0.185706 -0.001005 0.982605 0 1 0 0 1 0 0 1 0 0 1 0 0.982527 -0.002035 -0.186107 0.982527 -0.002035 -0.186107 0.982527 -0.002035 -0.186107 0.982527 -0.002035 -0.186107 0.982527 -0.002035 -0.186107 -0.982466 -0.000271 0.18644 -0.982466 -0.000271 0.18644 -0.982466 -0.000271 0.18644 -0.982466 -0.000271 0.18644 -0.982466 -0.000271 0.18644 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.822321 -0.002415 0.569018 0.822321 -0.002415 0.569018 0.822321 -0.002415 0.569018 0.822321 -0.002415 0.569018 0 1 0 0 1 0 0 1 0 -0.568762 -0.002241 0.822499 -0.568762 -0.002241 0.822499 -0.568762 -0.002241 0.822499 -0.568762 -0.002241 0.822499 0 1 0 0 1 0 0 1 0 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 -0.560082 0 0.828437 -0.560082 0 0.828437 -0.560082 0 0.828437 -0.560082 0 0.828437 0 1 0 0 1 0 0 1 0 0.561624 -0.001433 -0.827391 0.561624 -0.001433 -0.827391 0.561624 -0.001433 -0.827391 0.561624 -0.001433 -0.827391 0.82786 -0.001028 0.560934 0.82786 -0.001028 0.560934 0.82786 -0.001028 0.560934 0.82786 -0.001028 0.560934 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#BlocksShape1-normals-array" count="63" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BlocksShape1-map1" name="map1">
+          <float_array id="BlocksShape1-map1-array" count="110">0.000998 0.000998 0.234398 0.000998 0.234398 0.230753 0.000998 0.230753 0.238523 0.000998 0.471922 0.000998 0.471922 0.230753 0.238523 0.230753 0.238523 0.239266 0.471922 0.469021 0.765602 0.000998 0.999002 0.000998 0.999002 0.230753 0.765602 0.230753 0.000998 0.239267 0.234398 0.239267 0.234398 0.469021 0.000998 0.469021 0.167102 0.000998 0.404627 0.469021 0.067141 0.239267 0.238523 0.304377 0.471922 0.402581 0.833096 0.000998 0.305503 0.239266 0.528076 0.469021 0.528076 0.239267 0.761476 0.239267 0.761476 0.469021 0.765602 0.469021 0.882302 0.354144 0.999002 0.469021 0.000998 0.477535 0.234398 0.477535 0.234398 0.70729 0.000998 0.70729 0.765602 0.239266 0.999002 0.239266 0.482833 0.499803 0.716233 0.499803 0.716233 0.729558 0.482833 0.729558 0.238523 0.71135 0.355223 0.826227 0.238523 0.941105 0.720359 0.713577 0.953759 0.713577 0.953759 0.943331 0.720359 0.943331 0.000998 0.715804 0.234398 0.715804 0.234398 0.945559 0.000998 0.945559 0.471922 0.71135 0.471922 0.941105</float_array>
+          <technique_common>
+            <accessor source="#BlocksShape1-map1-array" count="55" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="BlocksShape1-vertices">
+          <input semantic="POSITION" source="#BlocksShape1-positions"/>
+        </vertices>
+        <triangles material="lambert9SG" count="31">
+          <input semantic="VERTEX" source="#BlocksShape1-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#BlocksShape1-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#BlocksShape1-map1" offset="2" set="0"/>
+          <p>1 2 1 3 3 2 8 1 18 3 3 2 2 4 3 8 1 18 0 0 0 8 1 18 2 4 3 2 5 4 3 6 5 4 8 7 4 8 7 3 6 5 5 7 6 7 11 11 5 12 12 10 10 23 3 13 13 1 9 10 5 12 12 1 9 10 10 10 23 5 12 12 6 14 14 9 15 20 4 18 17 4 18 17 9 15 20 2 17 16 9 15 20 0 16 15 2 17 16 1 22 9 8 23 19 10 21 22 8 23 19 9 24 21 10 21 22 6 19 8 11 20 24 9 24 21 11 20 24 10 21 22 9 24 21 12 25 25 13 26 26 10 28 28 10 28 28 13 26 26 14 27 27 11 29 29 7 30 30 15 31 31 16 32 32 12 33 33 11 35 35 11 35 35 12 33 33 10 34 34 10 36 36 14 37 37 7 38 30 15 39 31 7 40 30 14 41 37 17 42 38 18 43 39 19 45 41 19 45 41 18 43 39 20 44 40 19 46 42 0 47 43 9 48 44 9 49 45 8 50 46 21 52 48 21 52 48 8 50 46 22 51 47 18 53 49 22 54 50 20 56 52 20 56 52 22 54 50 8 55 51 19 57 42 20 58 53 0 59 43 0 60 43 20 61 53 8 62 54</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="BlockShape2" name="BlockShape2">
+      <mesh>
+        <source id="BlockShape2-positions" name="position">
+          <float_array id="BlockShape2-positions-array" count="24">5.17525 -0.008004 -7.87698 5.7212 -0.008004 -7.99749 5.17525 0.551082 -7.87698 5.7212 0.551082 -7.99749 5.05474 0.551082 -8.42292 5.60069 0.551082 -8.54344 5.05474 -0.008004 -8.42292 5.60069 -0.008004 -8.54344</float_array>
+          <technique_common>
+            <accessor source="#BlockShape2-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BlockShape2-normals" name="normal">
+          <float_array id="BlockShape2-normals-array" count="48">0.215548 0 0.976493 0.215548 0 0.976493 0.215548 0 0.976493 0.215548 0 0.976493 0 1 0 0 1 0 0 1 0 0 1 0 0.976493 0 -0.215548 0.976493 0 -0.215548 0.976493 0 -0.215548 0.976493 0 -0.215548 -0.976493 0 0.215548 -0.976493 0 0.215548 -0.976493 0 0.215548 -0.976493 0 0.215548</float_array>
+          <technique_common>
+            <accessor source="#BlockShape2-normals-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BlockShape2-map1" name="map1">
+          <float_array id="BlockShape2-map1-array" count="32">0.000998 0.000998 0.444305 0.000998 0.444305 0.329342 0.000998 0.329342 0.555695 0.000998 0.999002 0.000998 0.999002 0.329342 0.555695 0.329342 0.555695 0.335828 0.999002 0.335828 0.999002 0.664172 0.555695 0.664172 0.000998 0.670658 0.444305 0.670658 0.444305 0.999002 0.000998 0.999002</float_array>
+          <technique_common>
+            <accessor source="#BlockShape2-map1-array" count="16" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="BlockShape2-vertices">
+          <input semantic="POSITION" source="#BlockShape2-positions"/>
+        </vertices>
+        <triangles material="lambert5SG" count="8">
+          <input semantic="VERTEX" source="#BlockShape2-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#BlockShape2-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#BlockShape2-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 3 3 2 3 3 1 1 1 3 2 2 2 4 4 3 5 5 4 7 7 4 7 7 3 5 5 5 6 6 1 8 8 7 9 9 3 11 11 3 11 11 7 9 9 5 10 10 6 12 12 0 13 13 4 15 15 4 15 15 0 13 13 2 14 14</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="PaintPotShape1" name="PaintPotShape1">
+      <mesh>
+        <source id="PaintPotShape1-positions" name="position">
+          <float_array id="PaintPotShape1-positions-array" count="39">-0.641836 -0.085787 1.23932 0.631239 -0.085117 1.236 -0.641836 0.09994 1.23932 0.639576 0.091608 1.23875 -0.643236 0.092864 0.413301 0.643236 0.092864 0.413301 -0.643236 0.092864 -0.413301 0.643236 0.092864 -0.413301 -0.640296 0.092864 -1.27426 0.628266 0.100224 -1.23897 0.628266 -0.085504 -1.23897 0.643236 -0.092864 -0.413301 0.643236 -0.092864 0.413301</float_array>
+          <technique_common>
+            <accessor source="#PaintPotShape1-positions-array" count="13" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="PaintPotShape1-normals" name="normal">
+          <float_array id="PaintPotShape1-normals-array" count="60">0.00261 0 0.999997 0.001477 -0.007796 0.999968 0.001477 -0.007796 0.999968 0.000343 -0.015592 0.999878 0.006497 0.999942 -0.008577 0.003248 0.999988 -0.003528 0.002165 0.999995 -0.002352 0 1 0.000506 0 1 0 -0.002017 0.999993 0.003007 -0.003026 0.999985 0.004511 -0.006052 0.999941 0.009022 0.999982 0 -0.006043 0.999836 0 -0.018128 0.999927 0 -0.012086 0.999836 0 -0.018128 0.999854 -0.015787 0.006483 0.999999 0 0.001478 0.998766 -0.04735 0.015011 0.999672 -0.023682 0.009725</float_array>
+          <technique_common>
+            <accessor source="#PaintPotShape1-normals-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="PaintPotShape1-map1" name="map1">
+          <float_array id="PaintPotShape1-map1-array" count="26">0.007882 0.9969 0.995137 0.9969 0.857466 0.958843 0.130457 0.958843 0.857466 0.652948 0.130457 0.652948 0.857466 0.347052 0.130457 0.347052 0.857466 0.041156 0.130457 0.041156 0.995137 0.006119 0.995137 0.347101 0.995137 0.652899</float_array>
+          <technique_common>
+            <accessor source="#PaintPotShape1-map1-array" count="13" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="PaintPotShape1-vertices">
+          <input semantic="POSITION" source="#PaintPotShape1-positions"/>
+        </vertices>
+        <triangles material="lambert32SG" count="14">
+          <input semantic="VERTEX" source="#PaintPotShape1-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#PaintPotShape1-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#PaintPotShape1-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 2 2 3 2 2 3 1 1 1 3 3 2 2 4 3 3 5 2 4 6 5 4 6 5 3 5 2 5 7 4 4 6 5 5 7 4 6 8 7 6 8 7 5 7 4 7 9 6 6 8 7 7 9 6 8 10 9 8 10 9 7 9 6 9 11 8 11 12 11 10 13 10 7 14 6 7 14 6 10 13 10 9 15 8 12 16 12 11 12 11 5 17 4 5 17 4 11 12 11 7 14 6 1 18 1 12 16 12 3 19 2 3 19 2 12 16 12 5 17 4</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="ToyBoxShape" name="ToyBoxShape">
+      <mesh>
+        <source id="ToyBoxShape-positions" name="position">
+          <float_array id="ToyBoxShape-positions-array" count="84">-2.51983 2.40925 -1.64939 0.571195 2.40925 -2.16022 1.20929 2.40925 1.57344 -1.98367 2.40925 2.11189 -4.66164 0.025478 2.18355 1.40062 0.025478 2.18355 -4.66164 2.27583 2.18355 1.40062 2.17681 2.18355 -4.66164 2.27583 -2.15383 1.40062 2.17681 -2.15383 -4.66164 0.025478 -2.15383 1.40062 0.025478 -2.15383 -4.80425 2.27583 2.31669 1.54323 2.17681 2.31669 1.54323 2.17681 -2.28696 -4.80425 2.27583 -2.28696 -4.80425 2.40925 2.31669 1.54323 2.40925 2.31669 1.54323 2.40925 -2.28696 -4.80567 2.40925 -2.28378 -4.25237 0.365014 2.18451 0.991348 0.365014 2.18451 0.991348 1.83728 2.18451 -4.25237 1.9363 2.18451 0.537665 2.40925 -2.28646 1.35063 2.40925 2.31641 -1.94404 2.40925 2.31669 -2.60618 2.40925 -2.28488</float_array>
+          <technique_common>
+            <accessor source="#ToyBoxShape-positions-array" count="28" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ToyBoxShape-normals" name="normal">
+          <float_array id="ToyBoxShape-normals-array" count="258">0 1 0 0 1 0 0 1 0 0 1 0 0 0 1 0 0 1 0 0 1 0 0 1 1 0 0 1 0 0 1 0 0 1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -0.015957 -0.999873 0.000000 -0.015957 -0.999873 0.000000 -0.015957 -0.999873 0.000000 -0.015957 -0.999873 0.000000 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 0.000412 1 0 0.000412 1 0 0.000412 1 0 0.000412 1 0 0.000412 1 0 0.000412 1 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 -0.999986 -0.005322 0.000154 -0.999986 -0.005322 0.000154 -0.999986 -0.005322 0.000154 -0.999986 -0.005322 0.000154 -0.00118 -0.001422 0.999998 0.00118 -0.001422 0.999998 0.00118 -0.001422 0.999998 -0.00118 -0.001422 0.999998 0.001205 0.001423 0.999998 0.001205 0.001423 0.999998 -0.001155 0.001423 0.999998 -0.001155 0.001423 0.999998 0 1 0.000003 0 1 0.000003 0 1 0.000003 0 1 0.000000 0 1 0.000000 0 1 0.000000 0 1 0.000000 0 1 0.000000 0 1 0.000000 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0.000000 0 1 0.000000 0 1 0.000000 0 1 0 0 1 0 0 1 0 0 1 -0.000001 0 1 -0.000001 0 1 -0.000001 0 1 -0.000001 0 1 -0.000001 0 1 -0.000001 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#ToyBoxShape-normals-array" count="86" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="ToyBoxShape-map1" name="map1">
+          <float_array id="ToyBoxShape-map1-array" count="96">0.077341 0.032749 0.061657 0.96508 0.934462 0.985208 0.961455 0.049143 0.249783 0.397693 0.785967 0.397693 0.785967 0.586293 0.249783 0.586293 0.19082 0.072236 0.53035 0.072236 0.53035 0.32258 0.19082 0.32258 0.883055 0.072236 0.561179 0.072236 0.561179 0.32258 0.883055 0.32258 0.207934 0.624234 0.827815 0.624158 0.842398 0.627047 0.193351 0.627047 0.540772 0.32258 0.180398 0.32258 0.551299 0.32258 0.892935 0.32258 0.842398 0.643061 0.822959 0.643061 0.485816 0.643061 0.193351 0.643061 0.540772 0.337423 0.180398 0.337423 0.551299 0.337423 0.892935 0.337423 0.207934 0.356939 0.827815 0.356939 0.827815 0.62151 0.207934 0.621991 0.822143 0.998988 0.724932 0.999148 0.727072 0.989566 0.482346 0.663959 0.20849 0.649404 0.485005 0.649404 0.421008 0.999649 0.429915 0.950899 0.790517 0.705533 0.803523 0.649424 0.208376 1 0.822143 0.649404</float_array>
+          <technique_common>
+            <accessor source="#ToyBoxShape-map1-array" count="48" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="ToyBoxShape-vertices">
+          <input semantic="POSITION" source="#ToyBoxShape-positions"/>
+        </vertices>
+        <triangles material="lambert30SG" count="40">
+          <input semantic="VERTEX" source="#ToyBoxShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ToyBoxShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ToyBoxShape-map1" offset="2" set="0"/>
+          <p>21 5 5 22 6 6 20 4 4 20 4 4 22 6 6 23 7 7 5 8 8 11 9 9 7 11 11 7 11 11 11 9 9 9 10 10 10 12 12 4 13 13 8 15 15 8 15 15 4 13 13 6 14 14 6 16 16 7 17 17 12 19 19 12 19 19 7 17 17 13 18 18 7 20 11 9 21 10 13 23 21 13 23 21 9 21 10 14 22 20 8 24 15 6 25 14 15 27 23 15 27 23 6 25 14 12 26 22 13 29 18 17 30 24 12 28 19 17 30 24 25 31 25 12 28 19 25 31 25 26 32 26 12 28 19 12 28 19 26 32 26 16 33 27 13 34 21 14 35 20 17 37 29 17 37 29 14 35 20 18 36 28 15 38 23 12 39 22 19 41 31 19 41 31 12 39 22 16 40 30 4 42 32 5 43 33 20 45 4 20 45 4 5 43 33 21 44 5 5 43 33 7 46 34 21 44 5 21 44 5 7 46 34 22 47 6 6 48 35 23 49 7 7 46 34 7 46 34 23 49 7 22 47 6 6 48 35 4 42 32 23 49 7 23 49 7 4 42 32 20 45 4 18 50 36 24 51 37 1 52 38 3 53 39 16 54 40 26 55 41 24 56 37 27 57 42 0 58 43 2 59 44 3 60 39 25 61 45 0 62 43 16 63 40 3 64 39 27 65 42 19 66 46 0 67 43 2 68 44 18 69 36 1 70 38 17 71 47 2 72 44 25 73 45 17 74 47 18 75 36 2 76 44 25 77 45 3 78 39 26 79 41 24 80 37 0 81 43 1 82 38 0 83 43 19 84 46 16 85 40</p>
+        </triangles>
+        <triangles material="lambert36SG" count="2">
+          <input semantic="VERTEX" source="#ToyBoxShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#ToyBoxShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#ToyBoxShape-map1" offset="2" set="0"/>
+          <p>3 0 3 2 1 0 0 3 2 0 3 2 2 1 0 1 2 1</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="Room_v01_27October">
+      <node id="LowPolyObjects" name="LowPolyObjects" type="NODE">
+        <translate sid="translate">0 -0.029999 6.95647</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <node id="BuildingBlocks" name="BuildingBlocks" type="NODE">
+          <translate sid="translate">-0.00201 0.133135 0</translate>
+          <translate sid="rotatePivot">4.41739 -0.008004 -8.54091</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <translate sid="rotatePivotInverse">-4.41739 0.008004 8.54091</translate>
+          <translate sid="scalePivot">4.41739 -0.008004 -8.54091</translate>
+          <scale sid="scale">1.0219 1.0219 1.0219</scale>
+          <translate sid="scalePivotInverse">-4.41739 0.008004 8.54091</translate>
+          <node id="ExportRoom_NoLights_Blocks1" name="Blocks1" type="NODE">
+            <translate sid="translate">-24.7595 -0.055146 -0.183008</translate>
+            <translate sid="rotatePivot">28.3509 0 -8.2862</translate>
+            <rotate sid="rotateZ">0 0 1 0</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 0</rotate>
+            <translate sid="rotatePivotInverse">-28.3509 0 8.2862</translate>
+            <translate sid="scalePivotTranslation">-0.620781 0 0.181438</translate>
+            <translate sid="scalePivot">28.9716 0 -8.46764</translate>
+            <scale sid="scale">0.978573 0.978573 0.978573</scale>
+            <translate sid="scalePivotInverse">-28.9716 0 8.46764</translate>
+            <instance_geometry url="#BlocksShape1">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="lambert9SG" target="#BuildingBlocks1">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="ExportRoom_NoLights_Block2" name="Block2" type="NODE">
+            <translate sid="translate">-1.05731 -0.051096 0</translate>
+            <translate sid="rotatePivot">5.60956 0 -8.22604</translate>
+            <rotate sid="rotateZ">0 0 1 0</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 0</rotate>
+            <translate sid="rotatePivotInverse">-5.60956 0 8.22604</translate>
+            <translate sid="scalePivot">5.60956 0 -8.22604</translate>
+            <translate sid="scalePivotInverse">-5.60956 0 8.22604</translate>
+            <instance_geometry url="#BlockShape2">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="lambert5SG" target="#ABlock">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+        <node id="PaintPot1" name="PaintPot1" type="NODE">
+          <translate sid="translate">-3.50838 2.57291 -7.20335</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 -11.4226</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <scale sid="scale">1.08778 1.56402 1.51821</scale>
+          <instance_geometry url="#PaintPotShape1">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lambert32SG" target="#PaintPot">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Paper" name="Paper" type="NODE">
+          <translate sid="translate">-1.63051 1.49872 -6.9416</translate>
+          <translate sid="rotatePivot">0 -1.82975 0</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <translate sid="rotatePivotInverse">0 1.82975 0</translate>
+          <translate sid="scalePivotTranslation">0 -0.319681 0</translate>
+          <translate sid="scalePivot">0 -1.51007 0</translate>
+          <scale sid="scale">1.20045 1.03224 1.01502</scale>
+          <translate sid="scalePivotInverse">0 1.51007 0</translate>
+        </node>
+        <node id="ToyBox" name="ToyBox" type="NODE">
+          <translate sid="translate">0 0.029999 -6.95647</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <instance_geometry url="#ToyBoxShape">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lambert30SG" target="#ToyBox1">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+                <instance_material symbol="lambert36SG" target="#PaperOnTable">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

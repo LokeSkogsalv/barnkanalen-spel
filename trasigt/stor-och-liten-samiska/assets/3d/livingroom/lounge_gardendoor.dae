@@ -1,0 +1,221 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Sarah Bird</author>
+      <authoring_tool>Maya2008 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=0;exportCameraAsLookat=0;
+exportLights=0;exportCameras=0;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=0;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=0;exportPhysics=0;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Documents%20and%20Settings/Sarah%20Bird/My%20Documents/BigAndSmall/Phase2/Production/3D/LivingRoom_Phase2/GardenDoor_v01_11March.mb</source_data>
+    </contributor>
+    <created>2009-06-26T09:03:49Z</created>
+    <modified>2009-06-26T09:03:49Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file63" name="file63">
+      <init_from>./gardendoor_baked.png</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="gardendoor" name="gardendoor">
+      <instance_effect url="#gardendoor-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="gardendoor-fx">
+      <profile_COMMON>
+        <newparam sid="file63-surface">
+          <surface type="2D">
+            <init_from>file63</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file63-sampler">
+          <sampler2D>
+            <source>file63-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file63-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="file63-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="doortogardenShape" name="doortogardenShape">
+      <mesh>
+        <source id="doortogardenShape-positions" name="position">
+          <float_array id="doortogardenShape-positions-array" count="123">-11.0237 0 -1.19641 -11.0237 0 -7.76309 -1.63467 0 -7.80866 1.6595 0 -4.47339 -11.0245 0 -4.5051 1.40279 0 -3.09148 1.17967 0 -5.77956 0.524125 0 -1.83092 0.402568 0 -6.85832 -11.0245 0 -6.85699 -0.28892 0 -1.3297 -11.0245 0 -1.73509 -4.37086 0 -0.979882 -4.38009 0 -7.97205 -4.35964 0 -2.09659 -11.0245 0 -2.17123 -4.39523 0 -6.857 -3.95226 0 -4.47721 0.307392 0 -4.47431 1.00244 0 -2.51713 -11.0245 0 -2.51713 0.798706 0 -6.30841 -11.0245 0 -6.30841 -3.95302 0 -3.65067 -2.72206 0 -2.51713 -0.859807 0 -2.51713 0.305952 0 -3.66233 0.308657 0 -5.2203 -0.963483 0 -6.30841 -3.9523 0 -5.20643 -2.71181 0 -6.30841 -3.47316 0 -4.4769 -0.123167 0 -4.47458 -0.123342 0 -3.8507 -1.11864 0 -2.92023 -2.5103 0 -2.91131 -3.47292 0 -3.78994 -3.47322 0 -5.03767 -2.54746 0 -5.91684 -1.11693 0 -5.9259 -0.123012 0 -5.02478</float_array>
+          <technique_common>
+            <accessor source="#doortogardenShape-positions-array" count="41" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="doortogardenShape-normals" name="normal">
+          <float_array id="doortogardenShape-normals-array" count="267">0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#doortogardenShape-normals-array" count="89" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="doortogardenShape-map1" name="map1">
+          <float_array id="doortogardenShape-map1-array" count="82">0.674788 0.9565 0.793956 0.895985 0.79381 0.52237 0.793809 0.006135 0.893903 0.006199 0.916986 0.523549 0.183225 0.842137 0.144581 0.524268 0.26794 0.525142 0.5305 0.993865 0.377844 0.973874 0.534003 0.006135 0.238592 0.905451 0.276186 0.006135 0.898937 0.737341 0.228006 0.006135 0.1685 0.006197 0.530921 0.556858 0.530601 0.888582 0.314396 0.942698 0.314396 0.006135 0.733209 0.926833 0.733209 0.006135 0.439616 0.556807 0.314396 0.652664 0.314396 0.797681 0.440904 0.888359 0.613008 0.888778 0.733209 0.789607 0.611476 0.556856 0.733209 0.653462 0.530888 0.594459 0.530631 0.854297 0.461713 0.854343 0.358926 0.777498 0.357941 0.669145 0.455001 0.59451 0.592834 0.594447 0.689953 0.666267 0.690954 0.777686 0.59141 0.854257</float_array>
+          <technique_common>
+            <accessor source="#doortogardenShape-map1-array" count="41" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="doortogardenShape-vertices">
+          <input semantic="POSITION" source="#doortogardenShape-positions"/>
+        </vertices>
+        <triangles material="lambert42SG" count="61">
+          <input semantic="VERTEX" source="#doortogardenShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#doortogardenShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#doortogardenShape-map1" offset="2" set="0"/>
+          <p>21 2 21 28 3 28 8 1 1 8 1 1 28 3 28 16 0 2 28 3 28 30 4 30 16 0 2 30 4 30 22 5 22 16 0 2 16 0 2 22 5 22 9 6 3 9 6 3 1 7 4 16 0 2 16 0 2 1 7 4 13 8 5 10 9 6 12 10 7 14 11 8 20 12 20 4 13 11 23 14 23 19 20 19 7 15 12 25 19 25 7 15 12 14 11 8 25 19 25 25 19 25 14 11 8 24 18 24 24 18 24 14 11 8 20 17 20 14 11 8 15 16 13 20 17 20 14 11 8 7 15 12 10 9 6 16 0 2 13 8 5 2 21 14 15 16 13 14 11 8 11 22 15 14 11 8 12 10 7 11 22 15 11 22 15 12 10 7 0 23 16 16 0 2 2 21 14 8 1 1 28 3 28 21 2 21 6 24 0 5 25 10 26 26 26 3 28 9 3 28 9 26 26 26 18 27 18 23 29 23 17 30 17 36 32 36 36 32 36 17 30 17 31 31 31 30 4 30 28 3 28 38 33 38 38 33 38 28 3 28 39 34 39 29 35 29 22 5 22 30 4 30 19 20 19 25 19 25 5 36 10 25 37 25 26 38 26 5 39 10 27 40 27 28 41 28 6 42 0 6 43 0 3 28 9 27 44 27 27 44 27 3 28 9 18 27 18 20 17 20 23 45 23 24 18 24 4 46 11 22 47 22 29 48 29 4 49 11 29 50 29 17 51 17 23 52 23 4 49 11 17 51 17 34 53 34 33 54 33 25 56 25 25 56 25 33 54 33 26 55 26 27 57 27 40 58 40 28 60 28 28 60 28 40 58 40 39 59 39 31 62 31 32 63 32 36 61 36 36 61 36 32 63 32 35 66 35 32 63 32 33 64 33 35 66 35 33 64 33 34 65 34 35 66 35 32 63 32 31 62 31 40 70 40 40 70 40 31 62 31 39 69 39 31 62 31 37 67 37 39 69 39 37 67 37 38 68 38 39 69 39 26 71 26 33 72 33 18 74 18 18 74 18 33 72 33 32 73 32 35 75 35 34 76 34 24 18 24 24 18 24 34 76 34 25 19 25 23 77 23 36 78 36 24 80 24 24 80 24 36 78 36 35 79 35 29 81 29 37 82 37 17 30 17 17 30 17 37 82 37 31 31 31 29 83 29 30 84 30 37 86 37 37 86 37 30 84 30 38 85 38 32 73 32 40 87 40 18 74 18 18 74 18 40 87 40 27 88 27</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="GardenDoor_v01_11March">
+      <node id="doortogarden" name="doortogarden" type="NODE">
+        <translate sid="translate">0 9.54615 0.921089</translate>
+        <translate sid="rotatePivotTranslation">9.56084 -9.56084 0</translate>
+        <translate sid="rotatePivot">-9.56084 0 -0.921089</translate>
+        <rotate sid="rotateZ">0 0 1 90</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="rotatePivotInverse">9.56084 0 0.921089</translate>
+        <translate sid="scalePivotTranslation">1.53062 0 0.058792</translate>
+        <translate sid="scalePivot">-11.0915 0 -0.979882</translate>
+        <scale sid="scale">0.862 1 0.94</scale>
+        <translate sid="scalePivotInverse">11.0915 0 0.979882</translate>
+        <instance_geometry url="#doortogardenShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="lambert42SG" target="#gardendoor">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,632 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Sarah Bird</author>
+      <authoring_tool>Maya2008 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=0;exportCameraAsLookat=0;
+exportLights=0;exportCameras=0;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=0;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=0;exportPhysics=0;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Documents%20and%20Settings/Sarah%20Bird/My%20Documents/BigAndSmall/papervision/Bedroom/Bedroom_v01_3December.mb</source_data>
+    </contributor>
+    <created>2008-12-03T16:50:47Z</created>
+    <modified>2008-12-03T16:50:47Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file62" name="file62">
+      <init_from>./bedroom_bigsduvet_baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file63" name="file63">
+      <init_from>./bedroom_smallsduvet_baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file64" name="file64">
+      <init_from>./bedroom_smallspillow_baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file61" name="file61">
+      <init_from>./bedroom_bigspillow_baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Duvet" name="Duvet">
+      <instance_effect url="#Duvet-fx"/>
+    </material>
+    <material id="SmallsDuvet1" name="SmallsDuvet1">
+      <instance_effect url="#SmallsDuvet1-fx"/>
+    </material>
+    <material id="SmallsPillow1" name="SmallsPillow1">
+      <instance_effect url="#SmallsPillow1-fx"/>
+    </material>
+    <material id="Pillow1" name="Pillow1">
+      <instance_effect url="#Pillow1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Duvet-fx">
+      <profile_COMMON>
+        <newparam sid="file62-surface">
+          <surface type="2D">
+            <init_from>file62</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file62-sampler">
+          <sampler2D>
+            <source>file62-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file62-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="SmallsDuvet1-fx">
+      <profile_COMMON>
+        <newparam sid="file63-surface">
+          <surface type="2D">
+            <init_from>file63</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file63-sampler">
+          <sampler2D>
+            <source>file63-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file63-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="SmallsPillow1-fx">
+      <profile_COMMON>
+        <newparam sid="file64-surface">
+          <surface type="2D">
+            <init_from>file64</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file64-sampler">
+          <sampler2D>
+            <source>file64-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file64-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Pillow1-fx">
+      <profile_COMMON>
+        <newparam sid="file61-surface">
+          <surface type="2D">
+            <init_from>file61</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file61-sampler">
+          <sampler2D>
+            <source>file61-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file61-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="BigsPillowShape" name="BigsPillowShape">
+      <mesh>
+        <source id="BigsPillowShape-positions" name="position">
+          <float_array id="BigsPillowShape-positions-array" count="60">2.27009 -0.277056 1.03877 -2.37488 0.748677 1.2786 -1.13947 1.2749 1.19507 -0.000000 1.41561 1.19507 1.13947 1.2749 1.19507 1.8904 0.78824 1.20593 -2.27894 0.587567 0.398357 -1.13947 0.964079 0.398357 0.000000 0.908917 0.398358 1.13947 0.964079 0.398358 2.04467 0.587567 0.427242 -2.27894 0.460568 -0.398357 -1.13947 0.613658 -0.398357 0 0.651214 -0.398357 1.13919 0.668003 -0.397295 2.15141 0.460568 -0.382633 2.31511 0.199664 -1.02124 2.27894 -0.338353 -1.19507 2.27894 -0.33886 -0.398357 2.27894 -0.312546 0.398358</float_array>
+          <technique_common>
+            <accessor source="#BigsPillowShape-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BigsPillowShape-normals" name="normal">
+          <float_array id="BigsPillowShape-normals-array" count="60">0.954447 0.292055 0.061115 -0.350244 0.896219 -0.272251 -0.195116 0.908103 -0.370511 0 0.889734 -0.45648 0.250748 0.900342 -0.355681 0.770558 0.630253 -0.094983 -0.284454 0.917839 -0.27687 -0.150444 0.926117 -0.345939 -0.005623 0.916376 -0.40028 0.191094 0.928281 -0.319027 0.755846 0.647039 -0.100187 -0.217293 0.935039 -0.280154 -0.105784 0.941284 -0.320615 -0.011223 0.939438 -0.342535 0.152562 0.942575 -0.297115 0.751535 0.647912 -0.124119 0.763909 0.628983 -0.144302 0.993194 0.053158 0.10363 0.988638 0.130459 0.074665 0.966857 0.249712 0.053206</float_array>
+          <technique_common>
+            <accessor source="#BigsPillowShape-normals-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BigsPillowShape-map1" name="map1">
+          <float_array id="BigsPillowShape-map1-array" count="40">0.035188 0.97721 0.230004 0.97738 0.230309 0.730368 0.035785 0.730268 0.435299 0.977483 0.435141 0.730377 0.631955 0.977463 0.632205 0.730409 0.826618 0.977368 0.826528 0.730357 0.230618 0.273337 0.035944 0.273269 0.434934 0.273344 0.632459 0.273381 0.826588 0.273364 0.82646 0.016693 0.987145 0.273174 0.987252 0.016665 0.98704 0.730159 0.986895 0.977172</float_array>
+          <technique_common>
+            <accessor source="#BigsPillowShape-map1-array" count="20" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="BigsPillowShape-vertices">
+          <input semantic="POSITION" source="#BigsPillowShape-positions"/>
+          <input semantic="NORMAL" source="#BigsPillowShape-normals"/>
+        </vertices>
+        <triangles material="lambert49SG" count="23">
+          <input semantic="VERTEX" source="#BigsPillowShape-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#BigsPillowShape-map1" offset="1" set="0"/>
+          <p>2 1 7 2 1 0 1 0 7 2 6 3 3 4 8 5 2 1 2 1 8 5 7 2 3 4 4 6 8 5 8 5 4 6 9 7 4 6 5 8 9 7 9 7 5 8 10 9 7 2 12 10 6 3 6 3 12 10 11 11 7 2 8 5 12 10 12 10 8 5 13 12 9 7 14 13 8 5 8 5 14 13 13 12 9 7 10 9 14 13 14 13 10 9 15 14 14 13 15 14 16 15 17 17 16 15 18 16 18 16 16 15 15 14 18 16 15 14 19 18 19 18 15 14 10 9 19 18 10 9 0 19 0 19 10 9 5 8</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="BigsDuvetShape" name="BigsDuvetShape">
+      <mesh>
+        <source id="BigsDuvetShape-positions" name="position">
+          <float_array id="BigsDuvetShape-positions-array" count="132">2.32201 -1.94055 3.29439 -2.82913 -0.224588 3.86326 -2.16745 0.072115 4.02257 -0.683842 0.119588 4.05399 0.853062 0.112174 4.17165 2.00276 -0.265287 3.43138 2.3887 -0.827793 3.2736 -2.82914 -0.224588 1.93163 -2.17754 0.160113 1.93163 -0.695918 0.261961 1.93163 0.884594 0.100077 1.91294 2.0259 -0.103013 1.91595 2.4255 -0.827793 1.92321 -2.82914 -0.224588 -0.000000 -2.17754 0.160113 -0.000000 -0.695918 0.106813 -0.000000 0.884593 0.087395 -0.018692 1.99444 -0.214749 -0.015682 2.35306 -0.909506 -0.008425 -2.76711 -0.224588 -1.93163 -2.17754 0.046943 -1.93163 -0.695918 0.261961 -1.93163 0.884593 -0.012011 -1.95032 1.92728 -0.20242 -1.94731 2.4255 -0.827793 -1.94006 -2.82914 -0.398278 -3.0867 -2.17754 -0.083423 -3.0867 -0.695919 0.083138 -3.0867 0.884593 0.018424 -3.10539 2.13716 -0.359642 -3.11341 2.51204 -1.09341 -3.1037 -2.95671 -0.766018 -3.86326 -2.04496 -0.392688 -3.87893 -0.695919 -0.26196 -3.86326 0.695921 -0.26196 -3.86326 1.91191 -0.596512 -3.87805 2.23435 -0.718999 -3.83857 2.35881 -2.09242 -1.91927 2.35881 -1.90697 0.012359 2.35881 -2.11391 1.94399 2.24004 -1.75864 -3.76523 2.15787 -0.707943 -3.848 2.16085 -1.78289 -3.76354 1.70635 -0.707351 -3.88257</float_array>
+          <technique_common>
+            <accessor source="#BigsDuvetShape-positions-array" count="44" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BigsDuvetShape-normals" name="normal">
+          <float_array id="BigsDuvetShape-normals-array" count="141">-0.462419 0.886423 0.02055 -0.262683 0.964111 0.038563 -0.267164 0.963608 0.009065 -0.485603 0.874119 0.010279 0.001231 0.999099 0.042414 0.010718 0.999942 0.000314 0.156549 0.987006 0.036227 0.147519 0.989059 -0.00112 0.600041 0.798521 0.048112 0.603185 0.797598 0.002405 0.969576 0.24138 0.040728 0.971883 0.235445 0.002857 -0.269261 0.962932 -0.016122 -0.487979 0.872696 -0.016698 0.019644 0.9997 -0.014589 0.148274 0.9887 -0.022066 0.589059 0.807702 -0.025034 0.968152 0.250217 -0.008593 -0.273521 0.959561 -0.066544 -0.446353 0.892098 -0.070216 0.004291 0.999074 -0.042815 0.165801 0.985798 -0.026694 0.577482 0.816352 -0.009102 0.963863 0.264258 0.033691 -0.261163 0.931181 -0.254353 -0.404922 0.882403 -0.239592 -0.024714 0.969217 -0.244964 0.157483 0.963648 -0.215827 0.564364 0.809892 -0.159899 0.976524 0.174506 -0.126285 -0.238441 0.892417 -0.383063 -0.377722 0.849697 -0.367887 -0.038204 0.922014 -0.385266 0.136973 0.915397 -0.378533 0.462334 0.594491 -0.657897 0.736112 0.207727 -0.644197 0.958499 -0.152147 -0.241102 0.999641 -0.026809 -0.000081 0.992767 -0.120034 -0.002249 0.999143 -0.041016 0.005556 0.998015 -0.054963 0.030724 0.055732 -0.074071 -0.995694 0.055732 -0.074071 -0.995694 0.055732 -0.074071 -0.995694 0.055732 -0.074071 -0.995694 0.080751 -0.089536 -0.992705 0.080751 -0.089536 -0.992705</float_array>
+          <technique_common>
+            <accessor source="#BigsDuvetShape-normals-array" count="47" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BigsDuvetShape-map1" name="map1">
+          <float_array id="BigsDuvetShape-map1-array" count="94">0.01217 0.997271 0.149145 0.996981 0.149 0.714654 0.012156 0.714716 0.386336 0.996939 0.386317 0.714513 0.629065 0.997269 0.628079 0.675472 0.800513 0.981191 0.800559 0.717652 0.88235 0.99842 0.882635 0.714224 0.148951 0.46106 0.012142 0.461118 0.386311 0.460927 0.628045 0.460803 0.800482 0.4607 0.881961 0.460662 0.148901 0.209125 0.012289 0.209613 0.386306 0.207899 0.628012 0.206748 0.80033 0.20586 0.88254 0.205387 0.148871 0.105631 0.012119 0.10617 0.386302 0.104405 0.627992 0.103253 0.800529 0.102284 0.882512 0.101893 0.150058 0.007472 0.011781 0.007494 0.3863 0.007439 0.627978 0.007405 0.800306 0.00738 0.90971 0.007362 0.993253 0.204893 0.993293 0.460602 0.993331 0.714167 0.993097 0.998427 0.939365 0.077478 0.968922 0.084802 0.968898 0.007883 0.986865 0.006673 0.986446 0.08437 0.968922 0.135647 0.986447 0.135333</float_array>
+          <technique_common>
+            <accessor source="#BigsDuvetShape-map1-array" count="47" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="BigsDuvetShape-vertices">
+          <input semantic="POSITION" source="#BigsDuvetShape-positions"/>
+        </vertices>
+        <triangles material="lambert43SG" count="63">
+          <input semantic="VERTEX" source="#BigsDuvetShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#BigsDuvetShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#BigsDuvetShape-map1" offset="2" set="0"/>
+          <p>2 1 1 8 2 2 1 0 0 1 0 0 8 2 2 7 3 3 3 4 4 9 5 5 2 1 1 2 1 1 9 5 5 8 2 2 4 6 6 10 7 7 3 4 4 3 4 4 10 7 7 9 5 5 4 6 6 5 8 8 10 7 7 10 7 7 5 8 8 11 9 9 5 8 8 6 10 10 11 9 9 11 9 9 6 10 10 12 11 11 7 3 3 8 2 2 13 13 13 13 13 13 8 2 2 14 12 12 9 5 5 15 14 14 8 2 2 8 2 2 15 14 14 14 12 12 9 5 5 10 7 7 15 14 14 15 14 14 10 7 7 16 15 15 11 9 9 17 16 16 10 7 7 10 7 7 17 16 16 16 15 15 11 9 9 12 11 11 17 16 16 17 16 16 12 11 11 18 17 17 13 13 13 14 12 12 19 19 19 19 19 19 14 12 12 20 18 18 14 12 12 15 14 14 20 18 18 20 18 18 15 14 14 21 20 20 15 14 14 16 15 15 21 20 20 21 20 20 16 15 15 22 21 21 17 16 16 23 22 22 16 15 15 16 15 15 23 22 22 22 21 21 18 17 17 24 23 23 17 16 16 17 16 16 24 23 23 23 22 22 20 18 18 26 24 24 19 19 19 19 19 19 26 24 24 25 25 25 21 20 20 27 26 26 20 18 18 20 18 18 27 26 26 26 24 24 21 20 20 22 21 21 27 26 26 27 26 26 22 21 21 28 27 27 22 21 21 23 22 22 28 27 27 28 27 27 23 22 22 29 28 28 23 22 22 24 23 23 29 28 28 29 28 28 24 23 23 30 29 29 26 24 24 32 30 30 25 25 25 25 25 25 32 30 30 31 31 31 26 24 24 27 26 26 32 30 30 32 30 30 27 26 26 33 32 32 28 27 27 34 33 33 27 26 26 27 26 26 34 33 33 33 32 32 29 28 28 35 34 34 28 27 27 28 27 27 35 34 34 34 33 33 30 29 29 36 35 35 29 28 28 29 28 28 36 35 35 35 34 34 40 36 40 36 35 35 30 29 29 37 38 36 24 23 23 38 37 37 38 37 37 24 23 23 18 17 17 39 39 38 38 37 37 12 11 11 12 11 11 38 37 37 18 17 17 39 39 38 12 11 11 0 40 39 0 40 39 12 11 11 6 10 10 37 38 36 30 29 29 24 23 23 37 38 36 40 36 40 30 29 29 36 41 41 40 42 42 41 44 44 41 44 44 40 42 42 42 43 43 36 35 41 41 45 44 35 34 45 35 34 45 41 45 44 43 46 46</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="SmallsDuvetShape" name="SmallsDuvetShape">
+      <mesh>
+        <source id="SmallsDuvetShape-positions" name="position">
+          <float_array id="SmallsDuvetShape-positions-array" count="132">-2.95671 -0.461261 4.49398 2.25958 0.409967 4.49398 -2.82914 0.94833 4.49398 -2.17754 1.2783 4.49398 -0.69592 1.73379 4.49398 0.695919 1.67124 4.49398 1.64547 1.25885 4.49398 1.99699 1.04317 4.49398 -2.82914 1.10965 2.26106 -2.17754 1.72186 2.26106 -0.69592 1.49222 2.26106 0.695919 2.08782 2.26106 1.8676 1.76403 2.26106 2.15457 1.38611 2.26106 -2.82914 0.34797 0 -2.17754 1.20408 -0.000000 -0.66386 2.00469 0.391366 0.728703 2.13392 0.400211 1.83614 0.701689 -0.000000 2.08213 0.657682 0 -2.76711 0.729942 -1.2221 -2.17754 1.12619 -2.02197 -0.69592 0.633107 -2.41904 0.695919 1.59651 -2.41904 1.76898 0.497598 -1.85607 2.07195 0.651813 -1.66817 -2.69946 -0.783171 -4.85527 -2.23326 0.160112 -4.48446 -0.751647 0.037531 -4.48446 0.640192 0.495481 -4.48446 1.81187 -0.025079 -4.48447 2.22413 -0.272071 -4.48447 -2.69948 -1.1041 -4.85819 -2.15875 -1.46977 -4.86215 -0.810787 -1.82064 -4.86191 0.495158 -1.83321 -4.86074 1.38968 -1.452 -4.86149 2.28174 -0.786159 -4.85851 -2.95671 -0.461261 -1.2221 2.27103 0.6229 -1.17743 -2.95671 -0.461261 0.000000 2.25316 0.643081 -0.000000 -2.95671 -0.461261 2.26106 2.29768 0.574973 2.26106</float_array>
+          <technique_common>
+            <accessor source="#SmallsDuvetShape-positions-array" count="44" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SmallsDuvetShape-normals" name="normal">
+          <float_array id="SmallsDuvetShape-normals-array" count="132">-0.996351 0.085296 0.003081 0.960191 0.269706 0.07275 -0.869251 0.490497 0.061771 -0.342099 0.936243 0.080113 -0.13214 0.990348 0.041825 0.068976 0.989462 0.127307 0.504823 0.838721 0.204208 0.846641 0.513874 0.138321 -0.89461 0.44618 -0.024432 -0.417787 0.908503 -0.008759 -0.175762 0.982886 0.055171 0.124576 0.990888 0.051198 0.560755 0.827538 -0.027109 0.833082 0.552258 -0.031393 -0.900863 0.432317 -0.039339 -0.456738 0.882573 -0.1116 -0.225852 0.96745 -0.114151 0.216297 0.966399 -0.13888 0.474501 0.860778 -0.184148 0.42815 0.89426 -0.130335 -0.910133 0.408862 -0.067013 -0.403797 0.887947 -0.220225 -0.186277 0.929223 -0.319131 0.17586 0.936622 -0.303005 0.374669 0.908382 -0.185646 0.297286 0.946876 -0.122663 -0.711055 0.400981 -0.577594 -0.120084 0.602664 -0.788908 -0.079812 0.634773 -0.768566 0.050161 0.607992 -0.792357 0.203622 0.672458 -0.711575 0.412289 0.731364 -0.543253 -0.571831 0.241958 -0.783878 0.136038 0.204228 -0.969425 0.003227 0.195166 -0.980765 -0.008129 0.186677 -0.982388 -0.053569 0.288221 -0.956064 0.518283 0.513259 -0.684067 -0.989235 0.140517 -0.040846 0.594473 0.800613 -0.074971 -0.991255 0.131635 -0.009274 0.617915 0.784697 -0.049314 -0.995359 0.095945 -0.007435 0.94965 0.313309 -0.001568</float_array>
+          <technique_common>
+            <accessor source="#SmallsDuvetShape-normals-array" count="44" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SmallsDuvetShape-map1" name="map1">
+          <float_array id="SmallsDuvetShape-map1-array" count="88">0.013369 0.091986 0.013422 0.202683 0.275978 0.202764 0.275974 0.092355 0.013543 0.437722 0.275986 0.442505 0.013656 0.690671 0.275994 0.695454 0.013734 0.849589 0.276001 0.850515 0.013762 0.943332 0.276002 0.944335 0.49272 0.202846 0.492746 0.092729 0.492661 0.447348 0.492606 0.700297 0.49256 0.850497 0.492551 0.944086 0.691339 0.202919 0.649067 0.093802 0.725322 0.452529 0.721512 0.705478 0.687755 0.850328 0.645816 0.944137 0.869701 0.202984 0.869758 0.095719 0.869573 0.455497 0.869453 0.708445 0.869351 0.850782 0.869316 0.943836 0.99051 0.203862 0.990439 0.090643 0.990616 0.45585 0.990725 0.680687 0.990809 0.849379 0.990865 0.99427 0.613666 0.994827 0.492544 0.994663 0.276003 0.994756 0.013784 0.994423 0.616848 0.008125 0.492751 0.008002 0.275973 0.007669 0.013359 0.007653</float_array>
+          <technique_common>
+            <accessor source="#SmallsDuvetShape-map1-array" count="44" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="SmallsDuvetShape-vertices">
+          <input semantic="POSITION" source="#SmallsDuvetShape-positions"/>
+          <input semantic="NORMAL" source="#SmallsDuvetShape-normals"/>
+        </vertices>
+        <triangles material="lambert44SG" count="66">
+          <input semantic="VERTEX" source="#SmallsDuvetShape-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#SmallsDuvetShape-map1" offset="1" set="0"/>
+          <p>2 0 3 1 8 3 8 3 3 1 9 2 3 1 4 4 9 2 9 2 4 4 10 5 4 4 5 6 10 5 10 5 5 6 11 7 6 8 12 9 5 6 5 6 12 9 11 7 7 10 13 11 6 8 6 8 13 11 12 9 9 2 15 12 8 3 8 3 15 12 14 13 10 5 16 14 9 2 9 2 16 14 15 12 10 5 11 7 16 14 16 14 11 7 17 15 11 7 12 9 17 15 17 15 12 9 18 16 12 9 13 11 18 16 18 16 13 11 19 17 14 13 15 12 20 19 20 19 15 12 21 18 16 14 22 20 15 12 15 12 22 20 21 18 17 15 23 21 16 14 16 14 23 21 22 20 17 15 18 16 23 21 23 21 18 16 24 22 19 17 25 23 18 16 18 16 25 23 24 22 21 18 27 24 20 19 20 19 27 24 26 25 21 18 22 20 27 24 27 24 22 20 28 26 23 21 29 27 22 20 22 20 29 27 28 26 24 22 30 28 23 21 23 21 30 28 29 27 25 23 31 29 24 22 24 22 31 29 30 28 27 24 33 30 26 25 26 25 33 30 32 31 27 24 28 26 33 30 33 30 28 26 34 32 29 27 35 33 28 26 28 26 35 33 34 32 30 28 36 34 29 27 29 27 36 34 35 33 31 29 37 35 30 28 30 28 37 35 36 34 37 35 31 29 39 36 39 36 31 29 25 23 41 37 39 36 19 17 19 17 39 36 25 23 41 37 19 17 43 38 43 38 19 17 13 11 1 39 43 38 7 10 7 10 43 38 13 11 32 31 38 40 26 25 26 25 38 40 20 19 40 41 14 13 38 40 38 40 14 13 20 19 40 41 42 42 14 13 14 13 42 42 8 3 0 43 2 0 42 42 42 42 2 0 8 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="SmallsPillowShape" name="SmallsPillowShape">
+      <mesh>
+        <source id="SmallsPillowShape-positions" name="position">
+          <float_array id="SmallsPillowShape-positions-array" count="45">-1.60766 0.313087 0.951391 -1.13947 0.601906 1.19507 0 0.722474 1.38376 1.13947 0.601906 1.19507 1.51225 0.283688 0.991627 -1.71768 0.313087 0.398359 -1.13947 1.11468 0.398359 0.000000 1.43003 0.398358 1.13947 1.20117 0.398358 1.68899 0.283688 0.398357 -1.73286 0.313088 -0.580617 -1.15465 1.11306 -0.580617 -0.015178 1.32992 -0.580617 1.12429 1.11306 -0.580618 1.67382 0.503154 -0.580618</float_array>
+          <technique_common>
+            <accessor source="#SmallsPillowShape-positions-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SmallsPillowShape-normals" name="normal">
+          <float_array id="SmallsPillowShape-normals-array" count="45">-0.721301 0.625911 0.296581 -0.483834 0.752851 0.446229 -0.015447 0.815737 0.578216 0.509717 0.708953 0.487415 0.782171 0.529818 0.327874 -0.774814 0.612611 0.156111 -0.534155 0.815662 0.222204 -0.018019 0.962971 0.269001 0.545275 0.804814 0.234412 0.806382 0.56354 0.179365 -0.810683 0.58536 0.012085 -0.554281 0.832121 -0.018656 -0.018474 0.997117 -0.07359 0.54006 0.840775 -0.037856 0.811418 0.583861 0.026591</float_array>
+          <technique_common>
+            <accessor source="#SmallsPillowShape-normals-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SmallsPillowShape-map1" name="map1">
+          <float_array id="SmallsPillowShape-map1-array" count="30">0.817666 0.139182 0.949196 0.26117 0.498053 0.04567 0.178909 0.141962 0.074674 0.244739 0.818653 0.539891 0.980717 0.539186 0.499274 0.541281 0.179895 0.542671 0.025871 0.543344 0.819639 0.9406 0.981704 0.939894 0.50026 0.941991 0.180882 0.943381 0.026858 0.944051</float_array>
+          <technique_common>
+            <accessor source="#SmallsPillowShape-map1-array" count="15" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="SmallsPillowShape-vertices">
+          <input semantic="POSITION" source="#SmallsPillowShape-positions"/>
+          <input semantic="NORMAL" source="#SmallsPillowShape-normals"/>
+        </vertices>
+        <triangles material="lambert45SG" count="16">
+          <input semantic="VERTEX" source="#SmallsPillowShape-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#SmallsPillowShape-map1" offset="1" set="0"/>
+          <p>0 1 1 0 5 6 5 6 1 0 6 5 1 0 2 2 6 5 6 5 2 2 7 7 3 3 8 8 2 2 2 2 8 8 7 7 4 4 9 9 3 3 3 3 9 9 8 8 6 5 11 10 5 6 5 6 11 10 10 11 7 7 12 12 6 5 6 5 12 12 11 10 7 7 8 8 12 12 12 12 8 8 13 13 9 9 14 14 8 8 8 8 14 14 13 13</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="Bedroom_v01_3December">
+      <node id="Bedding" name="Bedding" type="NODE">
+        <translate sid="translate">-3.60532 -0.089527 11.6221</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 85.4718</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <scale sid="scale">1.75054 1.75054 1.75054</scale>
+        <node id="BigsPillow" name="BigsPillow" type="NODE">
+          <translate sid="translate">1.17942 2.41709 9.36928</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 -3.26371</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <scale sid="scale">0.802406 0.805808 0.890548</scale>
+          <instance_geometry url="#BigsPillowShape">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lambert49SG" target="#Pillow1">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="BigsDuvet" name="BigsDuvet" type="NODE">
+          <translate sid="translate">1.38989 2.84323 6.24445</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <scale sid="scale">0.846711 1 0.676871</scale>
+          <instance_geometry url="#BigsDuvetShape">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lambert43SG" target="#Duvet">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="SmallsDuvet" name="SmallsDuvet" type="NODE">
+          <translate sid="translate">1.54118 2.38099 2.87895</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 -90</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <scale sid="scale">0.333473 0.312537 0.344923</scale>
+          <instance_geometry url="#SmallsDuvetShape">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lambert44SG" target="#SmallsDuvet1">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="SmallsPillow" name="SmallsPillow" type="NODE">
+          <translate sid="translate">-0.261601 2.18116 2.81252</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 -90</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <scale sid="scale">0.495847 0.544277 0.479033</scale>
+          <instance_geometry url="#SmallsPillowShape">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lambert45SG" target="#SmallsPillow1">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>5</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>
