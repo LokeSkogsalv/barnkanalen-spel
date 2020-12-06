@@ -1,0 +1,3 @@
+Jag fixade XML-filen så att den läste lokalt istället för från SVT samt repererade en FLV-fil som verkade vara korrupt och fick vikfigur att frysa.
+
+https://www.mediafire.com/file/mx0n7kyoqvw2k32/hemliga-klubben.rar/file
