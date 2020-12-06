@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:86e6e28b24882f6bb464fdfb8862aa3f:720a33f29fce05d6e0a9421fc09471fa:84d01f79334574468282111aa9cc65f7$ -->
+<TextureAtlas imagePath="startstate.png">
+    <SubTexture name="User1Active" x="1038" y="992" width="195" height="197" frameX="-7" frameY="-6" frameWidth="210" frameHeight="210"/>
+    <SubTexture name="User1Down" x="1406" y="855" width="157" height="159" frameX="-26" frameY="-25" frameWidth="210" frameHeight="210"/>
+    <SubTexture name="User1SmallDown" x="4" y="1514" width="165" height="63"/>
+    <SubTexture name="User1SmallUp" x="814" y="1395" width="205" height="77"/>
+    <SubTexture name="User1Up" x="613" y="1311" width="195" height="197" frameX="-7" frameY="-6" frameWidth="210" frameHeight="210"/>
+    <SubTexture name="User2Active" x="207" y="1311" width="197" height="196" frameX="-7" frameY="-7" frameWidth="210" frameHeight="210"/>
+    <SubTexture name="User2Down" x="1241" y="855" width="159" height="158" frameX="-26" frameY="-26" frameWidth="210" frameHeight="210"/>
+    <SubTexture name="User2SmallDown" x="1188" y="1514" width="165" height="63"/>
+    <SubTexture name="User2SmallUp" x="814" y="1478" width="205" height="77"/>
+    <SubTexture name="User2Up" x="835" y="993" width="197" height="196" frameX="-7" frameY="-7" frameWidth="210" frameHeight="210"/>
+    <SubTexture name="User3Active" x="410" y="1311" width="197" height="195" frameX="-7" frameY="-8" frameWidth="210" frameHeight="210"/>
+    <SubTexture name="User3Down" x="1404" y="1020" width="159" height="157" frameX="-26" frameY="-27" frameWidth="210" frameHeight="210"/>
+    <SubTexture name="User3SmallDown" x="207" y="1513" width="164" height="63"/>
+    <SubTexture name="User3SmallUp" x="1239" y="1183" width="204" height="77"/>
+    <SubTexture name="User3Up" x="1036" y="1195" width="191" height="189" frameX="-10" frameY="-11" frameWidth="210" frameHeight="210"/>
+    <SubTexture name="User4Active" x="1282" y="655" width="195" height="194" frameX="-7" frameY="-9" frameWidth="210" frameHeight="210"/>
+    <SubTexture name="User4Down" x="1025" y="1431" width="157" height="156" frameX="-26" frameY="-28" frameWidth="210" frameHeight="210"/>
+    <SubTexture name="User4SmallDown" x="410" y="1512" width="164" height="63"/>
+    <SubTexture name="User4SmallUp" x="1233" y="1266" width="204" height="77"/>
+    <SubTexture name="User4Up" x="835" y="1195" width="195" height="194" frameX="-7" frameY="-9" frameWidth="210" frameHeight="210"/>
+    <SubTexture name="UserAddDown" x="1239" y="1019" width="159" height="158" frameX="-26" frameY="-28" frameWidth="210" frameHeight="210"/>
+    <SubTexture name="UserAddUp" x="1038" y="790" width="197" height="196" frameX="-7" frameY="-9" frameWidth="210" frameHeight="210"/>
+    <SubTexture name="addUser" x="1282" y="449" width="200" height="200"/>
+    <SubTexture name="fog" x="4" y="4" width="1585" height="439"/>
+    <SubTexture name="iconCloseDown" x="1449" y="1183" width="102" height="102"/>
+    <SubTexture name="iconCloseUp" x="1443" y="1291" width="102" height="102"/>
+    <SubTexture name="iconParentsDown" x="1233" y="1349" width="197" height="76" frameX="0" frameY="0" frameWidth="197" frameHeight="77"/>
+    <SubTexture name="iconParentsUp" x="1188" y="1431" width="197" height="77"/>
+    <SubTexture name="iconPlayBigDown" x="4" y="1311" width="197" height="197"/>
+    <SubTexture name="iconPlayBigUp" x="835" y="790" width="197" height="197"/>
+    <SubTexture name="iconUsersDown" x="1436" y="1399" width="102" height="102"/>
+    <SubTexture name="iconUsersUp" x="1483" y="655" width="102" height="102"/>
+    <SubTexture name="logo" x="4" y="790" width="825" height="515"/>
+    <SubTexture name="star" x="1241" y="790" width="19" height="19" frameX="-1" frameY="-1" frameWidth="22" frameHeight="22"/>
+    <SubTexture name="stars" x="4" y="449" width="1272" height="335" frameX="-49" frameY="0" frameWidth="1380" frameHeight="900"/>
+</TextureAtlas>

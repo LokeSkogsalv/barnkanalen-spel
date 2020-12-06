@@ -1,0 +1,821 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Sarah Bird</author>
+      <authoring_tool>Maya2008 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=0;exportCameraAsLookat=0;
+exportLights=0;exportCameras=0;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=0;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=0;exportPhysics=0;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Documents%20and%20Settings/Sarah%20Bird/My%20Documents/BigAndSmall/papervision/Bedroom/Bedroom_v01_23Jan.mb</source_data>
+    </contributor>
+    <created>2009-01-23T15:40:33Z</created>
+    <modified>2009-01-23T15:40:33Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file77" name="file77">
+      <init_from>./bedroom_leftwall_dark_baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file78" name="file78">
+      <init_from>./bedroom_rightwall_baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file79" name="file79">
+      <init_from>./bedroom_backwall_baked.png</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file80" name="file80">
+      <init_from>./bedroom_floor_baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file84" name="file84">
+      <init_from>./bedroom_celing_light.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="LeftWall" name="LeftWall">
+      <instance_effect url="#LeftWall-fx"/>
+    </material>
+    <material id="RightWall1" name="RightWall1">
+      <instance_effect url="#RightWall1-fx"/>
+    </material>
+    <material id="BackWall1" name="BackWall1">
+      <instance_effect url="#BackWall1-fx"/>
+    </material>
+    <material id="Floor2" name="Floor2">
+      <instance_effect url="#Floor2-fx"/>
+    </material>
+    <material id="ceiling" name="ceiling">
+      <instance_effect url="#ceiling-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="LeftWall-fx">
+      <profile_COMMON>
+        <newparam sid="file77-surface">
+          <surface type="2D">
+            <init_from>file77</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file77-sampler">
+          <sampler2D>
+            <source>file77-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file77-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="RightWall1-fx">
+      <profile_COMMON>
+        <newparam sid="file78-surface">
+          <surface type="2D">
+            <init_from>file78</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file78-sampler">
+          <sampler2D>
+            <source>file78-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file78-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="BackWall1-fx">
+      <profile_COMMON>
+        <newparam sid="file79-surface">
+          <surface type="2D">
+            <init_from>file79</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file79-sampler">
+          <sampler2D>
+            <source>file79-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file79-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="file79-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Floor2-fx">
+      <profile_COMMON>
+        <newparam sid="file80-surface">
+          <surface type="2D">
+            <init_from>file80</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file80-sampler">
+          <sampler2D>
+            <source>file80-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file80-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="ceiling-fx">
+      <profile_COMMON>
+        <newparam sid="file84-surface">
+          <surface type="2D">
+            <init_from>file84</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file84-sampler">
+          <sampler2D>
+            <source>file84-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file84-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="FloorShape" name="FloorShape">
+      <mesh>
+        <source id="FloorShape-positions" name="position">
+          <float_array id="FloorShape-positions-array" count="126">-3.79013 0.000709 12.2995 13.7792 0.000709 12.2995 -3.79014 0.000709 -12.2755 13.7792 0.000709 -12.2755 -3.79014 0.000709 -2.85576 13.7792 0.000709 -2.85497 -3.79014 0.000709 8.82332 13.7792 0.000709 8.82332 11.5895 0.000709 -2.85506 11.5908 0.000709 8.82332 -0.058799 0.000709 -2.85559 -0.058952 0.000709 8.82332 3.90041 0.000709 -2.85541 3.89982 0.000709 8.82332 7.81213 0.000709 -2.85524 7.81218 0.000709 8.82332 -0.058854 0.000709 1.55962 3.9002 0.000709 1.55895 7.81215 0.000709 1.55887 11.5895 0.000709 1.55913 -0.058896 0.000709 4.60873 3.90004 0.000709 4.60874 7.81216 0.000709 4.60861 11.5895 0.000709 4.60862 -0.057673 0.000709 -12.2755 3.90236 0.000709 -12.2755 7.81163 0.000709 -12.2755 11.577 0.000709 -12.2755 -0.057413 0.000709 12.2995 3.90263 0.000709 12.2995 7.81224 0.000709 12.2995 11.5948 0.000709 12.2995 -3.79014 0.000709 -7.22899 -0.058269 0.000709 -7.22834 3.90132 0.000709 -7.22704 7.8119 0.000709 -7.22704 11.5837 0.000709 -7.22711 13.7792 0.000709 -7.22509 -3.79014 0.000709 1.55672 -3.79014 0.000709 4.60823 13.7792 0.000709 1.56038 13.7792 0.000709 4.60916</float_array>
+          <technique_common>
+            <accessor source="#FloorShape-positions-array" count="42" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FloorShape-normals" name="normal">
+          <float_array id="FloorShape-normals-array" count="384">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 1 -0.000000 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#FloorShape-normals-array" count="128" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FloorShape-map1" name="map1">
+          <float_array id="FloorShape-map1-array" count="84">0.991242 0.993916 0.021262 0.993916 0.991242 0.009766 0.021262 0.009766 0.991242 0.380854 0.021262 0.380589 0.991242 0.86138 0.021262 0.86138 0.151254 0.380619 0.15119 0.86138 0.797562 0.380797 0.797562 0.86138 0.577762 0.380736 0.577768 0.86138 0.360911 0.380678 0.360915 0.86138 0.797562 0.562726 0.577764 0.562796 0.360912 0.562751 0.15125 0.562891 0.797562 0.700256 0.577766 0.700257 0.360913 0.700224 0.151248 0.700226 0.797561 0.009766 0.577619 0.009766 0.360692 0.009766 0.151756 0.009766 0.79756 0.993916 0.577601 0.993916 0.360949 0.993916 0.151034 0.993916 0.991242 0.209375 0.797561 0.209436 0.577695 0.209561 0.36081 0.209559 0.151487 0.209551 0.021262 0.209746 0.991242 0.56258 0.991242 0.700161 0.021262 0.562676 0.021262 0.700194</float_array>
+          <technique_common>
+            <accessor source="#FloorShape-map1-array" count="42" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="FloorShape-vertices">
+          <input semantic="POSITION" source="#FloorShape-positions"/>
+        </vertices>
+        <triangles material="BackWall2SG" count="60">
+          <input semantic="VERTEX" source="#FloorShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#FloorShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#FloorShape-map1" offset="2" set="0"/>
+          <p>32 0 32 33 1 33 2 3 2 2 3 2 33 1 33 24 2 24 19 4 19 40 5 40 8 7 8 8 7 8 40 5 40 5 6 5 1 9 1 7 10 7 31 8 31 31 8 31 7 10 7 9 11 9 14 12 14 19 13 19 8 14 8 39 15 39 20 16 20 38 18 38 38 18 38 20 16 20 16 17 16 16 19 16 12 20 12 10 21 10 17 22 17 18 23 18 12 25 12 12 25 12 18 23 18 14 24 14 20 26 20 21 27 21 16 29 16 16 29 16 21 27 21 17 28 17 21 30 21 22 31 22 17 33 17 17 33 17 22 31 22 18 32 18 22 34 22 23 35 23 18 37 18 18 37 18 23 35 23 19 36 19 11 38 11 13 39 13 20 40 20 13 41 13 15 42 15 21 44 21 21 44 21 15 42 15 22 43 22 15 45 15 9 46 9 23 47 23 15 48 15 23 49 23 22 50 22 20 51 20 13 52 13 21 53 21 16 54 16 17 55 17 12 56 12 18 57 18 19 58 19 14 59 14 24 60 24 33 61 33 25 63 25 25 63 25 33 61 33 34 62 34 25 64 25 34 65 34 26 67 26 26 67 26 34 65 34 35 66 35 26 68 26 35 69 35 27 71 27 27 71 27 35 69 35 36 70 36 27 72 27 36 73 36 3 75 3 3 75 3 36 73 36 37 74 37 0 76 0 28 77 28 6 79 6 6 79 6 28 77 28 11 78 11 29 81 29 13 82 13 28 80 28 28 80 28 13 82 13 11 83 11 29 84 29 30 85 30 13 87 13 13 87 13 30 85 30 15 86 15 31 89 31 9 90 9 30 88 30 30 88 30 9 90 9 15 91 15 4 92 4 10 93 10 32 95 32 32 95 32 10 93 10 33 94 33 34 96 34 33 97 33 12 99 12 12 99 12 33 97 33 10 98 10 35 100 35 34 101 34 14 103 14 14 103 14 34 101 34 12 102 12 35 105 35 14 106 14 36 104 36 36 104 36 14 106 14 8 107 8 36 109 36 8 110 8 37 108 37 37 108 37 8 110 8 5 111 5 38 112 38 16 113 16 4 115 4 4 115 4 16 113 16 10 114 10 6 116 6 11 117 11 39 119 39 39 119 39 11 117 11 20 118 20 23 120 23 41 121 41 19 123 19 19 123 19 41 121 41 40 122 40 9 124 9 7 125 7 23 127 23 23 127 23 7 125 7 41 126 41</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="RightWallShape" name="RightWallShape">
+      <mesh>
+        <source id="RightWallShape-positions" name="position">
+          <float_array id="RightWallShape-positions-array" count="102">-13.523 -0.043244 11.3966 -13.5233 -0.043326 -13.0939 -13.523 10.8798 8.69428 -13.523 10.8798 -13.0939 -13.523 4.19905 11.3967 -13.523 4.27495 -13.0939 -13.523 8.7727 10.2129 -13.523 8.88716 -13.0939 -13.5231 8.90668 2.91071 -13.523 10.8798 2.92076 -13.5231 8.74437 5.37508 -13.523 10.8798 5.37177 -13.5231 8.91471 0.264417 -13.523 10.8798 0.278705 -13.5231 4.21858 5.78751 -13.5233 -0.043326 5.48796 -13.5231 4.25856 0.070503 -13.5233 -0.043326 0.356963 -13.5231 6.62516 0.198868 -13.523 6.59443 -13.0939 -13.5231 6.67004 5.58437 -13.523 6.91984 11.3931 -13.5231 8.49784 4.35638 -13.5231 8.66705 1.43332 -13.5231 8.07024 4.90447 -13.5231 8.74897 3.71399 -13.5231 8.87509 2.10658 -13.5231 8.23479 0.811123 -13.523 7.78695 10.877 -13.523 10.8798 -4.16919 -13.5231 8.90583 -4.16999 -13.5231 6.61518 -4.17119 -13.5231 4.2639 -4.17275 -13.5233 -0.043326 -4.17489</float_array>
+          <technique_common>
+            <accessor source="#RightWallShape-positions-array" count="34" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RightWallShape-normals" name="normal">
+          <float_array id="RightWallShape-normals-array" count="249">1 -0.000013 -0.00001 1 -0.000013 -0.00001 1 -0.000013 -0.00001 1 -0.000013 -0.00001 1 -0.000058 0.000001 1 -0.000058 0.000001 1 -0.000058 0.000001 1 -0.000058 0.000001 1 0.000000 0.000003 1 0.000000 0.000003 1 0.000000 0.000003 1 0.000000 0.000003 1 -0.00002 0 1 -0.00002 0 1 -0.00002 0 1 -0.00002 0 1 -0.000019 -0.000000 1 -0.000019 -0.000000 1 -0.000019 -0.000000 1 -0.000019 -0.000000 1 -0.000007 0.000001 1 -0.000007 0.000001 1 -0.000007 0.000001 1 -0.000007 0.000001 1 -0.000002 -0.000011 1 -0.000002 -0.000011 1 -0.000002 -0.000011 1 -0.000002 -0.000011 1 -0.000025 -0.00003 1 -0.000025 -0.00003 1 -0.000025 -0.00003 1 -0.000025 -0.00003 1 0.000000 0.000002 1 0.000000 0.000002 1 0.000000 0.000002 1 0.000000 0.000002 1 0.000031 -0.000013 1 0.000031 -0.000013 1 0.000031 -0.000013 1 -0.000354 -0.000025 1 -0.000354 -0.000025 1 -0.000354 -0.000025 1 -0.000000 0.00007 1 -0.000000 0.00007 1 -0.000000 0.00007 1 -0.000008 -0.000074 1 -0.000008 -0.000074 1 -0.000008 -0.000074 1 -0.00004 -0.00003 1 -0.00004 -0.00003 1 -0.00004 -0.00003 1 -0.000064 -0.000024 1 -0.000064 -0.000024 1 -0.000064 -0.000024 1 -0.000037 0.000026 1 -0.000037 0.000026 1 -0.000037 0.000026 1 -0.00006 0.00002 1 -0.00006 0.00002 1 -0.00006 0.00002 0.999999 -0.00127 -0.000003 0.999999 -0.00127 -0.000003 0.999999 -0.00127 -0.000003 1 -0.000009 -0.000009 1 -0.000009 -0.000009 1 -0.000009 -0.000009 1 -0.000009 -0.000009 1 -0.000017 0.000001 1 -0.000017 0.000001 1 -0.000017 0.000001 1 -0.000017 0.000001 1 0.000000 0.000002 1 0.000000 0.000002 1 0.000000 0.000002 1 0.000000 0.000002 1 -0.000000 0.000003 1 -0.000000 0.000003 1 -0.000000 0.000003 1 -0.000000 0.000003 1 -0.000053 0.000001 1 -0.000053 0.000001 1 -0.000053 0.000001 1 -0.000053 0.000001</float_array>
+          <technique_common>
+            <accessor source="#RightWallShape-normals-array" count="83" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="RightWallShape-map1" name="map1">
+          <float_array id="RightWallShape-map1-array" count="68">0.055154 0.791929 0.278104 0.789468 0.278238 0.975463 0.116259 0.975463 0.47993 0.024537 0.992603 0.024537 0.992603 0.400178 0.493929 0.398749 0.487114 0.666144 0.992603 0.663468 0.992603 0.801905 0.483652 0.804304 0.378786 0.796998 0.483077 0.975463 0.379165 0.975463 0.992603 0.975463 0.007396 0.393125 0.261517 0.395267 0.269687 0.676703 0.02468 0.685147 0.007396 0.024537 0.273565 0.024537 0.044561 0.740898 0.344912 0.789869 0.463756 0.741846 0.297032 0.740795 0.319076 0.767995 0.436639 0.778637 0.409561 0.800854 0.652488 0.975463 0.652522 0.803531 0.652574 0.665275 0.652642 0.399215 0.652725 0.024537</float_array>
+          <technique_common>
+            <accessor source="#RightWallShape-map1-array" count="34" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="RightWallShape-vertices">
+          <input semantic="POSITION" source="#RightWallShape-positions"/>
+        </vertices>
+        <triangles material="RightWall1SG" count="37">
+          <input semantic="VERTEX" source="#RightWallShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#RightWallShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#RightWallShape-map1" offset="2" set="0"/>
+          <p>6 0 0 10 1 1 2 3 3 2 3 3 10 1 1 11 2 2 33 4 33 1 5 5 32 7 32 32 7 32 1 5 5 5 6 6 19 9 9 7 10 10 31 8 31 31 8 31 7 10 10 30 11 30 12 13 11 13 14 13 8 12 12 8 12 12 13 14 13 9 15 14 10 16 1 8 17 12 11 19 2 11 19 2 8 17 12 9 18 14 7 21 10 3 22 15 30 20 30 30 20 30 3 22 15 29 23 29 4 24 16 14 25 17 21 27 19 21 27 19 14 25 17 20 26 18 15 29 21 14 30 17 0 28 20 0 28 20 14 30 17 4 31 16 32 32 32 5 33 6 31 35 31 31 35 31 5 33 6 19 34 9 21 36 19 20 37 18 28 38 22 10 39 1 25 40 23 8 41 12 27 42 24 18 43 8 12 44 11 20 45 18 24 46 25 10 47 1 10 48 1 24 49 25 22 50 26 10 51 1 22 52 26 25 53 23 12 54 11 23 55 27 27 56 24 12 57 11 26 58 28 23 59 27 8 60 12 26 61 28 12 62 11 28 63 22 20 64 18 6 66 0 6 66 0 20 64 18 10 65 1 30 68 30 29 69 29 12 67 11 12 67 11 29 69 29 13 70 13 31 72 31 30 73 30 18 71 8 18 71 8 30 73 30 12 74 11 32 76 32 31 77 31 16 75 7 16 75 7 31 77 31 18 78 8 17 79 4 33 80 33 16 82 7 16 82 7 33 80 33 32 81 32</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="LeftWall_BedroomWallpaperShape" name="LeftWall_BedroomWallpaperShape">
+      <mesh>
+        <source id="LeftWall_BedroomWallpaperShape-positions" name="position">
+          <float_array id="LeftWall_BedroomWallpaperShape-positions-array" count="96">-13.5232 -0.06253 11.3951 -13.5232 -0.062495 -13.0939 -13.5232 10.8798 9.36825 -13.5231 10.8798 -13.0939 -13.5232 4.19906 11.3908 -13.5231 4.27495 -13.0939 -13.5232 8.77269 10.4169 -13.5231 8.88716 -13.0939 -13.5231 8.90674 -2.20058 -13.5231 10.8798 -2.18725 -13.5231 8.74437 0.267074 -13.5231 10.8798 0.263759 -13.5231 8.91471 -4.84359 -13.5231 10.8798 -4.82931 -13.5231 4.21768 0.674425 -13.5232 -0.062495 0.36902 -13.5231 4.25832 -5.04047 -13.5232 -0.062495 -4.7541 -13.5231 6.65355 -4.91228 -13.5231 6.59443 -13.0939 -13.5231 6.67615 0.466029 -13.5232 6.92003 11.392 -13.5231 8.49762 -0.75438 -13.5231 8.82943 -3.17097 -13.5231 8.07037 -0.206542 -13.5231 8.74904 -1.39716 -13.5231 8.23498 -4.30008 -13.5231 10.8798 -8.56374 -13.5231 8.90279 -8.56379 -13.5231 6.62751 -8.563 -13.5231 4.26533 -8.56361 -13.5232 -0.062495 -8.5615</float_array>
+          <technique_common>
+            <accessor source="#LeftWall_BedroomWallpaperShape-positions-array" count="32" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="LeftWall_BedroomWallpaperShape-normals" name="normal">
+          <float_array id="LeftWall_BedroomWallpaperShape-normals-array" count="231">-1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.000016 0 -1 0.000016 0 -1 0.000016 0 -1 0.000016 0 -1 -0.000000 -0.000000 -1 -0.000000 -0.000000 -1 -0.000000 -0.000000 -1 -0.000000 -0.000000 -1 0.000000 0 -1 0.000000 0 -1 0.000000 0 -1 0.000000 0 -1 0.000000 0 -1 0.000000 0 -1 0.000000 0 -1 0.000000 0 -1 0.000001 -0.000000 -1 0.000001 -0.000000 -1 0.000001 -0.000000 -1 0.000001 -0.000000 -1 0.000029 -0.000007 -1 0.000029 -0.000007 -1 0.000029 -0.000007 -1 0.000029 -0.000007 -1 0.000004 -0.000009 -1 0.000004 -0.000009 -1 0.000004 -0.000009 -1 0.000004 -0.000009 -1 0.000000 -0.000000 -1 0.000000 -0.000000 -1 0.000000 -0.000000 -1 0.000000 -0.000000 -1 0 0.000000 -1 0 0.000000 -1 0 0.000000 -1 0 0.000000 -1 0.000029 0.000001 -1 0.000029 0.000001 -1 0.000029 0.000001 -1 0 -0.000003 -1 0 -0.000003 -1 0 -0.000003 -1 0 0.000003 -1 0 0.000003 -1 0 0.000003 -1 0 0.000001 -1 0 0.000001 -1 0 0.000001 -1 0 0.000001 -1 0 0.000001 -1 0 0.000001 -1 0.000003 -0.000001 -1 0.000003 -0.000001 -1 0.000003 -0.000001 -1 0.000026 0 -1 0.000026 0 -1 0.000026 0 -1 -0.000000 0 -1 -0.000000 0 -1 -0.000000 0 -1 -0.000000 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0.000000 -0.000000 -1 0.000000 -0.000000 -1 0.000000 -0.000000 -1 0.000000 -0.000000 -1 0.000017 -0.000000 -1 0.000017 -0.000000 -1 0.000017 -0.000000 -1 0.000017 -0.000000</float_array>
+          <technique_common>
+            <accessor source="#LeftWall_BedroomWallpaperShape-normals-array" count="77" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="LeftWall_BedroomWallpaperShape-map1" name="map1">
+          <float_array id="LeftWall_BedroomWallpaperShape-map1-array" count="64">0.037038 0.825862 0.443458 0.823203 0.454836 0.988972 0.073096 0.988972 0.665482 0.130574 0.995655 0.127769 0.995655 0.486339 0.676159 0.486183 0.668323 0.675896 0.995655 0.677423 0.995655 0.826053 0.666929 0.823329 0.567726 0.827776 0.661042 0.988972 0.567287 0.988972 0.995655 0.988972 0.004344 0.48587 0.435973 0.485952 0.444625 0.675978 0.007397 0.677894 0.004344 0.127769 0.448577 0.130574 0.52091 0.816181 0.470115 0.76717 0.494918 0.794946 0.609481 0.812109 0.644129 0.779599 0.811983 0.988972 0.811974 0.826079 0.812156 0.677454 0.812021 0.486281 0.812497 0.127769</float_array>
+          <technique_common>
+            <accessor source="#LeftWall_BedroomWallpaperShape-map1-array" count="32" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="LeftWall_BedroomWallpaperShape-vertices">
+          <input semantic="POSITION" source="#LeftWall_BedroomWallpaperShape-positions"/>
+        </vertices>
+        <triangles material="lambert62SG" count="35">
+          <input semantic="VERTEX" source="#LeftWall_BedroomWallpaperShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#LeftWall_BedroomWallpaperShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#LeftWall_BedroomWallpaperShape-map1" offset="2" set="0"/>
+          <p>6 0 0 2 1 3 10 3 1 10 3 1 2 1 3 11 2 2 17 4 4 16 5 7 31 7 31 31 7 31 16 5 7 30 6 30 12 9 11 28 10 28 18 8 8 18 8 8 28 10 28 29 11 29 9 13 14 13 14 13 8 12 12 8 12 12 13 14 13 12 15 11 10 16 1 11 17 2 8 19 12 8 19 12 11 17 2 9 18 14 13 21 13 27 22 27 12 20 11 12 20 11 27 22 27 28 23 28 4 24 16 21 25 19 14 27 17 14 27 17 21 25 19 20 26 18 4 29 16 14 30 17 0 28 20 0 28 20 14 30 17 15 31 21 18 33 8 29 34 29 16 32 7 16 32 7 29 34 29 30 35 30 21 36 19 6 37 0 20 39 18 20 39 18 6 37 0 10 38 1 10 40 1 8 41 12 25 42 22 26 43 26 12 44 11 18 45 8 20 46 18 10 47 1 24 48 23 10 49 1 22 50 24 24 51 23 10 52 1 25 53 22 22 54 24 12 55 11 26 56 26 23 57 25 8 58 12 12 59 11 23 60 25 27 62 27 3 63 15 28 61 28 28 61 28 3 63 15 7 64 10 28 66 28 7 67 10 29 65 29 29 65 29 7 67 10 19 68 9 29 70 29 19 71 9 30 69 30 30 69 30 19 71 9 5 72 6 31 73 31 30 74 30 1 76 5 1 76 5 30 74 30 5 75 6</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="BackWallShape" name="BackWallShape">
+      <mesh>
+        <source id="BackWallShape-positions" name="position">
+          <float_array id="BackWallShape-positions-array" count="90">-14.7515 0.002213 9.03408 -2.63951 0.002212 9.03408 6.47927 0.002213 9.03408 14.7206 0.002209 9.03408 -14.7512 0.003141 2.00339 -2.63951 -0.003803 1.99512 6.47927 -0.003803 1.99512 14.7207 -0.004308 2.00346 -14.7512 -0.001436 -2.50333 -2.63951 -0.003803 -2.5036 6.47927 -0.003803 -2.5036 14.7207 -0.002775 -2.50363 -14.7512 -1.53188 -5.57247 -2.63951 -1.26726 -5.5726 6.47927 -1.26726 -5.5726 14.7207 -1.26723 -5.57247 -14.7512 -3.50189 -9.06267 -2.63951 -2.627 -9.06267 6.47927 -2.627 -9.06267 14.7207 -2.627 -9.06267 -2.63951 2.69794 1.99512 6.47927 2.69794 1.99512 6.47927 2.6988 -2.49008 -2.63951 2.6988 -2.49009 6.47927 2.70504 -5.63225 -2.63951 2.70505 -5.63226 1.85963 2.6988 -2.49009 1.91988 2.70505 -5.63225 1.91988 -0.003803 1.99512 1.91988 2.69794 1.99512</float_array>
+          <technique_common>
+            <accessor source="#BackWallShape-positions-array" count="30" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BackWallShape-normals" name="normal">
+          <float_array id="BackWallShape-normals-array" count="204">-0.000286 -1 0.000361 -0.000335 -1 0.000434 -0.000223 -1 0.000574 -0.000143 -1 0.000608 0 -1 0.000854 0.000000 -1 0.000525 -0.000015 -1 0.000872 0.000000 -1 0.00036 -0.000031 -0.999999 0.00089 0.004847 -0.977216 0.212194 0.004847 -0.977216 0.212194 0 -1 -0.000193 0 -0.999999 -0.001089 0 -0.999999 -0.001089 0 -1 -0.000193 0.000045 -0.980998 0.194019 0.000045 -0.980998 0.194019 0.026145 -0.906089 0.422279 0.017438 -0.915147 0.402742 0 -0.999998 -0.001986 0 -0.999998 -0.001986 0 -0.999998 -0.001986 0.000019 -0.929441 0.368971 0.000028 -0.928257 0.371939 0.042422 -0.901756 0.430158 0.02123 -0.917595 0.396948 -0.000000 -0.93178 0.363022 -0.000000 -0.931781 0.363021 0 0 -1 0 0 -1 0 0 -1 -1 0 0 -1 0 0 -1 0 0 -1 0 0 1 0.000000 0 1 0.000000 0 1 0.000000 0 1 0.000000 0 -1 0.000000 0 -1 0.000000 0 0 0.015016 0.999887 0 0.015016 0.999887 0 0.015016 0.999887 1 0.000000 0 1 0.000000 0 0 -0.999999 -0.001089 0 -0.999998 -0.001986 0 -0.999999 -0.001089 0 -1 -0.000193 0 -1 -0.000193 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0.015016 0.999887 0 0.015016 0.999887 0 0.015016 0.999887 -0.000000 0.015016 0.999887 -0.000000 0.015016 0.999887 -0.000000 0.015016 0.999887 0 -0.999998 -0.001986 0 -0.999998 -0.001986 0 -0.999998 -0.001986 0 -0.999998 -0.001986</float_array>
+          <technique_common>
+            <accessor source="#BackWallShape-normals-array" count="68" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BackWallShape-map1" name="map1">
+          <float_array id="BackWallShape-map1-array" count="60">0.006373 0.006373 0.393142 0.006373 0.393142 0.369162 0.006373 0.369162 0.719671 0.006373 0.719671 0.369162 0.993627 0.006373 0.993627 0.369162 0.393142 0.680286 0.006373 0.680286 0.440494 0.404288 0.67917 0.404288 0.67917 0.676098 0.440494 0.676098 0.993627 0.680286 0.719671 0.680286 0.393142 0.88993 0.006373 0.88993 0.67917 0.839276 0.440494 0.839276 0.993627 0.88993 0.719671 0.88993 0.393142 0.993627 0.006373 0.993627 0.719671 0.993627 0.993627 0.993627 0.558254 0.676098 0.559832 0.839276 0.555122 0.369162 0.559832 0.404288</float_array>
+          <technique_common>
+            <accessor source="#BackWallShape-map1-array" count="30" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="BackWallShape-vertices">
+          <input semantic="POSITION" source="#BackWallShape-positions"/>
+        </vertices>
+        <triangles material="BackWall1SG" count="44">
+          <input semantic="VERTEX" source="#BackWallShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#BackWallShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#BackWallShape-map1" offset="2" set="0"/>
+          <p>0 0 0 4 1 3 1 3 1 1 3 1 4 1 3 5 2 2 1 3 1 5 2 2 2 6 4 5 2 2 28 4 28 2 6 4 28 4 28 6 5 5 2 6 4 2 6 4 6 5 5 3 8 6 3 8 6 6 5 5 7 7 7 4 1 3 8 9 9 5 2 2 5 2 2 8 9 9 9 10 8 23 12 13 26 13 26 20 11 10 20 11 10 26 13 26 29 14 29 6 5 5 10 15 15 7 7 7 7 7 7 10 15 15 11 16 14 12 17 17 13 18 16 8 9 9 8 9 9 13 18 16 9 10 8 23 19 13 25 20 19 27 21 27 10 15 15 14 22 21 11 16 14 11 16 14 14 22 21 15 23 20 16 24 23 17 25 22 12 17 17 12 17 17 17 25 22 13 18 16 13 18 16 17 25 22 14 22 21 14 22 21 17 25 22 18 26 24 14 22 21 18 26 24 15 23 20 15 23 20 18 26 24 19 27 25 29 28 29 21 29 11 6 30 5 21 32 11 22 33 12 6 31 5 6 31 5 22 33 12 10 34 15 9 35 8 23 36 13 5 38 2 5 38 2 23 36 13 20 37 10 22 33 12 24 39 18 10 34 15 10 34 15 24 39 18 14 40 21 14 41 21 24 42 18 27 43 27 13 44 16 25 45 19 9 35 8 9 35 8 25 45 19 23 36 13 26 46 26 27 47 27 22 48 12 26 46 26 22 48 12 29 50 29 29 50 29 22 48 12 21 49 11 6 52 5 28 53 28 29 51 29 29 51 29 28 53 28 5 54 2 29 55 29 5 56 2 20 57 10 14 58 21 27 59 27 13 60 16 27 61 27 25 62 19 13 63 16 22 64 12 27 65 27 24 66 18 23 12 13 27 67 27 26 13 26</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="CeilingShape" name="CeilingShape">
+      <mesh>
+        <source id="CeilingShape-positions" name="position">
+          <float_array id="CeilingShape-positions-array" count="48">-11.6539 -0.086323 4.46607 -2.34166 -0.086323 5.33998 4.90596 -0.086323 5.34033 11.0097 -0.086323 5.34032 -11.6557 -0.086323 3.02823 -2.37123 -0.086323 3.02823 4.86763 -0.086323 3.02823 11.0097 -0.086323 3.02823 -11.6557 -0.086323 -9.60986 -2.37123 -0.086323 -9.60986 4.86763 -0.086323 -9.60986 11.0097 -0.086323 -9.60986 -11.6557 -0.086323 -23.7654 -2.37123 -0.086323 -23.7654 4.86763 -0.086323 -23.7654 11.0097 -0.086323 -23.7654</float_array>
+          <technique_common>
+            <accessor source="#CeilingShape-positions-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CeilingShape-normals" name="normal">
+          <float_array id="CeilingShape-normals-array" count="108">0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#CeilingShape-normals-array" count="36" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="CeilingShape-map1" name="map1">
+          <float_array id="CeilingShape-map1-array" count="32">0.016183 0.01549 0.338728 0.01549 0.661272 0.01549 0.983817 0.01549 0.016183 0.340149 0.338728 0.340149 0.661272 0.340149 0.983817 0.340149 0.016183 0.664807 0.338728 0.664807 0.661272 0.664807 0.983817 0.664807 0.016183 0.989466 0.338728 0.989466 0.661272 0.989466 0.983817 0.989466</float_array>
+          <technique_common>
+            <accessor source="#CeilingShape-map1-array" count="16" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="CeilingShape-vertices">
+          <input semantic="POSITION" source="#CeilingShape-positions"/>
+        </vertices>
+        <triangles material="lambert65SG" count="18">
+          <input semantic="VERTEX" source="#CeilingShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#CeilingShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#CeilingShape-map1" offset="2" set="0"/>
+          <p>4 1 4 5 2 5 0 0 0 0 0 0 5 2 5 1 3 1 5 5 5 6 6 6 1 4 1 1 4 1 6 6 6 2 7 2 6 9 6 7 10 7 2 8 2 2 8 2 7 10 7 3 11 3 4 12 4 8 13 8 5 15 5 5 15 5 8 13 8 9 14 9 5 16 5 9 17 9 6 19 6 6 19 6 9 17 9 10 18 10 6 20 6 10 21 10 7 23 7 7 23 7 10 21 10 11 22 11 8 24 8 12 25 12 9 27 9 9 27 9 12 25 12 13 26 13 9 28 9 13 29 13 10 31 10 10 31 10 13 29 13 14 30 14 10 32 10 14 33 14 11 35 11 11 35 11 14 33 14 15 34 15</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="Bedroom_v01_23Jan">
+      <node id="Bedroom" name="Bedroom" type="NODE">
+        <translate sid="translate">0 -0.052146 0</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <scale sid="scale">1.29669 1.29669 1.29669</scale>
+        <node id="Room" name="Room" type="NODE">
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <node id="Walls" name="Walls" type="NODE">
+            <rotate sid="rotateZ">0 0 1 0</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 0</rotate>
+            <node id="Floor" name="Floor" type="NODE">
+              <translate sid="translate">-1.34924 -0.036328 -0.811551</translate>
+              <rotate sid="rotateZ">0 0 1 0</rotate>
+              <rotate sid="rotateY">0 1 0 0</rotate>
+              <rotate sid="rotateX">1 0 0 0</rotate>
+              <instance_geometry url="#FloorShape">
+                <bind_material>
+                  <technique_common>
+                    <instance_material symbol="BackWall2SG" target="#Floor2">
+                      <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    </instance_material>
+                  </technique_common>
+                </bind_material>
+              </instance_geometry>
+            </node>
+            <node id="RightWall" name="RightWall" type="NODE">
+              <translate sid="translate">8.42545 0 0</translate>
+              <translate sid="rotatePivot">-13.2309 0 0</translate>
+              <rotate sid="rotateZ">0 0 1 0</rotate>
+              <rotate sid="rotateY">0 1 0 0</rotate>
+              <rotate sid="rotateX">1 0 0 0</rotate>
+              <translate sid="rotatePivotInverse">13.2309 0 0</translate>
+              <translate sid="scalePivot">-13.2309 0 0</translate>
+              <translate sid="scalePivotInverse">13.2309 0 0</translate>
+              <instance_geometry url="#RightWallShape">
+                <bind_material>
+                  <technique_common>
+                    <instance_material symbol="RightWall1SG" target="#RightWall1">
+                      <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    </instance_material>
+                  </technique_common>
+                </bind_material>
+              </instance_geometry>
+            </node>
+            <node id="LeftWall_BedroomWallpaper" name="LeftWall_BedroomWallpaper" type="NODE">
+              <translate sid="translate">-1.14161 0 0</translate>
+              <translate sid="rotatePivotTranslation">27.1826 0 0</translate>
+              <translate sid="rotatePivot">-13.5913 0 0</translate>
+              <rotate sid="rotateZ">0 0 1 0</rotate>
+              <rotate sid="rotateY">0 1 0 180</rotate>
+              <rotate sid="rotateX">1 0 0 0</rotate>
+              <translate sid="rotatePivotInverse">13.5913 0 0</translate>
+              <translate sid="scalePivot">-13.5913 0 0</translate>
+              <scale sid="scale">1 1 -1</scale>
+              <translate sid="scalePivotInverse">13.5913 0 0</translate>
+              <instance_geometry url="#LeftWall_BedroomWallpaperShape">
+                <bind_material>
+                  <technique_common>
+                    <instance_material symbol="lambert62SG" target="#LeftWall">
+                      <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    </instance_material>
+                  </technique_common>
+                </bind_material>
+              </instance_geometry>
+            </node>
+            <node id="BackWall" name="BackWall" type="NODE">
+              <translate sid="translate">3.65109 5.40858 11.3942</translate>
+              <rotate sid="rotateZ">0 0 1 0</rotate>
+              <rotate sid="rotateY">0 1 0 0</rotate>
+              <rotate sid="rotateX">1 0 0 90</rotate>
+              <scale sid="scale">0.593079 0.771191 0.603706</scale>
+              <instance_geometry url="#BackWallShape">
+                <bind_material>
+                  <technique_common>
+                    <instance_material symbol="BackWall1SG" target="#BackWall1">
+                      <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                      <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                    </instance_material>
+                  </technique_common>
+                </bind_material>
+              </instance_geometry>
+            </node>
+          </node>
+          <node id="Ceiling" name="Ceiling" type="NODE">
+            <translate sid="translate">3.89093 10.94 5.2499</translate>
+            <rotate sid="rotateZ">0 0 1 0</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 0</rotate>
+            <scale sid="scale">0.771191 0.771191 0.771191</scale>
+            <instance_geometry url="#CeilingShape">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="lambert65SG" target="#ceiling">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>5</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

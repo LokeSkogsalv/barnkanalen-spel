@@ -1,0 +1,65 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:6523b75f60077900222f9d32b3950329:6d56db21d17310490462d7ab741a0dc0:656171954f25a8b10e877110ea0cd413$ -->
+<TextureAtlas imagePath="gameScreens.png">
+    <SubTexture name="borderLeft" x="37" y="310" width="24" height="480"/>
+    <SubTexture name="borderRight" x="4" y="310" width="27" height="480"/>
+    <SubTexture name="chapterIntro0" x="67" y="310" width="232" height="129"/>
+    <SubTexture name="chapterIntro1" x="67" y="717" width="215" height="129"/>
+    <SubTexture name="chapterIntro10" x="310" y="250" width="215" height="129"/>
+    <SubTexture name="chapterIntro11" x="305" y="385" width="215" height="129"/>
+    <SubTexture name="chapterIntro12" x="302" y="520" width="215" height="129"/>
+    <SubTexture name="chapterIntro13" x="288" y="655" width="215" height="129"/>
+    <SubTexture name="chapterIntro14" x="288" y="790" width="215" height="129"/>
+    <SubTexture name="chapterIntro15" x="67" y="580" width="215" height="131"/>
+    <SubTexture name="chapterIntro16" x="225" y="925" width="215" height="129"/>
+    <SubTexture name="chapterIntro17" x="646" y="274" width="215" height="129"/>
+    <SubTexture name="chapterIntro18" x="526" y="409" width="215" height="129"/>
+    <SubTexture name="chapterIntro19" x="67" y="445" width="229" height="129"/>
+    <SubTexture name="chapterIntro2" x="705" y="4" width="270" height="129"/>
+    <SubTexture name="chapterIntro20" x="523" y="544" width="215" height="129"/>
+    <SubTexture name="chapterIntro21" x="509" y="679" width="215" height="129"/>
+    <SubTexture name="chapterIntro22" x="509" y="814" width="215" height="129"/>
+    <SubTexture name="chapterIntro23" x="446" y="949" width="215" height="129"/>
+    <SubTexture name="chapterIntro24" x="747" y="409" width="215" height="129"/>
+    <SubTexture name="chapterIntro3" x="744" y="544" width="215" height="129"/>
+    <SubTexture name="chapterIntro4" x="310" y="4" width="389" height="129"/>
+    <SubTexture name="chapterIntro5" x="4" y="852" width="215" height="131"/>
+    <SubTexture name="chapterIntro6" x="730" y="679" width="215" height="129"/>
+    <SubTexture name="chapterIntro7" x="686" y="139" width="217" height="129"/>
+    <SubTexture name="chapterIntro8" x="730" y="814" width="215" height="129"/>
+    <SubTexture name="chapterIntro9" x="667" y="949" width="215" height="129"/>
+    <SubTexture name="herbarium1" x="965" y="609" width="39" height="57"/>
+    <SubTexture name="herbarium10" x="981" y="4" width="39" height="82"/>
+    <SubTexture name="herbarium11" x="951" y="763" width="40" height="73"/>
+    <SubTexture name="herbarium12" x="963" y="917" width="40" height="66"/>
+    <SubTexture name="herbarium13" x="963" y="989" width="44" height="55"/>
+    <SubTexture name="herbarium14" x="981" y="92" width="39" height="67"/>
+    <SubTexture name="herbarium15" x="951" y="842" width="64" height="69"/>
+    <SubTexture name="herbarium16" x="225" y="852" width="44" height="64"/>
+    <SubTexture name="herbarium17" x="957" y="340" width="37" height="55"/>
+    <SubTexture name="herbarium18" x="911" y="250" width="46" height="84"/>
+    <SubTexture name="herbarium19" x="932" y="949" width="25" height="94"/>
+    <SubTexture name="herbarium2" x="963" y="250" width="20" height="69"/>
+    <SubTexture name="herbarium20" x="115" y="989" width="47" height="95"/>
+    <SubTexture name="herbarium21" x="965" y="544" width="34" height="59"/>
+    <SubTexture name="herbarium22" x="989" y="230" width="29" height="53"/>
+    <SubTexture name="herbarium23" x="909" y="139" width="60" height="105"/>
+    <SubTexture name="herbarium24" x="4" y="989" width="51" height="92"/>
+    <SubTexture name="herbarium3" x="951" y="679" width="32" height="78"/>
+    <SubTexture name="herbarium4" x="968" y="401" width="37" height="57"/>
+    <SubTexture name="herbarium5" x="975" y="165" width="45" height="59"/>
+    <SubTexture name="herbarium6" x="867" y="274" width="38" height="93"/>
+    <SubTexture name="herbarium7" x="968" y="464" width="32" height="57"/>
+    <SubTexture name="herbarium8" x="888" y="949" width="38" height="124"/>
+    <SubTexture name="herbarium9" x="61" y="989" width="48" height="94"/>
+    <SubTexture name="iconCloseDown" x="4" y="796" width="41" height="41" frameX="-5" frameY="-5" frameWidth="51" frameHeight="51"/>
+    <SubTexture name="iconCloseUp" x="168" y="989" width="51" height="51"/>
+    <SubTexture name="iconHeadphones" x="168" y="1046" width="40" height="41"/>
+    <SubTexture name="iconLook" x="911" y="340" width="40" height="41"/>
+    <SubTexture name="iconTreasureFound" x="646" y="250" width="15" height="15"/>
+    <SubTexture name="mapItem" x="531" y="250" width="109" height="98"/>
+    <SubTexture name="shine" x="4" y="4" width="300" height="300"/>
+    <SubTexture name="timerEmpty" x="531" y="354" width="101" height="4"/>
+    <SubTexture name="treasureCount" x="310" y="139" width="370" height="105" frameX="0" frameY="-1" frameWidth="370" frameHeight="106"/>
+</TextureAtlas>

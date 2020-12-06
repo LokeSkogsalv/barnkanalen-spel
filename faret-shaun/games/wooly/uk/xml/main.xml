@@ -1,0 +1,89 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<shaun>
+	
+	<startpage>
+		<howto_button>Instruktioner</howto_button>
+		<play_button>Spela</play_button>	
+		<land_shaun>HOPPA MADRASS MED SHAUN!</land_shaun>	
+	</startpage>
+		
+	<general>
+		<visit_aardman>Till Aardman.com</visit_aardman>
+		<www>http://www.aardman.com</www>
+		<openstyle>_blank</openstyle>
+		<cr_line>© 2007 Aardman Studios</cr_line>
+	</general>
+	
+	<instructionspannel>
+		<titletext>Instruktioner</titletext>
+		<maintext><![CDATA[<font size="13">Flytta musen till vänster och höger för att få Shaun att stanna på madrassen. Du måste flytta musen till motsatt sida jämfört med Shaun för att få honom att inte studsa av.<br><br>Hur många hopp klarar du? <br><br>LYCKA TILL!</font>]]></maintext>
+	</instructionspannel>
+	
+	<game>
+		<jumps>HOPP</jumps>
+		<your_record>Ditt rekord är</your_record>	
+		<get_ready>REDO?</get_ready>
+		<go>GO!</go>
+		<howto_button>Instruktioner</howto_button>
+		<start_again_button>Spela igen</start_again_button>	
+	</game>
+	
+	<endscreen>
+		<top>Bra hoppat!</top>
+		<you_scored>Din poäng blev</you_scored>
+		<record>Ditt rekord är</record>
+		<play_again_button>Spela igen</play_again_button>
+	</endscreen>
+
+	<sendtofriend>
+		<active>false</active>
+		<sendtofriend_buttontext>Tell a friend</sendtofriend_buttontext>
+		
+		<!-- place can either be 'infront' or 'after'. So it will be 'Dear xxx' or 'xxx dear', 
+		depending on where it is in a language -->
+		<salutation place="infront">Dear</salutation>
+		
+		
+		<body0>I just played the fantastic Shaun the Sheep Woolly Jumper game and scored </body0>
+		<!-- score will be inserted here-->
+		<body1>- I bet you can't beat that!  If you want to have a try click the link below:</body1>
+		
+		
+		<www>http://www.shaunthesheep.com</www>
+		<body2>Good luck!</body2>
+		
+		
+		<formtitle>Tell a friend</formtitle>
+		<your_name>Your name:</your_name>
+		<friends_name>Your friend's name:</friends_name>
+		<your_email>Your email:</your_email>
+		<friends_email>Your friend's email</friends_email>
+		
+		<send_button>Send your message</send_button>
+		<back><![CDATA[&lt; Back]]></back>
+		<back_button>Back</back_button>	
+		
+		<required>REQUIRED</required>
+		<invalid>INVALID</invalid>
+		
+		<!-- IF CBBC SITE THEN USE THIS ONE -->
+			<scriptToHit><![CDATA[http://extdev.bbc.co.uk/apps/ifl/cbbc/cartoons/tv/shaunthesheep/jumper/sendemail]]></scriptToHit>
+		<!-- OTHERWISE USE THIS ONE 
+				
+		<scriptToHit><![CDATA[scripts/send.asp]]></scriptToHit>
+		-->
+		
+		<sending>Your message is on it's way...</sending>
+		<successful>Your message has been sent successfully</successful>
+		<unsuccessful>There has been an error sending your message, please try again</unsuccessful>
+		<tryagain_btn>Try Again</tryagain_btn>
+		
+		<!--
+		<send_another_button>Send another</send_another_button>
+		<sending_msg>Your message is being sent...</sending_msg>
+		<messagesent_msg>Your message has been sent successfully</messagesent_msg>
+		-->
+	</sendtofriend>
+	
+</shaun>
+

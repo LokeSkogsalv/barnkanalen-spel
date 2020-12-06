@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:11e95efa686e47391ef5b921c0ece7ee:827da64668b63131c77c2269907f493d:aedde5c06321de5d7b8f8a86257eb9d3$ -->
+<TextureAtlas imagePath="mapScreen.png">
+    <SubTexture name="arrow" x="4" y="1221" width="25" height="21" frameX="-26" frameY="-27" frameWidth="75" frameHeight="75"/>
+    <SubTexture name="borderLeft" x="4" y="495" width="40" height="720"/>
+    <SubTexture name="codeKey1" x="50" y="719" width="195" height="282"/>
+    <SubTexture name="codeKey10" x="50" y="1007" width="213" height="221"/>
+    <SubTexture name="codeKey11" x="851" y="1116" width="250" height="125"/>
+    <SubTexture name="codeKey12" x="269" y="1004" width="182" height="254"/>
+    <SubTexture name="codeKey13" x="699" y="4" width="239" height="236"/>
+    <SubTexture name="codeKey14" x="644" y="246" width="225" height="208"/>
+    <SubTexture name="codeKey15" x="1089" y="255" width="226" height="191"/>
+    <SubTexture name="codeKey16" x="1185" y="4" width="230" height="245"/>
+    <SubTexture name="codeKey17" x="381" y="4" width="312" height="198"/>
+    <SubTexture name="codeKey18" x="381" y="208" width="257" height="242"/>
+    <SubTexture name="codeKey19" x="657" y="953" width="188" height="242"/>
+    <SubTexture name="codeKey2" x="570" y="460" width="221" height="236"/>
+    <SubTexture name="codeKey20" x="1321" y="255" width="176" height="168"/>
+    <SubTexture name="codeKey21" x="457" y="985" width="194" height="239"/>
+    <SubTexture name="codeKey22" x="449" y="719" width="201" height="260"/>
+    <SubTexture name="codeKey23" x="251" y="719" width="192" height="279"/>
+    <SubTexture name="codeKey24" x="346" y="495" width="218" height="218"/>
+    <SubTexture name="codeKey25" x="4" y="4" width="371" height="485" frameX="-301" frameY="-91" frameWidth="960" frameHeight="720"/>
+    <SubTexture name="codeKey3" x="656" y="702" width="180" height="245"/>
+    <SubTexture name="codeKey4" x="842" y="697" width="218" height="211"/>
+    <SubTexture name="codeKey5" x="875" y="246" width="208" height="208"/>
+    <SubTexture name="codeKey6" x="851" y="914" width="229" height="196"/>
+    <SubTexture name="codeKey7" x="797" y="460" width="218" height="231"/>
+    <SubTexture name="codeKey8" x="944" y="4" width="235" height="232"/>
+    <SubTexture name="codeKey9" x="50" y="495" width="290" height="218"/>
+    <SubTexture name="flaskpost" x="1406" y="1027" width="69" height="58" frameX="-6" frameY="-7" frameWidth="75" frameHeight="75"/>
+    <SubTexture name="food1" x="1187" y="1208" width="53" height="54" frameX="-11" frameY="-11" frameWidth="75" frameHeight="75"/>
+    <SubTexture name="food2" x="1246" y="1208" width="53" height="54" frameX="-11" frameY="-11" frameWidth="75" frameHeight="75"/>
+    <SubTexture name="food3" x="1305" y="1208" width="53" height="54" frameX="-11" frameY="-11" frameWidth="75" frameHeight="75"/>
+    <SubTexture name="good1" x="1364" y="1208" width="53" height="54" frameX="-11" frameY="-11" frameWidth="75" frameHeight="75"/>
+    <SubTexture name="goods1" x="1423" y="1208" width="53" height="54" frameX="-11" frameY="-11" frameWidth="75" frameHeight="75"/>
+    <SubTexture name="goods2" x="1427" y="1091" width="53" height="54" frameX="-11" frameY="-11" frameWidth="75" frameHeight="75"/>
+    <SubTexture name="goods3" x="1466" y="645" width="53" height="54" frameX="-11" frameY="-11" frameWidth="75" frameHeight="75"/>
+    <SubTexture name="goods4" x="1466" y="705" width="53" height="54" frameX="-11" frameY="-11" frameWidth="75" frameHeight="75"/>
+    <SubTexture name="goods5" x="1452" y="765" width="53" height="54" frameX="-11" frameY="-11" frameWidth="75" frameHeight="75"/>
+    <SubTexture name="harbour" x="657" y="1201" width="53" height="54" frameX="-11" frameY="-11" frameWidth="75" frameHeight="75"/>
+    <SubTexture name="iconCloseDown" x="1406" y="861" width="77" height="77"/>
+    <SubTexture name="iconCloseUp" x="1406" y="944" width="77" height="77"/>
+    <SubTexture name="map01Stroke" x="381" y="456" width="88" height="13"/>
+    <SubTexture name="positionFlaskpost" x="1421" y="4" width="75" height="103" frameX="0" frameY="-1" frameWidth="75" frameHeight="104"/>
+    <SubTexture name="positionFlower1" x="1021" y="460" width="74" height="102"/>
+    <SubTexture name="positionFlower10" x="1021" y="568" width="74" height="102"/>
+    <SubTexture name="positionFlower11" x="1101" y="452" width="74" height="102"/>
+    <SubTexture name="positionFlower12" x="1181" y="452" width="74" height="102"/>
+    <SubTexture name="positionFlower13" x="1101" y="560" width="74" height="102"/>
+    <SubTexture name="positionFlower14" x="1181" y="560" width="74" height="102"/>
+    <SubTexture name="positionFlower15" x="1261" y="452" width="74" height="102"/>
+    <SubTexture name="positionFlower16" x="1261" y="560" width="74" height="102"/>
+    <SubTexture name="positionFlower17" x="1341" y="429" width="74" height="102"/>
+    <SubTexture name="positionFlower18" x="1341" y="537" width="74" height="102"/>
+    <SubTexture name="positionFlower19" x="1421" y="429" width="74" height="102"/>
+    <SubTexture name="positionFlower2" x="1421" y="537" width="74" height="102"/>
+    <SubTexture name="positionFlower20" x="1066" y="676" width="74" height="102"/>
+    <SubTexture name="positionFlower21" x="1066" y="784" width="74" height="102"/>
+    <SubTexture name="positionFlower22" x="1146" y="668" width="74" height="102"/>
+    <SubTexture name="positionFlower23" x="1146" y="776" width="74" height="102"/>
+    <SubTexture name="positionFlower24" x="1226" y="668" width="74" height="102"/>
+    <SubTexture name="positionFlower3" x="1226" y="776" width="74" height="102"/>
+    <SubTexture name="positionFlower4" x="1086" y="892" width="74" height="102"/>
+    <SubTexture name="positionFlower5" x="1086" y="1000" width="74" height="102"/>
+    <SubTexture name="positionFlower6" x="1166" y="884" width="74" height="102"/>
+    <SubTexture name="positionFlower7" x="1166" y="992" width="74" height="102"/>
+    <SubTexture name="positionFlower8" x="1246" y="884" width="74" height="102"/>
+    <SubTexture name="positionFlower9" x="1246" y="992" width="74" height="102"/>
+    <SubTexture name="positionFood1" x="1107" y="1108" width="74" height="102"/>
+    <SubTexture name="positionFood2" x="1187" y="1100" width="74" height="102"/>
+    <SubTexture name="positionFood3" x="1267" y="1100" width="74" height="102"/>
+    <SubTexture name="positionGoods1" x="1306" y="668" width="74" height="102"/>
+    <SubTexture name="positionGoods2" x="1306" y="776" width="74" height="102"/>
+    <SubTexture name="positionGoods3" x="1326" y="884" width="74" height="102"/>
+    <SubTexture name="positionGoods4" x="1326" y="992" width="74" height="102"/>
+    <SubTexture name="positionGoods5" x="1347" y="1100" width="74" height="102"/>
+    <SubTexture name="positionHarbor" x="1386" y="645" width="74" height="102"/>
+    <SubTexture name="positionNikola" x="1421" y="113" width="75" height="103" frameX="0" frameY="-1" frameWidth="75" frameHeight="104"/>
+    <SubTexture name="positionTreasure" x="1427" y="1151" width="48" height="45" frameX="-15" frameY="-21" frameWidth="75" frameHeight="75"/>
+    <SubTexture name="positionYou" x="1386" y="753" width="60" height="102" frameX="-66" frameY="-49" frameWidth="192" frameHeight="192"/>
+</TextureAtlas>

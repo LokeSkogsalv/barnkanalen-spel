@@ -1,0 +1,223 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Sarah Bird</author>
+      <authoring_tool>Maya2008 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=0;exportCameraAsLookat=0;
+exportLights=0;exportCameras=0;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=0;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=0;exportPhysics=0;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Documents%20and%20Settings/Sarah%20Bird/My%20Documents/BigAndSmall/papervision/HouseOutside/HouseOutside_9Feb_v02.mb</source_data>
+    </contributor>
+    <created>2009-02-09T14:04:07Z</created>
+    <modified>2009-02-09T14:04:07Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file40" name="file40">
+      <init_from>./bigsdoor_baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="BigsDoor1" name="BigsDoor1">
+      <instance_effect url="#BigsDoor1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="BigsDoor1-fx">
+      <profile_COMMON>
+        <newparam sid="file40-surface">
+          <surface type="2D">
+            <init_from>file40</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file40-sampler">
+          <sampler2D>
+            <source>file40-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file40-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="BigDoorShape" name="BigDoorShape">
+      <mesh>
+        <source id="BigDoorShape-positions" name="position">
+          <float_array id="BigDoorShape-positions-array" count="57">-11.0595 0 -1.20448 -11.0584 0 -7.76771 -1.63452 0 -7.81345 1.65868 0 -4.48202 -11.0595 0 -4.48202 1.40274 0 -3.0887 -11.0595 0 -3.08859 1.18004 0 -5.79711 -11.0595 0 -5.79363 0.52412 0 -1.83536 0.415573 0 -6.85695 -11.0595 0 -6.85699 -0.287198 0 -1.332 -11.0595 0 -1.73509 -4.37124 0 -0.988458 -4.38035 0 -7.97709 -4.35964 0 -2.09659 -11.0595 0 -2.17123 -4.39523 0 -6.857</float_array>
+          <technique_common>
+            <accessor source="#BigDoorShape-positions-array" count="19" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BigDoorShape-normals" name="normal">
+          <float_array id="BigDoorShape-normals-array" count="57">0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#BigDoorShape-normals-array" count="19" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="BigDoorShape-map1" name="map1">
+          <float_array id="BigDoorShape-map1-array" count="38">0.799753 0.854933 0.665942 0.909362 0.665503 0.058823 0.799758 0.058823 0.799759 0.521172 0.90809 0.058897 0.933131 0.522204 0.10585 0.806177 0.06978 0.522837 0.187121 0.519487 0.09949 0.058823 0.15309 0.058823 0.32399 0.92342 0.323977 0.058823 0.499905 0.058823 0.499905 0.941177 0.165749 0.860029 0.208155 0.058823 0.904427 0.712703</float_array>
+          <technique_common>
+            <accessor source="#BigDoorShape-map1-array" count="19" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="BigDoorShape-vertices">
+          <input semantic="POSITION" source="#BigDoorShape-positions"/>
+          <input semantic="NORMAL" source="#BigDoorShape-normals"/>
+        </vertices>
+        <triangles material="BigsDoor1SG" count="19">
+          <input semantic="VERTEX" source="#BigDoorShape-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#BigDoorShape-map1" offset="1" set="0"/>
+          <p>7 1 8 2 10 0 10 0 8 2 18 4 8 2 11 3 18 4 11 3 1 5 18 4 18 4 1 5 15 6 12 7 14 8 16 9 3 15 5 12 4 14 4 14 5 12 6 13 5 12 9 16 6 13 9 16 16 9 6 13 16 9 17 17 6 13 3 15 4 14 7 1 7 1 4 14 8 2 16 9 9 16 12 7 18 4 15 6 2 18 17 17 16 9 13 11 16 9 14 8 13 11 13 11 14 8 0 10 18 4 2 18 10 0</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="HouseOutside_9Feb_v02">
+      <node id="Still" name="Still" type="NODE">
+        <translate sid="translate">-0.241091 6.8834 40.8293</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+      </node>
+      <node id="Door" name="Door" type="NODE">
+        <translate sid="translate">-2.34844 0 12.5853</translate>
+        <translate sid="rotatePivotTranslation">12.5374 0 -12.5374</translate>
+        <translate sid="rotatePivot">-12.5374 0 0</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 -90</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="rotatePivotInverse">12.5374 0 0</translate>
+        <translate sid="scalePivot">-12.5374 0 0</translate>
+        <translate sid="scalePivotInverse">12.5374 0 0</translate>
+        <node id="BigsDoor" name="BigsDoor" type="NODE">
+          <translate sid="translate">0.229878 0 3.0837</translate>
+          <translate sid="rotatePivot">-12.8152 0 -5.43214</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <translate sid="rotatePivotInverse">12.8152 0 5.43214</translate>
+          <translate sid="scalePivot">-12.8152 0 -5.43214</translate>
+          <translate sid="scalePivotInverse">12.8152 0 5.43214</translate>
+          <node id="BigDoor" name="BigDoor" type="NODE">
+            <translate sid="translate">-12.8152 9.54615 2.06632</translate>
+            <translate sid="rotatePivotTranslation">9.56084 -9.56084 0</translate>
+            <translate sid="rotatePivot">-9.56084 0 -7.1124</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 0</rotate>
+            <translate sid="rotatePivotInverse">9.56084 0 7.1124</translate>
+            <translate sid="scalePivotTranslation">1.53062 0 0.453983</translate>
+            <translate sid="scalePivot">-11.0915 0 -7.56638</translate>
+            <scale sid="scale">0.862 1 0.94</scale>
+            <translate sid="scalePivotInverse">11.0915 0 7.56638</translate>
+            <instance_geometry url="#BigDoorShape">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="BigsDoor1SG" target="#BigsDoor1">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

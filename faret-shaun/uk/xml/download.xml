@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	
+	<intro>
+		<msn><![CDATA[Ikoner]]></msn>
+		<wallpapers>Bakgrundsbilder</wallpapers>
+		<size1>1024x768</size1>
+		<size2>1280x1024</size2>
+		<size3>1440x900</size3>
+		<size4>1680x1050</size4>
+		<themesong><![CDATA[. >]]></themesong>
+	</intro>
+	
+	<wallpapers>
+		<item>
+			<image>diverse/wallpaper1.jpg</image>
+			<file_size1>faretshaun1_1024x768</file_size1>
+			<file_size2>faretshaun1_1280x1024</file_size2>
+			<file_size3>faretshaun1_1440x900</file_size3>
+			<file_size4>faretshaun1_1680x1050</file_size4>
+		</item>
+		<item>
+			<image>diverse/wallpaper2.jpg</image>
+			<file_size1>faretshaunr2_1024x768</file_size1>
+			<file_size2>faretshaun2_1280x1024</file_size2>
+			<file_size3>faretshaun2_1440x900</file_size3>
+			<file_size4>faretshaun2_1680x1050</file_size4>
+		</item>
+		<item>
+			<image>diverse/wallpaper3.jpg</image>
+			<file_size1>faretshaun3_1024x768</file_size1>
+			<file_size2>faretshaun3_1280x1024</file_size2>
+			<file_size3>faretshaun3_1440x900</file_size3>
+			<file_size4>faretshaun3_1680x1050</file_size4>
+		</item>
+		<item>
+			<image>diverse/wallpaper4.jpg</image>
+			<file_size1>faretshaun4_1024x768</file_size1>
+			<file_size2>faretshaun4_1280x1024</file_size2>
+			<file_size3>faretshaun4_1440x900</file_size3>
+			<file_size4>faretshaun4_1680x1050</file_size4>
+		</item>
+		<item>
+			<image>diverse/wallpaper5.jpg</image>
+			<file_size1>faretshaun5_1024x768</file_size1>
+			<file_size2>faretshaun5_1280x1024</file_size2>
+			<file_size3>faretshaun5_1440x900</file_size3>
+			<file_size4>faretshaun5_1680x1050</file_size4>
+		</item>	
+		<item>
+			<image>diverse/wallpaper6.jpg</image>
+			<file_size1>faretshaun6_1024x768</file_size1>
+			<file_size2>faretshaun6_1280x1024</file_size2>
+			<file_size3>faretshaun6_1440x900</file_size3>
+			<file_size4>faretshaun6_1680x1050</file_size4>
+		</item>	
+	
+	</wallpapers>
+	
+	<themesong>
+		<file>uk/downloads/themesong/themesong.zip</file>
+	</themesong>
+	
+</data>

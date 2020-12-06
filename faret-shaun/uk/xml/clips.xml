@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	
+	<intro>
+		<title><![CDATA[Klipp]]></title>
+		<body>V&#196;LKOMMEN TILL SHAUNS VIDEOSPELARE</body>
+		<select>V&#228;lj ett klipp</select>
+		<loading>Laddar...</loading>
+		<more><![CDATA[Fler klipp]]></more>
+		<video_l>Bredband</video_l>
+		<video_s>Modem</video_s>
+	</intro>
+	
+	<clips>
+		
+		<item>
+			<title>Tr&#228;ningspasset</title>
+			<image>diverse/clip_0.swf</image>
+			<videoPath>uk/clips/clip_0/</videoPath>
+		</item>
+		
+		<item>
+			<title>Dags att bada</title>
+			<image>diverse/clip_1.swf</image>
+			<videoPath>uk/clips/clip_1/</videoPath>
+		</item>
+		
+		<item>
+			<title>Stolpe ut</title>
+			<image>diverse/clip_2.swf</image>
+			<videoPath>uk/clips/clip_2/</videoPath>
+		</item>				
+		
+		<item>
+			<title>Dockjakten</title>
+			<image>diverse/clip_3.swf</image>
+			<videoPath>uk/clips/clip_3/</videoPath>
+		</item>
+		
+		<item>
+			<title>&#196;ppelkriget</title>
+			<image>diverse/clip_4.swf</image>
+			<videoPath>uk/clips/clip_4/</videoPath>
+		</item>
+		
+		<item>
+			<title>Konstig konst </title>
+			<image>diverse/clip_5.swf</image>
+			<videoPath>uk/clips/clip_5/</videoPath>
+		</item>
+		
+	</clips>
+	
+</data>

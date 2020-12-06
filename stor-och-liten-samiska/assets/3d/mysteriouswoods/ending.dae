@@ -1,0 +1,1763 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Stu</author>
+      <authoring_tool>Maya2008 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=0;exportCameraAsLookat=0;
+exportLights=0;exportCameras=0;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=0;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=0;exportPhysics=0;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Documents%20and%20Settings/Stu/My%20Documents/Plug-in%20Media/3D/MysteriousWoods/woods.mb</source_data>
+    </contributor>
+    <created>2009-07-03T15:56:37Z</created>
+    <modified>2009-07-03T15:56:37Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file10" name="file10">
+      <init_from>./endingbush.png</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file9" name="file9">
+      <init_from>./endingtree.png</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file8" name="file8">
+      <init_from>./endingtrees.png</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file3" name="file3">
+      <init_from>./deadend_tree02.png</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file7" name="file7">
+      <init_from>./bush.png</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file11" name="file11">
+      <init_from>./deadend_tree03.png</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file5" name="file5">
+      <init_from>./grass_patchy.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file12" name="file12">
+      <init_from>./reward_floor.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file14" name="file14">
+      <init_from>./ending_floor.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="endingtree1" name="endingtree1">
+      <instance_effect url="#endingtree1-fx"/>
+    </material>
+    <material id="endingtree" name="endingtree">
+      <instance_effect url="#endingtree-fx"/>
+    </material>
+    <material id="endingtrees" name="endingtrees">
+      <instance_effect url="#endingtrees-fx"/>
+    </material>
+    <material id="deadend_tree02_tex" name="deadend_tree02_tex">
+      <instance_effect url="#deadend_tree02_tex-fx"/>
+    </material>
+    <material id="bush_tex" name="bush_tex">
+      <instance_effect url="#bush_tex-fx"/>
+    </material>
+    <material id="deadend_tree01_tex1" name="deadend_tree01_tex1">
+      <instance_effect url="#deadend_tree01_tex1-fx"/>
+    </material>
+    <material id="green" name="green">
+      <instance_effect url="#green-fx"/>
+    </material>
+    <material id="reward_dirt" name="reward_dirt">
+      <instance_effect url="#reward_dirt-fx"/>
+    </material>
+    <material id="ending_dirt" name="ending_dirt">
+      <instance_effect url="#ending_dirt-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="endingtree1-fx">
+      <profile_COMMON>
+        <newparam sid="file10-surface">
+          <surface type="2D">
+            <init_from>file10</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file10-sampler">
+          <sampler2D>
+            <source>file10-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file10-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="file10-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="endingtree-fx">
+      <profile_COMMON>
+        <newparam sid="file9-surface">
+          <surface type="2D">
+            <init_from>file9</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file9-sampler">
+          <sampler2D>
+            <source>file9-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file9-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="file9-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="endingtrees-fx">
+      <profile_COMMON>
+        <newparam sid="file8-surface">
+          <surface type="2D">
+            <init_from>file8</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file8-sampler">
+          <sampler2D>
+            <source>file8-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file8-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="file8-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="deadend_tree02_tex-fx">
+      <profile_COMMON>
+        <newparam sid="file3-surface">
+          <surface type="2D">
+            <init_from>file3</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file3-sampler">
+          <sampler2D>
+            <source>file3-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file3-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="file3-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="bush_tex-fx">
+      <profile_COMMON>
+        <newparam sid="file7-surface">
+          <surface type="2D">
+            <init_from>file7</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file7-sampler">
+          <sampler2D>
+            <source>file7-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file7-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="file7-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="deadend_tree01_tex1-fx">
+      <profile_COMMON>
+        <newparam sid="file11-surface">
+          <surface type="2D">
+            <init_from>file11</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file11-sampler">
+          <sampler2D>
+            <source>file11-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file11-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="file11-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="green-fx">
+      <profile_COMMON>
+        <newparam sid="file5-surface">
+          <surface type="2D">
+            <init_from>file5</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file5-sampler">
+          <sampler2D>
+            <source>file5-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file5-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="reward_dirt-fx">
+      <profile_COMMON>
+        <newparam sid="file12-surface">
+          <surface type="2D">
+            <init_from>file12</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file12-sampler">
+          <sampler2D>
+            <source>file12-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file12-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="ending_dirt-fx">
+      <profile_COMMON>
+        <newparam sid="file14-surface">
+          <surface type="2D">
+            <init_from>file14</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file14-sampler">
+          <sampler2D>
+            <source>file14-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file14-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="endbushShape2" name="endbushShape2">
+      <mesh>
+        <source id="endbushShape2-positions" name="position">
+          <float_array id="endbushShape2-positions-array" count="27">-7.76658 -0.000008 7.76658 -7.76658 -0.000006 -7.76658 -7.76658 -0.000011 -0.308535 -1.90361 -0.000011 -0.308535 -6.55735 0.000002 7.76658 -6.53849 -0.000006 -7.76658 -6.54755 -0.000011 -0.308535 -1.90361 -0.000008 -4.03756 -4.07132 -0.000006 -7.76658</float_array>
+          <technique_common>
+            <accessor source="#endbushShape2-positions-array" count="9" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endbushShape2-normals" name="normal">
+          <float_array id="endbushShape2-normals-array" count="27">0.000004 -1 0.000001 0 -1 -0.000000 0.000002 -1 0.000000 0 -1 0.000000 0.000002 -1 0.000001 0 -1 -0.000000 0.000001 -1 0.000000 0 -1 -0.000000 0 -1 -0.000000</float_array>
+          <technique_common>
+            <accessor source="#endbushShape2-normals-array" count="9" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endbushShape2-map1" name="map1">
+          <float_array id="endbushShape2-map1-array" count="18">0.995638 0.000383 0.001229 0.000623 0.480265 0.000508 0.480439 0.992407 0.995672 0.204976 0.001281 0.208378 0.480301 0.206745 0.240959 0.992431 0.001386 0.625747</float_array>
+          <technique_common>
+            <accessor source="#endbushShape2-map1-array" count="9" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="endbushShape2-vertices">
+          <input semantic="POSITION" source="#endbushShape2-positions"/>
+          <input semantic="NORMAL" source="#endbushShape2-normals"/>
+        </vertices>
+        <triangles material="endingtree1SG" count="8">
+          <input semantic="VERTEX" source="#endbushShape2-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#endbushShape2-map1" offset="1" set="0"/>
+          <p>0 0 2 2 4 4 4 4 2 2 6 6 2 2 1 1 6 6 6 6 1 1 5 5 4 4 6 6 3 3 6 6 5 5 3 3 3 3 5 5 7 7 5 5 8 8 7 7</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="endtreeShape4" name="endtreeShape4">
+      <mesh>
+        <source id="endtreeShape4-positions" name="position">
+          <float_array id="endtreeShape4-positions-array" count="39">-7.76658 0.000003 -7.76658 0.108644 0.000003 -7.76658 -7.76658 0.000000 -0.308531 0.108644 0.000000 -0.308531 -2.23732 -0.000003 7.76658 -2.23486 0.000003 -7.76658 -2.23604 -0.00001 -0.308532 -5.67403 0.000003 -7.76658 -5.66739 0.000000 -0.308531 -1.10691 -0.000002 4.81423 -4.16333 -0.000003 7.76658 -5.66612 0 1.10942 -7.76658 -0.000000 2.42334</float_array>
+          <technique_common>
+            <accessor source="#endtreeShape4-positions-array" count="13" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endtreeShape4-normals" name="normal">
+          <float_array id="endtreeShape4-normals-array" count="39">0 -1 -0.000000 0.000002 -1 -0.000001 0 -1 -0.000000 0.000003 -1 -0.000000 0.000001 -1 0.000000 0.000000 -1 -0.000001 0.000000 -1 -0.000000 -0.000000 -1 -0.000000 -0.000000 -1 -0.000000 0.000004 -1 0.000000 -0.000002 -1 0.000000 -0.000001 -1 0 0 -1 -0.000000</float_array>
+          <technique_common>
+            <accessor source="#endtreeShape4-normals-array" count="13" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endtreeShape4-map1" name="map1">
+          <float_array id="endtreeShape4-map1-array" count="26">0.002615 0.001444 0.002799 0.997986 0.479152 0.001277 0.481338 0.996946 0.997329 0.6995 0.002744 0.701436 0.480687 0.700506 0.002664 0.266238 0.479734 0.26668 0.808684 0.842695 0.997285 0.456225 0.570608 0.266763 0.654412 0.001216</float_array>
+          <technique_common>
+            <accessor source="#endtreeShape4-map1-array" count="13" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="endtreeShape4-vertices">
+          <input semantic="POSITION" source="#endtreeShape4-positions"/>
+          <input semantic="NORMAL" source="#endtreeShape4-normals"/>
+        </vertices>
+        <triangles material="endingtreeSG" count="13">
+          <input semantic="VERTEX" source="#endtreeShape4-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#endtreeShape4-map1" offset="1" set="0"/>
+          <p>12 12 2 2 11 11 11 11 2 2 8 8 2 2 0 0 8 8 8 8 0 0 7 7 6 6 5 5 3 3 3 3 5 5 1 1 8 8 6 6 11 11 6 6 4 4 11 11 11 11 4 4 10 10 8 8 7 7 6 6 6 6 7 7 5 5 4 4 6 6 9 9 9 9 6 6 3 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="endtreeShape3" name="endtreeShape3">
+      <mesh>
+        <source id="endtreeShape3-positions" name="position">
+          <float_array id="endtreeShape3-positions-array" count="36">-7.76658 -0.000003 7.76658 0.108644 -0.000003 7.76658 -7.76658 0.000003 -7.76658 0.108644 0.000003 -7.76658 -7.76658 0.000000 -0.308531 0.108644 0.000000 -0.308531 -2.23732 -0.000003 7.76658 -2.23486 0.000003 -7.76658 -2.23604 -0.00001 -0.308532 -5.66019 -0.000003 7.76658 -5.67403 0.000003 -7.76658 -5.66739 0.000000 -0.308531</float_array>
+          <technique_common>
+            <accessor source="#endtreeShape3-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endtreeShape3-normals" name="normal">
+          <float_array id="endtreeShape3-normals-array" count="36">0 -1 -0.000000 0.000002 -1 0.000000 0 -1 -0.000000 0.000002 -1 -0.000001 0 -1 -0.000000 0.000002 -1 -0.000000 0.000000 -1 0.000000 0.000000 -1 -0.000001 0.000000 -1 -0.000000 -0.000000 -1 -0.000000 -0.000000 -1 -0.000000 -0.000000 -1 -0.000000</float_array>
+          <technique_common>
+            <accessor source="#endtreeShape3-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endtreeShape3-map1" name="map1">
+          <float_array id="endtreeShape3-map1-array" count="24">0.009423 0.001097 0.009245 0.99582 0.990753 0.001444 0.990571 0.997986 0.520569 0.001277 0.518412 0.996946 0.009298 0.6995 0.990625 0.701436 0.519054 0.700506 0.009375 0.267156 0.990705 0.266238 0.519994 0.26668</float_array>
+          <technique_common>
+            <accessor source="#endtreeShape3-map1-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="endtreeShape3-vertices">
+          <input semantic="POSITION" source="#endtreeShape3-positions"/>
+          <input semantic="NORMAL" source="#endtreeShape3-normals"/>
+        </vertices>
+        <triangles material="endingtreeSG" count="12">
+          <input semantic="VERTEX" source="#endtreeShape3-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#endtreeShape3-map1" offset="1" set="0"/>
+          <p>0 0 4 4 9 9 9 9 4 4 11 11 4 4 2 2 11 11 11 11 2 2 10 10 6 6 8 8 1 1 1 1 8 8 5 5 8 8 7 7 5 5 5 5 7 7 3 3 9 9 11 11 6 6 6 6 11 11 8 8 11 11 10 10 8 8 8 8 10 10 7 7</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="endtreesShape" name="endtreesShape">
+      <mesh>
+        <source id="endtreesShape-positions" name="position">
+          <float_array id="endtreesShape-positions-array" count="156">27.2061 -17.2359 -11.2691 20.8227 -17.2359 -20.8227 11.2692 -17.2359 -27.2061 0.000013 -17.2359 -29.4477 -11.2691 -17.2359 -27.2061 -20.8227 -17.2359 -20.8227 -27.2061 -17.2359 -11.2692 -29.4477 -17.2359 -0.000016 -29.5983 -17.2359 11.1483 -29.6256 -17.2359 22.7521 29.5157 -17.2359 22.7522 29.4472 -17.2359 11.2691 29.4477 -17.2359 -0.000006 27.2061 20.132 -11.2691 20.8227 20.132 -20.8227 11.2692 20.132 -27.2061 0.000013 20.132 -29.4477 -11.2691 20.1313 -27.2061 -20.8227 20.1313 -20.8227 -27.2061 20.1313 -11.2692 -29.4477 20.1313 -0.000016 -29.5983 20.1313 11.1483 -29.6256 20.1313 22.7521 29.5157 20.1313 22.7522 29.4472 20.1313 11.2691 29.4477 20.1313 -0.000006 27.2061 -7.2497 -11.2691 20.8227 -7.2497 -20.8227 11.2692 -7.2497 -27.2061 0.000013 -7.2497 -29.4477 -11.2691 -7.2497 -27.2061 -20.8227 -7.2497 -20.8227 -27.2061 -7.2497 -11.2692 -29.4477 -7.2497 -0.000016 -29.5983 -7.2497 11.1483 -29.6256 -7.2497 22.7521 29.5157 -7.2497 22.7522 29.4472 -7.2497 11.2691 29.4477 -7.2497 -0.000006 27.2061 7.30647 -11.2691 20.8227 7.30647 -20.8227 11.2692 7.30647 -27.2061 0.000013 7.30647 -29.4477 -11.2691 7.30647 -27.2061 -20.8227 7.30647 -20.8227 -27.2061 7.30647 -11.2692 -29.4477 7.30647 -0.000016 -29.5983 7.30647 11.1483 -29.6256 7.30647 22.7521 29.5157 7.30647 22.7522 29.4472 7.30647 11.2691 29.4477 7.30647 -0.000006</float_array>
+          <technique_common>
+            <accessor source="#endtreesShape-positions-array" count="52" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endtreesShape-normals" name="normal">
+          <float_array id="endtreesShape-normals-array" count="156">-0.92388 0 0.382683 -0.707107 0 0.707106 -0.382683 -0.000000 0.92388 -0.000000 -0.000000 1 0.382683 -0.000000 0.92388 0.707106 -0.000000 0.707107 0.923879 0 0.382684 0.9945 0 0.104737 0.999969 0.000000 0.007931 0.999997 0.000000 0.002354 -0.999982 0 0.005957 -0.999996 -0.000000 0.002958 -0.995187 -0.000000 0.097996 -0.92388 0 0.382683 -0.707107 0 0.707106 -0.382683 0.000000 0.92388 -0.000000 0.000000 1 0.382683 0.000000 0.92388 0.707106 0 0.707107 0.923879 0 0.382684 0.9945 0 0.104737 0.999969 0 0.007931 0.999997 -0.000000 0.002354 -0.999982 0 0.005957 -0.999996 0 0.002958 -0.995187 0 0.097996 -0.92388 0 0.382683 -0.707107 0 0.707106 -0.382683 -0.000000 0.92388 -0.000000 -0.000000 1 0.382683 -0.000000 0.92388 0.707106 0 0.707107 0.92388 0 0.382684 0.9945 0 0.104737 0.999969 0 0.007931 0.999997 0.000000 0.002354 -0.999982 0 0.005957 -0.999996 0 0.002958 -0.995187 0 0.097996 -0.92388 0 0.382683 -0.707107 0 0.707106 -0.382683 0 0.92388 -0.000000 0.000000 1 0.382683 0.000000 0.92388 0.707106 0 0.707107 0.923879 0 0.382684 0.9945 0 0.104737 0.999969 0 0.007931 0.999997 0 0.002354 -0.999982 0 0.005957 -0.999996 0 0.002958 -0.995187 0 0.097996</float_array>
+          <technique_common>
+            <accessor source="#endtreesShape-normals-array" count="52" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endtreesShape-map1" name="map1">
+          <float_array id="endtreesShape-map1-array" count="104">0.812847 0.003158 0.740995 0.003123 0.738673 0.997034 0.810524 0.997086 0.662899 0.99698 0.509019 0.003008 0.506696 0.996865 0.439484 0.002974 0.437161 0.996814 0.373547 0.002941 0.371224 0.996767 0.311426 0.002911 0.309102 0.996722 0.25684 0.002884 0.254516 0.996683 0.217569 0.002864 0.215246 0.996655 0.982818 0.003242 0.940024 0.003221 0.937701 0.997175 0.980495 0.997205 0.880541 0.003192 0.878218 0.997132 0.665221 0.003085 0.5839 0.003045 0.581577 0.996921 0.812226 0.268775 0.740375 0.268735 0.664601 0.268693 0.583279 0.268648 0.508399 0.268611 0.438863 0.268573 0.372926 0.268536 0.310805 0.268502 0.256219 0.268472 0.216948 0.26845 0.982197 0.268874 0.939403 0.26885 0.87992 0.268817 0.811322 0.655947 0.73947 0.6559 0.663696 0.655852 0.582374 0.6558 0.507494 0.655763 0.437958 0.655718 0.372021 0.655676 0.3099 0.655636 0.255314 0.655601 0.216043 0.655576 0.981292 0.656067 0.938498 0.65604 0.879016 0.656001</float_array>
+          <technique_common>
+            <accessor source="#endtreesShape-map1-array" count="52" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="endtreesShape-vertices">
+          <input semantic="POSITION" source="#endtreesShape-positions"/>
+          <input semantic="NORMAL" source="#endtreesShape-normals"/>
+        </vertices>
+        <triangles material="lambert6SG" count="72">
+          <input semantic="VERTEX" source="#endtreesShape-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#endtreesShape-map1" offset="1" set="0"/>
+          <p>0 0 26 26 1 1 1 1 26 26 27 27 1 1 27 27 2 23 2 23 27 27 28 28 2 23 28 28 3 24 3 24 28 28 29 29 3 24 29 29 4 5 4 5 29 29 30 30 4 5 30 30 5 7 5 7 30 30 31 31 5 7 31 31 6 9 6 9 31 31 32 32 6 9 32 32 7 11 7 11 32 32 33 33 7 11 33 33 8 13 8 13 33 33 34 34 8 13 34 34 9 15 9 15 34 34 35 35 10 17 36 36 11 18 11 18 36 36 37 37 11 18 37 37 12 21 12 21 37 37 38 38 12 21 38 38 0 0 0 0 38 38 26 26 26 26 39 39 27 27 27 27 39 39 40 40 27 27 40 40 28 28 28 28 40 40 41 41 28 28 41 41 29 29 29 29 41 41 42 42 29 29 42 42 30 30 30 30 42 42 43 43 30 30 43 43 31 31 31 31 43 43 44 44 31 31 44 44 32 32 32 32 44 44 45 45 32 32 45 45 33 33 33 33 45 45 46 46 33 33 46 46 34 34 34 34 46 46 47 47 34 34 47 47 35 35 35 35 47 47 48 48 36 36 49 49 37 37 37 37 49 49 50 50 37 37 50 50 38 38 38 38 50 50 51 51 38 38 51 51 26 26 26 26 51 51 39 39 39 39 13 3 40 40 40 40 13 3 14 2 40 40 14 2 41 41 41 41 14 2 15 4 41 41 15 4 42 42 42 42 15 4 16 25 42 42 16 25 43 43 43 43 16 25 17 6 43 43 17 6 44 44 44 44 17 6 18 8 44 44 18 8 45 45 45 45 18 8 19 10 45 45 19 10 46 46 46 46 19 10 20 12 46 46 20 12 47 47 47 47 20 12 21 14 47 47 21 14 48 48 48 48 21 14 22 16 49 49 23 20 50 50 50 50 23 20 24 19 50 50 24 19 51 51 51 51 24 19 25 22 51 51 25 22 39 39 39 39 25 22 13 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="endtreeShape1" name="endtreeShape1">
+      <mesh>
+        <source id="endtreeShape1-positions" name="position">
+          <float_array id="endtreeShape1-positions-array" count="36">-7.76658 -0.000003 7.76658 0.108644 -0.000003 7.76658 -7.76658 0.000003 -7.76658 0.108644 0.000003 -7.76658 -7.76658 0.000000 -0.308531 0.108644 0.000000 -0.308531 -2.23732 -0.000003 7.76658 -2.23486 0.000003 -7.76658 -2.23604 -0.00001 -0.308532 -5.66019 -0.000003 7.76658 -5.67403 0.000003 -7.76658 -5.66739 0.000000 -0.308531</float_array>
+          <technique_common>
+            <accessor source="#endtreeShape1-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endtreeShape1-normals" name="normal">
+          <float_array id="endtreeShape1-normals-array" count="36">0 -1 -0.000000 0.000002 -1 0.000000 0 -1 -0.000000 0.000002 -1 -0.000001 0 -1 -0.000000 0.000002 -1 -0.000000 0.000000 -1 0.000000 0.000000 -1 -0.000001 0.000000 -1 -0.000000 -0.000000 -1 -0.000000 -0.000000 -1 -0.000000 -0.000000 -1 -0.000000</float_array>
+          <technique_common>
+            <accessor source="#endtreeShape1-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endtreeShape1-map1" name="map1">
+          <float_array id="endtreeShape1-map1-array" count="24">0.009423 0.001097 0.009245 0.99582 0.990753 0.001444 0.990571 0.997986 0.520569 0.001277 0.518412 0.996946 0.009298 0.6995 0.990625 0.701436 0.519054 0.700506 0.009375 0.267156 0.990705 0.266238 0.519994 0.26668</float_array>
+          <technique_common>
+            <accessor source="#endtreeShape1-map1-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="endtreeShape1-vertices">
+          <input semantic="POSITION" source="#endtreeShape1-positions"/>
+          <input semantic="NORMAL" source="#endtreeShape1-normals"/>
+        </vertices>
+        <triangles material="endingtreeSG" count="12">
+          <input semantic="VERTEX" source="#endtreeShape1-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#endtreeShape1-map1" offset="1" set="0"/>
+          <p>0 0 4 4 9 9 9 9 4 4 11 11 4 4 2 2 11 11 11 11 2 2 10 10 6 6 8 8 1 1 1 1 8 8 5 5 8 8 7 7 5 5 5 5 7 7 3 3 9 9 11 11 6 6 6 6 11 11 8 8 11 11 10 10 8 8 8 8 10 10 7 7</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="endtreeShape2" name="endtreeShape2">
+      <mesh>
+        <source id="endtreeShape2-positions" name="position">
+          <float_array id="endtreeShape2-positions-array" count="45">-7.76658 0.000000 -0.308531 0.108644 0.000000 -0.308531 -2.23732 -0.000003 7.76658 -2.23486 0.000003 -7.76658 -2.23604 -0.00001 -0.308532 -5.66739 0.000000 -0.308531 -1.08103 -0.000002 4.65529 -5.66608 0 1.16271 -4.22157 -0.000003 7.76658 -7.76658 -0.000000 2.28081 0.108644 0.000001 -2.88327 -0.308121 0.000002 -5.32493 -3.17519 0.000003 -7.76658 -5.66983 0.000001 -3.05521 -7.76658 0.000002 -5.47502</float_array>
+          <technique_common>
+            <accessor source="#endtreeShape2-positions-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endtreeShape2-normals" name="normal">
+          <float_array id="endtreeShape2-normals-array" count="45">0 -1 -0.000000 0.000003 -1 -0.000000 0.000001 -1 0.000000 0.000000 -1 -0.000001 0.000000 -1 -0.000000 -0.000001 -1 -0.000000 0.000004 -1 0.000000 -0.000001 -1 0 -0.000002 -1 0.000000 0 -1 -0.000000 0.000003 -1 -0.000001 0.000003 -1 -0.000001 -0.000002 -1 -0.000001 -0.000001 -1 -0.000000 0 -1 -0.000000</float_array>
+          <technique_common>
+            <accessor source="#endtreeShape2-normals-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endtreeShape2-map1" name="map1">
+          <float_array id="endtreeShape2-map1-array" count="30">0.479152 0.001277 0.481338 0.996946 0.997329 0.6995 0.002744 0.701436 0.480687 0.700506 0.479734 0.26668 0.798527 0.845985 0.574023 0.266766 0.997284 0.448869 0.645268 0.001219 0.316132 0.997305 0.159456 0.944907 0.002722 0.582444 0.304037 0.266517 0.149036 0.001393</float_array>
+          <technique_common>
+            <accessor source="#endtreeShape2-map1-array" count="15" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="endtreeShape2-vertices">
+          <input semantic="POSITION" source="#endtreeShape2-positions"/>
+          <input semantic="NORMAL" source="#endtreeShape2-normals"/>
+        </vertices>
+        <triangles material="endingtreeSG" count="15">
+          <input semantic="VERTEX" source="#endtreeShape2-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#endtreeShape2-map1" offset="1" set="0"/>
+          <p>9 9 0 0 7 7 7 7 0 0 5 5 2 2 4 4 6 6 6 6 4 4 1 1 5 5 4 4 7 7 4 4 2 2 7 7 7 7 2 2 8 8 3 3 11 11 4 4 11 11 10 10 4 4 4 4 10 10 1 1 3 3 4 4 12 12 12 12 4 4 13 13 5 5 13 13 4 4 14 14 13 13 0 0 0 0 13 13 5 5</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="endbushShape1" name="endbushShape1">
+      <mesh>
+        <source id="endbushShape1-positions" name="position">
+          <float_array id="endbushShape1-positions-array" count="24">-7.76658 -0.000003 7.76657 -1.73518 -0.000003 7.76657 -7.76658 -0.000006 -7.76658 -7.76658 -0.000004 -0.308535 -1.73518 -0.000004 -0.308535 -6.10192 -0.000008 7.76658 -6.07547 -0.000006 -7.76658 -6.08817 -0.000004 -0.308535</float_array>
+          <technique_common>
+            <accessor source="#endbushShape1-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endbushShape1-normals" name="normal">
+          <float_array id="endbushShape1-normals-array" count="24">-0.000001 -1 -0.000000 0.000000 -1 -0.000000 0 -1 0.000000 -0.000000 -1 0 0.000000 -1 0 -0.000000 -1 -0.000000 0 -1 0.000000 -0.000000 -1 0</float_array>
+          <technique_common>
+            <accessor source="#endbushShape1-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endbushShape1-map1" name="map1">
+          <float_array id="endbushShape1-map1-array" count="16">0.002052 0.006512 0.001922 0.991322 0.998085 0.008677 0.520879 0.007637 0.518689 0.992448 0.002016 0.27832 0.998044 0.284803 0.520269 0.28169</float_array>
+          <technique_common>
+            <accessor source="#endbushShape1-map1-array" count="8" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="endbushShape1-vertices">
+          <input semantic="POSITION" source="#endbushShape1-positions"/>
+          <input semantic="NORMAL" source="#endbushShape1-normals"/>
+        </vertices>
+        <triangles material="endingtree1SG" count="7">
+          <input semantic="VERTEX" source="#endbushShape1-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#endbushShape1-map1" offset="1" set="0"/>
+          <p>0 0 3 3 5 5 5 5 3 3 7 7 3 3 2 2 7 7 7 7 2 2 6 6 5 5 7 7 1 1 1 1 7 7 4 4 7 7 6 6 4 4</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="endbushShape4" name="endbushShape4">
+      <mesh>
+        <source id="endbushShape4-positions" name="position">
+          <float_array id="endbushShape4-positions-array" count="24">-7.76658 0.000005 7.76658 -1.73518 0.000005 7.76658 -7.76658 -0.000004 -7.76658 -7.76658 -0.000002 -0.308532 -1.73518 -0.000002 -0.308532 -5.93544 0.000005 7.76658 -6.07051 -0.000004 -7.76658 -6.00566 -0.000002 -0.308532</float_array>
+          <technique_common>
+            <accessor source="#endbushShape4-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endbushShape4-normals" name="normal">
+          <float_array id="endbushShape4-normals-array" count="24">0 -1 0.000000 0 -1 0.000000 0 -1 0.000000 0 -1 0.000000 0 -1 0.000000 0 -1 0.000000 0 -1 0.000000 0 -1 0.000000</float_array>
+          <technique_common>
+            <accessor source="#endbushShape4-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endbushShape4-map1" name="map1">
+          <float_array id="endbushShape4-map1-array" count="16">0.002052 0.006512 0.001922 0.991322 0.998085 0.008677 0.520879 0.007637 0.518689 0.992448 0.002013 0.305502 0.998044 0.285612 0.520239 0.295162</float_array>
+          <technique_common>
+            <accessor source="#endbushShape4-map1-array" count="8" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="endbushShape4-vertices">
+          <input semantic="POSITION" source="#endbushShape4-positions"/>
+          <input semantic="NORMAL" source="#endbushShape4-normals"/>
+        </vertices>
+        <triangles material="endingtree1SG" count="7">
+          <input semantic="VERTEX" source="#endbushShape4-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#endbushShape4-map1" offset="1" set="0"/>
+          <p>3 3 7 7 0 0 0 0 7 7 5 5 2 2 6 6 3 3 3 3 6 6 7 7 7 7 4 4 5 5 5 5 4 4 1 1 7 7 6 6 4 4</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="endbushShape5" name="endbushShape5">
+      <mesh>
+        <source id="endbushShape5-positions" name="position">
+          <float_array id="endbushShape5-positions-array" count="24">-7.76658 -0.000000 7.76658 -7.76658 0.000003 -7.76658 -1.90361 0.000003 -7.76658 -7.76658 0.000001 -0.308533 -1.90361 0.000001 -0.308533 -6.23597 -0.000000 7.76658 -6.11472 -0.000002 -7.76658 -6.17294 0.000007 -0.308532</float_array>
+          <technique_common>
+            <accessor source="#endbushShape5-positions-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endbushShape5-normals" name="normal">
+          <float_array id="endbushShape5-normals-array" count="24">0.000001 -1 -0.000000 0 -1 0.000000 0 -1 0.000000 0.000000 -1 0 -0.000000 -1 -0.000000 0.000000 -1 -0.000000 0 -1 0.000000 0.000000 -1 -0.000000</float_array>
+          <technique_common>
+            <accessor source="#endbushShape5-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="endbushShape5-map1" name="map1">
+          <float_array id="endbushShape5-map1-array" count="16">0.995638 0.000383 0.001229 0.000623 0.001479 0.992456 0.480265 0.000508 0.480439 0.992407 0.99568 0.259351 0.001299 0.280067 0.480312 0.270121</float_array>
+          <technique_common>
+            <accessor source="#endbushShape5-map1-array" count="8" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="endbushShape5-vertices">
+          <input semantic="POSITION" source="#endbushShape5-positions"/>
+          <input semantic="NORMAL" source="#endbushShape5-normals"/>
+        </vertices>
+        <triangles material="endingtree1SG" count="7">
+          <input semantic="VERTEX" source="#endbushShape5-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#endbushShape5-map1" offset="1" set="0"/>
+          <p>0 0 3 3 5 5 5 5 3 3 7 7 3 3 1 1 7 7 7 7 1 1 6 6 7 7 6 6 4 4 4 4 6 6 2 2 5 5 7 7 4 4</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="junctree0Shape14" name="junctree0Shape14">
+      <mesh>
+        <source id="junctree0Shape14-positions" name="position">
+          <float_array id="junctree0Shape14-positions-array" count="36">0.505126 -0.000004 25.2077 0.339579 0.000000 -24.8958 -14.3454 0.00001 1.98437 14.3454 -0.000003 1.72376 0.427951 -0.000003 1.85018 5.19002 0.000000 -24.8958 11.1286 0.000000 -20.4648 14.3454 -0.000003 -8.17048 -10.8607 0.000002 -20.4346 -14.3454 0.000005 -10.3099 -7.50883 0.000003 25.2077 7.05417 -0.000003 25.2077</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape14-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape14-normals" name="normal">
+          <float_array id="junctree0Shape14-normals-array" count="36">0.000000 1 0 0.000000 1 0 0.000000 1 0 0 1 0 0.000000 1 0 0 1 0.000000 0 1 0.000000 0 1 0.000000 0.000000 1 0 0.000000 1 0 0.000000 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape14-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape14-map1" name="map1">
+          <float_array id="junctree0Shape14-map1-array" count="24">0.515355 0 0.509626 0.995953 0.001348 0.461631 0.994395 0.466812 0.512684 0.464299 0.677509 0.995953 0.883056 0.907875 0.994395 0.663489 0.12196 0.907275 0.001348 0.706015 0.237977 0 0.742031 0</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape14-map1-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="junctree0Shape14-vertices">
+          <input semantic="POSITION" source="#junctree0Shape14-positions"/>
+          <input semantic="NORMAL" source="#junctree0Shape14-normals"/>
+        </vertices>
+        <triangles material="deadend_tree02_texSG" count="11">
+          <input semantic="VERTEX" source="#junctree0Shape14-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#junctree0Shape14-map1" offset="1" set="0"/>
+          <p>2 2 10 10 4 4 4 4 10 10 0 0 3 3 4 4 11 11 11 11 4 4 0 0 4 4 3 3 1 1 3 3 7 7 1 1 1 1 7 7 5 5 7 7 6 6 5 5 1 1 8 8 4 4 8 8 9 9 4 4 9 9 2 2 4 4</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="juncbush0Shape6" name="juncbush0Shape6">
+      <mesh>
+        <source id="juncbush0Shape6-positions" name="position">
+          <float_array id="juncbush0Shape6-positions-array" count="36">-7.76658 -0.000001 7.76658 -7.76658 -0.000006 -7.76657 -7.76658 0.000006 -0.308532 0.108644 0.000006 -0.308532 -7.76658 0.000005 -4.17458 -7.76658 0.000004 3.69649 -1.06889 0.000008 3.74441 -6.30781 -0.000001 7.76658 0.108644 0.000007 1.07738 0.108644 0.000005 -1.76921 -1.67524 0.000003 -3.97108 -5.66133 -0.000006 -7.76657</float_array>
+          <technique_common>
+            <accessor source="#juncbush0Shape6-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="juncbush0Shape6-normals" name="normal">
+          <float_array id="juncbush0Shape6-normals-array" count="36">0.000000 -1 -0.000001 -0.000000 -1 0.000003 0 -1 0.000000 0 -1 0.000000 -0.000000 -1 0.000001 0.000000 -1 -0.000000 0.000000 -1 -0.000000 0.000000 -1 -0.000001 0.000000 -1 0 -0.000000 -1 0.000000 -0.000000 -1 0.000001 -0.000000 -1 0.000003</float_array>
+          <technique_common>
+            <accessor source="#juncbush0Shape6-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="juncbush0Shape6-map1" name="map1">
+          <float_array id="juncbush0Shape6-map1-array" count="24">0.991323 0.006512 0.006512 0.008677 0.479356 0.007637 0.481521 0.992448 0.234247 0.008176 0.733277 0.007079 0.738156 0.844631 0.991724 0.188934 0.569389 0.992255 0.388914 0.992652 0.248823 0.76988 0.007091 0.271942</float_array>
+          <technique_common>
+            <accessor source="#juncbush0Shape6-map1-array" count="12" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="juncbush0Shape6-vertices">
+          <input semantic="POSITION" source="#juncbush0Shape6-positions"/>
+          <input semantic="NORMAL" source="#juncbush0Shape6-normals"/>
+        </vertices>
+        <triangles material="lambert5SG" count="10">
+          <input semantic="VERTEX" source="#juncbush0Shape6-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#juncbush0Shape6-map1" offset="1" set="0"/>
+          <p>0 0 5 5 7 7 7 7 5 5 6 6 2 2 3 3 5 5 3 3 8 8 5 5 8 8 6 6 5 5 4 4 10 10 2 2 3 3 2 2 9 9 2 2 10 10 9 9 10 10 4 4 11 11 11 11 4 4 1 1</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="junctree0Shape15" name="junctree0Shape15">
+      <mesh>
+        <source id="junctree0Shape15-positions" name="position">
+          <float_array id="junctree0Shape15-positions-array" count="45">-7.76658 -0.000017 0.743068 31.8386 -0.00001 1.00803 -7.76658 -0.000017 -1.42358 20.1027 -0.000011 7.76657 20.2975 -0.000001 -7.76659 20.1884 -0.000018 0.930088 6.04558 -0.000027 0.835475 5.98171 -0.000009 -1.32332 -7.76658 -0.000015 2.64916 9.87265 -0.000011 7.76657 -7.76658 -0.000012 -3.3156 11.1287 -0.000001 -7.76659 25.9707 -0.000011 7.76657 31.8386 -0.000005 -4.83368 23.9722 -0.000001 -7.76659</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape15-positions-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape15-normals" name="normal">
+          <float_array id="junctree0Shape15-normals-array" count="45">-0.000000 -1 -0.000001 0.000000 -1 -0.000000 0.000000 -1 -0.000003 0.000000 -1 0.000001 0.000000 -1 -0.000002 0.000000 -1 -0.000000 -0.000000 -1 -0.000001 0.000000 -1 -0.000003 -0.000000 -1 0.000000 0.000000 -1 0.000001 0.000000 -1 -0.000002 0 -1 -0.000002 0.000000 -1 0.000000 0.000000 -1 -0.000001 0.000000 -1 -0.000001</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape15-normals-array" count="15" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="junctree0Shape15-map1" name="map1">
+          <float_array id="junctree0Shape15-map1-array" count="30">0.453727 0.007491 0.434663 0.992265 0.591823 0.007793 0.004537 0.699501 0.994566 0.706509 0.440271 0.702585 0.447078 0.350927 0.584677 0.34964 0.332238 0.007225 0.005099 0.445124 0.712415 0.008056 0.99507 0.478521 0.004214 0.845412 0.806996 0.993079 0.994364 0.797884</float_array>
+          <technique_common>
+            <accessor source="#junctree0Shape15-map1-array" count="15" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="junctree0Shape15-vertices">
+          <input semantic="POSITION" source="#junctree0Shape15-positions"/>
+          <input semantic="NORMAL" source="#junctree0Shape15-normals"/>
+        </vertices>
+        <triangles material="deadend_tree01_tex1SG" count="14">
+          <input semantic="VERTEX" source="#junctree0Shape15-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#junctree0Shape15-map1" offset="1" set="0"/>
+          <p>2 2 7 7 0 0 0 0 7 7 6 6 3 3 5 5 12 12 12 12 5 5 1 1 1 1 5 5 13 13 13 13 5 5 14 14 5 5 4 4 14 14 4 4 5 5 11 11 6 6 7 7 5 5 5 5 7 7 11 11 8 8 0 0 6 6 6 6 5 5 9 9 9 9 5 5 3 3 10 10 7 7 2 2</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="floorShape" name="floorShape">
+      <mesh>
+        <source id="floorShape-positions" name="position">
+          <float_array id="floorShape-positions-array" count="168">-31.4501 0.006089 -95.5437 -14.6946 0.006929 -95.5434 -3.49463 0.002756 -95.5434 11.797 0.00656 -95.5435 24.2219 0.006089 -95.5437 -24.1519 0.005753 -105.525 -10.4643 0.003047 -104.873 -3.28552 0.003047 -104.879 5.56584 0.003047 -104.879 16.9269 0.005753 -104.774 -24.1519 0.005753 -114.53 -12.1369 0.003047 -113.284 -3.28552 0.003047 -113.284 5.56584 0.003047 -113.284 16.9357 0.004983 -114.538 -24.1519 0.004983 -124.258 -12.1369 0.003047 -121.688 -3.28552 0.003047 -121.688 5.56584 0.003047 -121.688 16.9269 0.005753 -124.254 -24.1519 0.005753 -134.043 -13.8225 0.005753 -134.043 -3.5364 0.004983 -134.033 6.71688 0.005753 -134.043 16.9269 0.005753 -134.043 12.6387 0.003047 -113.284 10.2924 0.003047 -104.879 9.64063 0.003047 -121.688 5.56584 0.003047 -126.333 -3.28552 0.003047 -128.354 -12.1369 0.003047 -124.704 -15.0609 0.003047 -121.688 -17.6679 0.003047 -113.284 -15.0935 0.003047 -105.647 -9.71238 0.003047 -100.677 -47.3181 0.005249 -95.5439 -33.3853 0.005249 -164.652 46.4433 0.005249 -95.5439 32.6617 0.005249 -164.707 -0.350166 0.005249 -178.357 -47.3181 0.005249 -129.85 46.3836 0.005249 -131.624 -18.1873 0.005249 -175.042 17.5157 0.005249 -174.828 -43.4831 0.005249 -149.489 42.8539 0.005249 -149.489 -47.3181 0.005249 -108.701 46.3542 0.005249 -108.499 -1.82082 0.005249 -164.855 -17.9758 0.005249 -164.855 14.4754 0.005249 -164.855 -47.3181 0.005249 -121.971 46.3639 0.005249 -121.971 -6.72705 0.004175 -95.5434 6.28738 0.005286 -95.5434 6.81097 0.004265 -100.909</float_array>
+          <technique_common>
+            <accessor source="#floorShape-positions-array" count="56" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floorShape-normals" name="normal">
+          <float_array id="floorShape-normals-array" count="270">0 1 0 0 1 0 0 1 0 0.000003 1 -0.000028 -0.000231 1 -0.000212 -0.000231 1 -0.000212 -0.000231 1 -0.000212 -0.000116 1 -0.000152 -0.000116 1 -0.000152 -0.000275 1 -0.000125 -0.000275 1 -0.000125 0 1 0 0 1 0 0 1 0 -0.000024 1 -0.000092 0 1 0 -0.0004 1 0.000002 -0.0004 1 0.000002 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 -0.000153 -0.000266 1 0.000134 -0.000266 1 0.000134 -0.000121 1 0.000253 -0.000166 1 0.000165 -0.000121 1 0.000253 0.00001 1 0.000319 0.00001 1 0.000319 0.000098 1 0.000234 0.000098 1 0.000234 0.000199 1 0.000086 0.000199 1 0.000086 0.0001 1 0.000172 0.000325 1 -0.000027 0.000325 1 -0.000027 0.000236 1 -0.000137 0.000236 1 -0.000137 0.000121 1 -0.000221 0.000233 1 -0.000321 0.000233 1 -0.000321 0.000024 1 -0.000023 0.000011 1 -0.000028 0.000011 1 -0.000028 0.000024 1 -0.000023 -0.000005 1 -0.000009 -0.000005 1 -0.000009 -0.000011 1 -0.000001 -0.000017 1 0.000006 0 1 0 0.000007 1 -0.000005 0 1 -0.000003 0 1 0 0 1 0 -0.000007 1 -0.000006 0.000004 1 -0.000008 0 1 -0.000006 -0.000014 1 -0.000012 -0.000005 1 -0.000009 0.000015 1 -0.000005 0.00001 1 -0.000009 0.000015 1 0.000018 0.000015 1 0.000018 -0.000027 1 -0.000012 -0.000027 1 -0.000012 -0.000007 1 -0.000021 -0.000007 1 -0.000021 0.000014 1 -0.00001 -0.000032 1 -0.000024 -0.000032 1 -0.000024 0.000005 1 0.000003 0.000005 1 0.000003 0.000345 1 -0.00042 -0.000258 1 -0.000215 -0.000258 1 -0.000215 -0.000258 1 -0.000215 -0.000067 1 -0.000365 -0.000067 1 -0.000365 -0.000067 1 -0.000365 0 1 -0.000306 0.000112 1 -0.000079 0.000008 1 -0.00007 0.000112 1 -0.000079 -0.000096 1 -0.000062</float_array>
+          <technique_common>
+            <accessor source="#floorShape-normals-array" count="90" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="floorShape-map1" name="map1">
+          <float_array id="floorShape-map1-array" count="148">0.004592 0.005358 0.251026 0.002627 0.505286 0.008505 0.86925 0.005762 0.995407 0.005358 0.004592 0.237371 0.25 0.237371 0.5 0.237371 0.75 0.237371 0.994285 0.237371 0.004592 0.474741 0.25 0.474741 0.5 0.474741 0.75 0.474741 0.994285 0.474741 0.004592 0.712112 0.25 0.712112 0.5 0.712112 0.75 0.712112 0.994285 0.712112 0.004592 0.949482 0.25 0.990015 0.5 0.990015 0.75 0.990015 0.995407 0.949482 0.949768 0.474741 0.883498 0.237371 0.865089 0.712112 0.75 0.843322 0.5 0.900388 0.25 0.797301 0.167413 0.712112 0.093779 0.474741 0.166493 0.237371 0.25 0.118685 0.989477 0.018724 0.991295 0.223339 0.809247 0.246675 0.847097 0.016553 0.022922 0.462863 0.256145 0.41341 0.250252 0.583789 0.01327 0.686284 0.304209 0.993497 0.308273 0.840154 0.50278 0.837394 0.500247 0.993497 0.686482 0.993497 0.687561 0.834773 0.903831 0.87222 0.505767 0.576256 0.643491 0.572195 0.119468 0.899245 0.99489 0.657341 0.763093 0.568668 0.809407 0.387292 0.992865 0.412871 0.030404 0.28965 0.260714 0.281319 0.259072 0.328788 0.027715 0.351897 0.360794 0.58053 0.186471 0.075786 0.039071 0.089002 0.809305 0.297208 0.991815 0.286063 0.418843 0.006506 0.685865 0.00668 0.752482 0.1035 0.32881 0.629825 0.328809 0.335757 0.671191 0.328809 0.671191 0.653795 0.474406 0.671191</float_array>
+          <technique_common>
+            <accessor source="#floorShape-map1-array" count="74" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="floorShape-vertices">
+          <input semantic="POSITION" source="#floorShape-positions"/>
+        </vertices>
+        <triangles material="lambert4SG" count="32">
+          <input semantic="VERTEX" source="#floorShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#floorShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#floorShape-map1" offset="2" set="0"/>
+          <p>37 47 35 47 48 36 4 50 38 4 50 38 47 48 36 9 49 37 15 52 40 20 53 41 40 51 39 40 51 39 20 53 41 44 54 42 49 56 44 48 57 45 42 55 43 42 55 43 48 57 45 39 58 46 43 59 47 50 60 48 38 61 49 22 62 50 23 63 51 48 57 45 48 57 45 23 63 51 50 60 48 44 54 42 20 53 41 36 64 52 45 65 53 24 66 54 41 68 56 41 68 56 24 66 54 19 67 55 5 70 58 10 71 59 46 69 57 46 69 57 10 71 59 51 72 60 49 56 44 21 73 61 48 57 45 48 57 45 21 73 61 22 62 50 38 61 49 24 66 54 45 65 53 48 57 45 50 60 48 39 58 46 39 58 46 50 60 48 43 59 47 5 70 58 46 69 57 0 74 62 0 74 62 46 69 57 35 75 63 36 64 52 20 53 41 49 56 44 49 56 44 20 53 41 21 73 61 36 64 52 49 56 44 42 55 43 14 76 64 52 77 65 19 67 55 19 67 55 52 77 65 41 68 56 38 61 49 50 60 48 24 66 54 24 66 54 50 60 48 23 63 51 10 71 59 15 52 40 51 72 60 51 72 60 15 52 40 40 51 39 52 77 65 14 76 64 47 48 36 47 48 36 14 76 64 9 49 37</p>
+        </triangles>
+        <triangles material="lambert7SG" count="2">
+          <input semantic="VERTEX" source="#floorShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#floorShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#floorShape-map1" offset="2" set="0"/>
+          <p>26 10 26 9 9 9 25 17 25 25 17 25 9 9 9 14 16 14</p>
+        </triangles>
+        <triangles material="ending_dirtSG" count="54">
+          <input semantic="VERTEX" source="#floorShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#floorShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#floorShape-map1" offset="2" set="0"/>
+          <p>33 0 33 34 1 34 6 2 6 34 1 34 7 3 7 6 2 6 55 4 68 54 5 67 3 6 3 4 8 4 9 9 9 3 7 3 3 7 3 9 9 9 26 10 26 6 2 6 11 11 11 33 0 33 33 0 33 11 11 11 32 12 32 7 3 7 12 13 12 6 2 6 6 2 6 12 13 12 11 11 11 7 3 7 8 14 8 12 13 12 12 13 12 8 14 8 13 15 13 32 12 32 11 11 11 31 19 31 31 19 31 11 11 11 16 18 16 11 11 11 12 13 12 16 18 16 16 18 16 12 13 12 17 20 17 12 13 12 13 15 13 17 20 17 17 20 17 13 15 13 18 21 18 25 22 25 27 23 27 13 15 13 13 15 13 27 23 27 18 21 18 31 19 31 16 18 16 30 24 30 16 18 16 17 20 17 30 24 30 30 24 30 17 20 17 29 25 29 18 21 18 28 26 28 17 20 17 17 20 17 28 26 28 29 25 29 18 21 18 27 23 27 28 26 28 8 14 8 26 27 26 13 15 13 13 15 13 26 27 26 25 22 25 25 17 25 14 16 14 27 28 27 27 28 27 14 16 14 19 29 19 24 31 24 23 32 23 19 29 19 23 32 23 28 30 28 19 29 19 28 30 28 27 28 27 19 29 19 28 30 28 23 32 23 29 33 29 29 33 29 23 32 23 22 34 22 30 35 30 29 33 29 21 36 21 21 36 21 29 33 29 22 34 22 20 39 20 15 37 15 21 36 21 31 38 31 30 35 30 15 37 15 15 37 15 30 35 30 21 36 21 32 41 32 31 38 31 10 40 10 10 40 10 31 38 31 15 37 15 33 43 33 32 41 32 5 42 5 5 42 5 32 41 32 10 40 10 0 44 0 1 45 1 5 42 5 5 42 5 1 45 1 33 43 33 1 45 1 34 46 34 33 43 33 1 45 1 53 78 66 34 46 34 55 79 73 2 80 71 54 81 72 26 82 26 55 83 68 3 84 3 8 14 8 55 85 68 26 27 26 53 86 66 2 87 2 34 88 34 34 88 34 2 87 2 7 3 7 8 14 69 7 3 70 55 89 73 55 89 73 7 3 70 2 87 71</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="woods">
+      <node id="ending" name="ending" type="NODE">
+        <translate sid="translate">0.354399 0 95.5528</translate>
+        <translate sid="rotatePivot">-0.354399 0 -95.5528</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="rotatePivotInverse">0.354399 0 95.5528</translate>
+        <translate sid="scalePivot">-0.354399 0 -95.5528</translate>
+        <translate sid="scalePivotInverse">0.354399 0 95.5528</translate>
+        <node id="ending_trees" name="trees" type="NODE">
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <node id="endbush2" name="endbush2" type="NODE">
+            <translate sid="translate">9.89246 9.69257 -135.391</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 -115.034</rotate>
+            <scale sid="scale">1.25987 1.25987 1.25987</scale>
+            <instance_geometry url="#endbushShape2">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="endingtree1SG" target="#endingtree1">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="endtree4" name="endtree4" type="NODE">
+            <translate sid="translate">16.2404 49.373 -142.964</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 -90</rotate>
+            <scale sid="scale">6.37497 1.34631 2.63142</scale>
+            <instance_geometry url="#endtreeShape4">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="endingtreeSG" target="#endingtree">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="endtree3" name="endtree3" type="NODE">
+            <translate sid="translate">-24.9958 46.4965 -128.767</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 -75</rotate>
+            <scale sid="scale">6.00509 1.2682 2.47874</scale>
+            <instance_geometry url="#endtreeShape3">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="endingtreeSG" target="#endingtree">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="endtrees" name="endtrees" type="NODE">
+            <translate sid="translate">-0.399687 26.9058 -131.624</translate>
+            <rotate sid="rotateZ">0 0 1 0</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 0</rotate>
+            <scale sid="scale">1.58538 1.58538 1.58538</scale>
+            <instance_geometry url="#endtreesShape">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="lambert6SG" target="#endingtrees">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="endtree1" name="endtree1" type="NODE">
+            <translate sid="translate">-43.9641 51.2041 -95.1246</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 -66.0088</rotate>
+            <scale sid="scale">6.67519 1.40972 2.75534</scale>
+            <instance_geometry url="#endtreeShape1">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="endingtreeSG" target="#endingtree">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="endtree2" name="endtree2" type="NODE">
+            <translate sid="translate">43.2945 51.2041 -94.8323</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 -110.102</rotate>
+            <scale sid="scale">6.67519 1.40972 2.75534</scale>
+            <instance_geometry url="#endtreeShape2">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="endingtreeSG" target="#endingtree">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="endbush1" name="endbush1" type="NODE">
+            <translate sid="translate">-24.5349 9.69257 -119.622</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 -67.1648</rotate>
+            <scale sid="scale">1.25987 1.25987 1.25987</scale>
+            <instance_geometry url="#endbushShape1">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="endingtree1SG" target="#endingtree1">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="endbush4" name="endbush4" type="NODE">
+            <translate sid="translate">-15.3272 9.69257 -136.852</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 -67.1648</rotate>
+            <scale sid="scale">1.25987 1.25987 1.25987</scale>
+            <instance_geometry url="#endbushShape4">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="endingtree1SG" target="#endingtree1">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="endbush5" name="endbush5" type="NODE">
+            <translate sid="translate">26.0994 9.69257 -119.406</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 -105.185</rotate>
+            <scale sid="scale">1.25987 1.25987 1.25987</scale>
+            <instance_geometry url="#endbushShape5">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="endingtree1SG" target="#endingtree1">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="junctree014" name="junctree014" type="NODE">
+            <translate sid="translate">23.6318 24.8619 -124.124</translate>
+            <rotate sid="rotateZ">0 0 1 0</rotate>
+            <rotate sid="rotateY">0 1 0 -15.8766</rotate>
+            <rotate sid="rotateX">1 0 0 90</rotate>
+            <scale sid="scale">1.78065 1 1</scale>
+            <instance_geometry url="#junctree0Shape14">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="deadend_tree02_texSG" target="#deadend_tree02_tex">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="juncbush06" name="juncbush06" type="NODE">
+            <translate sid="translate">-17.0278 7.13206 -128.692</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 -76.0305</rotate>
+            <scale sid="scale">0.942719 0.942719 0.942719</scale>
+            <instance_geometry url="#juncbush0Shape6">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="lambert5SG" target="#bush_tex">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+          <node id="junctree015" name="junctree015" type="NODE">
+            <translate sid="translate">-13.6554 8.37978 -151.242</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 -90</rotate>
+            <scale sid="scale">1.09733 1.09733 2.12735</scale>
+            <instance_geometry url="#junctree0Shape15">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="deadend_tree01_tex1SG" target="#deadend_tree01_tex1">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                    <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+        <node id="ending_floor" name="floor" type="NODE">
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <node id="ending_floor_floor" name="floor" type="NODE">
+            <translate sid="translate">-0.0495 0 0</translate>
+            <rotate sid="rotateZ">0 0 1 0</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 0</rotate>
+            <instance_geometry url="#floorShape">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="lambert4SG" target="#green">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                  <instance_material symbol="lambert7SG" target="#reward_dirt">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                  <instance_material symbol="ending_dirtSG" target="#ending_dirt">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>5</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

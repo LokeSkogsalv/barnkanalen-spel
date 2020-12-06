@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:86e6e28b24882f6bb464fdfb8862aa3f:720a33f29fce05d6e0a9421fc09471fa:84d01f79334574468282111aa9cc65f7$ -->
+<TextureAtlas imagePath="startstate.png">
+    <SubTexture name="User1Active" x="1472" y="222" width="98" height="99" frameX="-3" frameY="-3" frameWidth="105" frameHeight="105"/>
+    <SubTexture name="User1Down" x="1680" y="215" width="79" height="80" frameX="-13" frameY="-12" frameWidth="105" frameHeight="105"/>
+    <SubTexture name="User1SmallDown" x="1630" y="177" width="83" height="32"/>
+    <SubTexture name="User1SmallUp" x="212" y="268" width="103" height="39"/>
+    <SubTexture name="User1Up" x="1576" y="216" width="98" height="99" frameX="-3" frameY="-3" frameWidth="105" frameHeight="105"/>
+    <SubTexture name="User2Active" x="430" y="230" width="99" height="98" frameX="-3" frameY="-3" frameWidth="105" frameHeight="105"/>
+    <SubTexture name="User2Down" x="1765" y="215" width="80" height="79" frameX="-13" frameY="-13" frameWidth="105" frameHeight="105"/>
+    <SubTexture name="User2SmallDown" x="1863" y="4" width="83" height="32"/>
+    <SubTexture name="User2SmallUp" x="321" y="268" width="103" height="39"/>
+    <SubTexture name="User2Up" x="535" y="230" width="99" height="98" frameX="-3" frameY="-3" frameWidth="105" frameHeight="105"/>
+    <SubTexture name="User3Active" x="640" y="230" width="99" height="98" frameX="-3" frameY="-4" frameWidth="105" frameHeight="105"/>
+    <SubTexture name="User3Down" x="1863" y="80" width="80" height="79" frameX="-13" frameY="-13" frameWidth="105" frameHeight="105"/>
+    <SubTexture name="User3SmallDown" x="1719" y="177" width="82" height="32"/>
+    <SubTexture name="User3SmallUp" x="1222" y="177" width="102" height="39"/>
+    <SubTexture name="User3Up" x="1058" y="230" width="96" height="95" frameX="-5" frameY="-5" frameWidth="105" frameHeight="105"/>
+    <SubTexture name="User4Active" x="850" y="230" width="98" height="98" frameX="-3" frameY="-4" frameWidth="105" frameHeight="105"/>
+    <SubTexture name="User4Down" x="1851" y="250" width="79" height="78" frameX="-13" frameY="-14" frameWidth="105" frameHeight="105"/>
+    <SubTexture name="User4SmallDown" x="1863" y="42" width="82" height="32"/>
+    <SubTexture name="User4SmallUp" x="1330" y="177" width="102" height="39"/>
+    <SubTexture name="User4Up" x="954" y="230" width="98" height="98" frameX="-3" frameY="-4" frameWidth="105" frameHeight="105"/>
+    <SubTexture name="UserAddDown" x="1863" y="165" width="80" height="79" frameX="-13" frameY="-14" frameWidth="105" frameHeight="105"/>
+    <SubTexture name="UserAddUp" x="745" y="230" width="99" height="98" frameX="-3" frameY="-4" frameWidth="105" frameHeight="105"/>
+    <SubTexture name="addUser" x="1261" y="222" width="100" height="100"/>
+    <SubTexture name="fog" x="423" y="4" width="793" height="220"/>
+    <SubTexture name="iconCloseDown" x="118" y="268" width="41" height="41" frameX="-5" frameY="-5" frameWidth="51" frameHeight="51"/>
+    <SubTexture name="iconCloseUp" x="4" y="268" width="51" height="51"/>
+    <SubTexture name="iconParentsDown" x="1543" y="177" width="81" height="33" frameX="-9" frameY="-3" frameWidth="99" frameHeight="39"/>
+    <SubTexture name="iconParentsUp" x="1438" y="177" width="99" height="39"/>
+    <SubTexture name="iconPlayBigDown" x="1160" y="230" width="95" height="95" frameX="-2" frameY="-2" frameWidth="99" frameHeight="99"/>
+    <SubTexture name="iconPlayBigUp" x="1367" y="222" width="99" height="99"/>
+    <SubTexture name="iconUsersDown" x="165" y="268" width="41" height="41" frameX="-5" frameY="-5" frameWidth="51" frameHeight="51"/>
+    <SubTexture name="iconUsersUp" x="61" y="268" width="51" height="51"/>
+    <SubTexture name="logo" x="4" y="4" width="413" height="258"/>
+    <SubTexture name="star" x="118" y="315" width="10" height="10" frameX="0" frameY="0" frameWidth="11" frameHeight="11"/>
+    <SubTexture name="stars" x="1222" y="4" width="635" height="167" frameX="-25" frameY="0" frameWidth="690" frameHeight="450"/>
+</TextureAtlas>

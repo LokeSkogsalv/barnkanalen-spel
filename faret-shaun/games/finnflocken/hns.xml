@@ -1,0 +1,281 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<base>
+       <Game>
+		
+<!-- 
+programSpeedControl allows the program to slightly adjust the speed
+based on the level and how many sheep there are
+higher level is slightly faster -.01
+more sheep is slightly slower +0.2
+n.b. speed values here are still taken into account
+
+ -->
+		<programSpeedControl>On</programSpeedControl>
+		
+       </Game>
+
+
+
+
+
+       <Lev>
+	       <Level>
+			<Sheep>1</Sheep>
+			<Barrels>3</Barrels>
+			<Speed>1</Speed>
+			<Shuffles>5</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>1</Sheep>
+			<Barrels>3</Barrels>
+			<Speed>0.8</Speed>
+			<Shuffles>6</Shuffles>
+               </Level>
+
+
+	       <Level>
+			<Sheep>1</Sheep>
+			<Barrels>3</Barrels>
+			<Speed>0.7</Speed>
+			<Shuffles>7</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>1</Sheep>
+			<Barrels>4</Barrels>
+			<Speed>1</Speed>
+			<Shuffles>5</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>1</Sheep>
+			<Barrels>4</Barrels>
+			<Speed>0.8</Speed>
+			<Shuffles>6</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>1</Sheep>
+			<Barrels>4</Barrels>
+			<Speed>0.7</Speed>
+			<Shuffles>7</Shuffles>
+               </Level>
+
+
+	       <Level>
+			<Sheep>1</Sheep>
+			<Barrels>5</Barrels>
+			<Speed>1</Speed>
+			<Shuffles>6</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>1</Sheep>
+			<Barrels>5</Barrels>
+			<Speed>0.8</Speed>
+			<Shuffles>7</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>1</Sheep>
+			<Barrels>5</Barrels>
+			<Speed>0.7</Speed>
+			<Shuffles>8</Shuffles>
+               </Level>
+
+
+	       <Level>
+			<Sheep>2</Sheep>
+			<Barrels>6</Barrels>
+			<Speed>1</Speed>
+			<Shuffles>7</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>2</Sheep>
+			<Barrels>6</Barrels>
+			<Speed>0.8</Speed>
+			<Shuffles>8</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>2</Sheep>
+			<Barrels>6</Barrels>
+			<Speed>0.7</Speed>
+			<Shuffles>9</Shuffles>
+               </Level>
+
+
+	       <Level>
+			<Sheep>2</Sheep>
+			<Barrels>7</Barrels>
+			<Speed>1</Speed>
+			<Shuffles>8</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>2</Sheep>
+			<Barrels>7</Barrels>
+			<Speed>0.8</Speed>
+			<Shuffles>9</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>2</Sheep>
+			<Barrels>7</Barrels>
+			<Speed>0.7</Speed>
+			<Shuffles>10</Shuffles>
+               </Level>
+
+
+	       <Level>
+			<Sheep>2</Sheep>
+			<Barrels>8</Barrels>
+			<Speed>1</Speed>
+			<Shuffles>9</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>2</Sheep>
+			<Barrels>8</Barrels>
+			<Speed>0.8</Speed>
+			<Shuffles>10</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>2</Sheep>
+			<Barrels>8</Barrels>
+			<Speed>0.7</Speed>
+			<Shuffles>11</Shuffles>
+               </Level>
+
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>1</Speed>
+			<Shuffles>9</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.9</Speed>
+			<Shuffles>10</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.8</Speed>
+			<Shuffles>11</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.75</Speed>
+			<Shuffles>12</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.7</Speed>
+			<Shuffles>13</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.675</Speed>
+			<Shuffles>14</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.65</Speed>
+			<Shuffles>15</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.625</Speed>
+			<Shuffles>16</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.6</Speed>
+			<Shuffles>17</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.575</Speed>
+			<Shuffles>18</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.55</Speed>
+			<Shuffles>19</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.525</Speed>
+			<Shuffles>20</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.5</Speed>
+			<Shuffles>21</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.475</Speed>
+			<Shuffles>22</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.45</Speed>
+			<Shuffles>23</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.425</Speed>
+			<Shuffles>24</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.4</Speed>
+			<Shuffles>25</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.35</Speed>
+			<Shuffles>26</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.3</Speed>
+			<Shuffles>27</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.25</Speed>
+			<Shuffles>28</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.2</Speed>
+			<Shuffles>29</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.15</Speed>
+			<Shuffles>30</Shuffles>
+               </Level>
+	       <Level>
+			<Sheep>3</Sheep>
+			<Barrels>9</Barrels>
+			<Speed>0.1</Speed>
+			<Shuffles>31</Shuffles>
+               </Level>
+       </Lev>
+
+</base>

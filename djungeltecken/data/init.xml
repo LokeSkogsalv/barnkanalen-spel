@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<data>
+	<assets_se>assets/se/</assets_se>
+	<assets_en>assets/en/</assets_en>
+	
+	<assets_game>
+		<set id="regnbage">
+			<item icon="game/05_regnbagar_a.png" clip="game/05_regnbagar_a.flv" />
+			<item icon="game/05_regnbagar_b.png" clip="game/05_regnbagar_b.flv" />
+			<item icon="game/05_regnbagar_c.png" clip="game/05_regnbagar_c.flv" />
+		</set>
+		<set id="sol">
+			<item icon="game/06_sol_a.png" clip="game/06_sol_a.flv" />
+			<item icon="game/06_sol_b.png" clip="game/06_sol_b.flv" />
+			<item icon="game/06_sol_c.png" clip="" />
+		</set>
+		<set id="fagelnabbar">
+			<item icon="game/03_fagelnabbar_a.png" clip="game/03_fagelnabbar_a.flv" />
+			<item icon="game/03_fagelnabbar_b.png" clip="game/03_fagelnabbar_b.flv" />
+			<item icon="game/03_fagelnabbar_c.png" clip="game/03_fagelnabbar_c.flv" />
+		</set>
+		<set id="frukt">
+			<item icon="game/07_frukt_a.png" clip="game/07_frukt_a.flv" />
+			<item icon="game/07_frukt_b.png" clip="game/07_frukt_b.flv" />
+			<item icon="game/07_frukt_c.png" clip="game/07_frukt_c.flv" />
+		</set>
+		<set id="nyckelpiga">
+			<item icon="game/01_nyckelpiga_a.png" clip="game/01_nyckelpiga_a.flv" />
+			<item icon="game/01_nyckelpiga_b.png" clip="game/01_nyckelpiga_b.flv" />
+			<item icon="game/01_nyckelpiga_c.png" clip="game/01_nyckelpiga_c.flv" />
+		</set>
+		<set id="ormar">
+			<item icon="game/02_ormar_a.png" clip="game/02_ormar_a.flv" />
+			<item icon="game/02_ormar_b.png" clip="game/02_ormar_b.flv" />
+			<item icon="game/02_ormar_c.png" clip="game/02_ormar_c.flv" />
+		</set>
+		<set id="leopard">
+			<item icon="game/16_leopard_a.png" clip="game/16_leopard_a.flv" />
+			<item icon="game/16_leopard_b.png" clip="game/16_leopard_b.flv" />
+			<item icon="game/16_leopard_c.png" clip="" />
+		</set>
+		<set id="moln">
+			<item icon="game/17_moln_a.png" clip="game/17_moln_a.flv" />
+			<item icon="game/17_moln_b.png" clip="game/17_moln_b.flv" />
+			<item icon="game/17_moln_c.png" clip="game/17_moln_c.flv" />
+		</set>
+		<set id="oron_1">
+			<item icon="game/18_oron_1_a.png" clip="game/18_oron_1_a.flv" />
+			<item icon="game/18_oron_1_b.png" clip="game/18_oron_1_b.flv" />
+			<item icon="game/18_oron_1_c.png" clip="" />
+		</set>
+		<set id="oron_2">
+			<item icon="game/19_oron_2_a.png" clip="game/19_oron_2_a.flv" />
+			<item icon="game/19_oron_2_b.png" clip="game/19_oron_2_b.flv" />
+			<item icon="game/19_oron_2_c.png" clip="" />
+		</set>
+		<set id="palsar">
+			<item icon="game/04_palsar_a.png" clip="game/04_palsar_a.flv" />
+			<item icon="game/04_palsar_b.png" clip="game/04_palsar_b.flv" />
+			<item icon="game/04_palsar_c.png" clip="" />
+		</set>
+		<set id="tander_1">
+			<item icon="game/22_tander_1_a.png" clip="game/22_tander_1_a.flv" />
+			<item icon="game/22_tander_1_b.png" clip="game/22_tander_1_b.flv" />
+			<item icon="game/22_tander_1_c.png" clip="" />
+		</set>
+		<set id="trad">
+			<item icon="game/25_trad_a.png" clip="game/25_trad_a.flv" />
+			<item icon="game/25_trad_b.png" clip="game/25_trad_b.flv" />
+			<item icon="game/25_trad_c.png" clip="game/25_trad_c.flv" />
+		</set>
+		<set id="zebra">
+			<item icon="game/28_zebra_a.png" clip="game/28_zebra_a.flv" />
+			<item icon="game/28_zebra_b.png" clip="game/28_zebra_b.flv" />
+			<item icon="game/28_zebra_c.png" clip="" />
+		</set>
+		<set id="blommor">
+			<item icon="game/10_blommor_a.png" clip="game/10_blommor_a.flv" />
+			<item icon="game/10_blommor_b.png" clip="game/10_blommor_b.flv" />
+			<item icon="game/10_blommor_c.png" clip="" />
+		</set>
+		<set id="djurnos">
+			<item icon="game/11_djurnos_a.png" clip="game/11_djurnos_a.flv" />
+			<item icon="game/11_djurnos_b.png" clip="game/11_djurnos_b.flv" />
+			<item icon="game/11_djurnos_c.png" clip="" />
+		</set>
+		<set id="regn">
+			<item icon="game/21_regn_a.png" clip="game/21_regn_a.flv" />
+			<item icon="game/21_regn_b.png" clip="game/21_regn_b.flv" />
+			<item icon="game/21_regn_c.png" clip="" />
+		</set>
+		<set id="tander_2">
+			<item icon="game/23_tander_2_a.png" clip="game/23_tander_2_a.flv" />
+			<item icon="game/23_tander_2_b.png" clip="game/23_tander_2_b.flv" />
+			<item icon="game/23_tander_2_c.png" clip="" />
+		</set>
+		<set id="bat">
+			<item icon="game/09_bat_a.png" clip="game/09_bat_a.flv" />
+			<item icon="game/09_bat_b.png" clip="game/09_bat_B.flv" />
+			<item icon="game/09_bat_c.png" clip="" />
+		</set>
+		<set id="forstoring">
+			<item icon="game/14_forstoring_a.png" clip="game/14_forstoring_a.flv" />
+			<item icon="game/14_forstoring_b.png" clip="game/14_forstoring_b.flv" />
+			<item icon="game/14_forstoring_c.png" clip="" />
+		</set>
+		<!--
+		<set id="bara">
+			<item icon="" clip="game/08_bara_a.flv" />
+			<item icon="" clip="game/08_bara_b.flv" />
+			<item icon="" clip="" />
+		</set>
+		<set id="bat">
+			<item icon="09_bat_a.png" clip="game/09_bat_a.flv" />
+			<item icon="09_bat_b.png" clip="game/09_bat_B.flv" />
+			<item icon="09_bat_c.png" clip="" />
+		</set>
+		<set id="djursvans_1">
+			<item icon="" clip="game/12_djursvans_1_A.flv" />
+			<item icon="" clip="game/12_djursvans_1_B.flv" />
+			<item icon="" clip="" />
+		</set>
+		<set id="djursvans_2">
+			<item icon="" clip="game/13_djursvans_2_A.flv" />
+			<item icon="" clip="game/13_djursvans_2_B.flv" />
+			<item icon="" clip="" />
+		</set>
+		<set id="gangstil">
+			<item icon="" clip="game/15_gangstil_A.flv" />
+			<item icon="" clip="game/15_gangstil_B.flv" />
+			<item icon="" clip="" />
+		</set>
+		<set id="tassar">
+			<item icon="" clip="game/24_tassar_A.flv" />
+			<item icon="" clip="game/24_tassar_B.flv" />
+			<item icon="" clip="" />
+		</set>
+		<set id="var_ar_djuret">
+			<item icon="" clip="game/26_var_ar_djuret_A.flv" />
+			<item icon="" clip="game/26_var_ar_djuret_B.flv" />
+			<item icon="" clip="" />
+		</set>
+		<set id="vingar">
+			<item icon="" clip="" />
+			<item icon="" clip="" />
+			<item icon="" clip="" />
+		</set>
+		<set id="paddla">
+			<item icon="" clip="" />
+			<item icon="" clip="" />
+			<item icon="" clip="" />
+		</set>
+		-->
+	</assets_game>
+</data>

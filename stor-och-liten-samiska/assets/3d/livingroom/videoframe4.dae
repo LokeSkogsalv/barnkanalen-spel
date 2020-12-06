@@ -1,0 +1,271 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Sarah Bird</author>
+      <authoring_tool>Maya2008 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=0;exportCameraAsLookat=0;
+exportLights=0;exportCameras=0;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=0;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=0;exportPhysics=0;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Documents%20and%20Settings/Sarah%20Bird/My%20Documents/BigAndSmall/papervision/Lounge/VideoFrame04.mb</source_data>
+    </contributor>
+    <created>2008-11-10T16:00:48Z</created>
+    <modified>2008-11-10T16:00:48Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file2" name="file2">
+      <init_from>./Frame4.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Frame04" name="Frame04">
+      <instance_effect url="#Frame04-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Frame04-fx">
+      <profile_COMMON>
+        <newparam sid="file2-surface">
+          <surface type="2D">
+            <init_from>file2</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file2-sampler">
+          <sampler2D>
+            <source>file2-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file2-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="Frame4Shape" name="Frame4Shape">
+      <mesh>
+        <source id="Frame4Shape-positions" name="position">
+          <float_array id="Frame4Shape-positions-array" count="60">-0.608603 -26.9091 22.463 1.87546 -26.9091 22.463 -1.36929 -22.6165 16.3877 1.67683 -22.6129 16.3877 -1.36929 -22.6165 -20.0789 1.67683 -22.6129 -20.0789 -0.537167 -26.8945 -26.0153 1.87546 -26.9091 -26.0153 1.6767 3.51178 16.3877 -1.36929 3.51177 16.3877 -1.36929 3.51179 -20.0789 1.6767 3.51179 -20.0789 -0.608603 7.80746 22.463 1.87546 7.80746 22.463 -0.6086 7.80747 -26.0153 1.87546 7.80747 -26.0153 -2.13687 5.9853 -23.4918 -2.09006 -25.0607 -23.4686 -2.13687 -25.015 19.7887 -2.13687 5.85264 19.7025</float_array>
+          <technique_common>
+            <accessor source="#Frame4Shape-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Frame4Shape-normals" name="normal">
+          <float_array id="Frame4Shape-normals-array" count="192">-0.001185 0.999999 0.000000 -0.001185 0.999999 0.000000 -0.001185 0.999999 0.000000 -0.001185 0.999999 0.000000 -0.002982 -0.999996 -0.000153 -0.002982 -0.999996 -0.000153 -0.002982 -0.999996 -0.000153 -0.002982 -0.999996 -0.000153 -0.955874 0.293777 -0.000729 -0.955874 0.293777 -0.000729 -0.955874 0.293777 -0.000729 -0.955874 0.293777 -0.000729 -0.974854 -0.000337 -0.222846 -0.974854 -0.000337 -0.222846 -0.974854 -0.000337 -0.222846 -0.974854 -0.000337 -0.222846 -0.000000 0.000000 -1 -0.000000 0.000000 -1 -0.000000 0.000000 -1 -0.000000 0.000000 -1 0.000000 0 1 0.000000 0 1 0.000000 0 1 0.000000 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 1 0.000000 0 1 0.000000 0 1 0.000000 0 1 0.000000 0.000002 -1 -0.000000 0.000002 -1 -0.000000 0.000002 -1 -0.000000 0.000002 -1 -0.000000 -0.952733 -0.303807 -0.000506 -0.952733 -0.303807 -0.000506 -0.952733 -0.303807 -0.000506 -0.952733 -0.303807 -0.000506 -0.976891 -0.000712 0.213735 -0.976891 -0.000712 0.213735 -0.976891 -0.000712 0.213735 -0.976891 -0.000712 0.213735 0 0 -1 0 0 -1 0 0 -1 0 0 -1 -0.854581 -0.00172 -0.519316 -0.854581 -0.00172 -0.519316 -0.854581 -0.00172 -0.519316 -0.854581 -0.00172 -0.519316 -0.770797 -0.63708 -0.000777 -0.770797 -0.63708 -0.000777 -0.770797 -0.63708 -0.000777 -0.770797 -0.63708 -0.000777 -0.871615 0.000644 0.490191 -0.871615 0.000644 0.490191 -0.871615 0.000644 0.490191 -0.871615 0.000644 0.490191 -0.777375 0.629037 0.00091 -0.777375 0.629037 0.00091 -0.777375 0.629037 0.00091 -0.777375 0.629037 0.00091</float_array>
+          <technique_common>
+            <accessor source="#Frame4Shape-normals-array" count="64" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Frame4Shape-map1" name="map1">
+          <float_array id="Frame4Shape-map1-array" count="40">0.789221 0.20897 0.7494 0.251273 0.249748 0.251273 0.20756 0.20897 0.008967 0.008967 0.991033 0.008967 0.962388 0.037611 0.037611 0.038 0.789221 0.790932 0.962388 0.962388 0.7494 0.74993 0.249748 0.74993 0.20756 0.790933 0.991033 0.991033 0.008967 0.991033 0.037611 0.962388 0.105947 0.889253 0.107042 0.109403 0.886136 0.109653 0.88595 0.888937</float_array>
+          <technique_common>
+            <accessor source="#Frame4Shape-map1-array" count="20" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Frame4Shape-vertices">
+          <input semantic="POSITION" source="#Frame4Shape-positions"/>
+        </vertices>
+        <triangles material="lambert6SG" count="32">
+          <input semantic="VERTEX" source="#Frame4Shape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Frame4Shape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Frame4Shape-map1" offset="2" set="0"/>
+          <p>2 0 0 3 1 1 4 3 3 4 3 3 3 1 1 5 2 2 7 4 4 1 5 5 6 7 7 6 7 7 1 5 5 0 6 6 2 8 0 4 9 3 18 11 18 18 11 18 4 9 3 17 10 17 9 12 8 2 13 0 19 15 19 19 15 19 2 13 0 18 14 18 3 16 1 2 17 0 8 19 10 8 19 10 2 17 0 9 18 8 4 20 3 5 21 2 10 23 12 10 23 12 5 21 2 11 22 11 1 24 5 13 25 13 0 27 6 0 27 6 13 25 13 12 26 9 13 28 13 15 29 14 12 31 9 12 31 9 15 29 14 14 30 15 10 32 12 11 33 11 9 35 8 9 35 8 11 33 11 8 34 10 16 37 16 10 38 12 19 36 19 19 36 19 10 38 12 9 39 8 4 41 3 10 42 12 17 40 17 17 40 17 10 42 12 16 43 16 7 45 4 6 46 7 15 44 14 15 44 14 6 46 7 14 47 15 6 48 7 17 49 17 14 51 15 14 51 15 17 49 17 16 50 16 17 53 17 6 54 7 18 52 18 18 52 18 6 54 7 0 55 6 18 57 18 0 58 6 19 56 19 19 56 19 0 58 6 12 59 9 12 60 9 14 61 15 19 63 19 19 63 19 14 61 15 16 62 16</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="Image4Shape" name="Image4Shape">
+      <mesh>
+        <source id="Image4Shape-positions" name="position">
+          <float_array id="Image4Shape-positions-array" count="12">1.67683 -22.6129 16.3877 1.67683 -22.6129 -20.0789 1.6767 3.51178 16.3877 1.6767 3.51179 -20.0789</float_array>
+          <technique_common>
+            <accessor source="#Image4Shape-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Image4Shape-normals" name="normal">
+          <float_array id="Image4Shape-normals-array" count="12">-1 -0.000004 0 -1 -0.000004 0 -1 -0.000004 0 -1 -0.000004 0</float_array>
+          <technique_common>
+            <accessor source="#Image4Shape-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Image4Shape-map1" name="map1">
+          <float_array id="Image4Shape-map1-array" count="8">0.7494 0.251273 0.249748 0.251273 0.7494 0.74993 0.249748 0.74993</float_array>
+          <technique_common>
+            <accessor source="#Image4Shape-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Image4Shape-vertices">
+          <input semantic="POSITION" source="#Image4Shape-positions"/>
+          <input semantic="NORMAL" source="#Image4Shape-normals"/>
+        </vertices>
+        <triangles material="lambert6SG" count="2">
+          <input semantic="VERTEX" source="#Image4Shape-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#Image4Shape-map1" offset="1" set="0"/>
+          <p>2 2 3 3 0 0 0 0 3 3 1 1</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="VideoFrame04">
+      <node id="Frame5" name="Frame4" type="NODE">
+        <translate sid="translate">0.107936 0.561939 0.009878</translate>
+        <translate sid="rotatePivotTranslation">-0.117813 0 0.098246</translate>
+        <translate sid="rotatePivot">0.009783 -0.56188 -0.10803</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 90</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="rotatePivotInverse">-0.009783 0.56188 0.10803</translate>
+        <translate sid="scalePivotTranslation">-0.157058 9.02046 1.73431</translate>
+        <translate sid="scalePivot">0.166841 -9.58234 -1.84234</translate>
+        <scale sid="scale">0.053667 0.058637 0.058637</scale>
+        <translate sid="scalePivotInverse">-0.166841 9.58234 1.84234</translate>
+        <instance_geometry url="#Frame4Shape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="lambert6SG" target="#Frame04">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Image4" name="Image4" type="NODE">
+        <translate sid="translate">0.107936 0.561939 0.009878</translate>
+        <translate sid="rotatePivotTranslation">-0.117813 0 0.098246</translate>
+        <translate sid="rotatePivot">0.009783 -0.56188 -0.10803</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 90</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="rotatePivotInverse">-0.009783 0.56188 0.10803</translate>
+        <translate sid="scalePivotTranslation">-0.157058 9.02046 1.73431</translate>
+        <translate sid="scalePivot">0.166841 -9.58234 -1.84234</translate>
+        <scale sid="scale">0.053667 0.058637 0.058637</scale>
+        <translate sid="scalePivotInverse">-0.166841 9.58234 1.84234</translate>
+        <instance_geometry url="#Image4Shape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="lambert6SG" target="#Frame04">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<shaun>
+	
+	<startpage>
+		<howto_button>Instruktioner</howto_button>
+		<play_button>Spela</play_button>	
+		<intro_copy>Flocken )r extra busig idag och Bitzer beh_ver hj)lp att samla ihop f(ren.</intro_copy>	
+	</startpage>
+		
+	<instructionspannel>
+		<titletext>Instruktioner</titletext>
+		<maintext><![CDATA[Hj)lp Bitzer f(nga in f(ren. Anv)nd musen f_r att styra Bitzer och jaga ikapp de busiga f(ren.<br /><br />Men du m(ste var snabb - alla f(r m(ste vara i f(llan innan tiden rinner ut annars f(r du inte g( vidare till n)sta niv(. Se upp f_r lera och vatten som saktar ner dig.]]></maintext>
+	</instructionspannel>
+	
+	<game>
+		<levelword>Niv(</levelword>
+		<restart_button>B_rja om</restart_button>
+		<sheepleft>F(r kvar</sheepleft>
+		<herd>HIT SKA DEM</herd>
+	</game>
+	
+	<clipboard>
+		<levelword>NIV(</levelword>
+		<targetword>S( h)r l(ng tid har du p( dig:</targetword>
+		<seconds>sek</seconds>
+		<score>Po)ng</score>
+		<line2_good>S( h)r l(ng tid hade du kvar:</line2_good>
+		<line2_bad><![CDATA[<font size="10">S( h)r mycket _ver tiden var du:</font>]]></line2_bad>    
+		<line4_levelstart>In med f(ren i f(llan nu!</line4_levelstart>
+		<line4_bad>Hoppsan! Du m(ste vara snabbare )n s(!</line4_bad>
+		<line4_good>BRA JOBBAT!</line4_good>
+		<start_button>START</start_button>
+		<nextlevel_button>N)STA NIV(</nextlevel_button>
+		<restartlevel_button>PROVA IGEN</restartlevel_button>
+		<sendtofriend_buttontext></sendtofriend_buttontext>
+		<intro_text></intro_text>
+	</clipboard>
+		
+	<endscreen>
+		<top>BRA GJORT!</top>
+		<record>Ditt b)sta resultat )r: </record>
+		<play_again_button>Spela igen</play_again_button>
+	</endscreen>
+	
+	<sendtofriend>
+	
+		<active>false</active>
+		<sendtofriend_buttontext><![CDATA[Tell a friend]]></sendtofriend_buttontext>
+		
+		<!-- position can either be 'infront' or 'after'. So it will be 'Dear xxx' or 'xxx dear', depending on where it is in a language -->
+		
+		<salutation position="infront">Dear</salutation>
+		
+		<body0>I just played the fantastic Shaun the Sheep Bleat Box game and scored </body0>
+		<!-- score will be inserted here-->
+		<body1>- I bet you can't beat that!  If you want to have a try click the link below:</body1>
+		
+		
+		
+		<url><![CDATA[http://www.shaunthesheep.com]]></url>
+		<body2>Good luck!</body2>
+		
+		<formtitle>Tell a friend</formtitle>
+		<your_name>Your name:</your_name>
+		<friends_name>Your friend's name:</friends_name>
+		<your_email>Your email:</your_email>
+		<friends_email>Your friend's email</friends_email>
+		
+		
+		<send_button>Send message</send_button>
+		<back>BACK</back>
+		
+		<required>REQUIRED</required>
+		<invalid>INVALID</invalid>
+		
+		<!-- IF CBBC SITE THEN USE THIS ONE
+			<scriptToHit><![CDATA[http://extdev.bbc.co.uk/apps/ifl/cbbc/cartoons/tv/shaunthesheep/bleatbox/sendemail]]></scriptToHit>
+		OTHERWISE USE THIS ONE -->
+		
+		<scriptToHit><![CDATA[scripts/send.asp]]></scriptToHit>
+		
+		<sending>Your message is on it's way...</sending>
+		<successful>Your message has been sent successfully</successful>
+		<unsuccessful>There has been an error sending your message, please try again</unsuccessful>
+		<tryagain_btn>Try Again</tryagain_btn>
+		<sendmore_btn>Send More</sendmore_btn>
+		
+	</sendtofriend>
+	
+</shaun>
+

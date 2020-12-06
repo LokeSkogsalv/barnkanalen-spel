@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	
+	<interface_elements>
+		<sound_off>Ljud av</sound_off>
+		<sound_on>Ljud p&#229;</sound_on>
+		<loading>Laddar...</loading>
+		<backtogames>Tillbaka till spel ></backtogames>
+	</interface_elements>
+	
+	<home>
+		<file>../../index.html</file>
+	</home>
+	
+	<!-- linktype can be 
+		"internal" 
+		"external" - include windowtype="_blank" or "_self"
+		"popup" - include width="" & height="" 
+	-->
+	
+	<main_menu>
+		<item colour="F67E7D" colour2="560202" linktype="internal">
+			<title>Flocken</title>
+			<file>../../index.html?meet</file>
+		</item>
+		<item colour="28C923" colour2="113C04" linktype="internal">
+			<title>Video</title>
+			<file>../../index.html?clips</file>
+		</item>
+		<item colour="FCCE5F" colour2="522C08" linktype="internal">
+			<title>Spel</title>
+			<file>../../index.html?games</file>
+		</item>
+		<item colour="A7D2FF" colour2="0D5374" linktype="internal">
+			<title><![CDATA[Klipp & klistra]]></title>
+			<file>../../index.html?make</file>
+		</item>
+		<item colour="F19CDD" colour2="66343D" linktype="internal">
+			<title><![CDATA[Ladda ner]]></title>
+			<file>../../index.html?download</file>
+		</item>
+	</main_menu>
+	
+	
+	<tvspot>
+		<active>false</active>
+		<title>.</title>
+		<logo></logo>
+	</tvspot>
+	
+</data>

@@ -1,0 +1,49 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+	<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1" />
+	<title>svt.se - Fåret Shaun</title>
+
+	<script src="../common/swfobject/swfobject.js" type="text/javascript"></script>
+	<script src="../js/querystring.js" type="text/javascript"></script>
+
+	<script language="javascript">
+	<!--
+		var wpid = unescape(QueryString("wpid") );
+		var cid = unescape(QueryString("cid") );
+	//-->
+	</script>
+
+</head>
+
+<body>
+
+<table border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td align="left">
+
+			<div id="wrapper"><div id="flashcontent"><div id="noflashLayer"></div></div></div>
+
+			<script type="text/javascript">
+			// <![CDATA[
+			var so = new SWFObject("wallpapers.swf", "walpapers", "770", "200", "6", "#FFFFFF");
+			so.addVariable("cid", cid);
+			so.write("noflashLayer");
+			// ]]>
+			</script>
+
+			<script language="javascript">
+			<!--
+				document.write ("<img src='../" + cid + "/downloads/wallpapers/" + wpid + ".jpg' />");
+			//-->
+			</script>
+		</td>
+	</tr>
+</table>
+
+
+
+</body>
+
+</html>

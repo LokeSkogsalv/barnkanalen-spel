@@ -1,0 +1,63 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+
+<title>Shaun The Sheep MSN Icons</title>
+
+<link rel="STYLESHEET" type="text/css" href="../../../css/template_msn.css">
+</head>
+
+<body>
+
+<div id="content">
+
+
+
+	
+<table id="Table_01" width="366" height="561" border="0" cellpadding="0" cellspacing="0">
+	<tr>
+		<td colspan="5"><img src="images/popup_01.gif" width="366" height="142" alt=""></td>
+	</tr>
+	<tr>
+		<td colspan="2" rowspan="2"><img src="images/popup_02.gif" width="135" height="168" alt=""></td>
+		<td><script type="text/javascript">
+			var str = unescape(window.location);
+			var strArray = str.split("?");
+			var icon = strArray[1];
+			document.write("<img src=images/icon_" + icon + ".gif  />");
+			</script></td>
+		<td colspan="2" rowspan="2"><img src="images/popup_04.gif" width="135" height="168" alt=""></td>
+	</tr>
+	<tr>
+		<td><img src="images/popup_05.gif" width="96" height="72" alt=""></td>
+	</tr>
+	<tr>
+		<td rowspan="2"><img src="images/popup_06.gif" width="30" height="250" alt=""></td>
+		<td colspan="3" height="206" background="images/popup_07.jpg">
+			<h3 class="i-title style3">Download MSN Icon</h3>
+			<ol class="style5">
+				<li class="style6">Right-click on the image and choose "Save Picture As..." or "Save Image As..." and save the file to your desktop.</li>
+				<li class="style6">Log into MSN Messenger.</li>
+				<li class="style6">In the messenger window, click 'Tools' and navigate to 'Change Display Picture...'. Click 'Browse' and navigate to the Display Picture on your desktop. Select the Display Picture. Click 'OK'. Your new Display Picture is now ready to use!</li>
+			</ol>
+	  </td>
+		<td rowspan="2"><img src="images/popup_08.gif" width="27" height="250" alt=""></td>
+	</tr>
+	<tr>
+		<td height="44" colspan="3" valign="bottom"><img src="images/popup_09.gif" width="309" height="44" alt=""></td>
+	</tr>
+	<tr>
+		<td><img src="images/spacer.gif" width="30" height="1" alt=""></td>
+		<td><img src="images/spacer.gif" width="105" height="1" alt=""></td>
+		<td><img src="images/spacer.gif" width="96" height="1" alt=""></td>
+		<td><img src="images/spacer.gif" width="108" height="1" alt=""></td>
+		<td><img src="images/spacer.gif" width="27" height="1" alt=""></td>
+	</tr>
+</table>
+
+
+</div>
+
+</body>
+</html>

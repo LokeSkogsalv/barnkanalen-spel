@@ -1,0 +1,63 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	
+	<intro>
+		<title>Välkommen till flocken</title>
+		<body>Klicka på någon av karaktärerna för att veta mer om dem.</body>
+		<strapline></strapline>
+		<loading>Laddar...</loading>
+	</intro>
+	
+	<characters>
+	
+		<item>
+			<title>Shaun</title>
+			<body><![CDATA[Shaun är fåret som inte följer flocken. Han är nyfiken, uppfinningsrik och älskvärd. Och hans mix av entusiasm och oerfarenhet är ofta ett bra recept på trubbel.]]></body>
+			<images count="1">diverse/meet/shaun/</images>
+		</item>
+		
+		<item>
+			<title>Bitzer</title>
+			<body><![CDATA[Bitzer är en sliten fårhund och vill bara leva ett stillsamt liv – men det är det sista han får när Shaun är i närheten.]]></body>
+			<images count="1">diverse/meet/bitzer/</images>
+		</item>
+		
+		<item>
+			<title>Timmy</title>
+			<body><![CDATA[Han är söt men inte så oskyldig som han kanske ser ut. Lilla Timmy lyckas nästan alltid hamna i farliga situationer.]]></body>
+			<images count="1">diverse/meet/timmy/</images>
+		</item>
+		
+		<item>
+			<title>Timmys Mor</title>
+			<body><![CDATA[]]></body>
+			<images count="1">diverse/meet/mum/</images>
+		</item>
+		
+		<item>
+			<title>Shirley</title>
+			<body><![CDATA[Shirley är fyra gånger så stor som alla andra får och äter nästan vad som helst. Shirley är också bra att använda som trampolin, murbräcka osv.]]></body>
+			<images count="1">diverse/meet/shirley/</images>
+		</item>
+		
+		<item>
+			<title>Grisarna</title>
+			<body><![CDATA[Grisarna är giriga, svåra att ha att göra med och de älskar att retas med Shaun - det finns helt enkelt inget de tycker bättre om än att göra livet surt för honom.]]></body>
+			<images count="1">diverse/meet/pigs/</images>
+		</item>
+		
+		<item>
+			<title>Bonden</title>
+			<body><![CDATA[Bonden jobbar på och är helt omedveten om att han har en samling mycket ovanliga djur på gården. Och Bitzer är fast besluten om att husse aldrig ska behöva veta.]]></body>
+			<images count="1">diverse/meet/farmer/</images>
+		</item>
+		
+		<item>
+			<title>Flocken</title>
+			<body><![CDATA[Flocken lever ett helt vanligt får-liv och gör vad får vanligtvis gör. Men när Shaun får en idé, och det händer ofta, är de inte sena med att hänga på.]]></body>
+			<images count="1">diverse/meet/flock/</images>
+		</item>		
+		
+	</characters>
+	
+</data>

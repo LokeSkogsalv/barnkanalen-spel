@@ -1,0 +1,51 @@
+<!DOCTYPE html><html><head><meta charset=utf-8><meta name=viewport content="width=device-width, initial-scale=1.0, maximum-scale= 1.0, user-scalable=no">
+<meta name=apple-mobile-web-app-capable content=yes>
+<meta name=apple-mobile-web-app-status-bar-style content=black-translucent>
+<meta name=description content="Besök Julias trädgård och lek med hennes lustiga djur i roliga mini-spel.">
+<title>Spela Djur med Julia på barnkanalen.se</title>
+<style>body {
+			margin: 0;
+			padding: 0;
+			background-color: #000000;
+		}</style>
+		<script src=scripts/b5dd2340.lowLag.js></script>
+		<script src=scripts/lib/sm2/js/d3b378eb.soundmanager2-nodebug-jsmin.js></script>
+		<script src=scripts/lib/4f7c3bd8.simpleTween.js></script>
+		<script src=scripts/9cb4c6d9.game.js></script>
+		<script src=scripts/lib/3576a6e7.jquery.min.js></script>
+
+
+		<script>window.onload = function () {
+			(function() {
+			    if ("-ms-user-select" in document.documentElement.style && navigator.userAgent.match(/IEMobile\/10\.0/)) {
+			        var msViewportStyle = document.createElement("style");
+			        msViewportStyle.appendChild(
+			            document.createTextNode("@-ms-viewport{width:auto!important; height:device-height!important}")
+			        );
+			        document.getElementsByTagName("head")[0].appendChild(msViewportStyle);
+			    }
+			})();
+
+			//to disable scrolling of the scene on mobile devices
+			if(document.body.addEventListener) {
+				document.body.addEventListener('touchmove', function(e){ e.preventDefault(); } );
+			}
+
+    		var soundSystem = lowLag.init();
+    		Game.initGame('gameHolder', soundSystem);
+
+    		document.body.addEventListener('keydown', function(e){
+				e.preventDefault();
+				Game.keydown(e);
+			} );
+
+
+    		this.onresize();//trigger a resize event
+		}
+		window.ondragstart = function() { return false; }</script><body style="-ms-touch-action: none"><div id=gameHolder><div id=background></div>
+	<div id=level></div>
+	<div id=foreground></div>
+	</div>
+	<div id=desc style="color: white; text-align: center">
+	<h1>Djur med Julia</h1><p>Besök Julias trädgård och lek med hennes lustiga djur i roliga mini-spel. Lär dig stava genom att klä apan, tvättbjörnen och pingvinen med knasiga klädesplagg, eller hitta knäppa djur i ett roligt bild- och bokstavsmemory.</p></div>
+<script src="./js/0ef5c79fabc2ee3f4bdb.main.js" type="text/javascript"></script>

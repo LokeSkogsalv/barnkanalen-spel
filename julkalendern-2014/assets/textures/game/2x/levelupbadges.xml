@@ -1,0 +1,16 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:7691df6196d903685f5def50da1c9811:b37736778203d6d77d3123a3f3f063e1:f9f3fef1d815bdfdfca4d2cec7f490f9$ -->
+<TextureAtlas imagePath="levelupbadges.png">
+    <SubTexture name="badgeBig1" x="441" y="610" width="376" height="341" frameX="-9" frameY="-5" frameWidth="394" frameHeight="351"/>
+    <SubTexture name="badgeBig10" x="610" y="4" width="376" height="341" frameX="-9" frameY="-5" frameWidth="394" frameHeight="351"/>
+    <SubTexture name="badgeBig2" x="823" y="351" width="376" height="341" frameX="-9" frameY="-5" frameWidth="394" frameHeight="351"/>
+    <SubTexture name="badgeBig3" x="992" y="4" width="376" height="341" frameX="-9" frameY="-5" frameWidth="394" frameHeight="351"/>
+    <SubTexture name="badgeBig4" x="823" y="698" width="376" height="341" frameX="-9" frameY="-5" frameWidth="394" frameHeight="350"/>
+    <SubTexture name="badgeBig5" x="1374" y="4" width="376" height="341" frameX="-9" frameY="-5" frameWidth="394" frameHeight="351"/>
+    <SubTexture name="badgeBig6" x="1205" y="351" width="376" height="341" frameX="-9" frameY="-5" frameWidth="394" frameHeight="351"/>
+    <SubTexture name="badgeBig7" x="4" y="610" width="431" height="341" frameX="-9" frameY="-5" frameWidth="449" frameHeight="351"/>
+    <SubTexture name="badgeBig8" x="1205" y="698" width="376" height="341" frameX="-9" frameY="-5" frameWidth="394" frameHeight="351"/>
+    <SubTexture name="badgeBig9" x="1587" y="351" width="376" height="341" frameX="-9" frameY="-5" frameWidth="394" frameHeight="351"/>
+    <SubTexture name="shine" x="4" y="4" width="600" height="600"/>
+</TextureAtlas>

@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	
+	<interface_elements>
+		<sound_off>Ljud av</sound_off>
+		<sound_on>Ljud p&#229;</sound_on>
+	</interface_elements>
+	
+	<home>
+		<file>home.swf</file>
+	</home>
+	
+	<!-- linktype can be 
+		"internal" 
+		"external" - include windowtype="_blank" or "_self"
+		"popup" - include width="" & height="" 
+	-->
+	<main_menu>
+		<item colour="F67E7D" colour2="560202" linktype="internal">
+			<title>Flocken</title>
+			<file>meet.swf</file>
+		</item>
+		<item colour="28C923" colour2="113C04" linktype="internal">
+			<title>Video</title>
+			<file>clips.swf</file>
+		</item>
+		<item colour="FCCE5F" colour2="522C08" linktype="internal">
+			<title><![CDATA[Spel]]></title>	
+			<file>games.swf</file>
+		</item>
+		<item colour="A7D2FF" colour2="0D5374" linktype="internal">
+			<title><![CDATA[Klipp & klistra]]></title>
+			<file>make.swf</file>
+		</item>
+		<item colour="F19CDD" colour2="66343D" linktype="internal">
+			<title><![CDATA[Ladda ner]]></title>
+			<file>download.swf</file>
+		</item>
+	</main_menu>
+	
+	<tvspot>
+		<active>false</active>
+		<title>.</title>
+		<logo></logo>
+	</tvspot>
+	
+	<jokes>
+		<titles>
+			<joke>SK&#196;MT</joke>
+			<question>FR&#197;GA</question>
+			<answer>SVAR</answer>
+			<close>ST&#196;NG</close>
+		</titles>
+		<items>
+			<item>
+				<question>Vad f&#229;r man om man korsar en get med ett f&#229;r?</question>
+				<answer>Ett djur som &#228;ter konservburkar och har st&#229;lull!</answer>
+			</item>
+			<item>
+				<question>Vad kallar man ett f&#229;r utan ben?</question>
+				<answer>Ett moln!</answer>
+			</item>
+			<item>
+				<question>Vad f&#229;r man om man korsar en boa-orm med ett f&#229;r?</question>
+				<answer>En ull-halsduk!</answer>
+			</item>
+			<item>
+				<question>F&#229;r f&#229;r f&#229;r?</question>
+				<answer>Nej, f&#229;r f&#229;r lamm!</answer>
+			</item>
+			<item>
+				<question>Vad f&#229;r man om man korsar ett f&#229;r med en krabba?</question>
+				<answer>En lockt&#229;ng!</answer>
+			</item>
+			<item>
+				<question>Vad s&#228;ger lammen n&#228;r de &#228;r p&#229; golfbanan?</question>
+				<answer>F&#229;&#229;&#229;&#229;&#229;&#229;r!</answer>
+			</item>
+			<item>
+				<question>Vad f&#229;r man om man korsar ett f&#229;r med en k&#228;nguru?</question>
+				<answer>En b&#228;&#228;joing!</answer>
+			</item>
+			<item>
+				<question>Vilken dans är f&#229;rens favorit?</question>
+				<answer>Lambada!</answer>
+			</item>
+				
+		</items>
+	</jokes>
+	
+</data>

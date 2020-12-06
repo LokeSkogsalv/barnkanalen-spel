@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	
+	<intro>
+		<title><![CDATA[Klipp & klistra]]></title>
+		<acrobat><![CDATA[ACROBAT READER >]]></acrobat>
+		<acrobat_url>http://www.adobe.com/products/acrobat/readstep2_allversions.html</acrobat_url>
+		<more><![CDATA[Fler aktiviteter]]></more>
+	</intro>
+	
+	<make>
+	
+		<item>
+			<title>F&#228;rgl&#228;gg!</title>
+			<body><![CDATA[Plocka fram kritor och pennor och smeta lite f&#228;rg p&#229; Shaun och hans v&#228;nner.<br><br>Klicka nedan f&#246;r att h&#228;mta ett paket med skoj teckningar att skriva ut och f&#228;rgl&#228;gga.]]></body>
+
+			<image>diverse/colour.swf</image>
+			<link><![CDATA[H&#228;mta paketet >]]></link>
+			<url>diverse/farglagg.pdf</url>
+		</item>
+		
+		<item>
+			<title>Masker!</title>
+			<body><![CDATA[Fixa coola ansiktsmasker med Shaun och hans v&#228;nner. <br>Skriv ut och klipp ut!<br><br>Klicka nedan f&#246;r att h&#228;mta hem materialet i PDF-format.]]></body>
+			<image>diverse/masks.swf</image>
+			<link><![CDATA[H&#228;mta maskerna >]]></link>
+			<url>diverse/ansiktsmask.pdf</url>
+		</item>
+		
+		<item>
+			<title>Mer skoj!</title>
+			<body><![CDATA[H&#228;r kan du h&#228;mta ett helt paket fullmatat med skoj saker att g&#246;ra.<br>Till exempel prick-till-prick och en labyrint.<br><br>Klicka nedan f&#246;r att h&#228;mta hem allt skoj i PDF-format.]]></body>
+			<image>diverse/activities.swf</image>
+			<link><![CDATA[H&#228;mta paketet >]]></link>
+			<url>diverse/aktivitet.pdf</url>
+		</item>
+
+
+
+	</make>
+	
+</data>

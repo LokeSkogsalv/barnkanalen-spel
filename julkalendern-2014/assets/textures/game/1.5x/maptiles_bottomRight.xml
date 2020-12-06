@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:8179e30a0a8a4007b68378e250318a4b:a9550e1980e2d27163352286d058008c:30fef5dc4786b063a6d27979f35ab37b$ -->
+<TextureAtlas imagePath="maptiles_bottomRight.png">
+    <SubTexture name="black001" x="208" y="277" width="89" height="96" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black002" x="303" y="277" width="87" height="96" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black003" x="396" y="279" width="86" height="96" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black004" x="488" y="279" width="86" height="96" frameX="-10" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black005" x="580" y="279" width="86" height="96" frameX="-10" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black006" x="672" y="279" width="86" height="96" frameX="-10" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black007" x="280" y="184" width="96" height="87" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black008" x="382" y="184" width="96" height="87" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black009" x="484" y="186" width="96" height="87" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black010" x="492" y="94" width="96" height="86" frameX="0" frameY="-10" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black011" x="594" y="94" width="96" height="86" frameX="0" frameY="-10" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black012" x="1549" y="187" width="96" height="88" frameX="0" frameY="-8" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black013" x="1282" y="4" width="85" height="85" frameX="0" frameY="-11" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black014" x="1373" y="4" width="86" height="85" frameX="0" frameY="-11" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black015" x="1465" y="4" width="86" height="85" frameX="0" frameY="-11" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black016" x="1557" y="4" width="85" height="85" frameX="-11" frameY="-11" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black017" x="4" y="93" width="85" height="85" frameX="-11" frameY="-11" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black018" x="95" y="93" width="85" height="85" frameX="-11" frameY="-11" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black019" x="696" y="94" width="86" height="86" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black020" x="788" y="94" width="85" height="86" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black021" x="879" y="94" width="86" height="86" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black022" x="971" y="94" width="85" height="86" frameX="-11" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black023" x="1062" y="94" width="85" height="86" frameX="-11" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black024" x="1153" y="94" width="85" height="86" frameX="-11" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="black025" x="764" y="279" width="96" height="96"/>
+    <SubTexture name="black026" x="866" y="279" width="96" height="96"/>
+    <SubTexture name="black027" x="968" y="279" width="96" height="96"/>
+    <SubTexture name="black028" x="1070" y="279" width="96" height="96"/>
+    <SubTexture name="black029" x="1172" y="280" width="96" height="96"/>
+    <SubTexture name="black030" x="1274" y="280" width="96" height="96"/>
+    <SubTexture name="black031" x="1376" y="280" width="96" height="96"/>
+    <SubTexture name="black032" x="1478" y="281" width="96" height="96"/>
+    <SubTexture name="black033" x="4" y="370" width="96" height="96"/>
+    <SubTexture name="black034" x="106" y="376" width="96" height="96"/>
+    <SubTexture name="black035" x="208" y="379" width="96" height="96"/>
+    <SubTexture name="black036" x="310" y="381" width="96" height="96"/>
+    <SubTexture name="black037" x="412" y="381" width="96" height="96"/>
+    <SubTexture name="black038" x="514" y="381" width="96" height="96"/>
+    <SubTexture name="black039" x="616" y="381" width="96" height="96"/>
+    <SubTexture name="black040" x="718" y="381" width="96" height="96"/>
+    <SubTexture name="black041" x="820" y="381" width="96" height="96"/>
+    <SubTexture name="black042" x="922" y="381" width="96" height="96"/>
+    <SubTexture name="black043" x="1024" y="381" width="96" height="96"/>
+    <SubTexture name="black044" x="1126" y="382" width="96" height="96"/>
+    <SubTexture name="black045" x="1228" y="382" width="96" height="96"/>
+    <SubTexture name="black046" x="1330" y="382" width="96" height="96"/>
+    <SubTexture name="black047" x="1432" y="383" width="96" height="96"/>
+    <SubTexture name="black048" x="1534" y="383" width="96" height="96"/>
+    <SubTexture name="black049" x="4" y="472" width="96" height="96"/>
+    <SubTexture name="black050" x="106" y="478" width="96" height="96"/>
+    <SubTexture name="black051" x="208" y="481" width="96" height="96"/>
+    <SubTexture name="black052" x="310" y="483" width="96" height="96"/>
+    <SubTexture name="black053" x="412" y="483" width="96" height="96"/>
+    <SubTexture name="black054" x="514" y="483" width="96" height="96"/>
+    <SubTexture name="black055" x="616" y="483" width="96" height="96"/>
+    <SubTexture name="lava001" x="718" y="483" width="87" height="96" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava002" x="811" y="483" width="85" height="96" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava003" x="902" y="483" width="84" height="96" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava004" x="992" y="483" width="84" height="96" frameX="-12" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava005" x="1082" y="484" width="84" height="96" frameX="-12" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava006" x="1172" y="484" width="85" height="96" frameX="-11" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava007" x="186" y="93" width="96" height="85" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava008" x="288" y="93" width="96" height="85" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava009" x="390" y="93" width="96" height="85" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava010" x="541" y="4" width="96" height="84" frameX="0" frameY="-12" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava011" x="643" y="4" width="96" height="84" frameX="0" frameY="-12" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava012" x="106" y="276" width="96" height="94" frameX="0" frameY="-2" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava013" x="4" y="4" width="84" height="83" frameX="0" frameY="-13" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava014" x="94" y="4" width="84" height="83" frameX="0" frameY="-13" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava015" x="184" y="4" width="84" height="83" frameX="0" frameY="-13" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava016" x="274" y="4" width="83" height="83" frameX="-13" frameY="-13" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava017" x="363" y="4" width="83" height="83" frameX="-13" frameY="-13" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava018" x="452" y="4" width="83" height="83" frameX="-13" frameY="-13" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava019" x="745" y="4" width="84" height="84" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava020" x="835" y="4" width="84" height="84" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava021" x="925" y="4" width="84" height="84" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava022" x="1015" y="4" width="83" height="84" frameX="-13" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava023" x="1104" y="4" width="83" height="84" frameX="-13" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava024" x="1193" y="4" width="83" height="84" frameX="-13" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="lava025" x="1263" y="484" width="96" height="96"/>
+    <SubTexture name="lava026" x="1365" y="485" width="96" height="96"/>
+    <SubTexture name="lava027" x="1467" y="485" width="96" height="96"/>
+    <SubTexture name="lava028" x="4" y="574" width="96" height="96"/>
+    <SubTexture name="lava029" x="106" y="580" width="96" height="96"/>
+    <SubTexture name="lava030" x="208" y="583" width="96" height="96"/>
+    <SubTexture name="lava031" x="310" y="585" width="96" height="96"/>
+    <SubTexture name="lava032" x="412" y="585" width="96" height="96"/>
+    <SubTexture name="lava033" x="514" y="585" width="96" height="96"/>
+    <SubTexture name="lava034" x="616" y="585" width="96" height="96"/>
+    <SubTexture name="lava035" x="718" y="585" width="96" height="96"/>
+    <SubTexture name="lava036" x="820" y="585" width="96" height="96"/>
+    <SubTexture name="lava037" x="922" y="585" width="96" height="96"/>
+    <SubTexture name="lava038" x="1024" y="586" width="96" height="96"/>
+    <SubTexture name="lava039" x="1126" y="586" width="96" height="96"/>
+    <SubTexture name="lava040" x="1228" y="586" width="96" height="96"/>
+    <SubTexture name="lava041" x="1330" y="587" width="96" height="96"/>
+    <SubTexture name="lava042" x="1432" y="587" width="96" height="96"/>
+    <SubTexture name="lava043" x="1534" y="587" width="96" height="96"/>
+    <SubTexture name="lava044" x="4" y="676" width="96" height="96"/>
+    <SubTexture name="lava045" x="106" y="682" width="96" height="96"/>
+    <SubTexture name="lava046" x="208" y="685" width="96" height="96"/>
+    <SubTexture name="lava047" x="310" y="687" width="96" height="96"/>
+    <SubTexture name="lava048" x="412" y="687" width="96" height="96"/>
+    <SubTexture name="lava049" x="514" y="687" width="96" height="96"/>
+    <SubTexture name="lava050" x="616" y="687" width="96" height="96"/>
+    <SubTexture name="lava051" x="718" y="687" width="96" height="96"/>
+    <SubTexture name="lava052" x="820" y="687" width="96" height="96"/>
+    <SubTexture name="lava053" x="922" y="687" width="96" height="96"/>
+    <SubTexture name="lava054" x="1024" y="688" width="96" height="96"/>
+    <SubTexture name="lava055" x="1126" y="688" width="96" height="96"/>
+    <SubTexture name="white001" x="1228" y="688" width="90" height="96" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white002" x="1324" y="689" width="87" height="96" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white003" x="1417" y="689" width="87" height="96" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white004" x="1569" y="485" width="86" height="96" frameX="-10" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white005" x="1510" y="689" width="86" height="96" frameX="-10" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white006" x="4" y="778" width="87" height="96" frameX="-9" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white007" x="586" y="186" width="96" height="87" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white008" x="688" y="186" width="96" height="87" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white009" x="790" y="186" width="96" height="87" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white010" x="892" y="186" width="96" height="87" frameX="0" frameY="-9" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white011" x="1244" y="95" width="96" height="86" frameX="0" frameY="-10" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white012" x="4" y="276" width="96" height="88" frameX="0" frameY="-8" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white013" x="1346" y="95" width="87" height="86" frameX="0" frameY="-10" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white014" x="1439" y="95" width="87" height="86" frameX="0" frameY="-10" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white015" x="1532" y="95" width="87" height="86" frameX="0" frameY="-10" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white016" x="4" y="184" width="86" height="86" frameX="-10" frameY="-10" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white017" x="96" y="184" width="86" height="86" frameX="-10" frameY="-10" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white018" x="188" y="184" width="86" height="86" frameX="-10" frameY="-10" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white019" x="994" y="186" width="87" height="87" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white020" x="1087" y="186" width="87" height="87" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white021" x="1180" y="187" width="87" height="87" frameX="0" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white022" x="1273" y="187" width="86" height="87" frameX="-10" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white023" x="1365" y="187" width="86" height="87" frameX="-10" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white024" x="1457" y="187" width="86" height="87" frameX="-10" frameY="0" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="white025" x="97" y="784" width="96" height="96"/>
+    <SubTexture name="white026" x="199" y="787" width="96" height="96"/>
+    <SubTexture name="white027" x="301" y="789" width="96" height="96"/>
+    <SubTexture name="white028" x="403" y="789" width="96" height="96"/>
+    <SubTexture name="white029" x="505" y="789" width="96" height="96"/>
+    <SubTexture name="white030" x="607" y="789" width="96" height="96"/>
+    <SubTexture name="white031" x="709" y="789" width="96" height="96"/>
+    <SubTexture name="white032" x="811" y="789" width="96" height="96"/>
+    <SubTexture name="white033" x="913" y="789" width="96" height="96"/>
+    <SubTexture name="white034" x="1015" y="790" width="96" height="96"/>
+    <SubTexture name="white035" x="1117" y="790" width="96" height="96"/>
+    <SubTexture name="white036" x="1219" y="790" width="96" height="96"/>
+    <SubTexture name="white037" x="1321" y="791" width="96" height="96"/>
+    <SubTexture name="white038" x="1423" y="791" width="96" height="96"/>
+    <SubTexture name="white039" x="1525" y="791" width="96" height="96"/>
+    <SubTexture name="white040" x="4" y="886" width="96" height="96"/>
+    <SubTexture name="white041" x="106" y="889" width="96" height="96"/>
+    <SubTexture name="white042" x="208" y="891" width="96" height="96"/>
+    <SubTexture name="white043" x="310" y="891" width="96" height="96"/>
+    <SubTexture name="white044" x="412" y="891" width="96" height="96"/>
+    <SubTexture name="white045" x="514" y="891" width="96" height="96"/>
+    <SubTexture name="white046" x="616" y="891" width="96" height="96"/>
+    <SubTexture name="white047" x="718" y="891" width="96" height="96"/>
+    <SubTexture name="white048" x="820" y="891" width="96" height="96"/>
+    <SubTexture name="white049" x="922" y="892" width="96" height="96"/>
+    <SubTexture name="white050" x="1024" y="892" width="96" height="96"/>
+    <SubTexture name="white051" x="1126" y="892" width="96" height="96"/>
+    <SubTexture name="white052" x="1228" y="893" width="96" height="96"/>
+    <SubTexture name="white053" x="1330" y="893" width="96" height="96"/>
+    <SubTexture name="white054" x="1432" y="893" width="96" height="96"/>
+    <SubTexture name="white055" x="1534" y="893" width="96" height="96"/>
+</TextureAtlas>

@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BigAndSmallHelperText>
+	<node id="Preloader">
+		<![CDATA[How to: Click on the flowers while you wait to get into the Big and Small house.]]>
+	</node>
+	<node id="FrontOfHouse">
+		<![CDATA[How to: To enter the house as Big, click on the big door.
+		To enter as Small, click on the small door.]]>
+	</node>
+	<node id="LivingRoom">
+		<![CDATA[How to: If you want to play as Big, click on Big.
+		<ul><li>If you want to play as Small, click on Small.</li>
+		<li>Click on the piano to play the music game.</li>
+		<li>Click on the paint and paper to do some hand painting.</li>
+		<li>See what else you can click on in the living room.</li></ul>]]>
+	</node>
+	<node id="LivingRoom.drawingGame">
+		<![CDATA[How to: Click on the paper to start painting.
+		To use Big’s hand, click on Big.
+		To use Small’s hand, click on Small.
+		Click on the colour you want to paint with.
+		To start again, click on the small paper icon.
+		Use the back arrow to return to the living room.]]>
+	</node>
+	<node id="LivingRoom.bandGame">
+		<![CDATA[How to: Click on an instrument, then click on the character you want to play it.
+		You can swap or change instruments at any time - you control the band!
+		Use the back arrow to return to the living room.]]>
+	</node>
+	<node id="LivingRoom.video">
+		<![CDATA[How to: Click on the play button to watch a clip from the show.
+		Use the back arrow to return to the living room.]]>
+	</node>	
+	<node id="Landing">
+		<![CDATA[How to: To enter the bedroom, click on the door.
+		Use the back arrow to return to the living room.]]>
+	</node>
+	<node id="Bedroom">
+		<small><![CDATA[How to: Try to wake Big up by clicking things in the room that might help, or click on something to launch at him, see if that works!
+		Use the back arrow to return to the living room.]]></small>
+		<big><![CDATA[How to: Try to calm Small down by clicking things in the room that might help, or click on something from the room and then click on Small to give it to him.
+		Use the back arrow to return to the living room.]]></big>
+	</node>
+	<node id="Bathroom">
+		<![CDATA[How to: Click on the toothbrushes if you want to play the tooth-brushing game. See what else you can click on in the bathroom. To enter the bedroom, click on the door.]]>
+	</node>
+	<node id="Bathroom.toothBrushTackle">
+		<small><![CDATA[How to: Line the circles up with Big's mouth and click to clean his teeth. Keep clicking on Big's mouth 
+		until you have lit up all the stars]]></small>
+		<big><![CDATA[How to: Try and click on Small's mouth to get his teeth clean. Keep clicking on Small's mouth 
+		until you have lit up all the stars]]></big>
+	</node>
+	<node id="Garden.hub">
+		<![CDATA[Rollover or click on the arrows to explore the garden.
+		  Click on the vegetable patch to play the plant and grow game.
+		  Click on the apple tree to play the apple game.
+		  Click around the pond to find the frogs and fishes.
+		  Click on the mysterious woods to find Big and Small doing their
+		  dance.]]>
+	</node>
+	<node id="Garden.vegPatch">
+		<![CDATA[Click and stick the seeds to plant them in the vegetable patch.
+		  Click and stick the watering can and water the seedlings to grow
+		  vegetables and flowers.
+		  Click and stick the trowel to dig the plants up.
+		  Click on Big or Small to change your point of view and to see
+		  different types of seeds.]]>
+	</node>
+	<node id="Garden.appleTree">
+		<![CDATA[If you want to play as Big click on Big.
+		  If you want to play as Small click on Small.
+		  Click on the apples to see what happens!]]>
+	</node>
+	<node id="MysteriousWoods">
+		<![CDATA[Find Big or Small in the mysterious wood.
+		  Click on the arrows to move through the mysterious woods.
+		  Select a route when the pathway splits by clicking on the left
+		  or right arrow.
+		  Use the menu button to return to the garden or house.]]>
+	</node>
+</BigAndSmallHelperText>

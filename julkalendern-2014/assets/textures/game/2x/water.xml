@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:c91fe6185cfc77473163b1a1d6cf4968:9c56f1a7570b04bbe2264a2909c4d13a:b4e882f23296ce2a1871e6347ce7aaf6$ -->
+<TextureAtlas imagePath="water.png">
+    <SubTexture name="seaOverlay" x="4" y="4" width="1024" height="1024"/>
+    <SubTexture name="seaOverlay_flat" x="4" y="1034" width="1024" height="1024"/>
+    <SubTexture name="trail" x="4" y="2064" width="40" height="40"/>
+</TextureAtlas>

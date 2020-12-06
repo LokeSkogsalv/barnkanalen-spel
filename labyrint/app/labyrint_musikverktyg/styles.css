@@ -1,0 +1,166 @@
+ body {background-color: black;}
+	margin: 0;
+	padding: 0;
+ }
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 600px;
+	 height: 825px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #Layer39 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 600px;
+	 height: 825px;
+	 z-index:1;
+} 
+
+ #bg 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 600px;
+	 height: 825px;
+	 z-index:2;
+} 
+
+ #symbolsound8 
+{ 
+	 left: 423px; 
+	 top: 674px; 
+	 position: absolute; 
+	 width: 97px;
+	 height: 97px;
+	 z-index:3;
+} 
+
+ #symbolsound7 
+{ 
+	 left: 315px; 
+	 top: 674px; 
+	 position: absolute; 
+	 width: 97px;
+	 height: 97px;
+	 z-index:4;
+} 
+
+ #symbolsound6 
+{ 
+	 left: 200px; 
+	 top: 674px; 
+	 position: absolute; 
+	 width: 97px;
+	 height: 97px;
+	 z-index:5;
+} 
+
+ #symbolsound5 
+{ 
+	 left: 84px; 
+	 top: 674px; 
+	 position: absolute; 
+	 width: 96px;
+	 height: 97px;
+	 z-index:6;
+} 
+
+ #symbolsound4 
+{ 
+	 left: 420px; 
+	 top: 573px; 
+	 position: absolute; 
+	 width: 97px;
+	 height: 99px;
+	 z-index:7;
+} 
+
+ #symbolsound3 
+{ 
+	 left: 311px; 
+	 top: 573px; 
+	 position: absolute; 
+	 width: 97px;
+	 height: 99px;
+	 z-index:8;
+} 
+
+ #Layer38 
+{ 
+	 left: 202px; 
+	 top: 573px; 
+	 position: absolute; 
+	 width: 97px;
+	 height: 99px;
+	 z-index:9;
+} 
+
+ #symbolsound2 
+{ 
+	 left: 218px; 
+	 top: 610px; 
+	 position: absolute; 
+	 width: 65px;
+	 height: 29px;
+	 z-index:10;
+} 
+
+ #symbolsound1 
+{ 
+	 left: 84px; 
+	 top: 573px; 
+	 position: absolute; 
+	 width: 96px;
+	 height: 99px;
+	 z-index:11;
+} 
+
+ #buttonback 
+{ 
+	 left: 60px; 
+	 top: 59px; 
+	 position: absolute; 
+	 width: 47px;
+	 height: 51px;
+	 z-index:12;
+} 
+
+ #Buttonplay 
+{ 
+	 left: 441px; 
+	 top: 56px; 
+	 position: absolute; 
+	 width: 78px;
+	 height: 34px;
+	 z-index:13;
+} 
+
+ #buttonpause 
+{ 
+	 left: 509px; 
+	 top: 58px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 27px;
+	 z-index:14;
+} 
+
+ #animation 
+{ 
+	 left: 180px; 
+	 top: 452px; 
+	 position: absolute; 
+	 width: 68px;
+	 height: 27px;
+	 z-index:14;
+} 

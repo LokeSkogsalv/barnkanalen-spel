@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:c717ce26f8ac6bef059b9a7054c8e7d8:2b0e8b3742ecb576bf77a2f6e493e238:36a206a22639b81997bd0604d5ff99f7$ -->
+<TextureAtlas imagePath="main.png">
+    <SubTexture name="iconBackDown" x="951" y="61" width="41" height="41" frameX="-5" frameY="-5" frameWidth="51" frameHeight="51"/>
+    <SubTexture name="iconBackUp" x="780" y="4" width="51" height="51"/>
+    <SubTexture name="iconCalendarBigDown" x="426" y="4" width="95" height="95" frameX="-2" frameY="-2" frameWidth="99" frameHeight="99"/>
+    <SubTexture name="iconCalendarBigUp" x="216" y="4" width="99" height="99"/>
+    <SubTexture name="iconCalendarDown" x="998" y="61" width="41" height="41" frameX="-5" frameY="-5" frameWidth="51" frameHeight="51"/>
+    <SubTexture name="iconCalendarUp" x="837" y="4" width="51" height="51"/>
+    <SubTexture name="iconCannonDown" x="1045" y="61" width="41" height="41" frameX="-5" frameY="-5" frameWidth="51" frameHeight="51"/>
+    <SubTexture name="iconCannonUp" x="894" y="4" width="51" height="51"/>
+    <SubTexture name="iconCheck" x="1472" y="4" width="50" height="50"/>
+    <SubTexture name="iconCloseDown" x="1092" y="61" width="41" height="41" frameX="-5" frameY="-5" frameWidth="51" frameHeight="51"/>
+    <SubTexture name="iconCloseUp" x="951" y="4" width="51" height="51"/>
+    <SubTexture name="iconCodexDown" x="1139" y="61" width="41" height="41" frameX="-5" frameY="-5" frameWidth="51" frameHeight="51"/>
+    <SubTexture name="iconCodexUp" x="1008" y="4" width="51" height="51"/>
+    <SubTexture name="iconForwardDown" x="1186" y="61" width="41" height="41" frameX="-5" frameY="-5" frameWidth="51" frameHeight="51"/>
+    <SubTexture name="iconForwardUp" x="1065" y="4" width="51" height="51"/>
+    <SubTexture name="iconHeadphones" x="1374" y="60" width="40" height="41"/>
+    <SubTexture name="iconHomeDown" x="998" y="61" width="41" height="41" frameX="-5" frameY="-5" frameWidth="51" frameHeight="51"/>
+    <SubTexture name="iconHomeUp" x="837" y="4" width="51" height="51"/>
+    <SubTexture name="iconInventoryDown" x="1233" y="61" width="41" height="41" frameX="-5" frameY="-5" frameWidth="51" frameHeight="51"/>
+    <SubTexture name="iconInventoryUp" x="1122" y="4" width="51" height="51"/>
+    <SubTexture name="iconLook" x="1420" y="60" width="40" height="41"/>
+    <SubTexture name="iconMapCloseDown" x="1528" y="4" width="50" height="50"/>
+    <SubTexture name="iconMapCloseUp" x="1584" y="4" width="50" height="50"/>
+    <SubTexture name="iconMapDown" x="849" y="61" width="45" height="41" frameX="-5" frameY="-4" frameWidth="55" frameHeight="50"/>
+    <SubTexture name="iconMapMissionDown" x="900" y="61" width="45" height="41" frameX="-5" frameY="-4" frameWidth="55" frameHeight="50"/>
+    <SubTexture name="iconMapMissonUp" x="1350" y="4" width="55" height="50"/>
+    <SubTexture name="iconMapUp" x="1411" y="4" width="55" height="50"/>
+    <SubTexture name="iconParentsDown" x="714" y="70" width="81" height="33" frameX="-9" frameY="-3" frameWidth="99" frameHeight="39"/>
+    <SubTexture name="iconParentsUp" x="1466" y="60" width="99" height="39"/>
+    <SubTexture name="iconPauseDown" x="1280" y="61" width="41" height="41" frameX="-5" frameY="-5" frameWidth="51" frameHeight="51"/>
+    <SubTexture name="iconPauseUp" x="1179" y="4" width="51" height="51"/>
+    <SubTexture name="iconPlayBigDown" x="527" y="4" width="95" height="95" frameX="-2" frameY="-2" frameWidth="99" frameHeight="99"/>
+    <SubTexture name="iconPlayBigUp" x="321" y="4" width="99" height="99"/>
+    <SubTexture name="iconPlayDown" x="4" y="4" width="100" height="100"/>
+    <SubTexture name="iconPlayUp" x="110" y="4" width="100" height="100"/>
+    <SubTexture name="iconProgressDown" x="801" y="61" width="42" height="42" frameX="-4" frameY="-5" frameWidth="51" frameHeight="51"/>
+    <SubTexture name="iconProgressUp" x="1236" y="4" width="51" height="51"/>
+    <SubTexture name="iconUsersDown" x="1327" y="61" width="41" height="41" frameX="-5" frameY="-5" frameWidth="51" frameHeight="51"/>
+    <SubTexture name="iconUsersUp" x="1293" y="4" width="51" height="51"/>
+    <SubTexture name="inner1" x="1571" y="60" width="14" height="27" frameX="-48" frameY="-25" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="inner2" x="1571" y="93" width="10" height="10" frameX="-61" frameY="-39" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="inner3" x="1619" y="87" width="27" height="14" frameX="-58" frameY="-48" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="inner4" x="1587" y="93" width="10" height="10" frameX="-61" frameY="-61" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="inner5" x="1591" y="60" width="14" height="26" frameX="-48" frameY="-59" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="inner6" x="1603" y="92" width="10" height="10" frameX="-39" frameY="-61" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="inner7" x="1652" y="86" width="27" height="14" frameX="-25" frameY="-48" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="inner8" x="1640" y="4" width="10" height="10" frameX="-39" frameY="-39" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="loaderBg" x="628" y="4" width="80" height="93" frameX="-15" frameY="-7" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="loaderFull" x="714" y="4" width="60" height="60" frameX="-25" frameY="-25" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="outer1" x="1634" y="60" width="19" height="20" frameX="-45" frameY="-5" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="outer2" x="1640" y="29" width="17" height="20" frameX="-80" frameY="-26" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="outer3" x="1659" y="4" width="19" height="19" frameX="-79" frameY="-65" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="outer4" x="1663" y="29" width="19" height="19" frameX="-45" frameY="-83" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="outer5" x="1663" y="54" width="17" height="20" frameX="-13" frameY="-65" frameWidth="110" frameHeight="110"/>
+    <SubTexture name="outer6" x="1611" y="60" width="17" height="21" frameX="-13" frameY="-25" frameWidth="110" frameHeight="110"/>
+</TextureAtlas>

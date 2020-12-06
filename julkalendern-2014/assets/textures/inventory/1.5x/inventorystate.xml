@@ -1,0 +1,95 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:d0e7f977133a164eaf1f804963e7053f:380598a481cd86242f23997fe8eac2bf:ed3628b927a2391d187bf0282b05964f$ -->
+<TextureAtlas imagePath="inventorystate.png">
+    <SubTexture name="arrow" x="507" y="992" width="15" height="11"/>
+    <SubTexture name="dateLocked1" x="412" y="862" width="65" height="41"/>
+    <SubTexture name="dateLocked10" x="483" y="862" width="65" height="41"/>
+    <SubTexture name="dateLocked11" x="1755" y="617" width="65" height="41"/>
+    <SubTexture name="dateLocked12" x="75" y="957" width="65" height="41"/>
+    <SubTexture name="dateLocked13" x="1224" y="793" width="65" height="41"/>
+    <SubTexture name="dateLocked14" x="1295" y="793" width="65" height="41"/>
+    <SubTexture name="dateLocked15" x="1283" y="840" width="65" height="41"/>
+    <SubTexture name="dateLocked16" x="1523" y="789" width="65" height="41"/>
+    <SubTexture name="dateLocked17" x="1594" y="789" width="65" height="41"/>
+    <SubTexture name="dateLocked18" x="1685" y="762" width="65" height="41"/>
+    <SubTexture name="dateLocked19" x="1283" y="887" width="65" height="41"/>
+    <SubTexture name="dateLocked2" x="637" y="906" width="65" height="41"/>
+    <SubTexture name="dateLocked20" x="708" y="906" width="65" height="41"/>
+    <SubTexture name="dateLocked21" x="1768" y="664" width="65" height="41"/>
+    <SubTexture name="dateLocked22" x="1768" y="711" width="65" height="41"/>
+    <SubTexture name="dateLocked23" x="1665" y="809" width="65" height="41"/>
+    <SubTexture name="dateLocked24" x="1768" y="758" width="65" height="41"/>
+    <SubTexture name="dateLocked25" x="1134" y="917" width="65" height="41"/>
+    <SubTexture name="dateLocked3" x="507" y="945" width="65" height="41"/>
+    <SubTexture name="dateLocked4" x="779" y="918" width="65" height="41"/>
+    <SubTexture name="dateLocked5" x="850" y="918" width="65" height="41"/>
+    <SubTexture name="dateLocked6" x="1366" y="820" width="65" height="41"/>
+    <SubTexture name="dateLocked7" x="1437" y="820" width="65" height="41"/>
+    <SubTexture name="dateLocked8" x="1354" y="867" width="65" height="41"/>
+    <SubTexture name="dateLocked9" x="1425" y="867" width="65" height="41"/>
+    <SubTexture name="dateUnlocked1" x="1354" y="914" width="65" height="41"/>
+    <SubTexture name="dateUnlocked10" x="1425" y="914" width="65" height="41"/>
+    <SubTexture name="dateUnlocked11" x="1508" y="836" width="65" height="41"/>
+    <SubTexture name="dateUnlocked12" x="1579" y="836" width="65" height="41"/>
+    <SubTexture name="dateUnlocked13" x="1496" y="883" width="65" height="41"/>
+    <SubTexture name="dateUnlocked14" x="1567" y="883" width="65" height="41"/>
+    <SubTexture name="dateUnlocked15" x="1496" y="930" width="65" height="41"/>
+    <SubTexture name="dateUnlocked16" x="1567" y="930" width="65" height="41"/>
+    <SubTexture name="dateUnlocked17" x="1650" y="856" width="65" height="41"/>
+    <SubTexture name="dateUnlocked18" x="1638" y="903" width="65" height="41"/>
+    <SubTexture name="dateUnlocked19" x="1638" y="950" width="65" height="41"/>
+    <SubTexture name="dateUnlocked2" x="921" y="920" width="65" height="41"/>
+    <SubTexture name="dateUnlocked20" x="992" y="920" width="65" height="41"/>
+    <SubTexture name="dateUnlocked21" x="1063" y="920" width="65" height="41"/>
+    <SubTexture name="dateUnlocked22" x="1736" y="809" width="65" height="41"/>
+    <SubTexture name="dateUnlocked23" x="1721" y="856" width="65" height="41"/>
+    <SubTexture name="dateUnlocked24" x="1709" y="903" width="65" height="41"/>
+    <SubTexture name="dateUnlocked25" x="4" y="957" width="65" height="42"/>
+    <SubTexture name="dateUnlocked3" x="1709" y="950" width="65" height="41"/>
+    <SubTexture name="dateUnlocked4" x="1205" y="917" width="65" height="41"/>
+    <SubTexture name="dateUnlocked5" x="1276" y="934" width="65" height="41"/>
+    <SubTexture name="dateUnlocked6" x="1347" y="961" width="65" height="41"/>
+    <SubTexture name="dateUnlocked7" x="1418" y="961" width="65" height="41"/>
+    <SubTexture name="dateUnlocked8" x="1780" y="903" width="65" height="41"/>
+    <SubTexture name="dateUnlocked9" x="1780" y="950" width="65" height="41"/>
+    <SubTexture name="iconBackDown" x="968" y="837" width="77" height="77"/>
+    <SubTexture name="iconBackUp" x="1755" y="534" width="77" height="77"/>
+    <SubTexture name="iconCloseDown" x="1685" y="679" width="77" height="77"/>
+    <SubTexture name="iconCloseUp" x="554" y="862" width="77" height="77"/>
+    <SubTexture name="iconCodexDown" x="1051" y="837" width="77" height="77"/>
+    <SubTexture name="iconCodexUp" x="1134" y="834" width="77" height="77"/>
+    <SubTexture name="iconHeadphones" x="1217" y="840" width="60" height="61"/>
+    <SubTexture name="overlay" x="4" y="4" width="960" height="133"/>
+    <SubTexture name="podium1" x="412" y="607" width="239" height="249" frameX="0" frameY="-1" frameWidth="239" frameHeight="250"/>
+    <SubTexture name="podium2" x="460" y="143" width="231" height="280" frameX="0" frameY="-1" frameWidth="231" frameHeight="281"/>
+    <SubTexture name="podium3" x="697" y="143" width="223" height="280" frameX="0" frameY="-2" frameWidth="223" frameHeight="282"/>
+    <SubTexture name="shine" x="4" y="143" width="450" height="450"/>
+    <SubTexture name="timerEmpty" x="4" y="945" width="152" height="6"/>
+    <SubTexture name="treasure1" x="1475" y="4" width="231" height="203"/>
+    <SubTexture name="treasure10" x="205" y="599" width="201" height="304"/>
+    <SubTexture name="treasure11" x="734" y="429" width="193" height="193"/>
+    <SubTexture name="treasure12" x="657" y="628" width="151" height="272"/>
+    <SubTexture name="treasure13" x="1388" y="583" width="129" height="231"/>
+    <SubTexture name="treasure14" x="4" y="599" width="195" height="340"/>
+    <SubTexture name="treasure15" x="1391" y="455" width="218" height="119"/>
+    <SubTexture name="treasure16" x="1234" y="4" width="235" height="140"/>
+    <SubTexture name="treasure17" x="933" y="380" width="231" height="195"/>
+    <SubTexture name="treasure18" x="1170" y="389" width="215" height="188"/>
+    <SubTexture name="treasure19" x="1523" y="580" width="156" height="203"/>
+    <SubTexture name="treasure2" x="814" y="628" width="148" height="284"/>
+    <SubTexture name="treasure20" x="970" y="4" width="258" height="135"/>
+    <SubTexture name="treasure21" x="968" y="581" width="122" height="250"/>
+    <SubTexture name="treasure22" x="1645" y="391" width="179" height="137"/>
+    <SubTexture name="treasure23" x="1224" y="583" width="158" height="204"/>
+    <SubTexture name="treasure24" x="1186" y="150" width="220" height="233"/>
+    <SubTexture name="treasure25" x="205" y="909" width="296" height="94"/>
+    <SubTexture name="treasure3" x="460" y="429" width="268" height="172"/>
+    <SubTexture name="treasure4" x="1412" y="213" width="233" height="132"/>
+    <SubTexture name="treasure5" x="1712" y="4" width="131" height="240"/>
+    <SubTexture name="treasure6" x="1096" y="583" width="122" height="245"/>
+    <SubTexture name="treasure7" x="926" y="145" width="254" height="229"/>
+    <SubTexture name="treasure8" x="1651" y="250" width="187" height="135"/>
+    <SubTexture name="treasure9" x="1412" y="351" width="227" height="98"/>
+    <SubTexture name="treasureLocked" x="1685" y="534" width="64" height="139"/>
+</TextureAtlas>

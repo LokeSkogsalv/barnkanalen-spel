@@ -1,0 +1,40 @@
+﻿
+body{
+	background-image: url('img/cardboard.jpg');
+	overflow: hidden;
+}
+
+.sprite{
+	width: 200px;
+	height: 549px;
+	background-image: url('img/sprite2.png');
+	background-position: 0% 0%;
+	background-repeat: no-repeat;
+	margin: 4% auto;
+	cursor: pointer;
+	opacity: 0;
+}
+
+.smoke{
+	background-image: url('img/smoke.png');
+	background-size: cover;
+	width: 100px;
+	height: 100px;
+	position: absolute;
+	left: 45%;
+	top:20%;
+	z-index: -20;
+}
+
+.load{
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	margin: -50px 0px 0px -50px;
+	width: 100px;
+	opacity: 0.5;
+}
+
+.load img{
+	width: 100%;
+}

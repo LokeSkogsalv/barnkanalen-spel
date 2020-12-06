@@ -1,0 +1,41 @@
+﻿<?xml version="1.0" encoding="UTF-8"?>
+<data>
+	
+	<intro>
+		<title>Spel</title>
+		<body><![CDATA[]]></body>
+		<play><![CDATA[Spela]]></play>
+		<more>Fler spel</more>
+	</intro>
+	
+	<games>
+
+		<item>
+			<image>diverse/finnflocken.swf</image>
+			<url>games/finnflocken/index.html</url>
+		</item>	
+
+		<item>
+			<image>diverse/hundochfar.swf</image>
+			<url>games/enhund/index.html</url>
+		</item>	
+		
+		<item>
+			<image>diverse/baaoing.swf</image>
+			<url>games/wooly/index.html</url>
+		</item>
+		
+		<item>
+			<image>diverse/beatbox.swf</image>
+			<url>games/bleat/index.html</url>
+		</item>	
+
+		<item>
+			<image>diverse/fargspelet.swf</image>
+			<url>games/fargspelet/index.html</url>
+		</item>		
+				
+
+	</games>
+	
+</data>

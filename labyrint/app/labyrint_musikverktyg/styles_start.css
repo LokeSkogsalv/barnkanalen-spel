@@ -1,0 +1,107 @@
+ body {background-color: black;}
+	margin: 0;
+	padding: 0;
+ }
+ 
+ #background 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: relative; 
+	 margin-left: auto; 
+	 margin-right: auto; 
+	 width: 600px;
+	 height: 825px; 
+	 overflow: hidden;
+	 z-index:0;
+	} 
+
+ #bgstart 
+{ 
+	 left: 0px; 
+	 top: 0px; 
+	 position: absolute; 
+	 width: 600px;
+	 height: 825px;
+	 z-index:1;
+} 
+
+ #Taurusstart 
+{ 
+	 left: 231px; 
+	 top: 573px; 
+	 position: absolute; 
+	 width: 147px;
+	 height: 154px;
+	 z-index:2;
+} 
+
+ #Minusstart 
+{ 
+	 left: 393px; 
+	 top: 573px; 
+	 position: absolute; 
+	 width: 147px;
+	 height: 154px;
+	 z-index:3;
+} 
+
+ #Krampusstart 
+{ 
+	 left: 393px; 
+	 top: 410px; 
+	 position: absolute; 
+	 width: 147px;
+	 height: 154px;
+	 z-index:4;
+} 
+
+ #Bultenstart 
+{ 
+	 left: 231px; 
+	 top: 410px; 
+	 position: absolute; 
+	 width: 147px;
+	 height: 154px;
+	 z-index:5;
+} 
+
+ #Mutternstart 
+{ 
+	 left: 67px; 
+	 top: 573px; 
+	 position: absolute; 
+	 width: 147px;
+	 height: 154px;
+	 z-index:6;
+} 
+
+ #Daidalosstart 
+{ 
+	 left: 67px; 
+	 top: 410px; 
+	 position: absolute; 
+	 width: 147px;
+	 height: 154px;
+	 z-index:7;
+} 
+
+ #Titel 
+{ 
+	 left: 96px; 
+	 top: 120px; 
+	 position: absolute; 
+	 width: 409px;
+	 height: 171px;
+	 z-index:8;
+} 
+
+ #LekLabyrintmedljudfr 
+{ 
+	 left: 113px; 
+	 top: 310px; 
+	 position: absolute; 
+	 width: 388px;
+	 height: 68px;
+	 z-index:9;
+} 

@@ -1,0 +1,103 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<shaun>
+	
+	<startpage>
+		<intro>Klicka på fåren för att få dem att ljuda!</intro>
+	</startpage>
+		
+	<general>
+		<visit_aardman>Till Aardman.com</visit_aardman>
+		<www>http://www.aardman.com</www>
+		<openstyle>_blank</openstyle>
+		<cr_line>© 2007 Aardman Studios</cr_line>
+	</general>
+	
+	<instructionspannel>
+		<titletext>Det finns två spel att välja på</titletext>
+		<freeplaytitle><![CDATA[FRI LEK]]></freeplaytitle>
+		<freeplaybody><![CDATA[Klicka runt och gör ljuv musik.]]></freeplaybody>
+		<memorytitle><![CDATA[MEMORY]]></memorytitle>
+		<memorybody><![CDATA[Använd minnet för att kopiera Bitzers låt!]]></memorybody>
+		<levertext>Använd spaken för att välja!</levertext>
+		<letsgo>SPELA!</letsgo>
+	</instructionspannel>
+	
+	<gametypes>
+		<drag>DRAG</drag>
+		<freeplaytitle>Klicka på fåren för att få dem att ljuda!</freeplaytitle>
+		<freeplaybody>Gör din egen musik genom att klicka på fåren för att spela olika noter. Prova även att klicka på de andra djuren...</freeplaybody>
+		<memorytitle>Kopiera Bitzers låt... Om du kan!</memorytitle>
+		<memorybody>Lyssna till fåren och spela samma noter som Bitzer. Du kan också spela med tangentbordet.</memorybody>
+	</gametypes>
+	
+	<game>
+		<score>POÄNG</score>
+		<record>REKORD</record>	
+		<get_ready>REDO?</get_ready>
+		<go>GO!</go>
+		<comments>
+			<item>BRA!</item>
+			<item>SNYGGT!</item>
+			<item>PERFEKT!</item>
+		</comments>
+	</game>
+	
+	<endscreen>
+		<end_keyerror>FEL!</end_keyerror>
+		<end_timeout>SNABBARE!</end_timeout>
+		<top>Bra gjort!</top>
+		<you_scored>Din poäng blev</you_scored>
+		<top_2>Hoppsan!</top_2>
+		<try_again><![CDATA[Det var tyvärr fel not,<br>men försök igen!]]></try_again>
+		<top_timeout><![CDATA[Hoppsan!<br>Du måste vara snabbare än så!]]></top_timeout>
+		<record>Ditt rekord är</record>
+		<play_again_button><![CDATA[Spela igen]]></play_again_button>
+		<freeplay_button><![CDATA[FRI LEK]]></freeplay_button>
+	</endscreen>
+
+	<sendtofriend>
+	
+		<active>false</active>
+		<sendtofriend_buttontext><![CDATA[Tell a friend]]></sendtofriend_buttontext>
+		
+		<!-- position can either be 'infront' or 'after'. So it will be 'Dear xxx' or 'xxx dear', depending on where it is in a language -->
+		
+		<salutation position="infront">Dear</salutation>
+		
+		<body0>I just played the fantastic Shaun the Sheep Bleat Box game and scored </body0>
+		<!-- score will be inserted here-->
+		<body1>- I bet you can't beat that!  If you want to have a try click the link below:</body1>
+		
+		
+		
+		<url><![CDATA[http://www.shaunthesheep.com]]></url>
+		<body2>Good luck!</body2>
+		
+		<formtitle>Tell a friend</formtitle>
+		<your_name>Your name:</your_name>
+		<friends_name>Your friend's name:</friends_name>
+		<your_email>Your email:</your_email>
+		<friends_email>Your friend's email</friends_email>
+		
+		
+		<send_button><![CDATA[Send your message]]></send_button>
+		<back><![CDATA[&lt; Back]]></back>
+		
+		<required>REQUIRED</required>
+		<invalid>INVALID</invalid>
+		
+		<!-- IF CBBC SITE THEN USE THIS ONE
+			<scriptToHit><![CDATA[http://extdev.bbc.co.uk/apps/ifl/cbbc/cartoons/tv/shaunthesheep/bleatbox/sendemail]]></scriptToHit>
+		OTHERWISE USE THIS ONE -->
+		
+		<scriptToHit><![CDATA[scripts/send.asp]]></scriptToHit>
+		
+		<sending>Your message is on its way...</sending>
+		<successful>Your message has been sent successfully</successful>
+		<unsuccessful>There has been an error sending your message, please try again</unsuccessful>
+		<tryagain_btn>Try Again</tryagain_btn>
+		
+	</sendtofriend>
+	
+</shaun>
+

@@ -1,0 +1,194 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:24b9f541fa473fc0b9c05c1a34ec5cdf:160edc5e659f62f96c95b6e47fc3f05f:7f8303ce01a0e5cf923fcff95b822a04$ -->
+<TextureAtlas imagePath="maptiles_topLeft.png">
+    <SubTexture name="Sand001" x="406" y="623" width="120" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="Sand002" x="532" y="623" width="118" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="Sand003" x="656" y="623" width="117" height="128" frameX="-11" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="Sand004" x="779" y="624" width="119" height="128" frameX="-9" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="Sand005" x="510" y="127" width="128" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="Sand006" x="1144" y="499" width="128" height="120" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="Sand007" x="644" y="127" width="128" height="118" frameX="0" frameY="-10" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="Sand008" x="778" y="127" width="128" height="118" frameX="0" frameY="-10" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="Sand009" x="4" y="4" width="119" height="117" frameX="0" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="Sand010" x="129" y="4" width="118" height="117" frameX="0" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="Sand011" x="253" y="4" width="118" height="117" frameX="-10" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="Sand012" x="377" y="4" width="118" height="117" frameX="-10" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="Sand013" x="912" y="127" width="119" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="Sand014" x="1037" y="127" width="119" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="Sand015" x="1162" y="127" width="118" height="118" frameX="-10" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="Sand016" x="1286" y="127" width="118" height="118" frameX="-10" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="Sand017" x="904" y="624" width="128" height="128"/>
+    <SubTexture name="Sand018" x="1038" y="625" width="128" height="128"/>
+    <SubTexture name="Sand019" x="1172" y="625" width="128" height="128"/>
+    <SubTexture name="Sand020" x="1306" y="625" width="128" height="128"/>
+    <SubTexture name="Sand021" x="1440" y="625" width="128" height="128"/>
+    <SubTexture name="Sand022" x="4" y="749" width="128" height="128"/>
+    <SubTexture name="Sand023" x="138" y="749" width="128" height="128"/>
+    <SubTexture name="Sand024" x="272" y="750" width="128" height="128"/>
+    <SubTexture name="Sand025" x="406" y="757" width="128" height="128"/>
+    <SubTexture name="Sand026" x="540" y="757" width="128" height="128"/>
+    <SubTexture name="Sand027" x="674" y="758" width="128" height="128"/>
+    <SubTexture name="Sand028" x="808" y="758" width="128" height="128"/>
+    <SubTexture name="Sand029" x="942" y="759" width="128" height="128"/>
+    <SubTexture name="Sand030" x="1076" y="759" width="128" height="128"/>
+    <SubTexture name="Sand031" x="1210" y="759" width="128" height="128"/>
+    <SubTexture name="Sand032" x="1344" y="759" width="128" height="128"/>
+    <SubTexture name="Sand033" x="1478" y="759" width="128" height="128"/>
+    <SubTexture name="Sand034" x="4" y="883" width="128" height="128"/>
+    <SubTexture name="Sand035" x="138" y="883" width="128" height="128"/>
+    <SubTexture name="Sand036" x="272" y="884" width="128" height="128"/>
+    <SubTexture name="Sand037" x="406" y="891" width="128" height="128"/>
+    <SubTexture name="Sand038" x="540" y="891" width="128" height="128"/>
+    <SubTexture name="Sand039" x="674" y="892" width="128" height="128"/>
+    <SubTexture name="green001" x="808" y="892" width="121" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green002" x="935" y="893" width="118" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green003" x="1059" y="893" width="118" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green004" x="1183" y="893" width="118" height="128" frameX="-10" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green005" x="1574" y="625" width="117" height="128" frameX="-11" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green006" x="1307" y="893" width="118" height="128" frameX="-10" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green007" x="876" y="499" width="128" height="119" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green008" x="1410" y="127" width="128" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green009" x="1544" y="127" width="128" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green010" x="4" y="250" width="128" height="118" frameX="0" frameY="-10" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green011" x="501" y="4" width="128" height="117" frameX="0" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green012" x="1278" y="499" width="128" height="120" frameX="0" frameY="-8" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green013" x="138" y="250" width="119" height="118" frameX="0" frameY="-10" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green014" x="263" y="250" width="119" height="118" frameX="0" frameY="-10" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green015" x="388" y="251" width="119" height="118" frameX="0" frameY="-10" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green016" x="635" y="4" width="118" height="117" frameX="-10" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green017" x="759" y="4" width="118" height="117" frameX="-10" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green018" x="883" y="4" width="118" height="117" frameX="-10" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green019" x="513" y="251" width="119" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green020" x="638" y="251" width="119" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green021" x="763" y="251" width="119" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green022" x="888" y="251" width="118" height="118" frameX="-10" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green023" x="1012" y="251" width="118" height="118" frameX="-10" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green024" x="1136" y="251" width="118" height="118" frameX="-10" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="green025" x="1431" y="893" width="128" height="128"/>
+    <SubTexture name="green026" x="4" y="1017" width="128" height="128"/>
+    <SubTexture name="green027" x="138" y="1017" width="128" height="128"/>
+    <SubTexture name="green028" x="272" y="1018" width="128" height="128"/>
+    <SubTexture name="green029" x="406" y="1025" width="128" height="128"/>
+    <SubTexture name="green030" x="540" y="1025" width="128" height="128"/>
+    <SubTexture name="green031" x="674" y="1026" width="128" height="128"/>
+    <SubTexture name="green032" x="932" y="1027" width="128" height="128"/>
+    <SubTexture name="green033" x="1066" y="1027" width="128" height="128"/>
+    <SubTexture name="green034" x="1200" y="1027" width="128" height="128"/>
+    <SubTexture name="green035" x="1334" y="1027" width="128" height="128"/>
+    <SubTexture name="green036" x="1468" y="1027" width="128" height="128"/>
+    <SubTexture name="green037" x="4" y="1151" width="128" height="128"/>
+    <SubTexture name="green038" x="138" y="1151" width="128" height="128"/>
+    <SubTexture name="green039" x="272" y="1152" width="128" height="128"/>
+    <SubTexture name="green040" x="406" y="1159" width="128" height="128"/>
+    <SubTexture name="green041" x="540" y="1159" width="128" height="128"/>
+    <SubTexture name="green042" x="674" y="1160" width="128" height="128"/>
+    <SubTexture name="green043" x="931" y="1161" width="128" height="128"/>
+    <SubTexture name="green044" x="1065" y="1161" width="128" height="128"/>
+    <SubTexture name="green045" x="1199" y="1161" width="128" height="128"/>
+    <SubTexture name="green046" x="1333" y="1161" width="128" height="128"/>
+    <SubTexture name="green047" x="1467" y="1161" width="128" height="128"/>
+    <SubTexture name="green048" x="4" y="1285" width="128" height="128"/>
+    <SubTexture name="green049" x="138" y="1285" width="128" height="128"/>
+    <SubTexture name="green050" x="272" y="1286" width="128" height="128"/>
+    <SubTexture name="green051" x="406" y="1293" width="128" height="128"/>
+    <SubTexture name="green052" x="540" y="1293" width="128" height="128"/>
+    <SubTexture name="green053" x="674" y="1294" width="128" height="128"/>
+    <SubTexture name="green054" x="931" y="1295" width="128" height="128"/>
+    <SubTexture name="green055" x="1065" y="1295" width="128" height="128"/>
+    <SubTexture name="greenSand001" x="1565" y="893" width="120" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand002" x="808" y="1026" width="118" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand003" x="808" y="1160" width="117" height="128" frameX="-11" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand004" x="1199" y="1295" width="119" height="128" frameX="-9" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand005" x="1260" y="251" width="128" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand006" x="1412" y="499" width="128" height="120" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand007" x="1394" y="251" width="128" height="118" frameX="0" frameY="-10" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand008" x="1528" y="251" width="128" height="118" frameX="0" frameY="-10" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand009" x="1007" y="4" width="119" height="117" frameX="0" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand010" x="1132" y="4" width="118" height="117" frameX="0" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand011" x="1256" y="4" width="118" height="117" frameX="-10" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand012" x="1380" y="4" width="118" height="117" frameX="-10" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand013" x="4" y="374" width="119" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand014" x="129" y="374" width="119" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand015" x="254" y="374" width="118" height="118" frameX="-10" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand016" x="378" y="375" width="118" height="118" frameX="-10" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand017" x="1324" y="1295" width="128" height="128"/>
+    <SubTexture name="greenSand018" x="1458" y="1295" width="128" height="128"/>
+    <SubTexture name="greenSand019" x="4" y="1419" width="128" height="128"/>
+    <SubTexture name="greenSand020" x="138" y="1419" width="128" height="128"/>
+    <SubTexture name="greenSand021" x="272" y="1420" width="128" height="128"/>
+    <SubTexture name="greenSand022" x="406" y="1427" width="128" height="128"/>
+    <SubTexture name="greenSand023" x="540" y="1427" width="128" height="128"/>
+    <SubTexture name="greenSand024" x="674" y="1428" width="128" height="128"/>
+    <SubTexture name="greenSand025" x="931" y="1429" width="119" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand026" x="1056" y="1429" width="123" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand027" x="1185" y="1429" width="118" height="128" frameX="-10" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand028" x="808" y="1294" width="117" height="128" frameX="-11" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand029" x="4" y="622" width="128" height="121" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand030" x="502" y="375" width="128" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand031" x="138" y="622" width="128" height="121" frameX="0" frameY="-7" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand032" x="636" y="375" width="128" height="118" frameX="0" frameY="-10" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand033" x="1309" y="1429" width="118" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand034" x="1433" y="1429" width="118" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand035" x="808" y="1428" width="117" height="128" frameX="-11" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand036" x="1557" y="1429" width="117" height="128" frameX="-11" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand037" x="272" y="623" width="128" height="121" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand038" x="770" y="375" width="128" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand039" x="904" y="375" width="128" height="118" frameX="0" frameY="-10" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="greenSand040" x="1504" y="4" width="128" height="117" frameX="0" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow001" x="4" y="1553" width="121" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow002" x="131" y="1553" width="118" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow003" x="255" y="1554" width="118" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow004" x="379" y="1561" width="118" height="128" frameX="-10" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow005" x="503" y="1561" width="117" height="128" frameX="-11" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow006" x="626" y="1562" width="118" height="128" frameX="-10" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow007" x="1010" y="499" width="128" height="119" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow008" x="1038" y="375" width="128" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow009" x="1172" y="375" width="128" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow010" x="1306" y="375" width="128" height="118" frameX="0" frameY="-10" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow011" x="4" y="127" width="128" height="117" frameX="0" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow012" x="1546" y="499" width="128" height="120" frameX="0" frameY="-8" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow013" x="1440" y="375" width="119" height="118" frameX="0" frameY="-10" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow014" x="1565" y="375" width="119" height="118" frameX="0" frameY="-10" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow015" x="4" y="498" width="119" height="118" frameX="0" frameY="-10" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow016" x="138" y="127" width="118" height="117" frameX="-10" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow017" x="262" y="127" width="118" height="117" frameX="-10" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow018" x="386" y="127" width="118" height="117" frameX="-10" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow019" x="129" y="498" width="119" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow020" x="378" y="499" width="119" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow021" x="503" y="499" width="119" height="118" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow022" x="254" y="498" width="118" height="118" frameX="-10" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow023" x="628" y="499" width="118" height="118" frameX="-10" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow024" x="752" y="499" width="118" height="118" frameX="-10" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="yellow025" x="750" y="1562" width="128" height="128"/>
+    <SubTexture name="yellow026" x="884" y="1563" width="128" height="128"/>
+    <SubTexture name="yellow027" x="1018" y="1563" width="128" height="128"/>
+    <SubTexture name="yellow028" x="1152" y="1563" width="128" height="128"/>
+    <SubTexture name="yellow029" x="1286" y="1563" width="128" height="128"/>
+    <SubTexture name="yellow030" x="1420" y="1563" width="128" height="128"/>
+    <SubTexture name="yellow031" x="1554" y="1563" width="128" height="128"/>
+    <SubTexture name="yellow032" x="4" y="1687" width="128" height="128"/>
+    <SubTexture name="yellow033" x="138" y="1688" width="128" height="128"/>
+    <SubTexture name="yellow034" x="272" y="1695" width="128" height="128"/>
+    <SubTexture name="yellow035" x="406" y="1695" width="128" height="128"/>
+    <SubTexture name="yellow036" x="540" y="1696" width="128" height="128"/>
+    <SubTexture name="yellow037" x="674" y="1696" width="128" height="128"/>
+    <SubTexture name="yellow038" x="808" y="1697" width="128" height="128"/>
+    <SubTexture name="yellow039" x="942" y="1697" width="128" height="128"/>
+    <SubTexture name="yellow040" x="1076" y="1697" width="128" height="128"/>
+    <SubTexture name="yellow041" x="1210" y="1697" width="128" height="128"/>
+    <SubTexture name="yellow042" x="1344" y="1697" width="128" height="128"/>
+    <SubTexture name="yellow043" x="1478" y="1697" width="128" height="128"/>
+    <SubTexture name="yellow044" x="4" y="1821" width="128" height="128"/>
+    <SubTexture name="yellow045" x="138" y="1822" width="128" height="128"/>
+    <SubTexture name="yellow046" x="272" y="1829" width="128" height="128"/>
+    <SubTexture name="yellow047" x="406" y="1829" width="128" height="128"/>
+    <SubTexture name="yellow048" x="540" y="1830" width="128" height="128"/>
+    <SubTexture name="yellow049" x="674" y="1830" width="128" height="128"/>
+    <SubTexture name="yellow050" x="808" y="1831" width="128" height="128"/>
+    <SubTexture name="yellow051" x="942" y="1831" width="128" height="128"/>
+    <SubTexture name="yellow052" x="1076" y="1831" width="128" height="128"/>
+    <SubTexture name="yellow053" x="1210" y="1831" width="128" height="128"/>
+    <SubTexture name="yellow054" x="1344" y="1831" width="128" height="128"/>
+    <SubTexture name="yellow055" x="1478" y="1831" width="128" height="128"/>
+</TextureAtlas>

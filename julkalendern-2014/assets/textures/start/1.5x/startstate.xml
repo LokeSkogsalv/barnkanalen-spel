@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:86e6e28b24882f6bb464fdfb8862aa3f:720a33f29fce05d6e0a9421fc09471fa:84d01f79334574468282111aa9cc65f7$ -->
+<TextureAtlas imagePath="startstate.png">
+    <SubTexture name="User1Active" x="1824" y="160" width="147" height="149" frameX="-5" frameY="-4" frameWidth="158" frameHeight="158"/>
+    <SubTexture name="User1Down" x="1575" y="550" width="119" height="121" frameX="-19" frameY="-18" frameWidth="158" frameHeight="158"/>
+    <SubTexture name="User1SmallDown" x="510" y="660" width="124" height="47"/>
+    <SubTexture name="User1SmallUp" x="510" y="596" width="154" height="58"/>
+    <SubTexture name="User1Up" x="1824" y="315" width="147" height="149" frameX="-5" frameY="-4" frameWidth="158" frameHeight="158"/>
+    <SubTexture name="User2Active" x="963" y="493" width="149" height="147" frameX="-5" frameY="-5" frameWidth="158" frameHeight="158"/>
+    <SubTexture name="User2Down" x="4" y="596" width="121" height="120" frameX="-19" frameY="-19" frameWidth="158" frameHeight="158"/>
+    <SubTexture name="User2SmallDown" x="830" y="596" width="124" height="47"/>
+    <SubTexture name="User2SmallUp" x="670" y="596" width="154" height="58"/>
+    <SubTexture name="User2Up" x="1118" y="396" width="149" height="147" frameX="-5" frameY="-5" frameWidth="158" frameHeight="158"/>
+    <SubTexture name="User3Active" x="1273" y="396" width="149" height="147" frameX="-5" frameY="-6" frameWidth="158" frameHeight="158"/>
+    <SubTexture name="User3Down" x="131" y="596" width="121" height="119" frameX="-19" frameY="-20" frameWidth="158" frameHeight="158"/>
+    <SubTexture name="User3SmallDown" x="640" y="660" width="123" height="47"/>
+    <SubTexture name="User3SmallUp" x="1819" y="470" width="153" height="58"/>
+    <SubTexture name="User3Up" x="1424" y="550" width="145" height="143" frameX="-7" frameY="-8" frameWidth="158" frameHeight="158"/>
+    <SubTexture name="User4Active" x="1118" y="549" width="147" height="147" frameX="-5" frameY="-6" frameWidth="158" frameHeight="158"/>
+    <SubTexture name="User4Down" x="385" y="596" width="119" height="118" frameX="-19" frameY="-21" frameWidth="158" frameHeight="158"/>
+    <SubTexture name="User4SmallDown" x="830" y="649" width="123" height="47"/>
+    <SubTexture name="User4SmallUp" x="1819" y="534" width="153" height="58"/>
+    <SubTexture name="User4Up" x="1271" y="549" width="147" height="147" frameX="-5" frameY="-6" frameWidth="158" frameHeight="158"/>
+    <SubTexture name="UserAddDown" x="258" y="596" width="121" height="119" frameX="-19" frameY="-21" frameWidth="158" frameHeight="158"/>
+    <SubTexture name="UserAddUp" x="963" y="339" width="149" height="148" frameX="-5" frameY="-6" frameWidth="158" frameHeight="158"/>
+    <SubTexture name="addUser" x="1824" y="4" width="150" height="150"/>
+    <SubTexture name="fog" x="4" y="4" width="1189" height="329"/>
+    <SubTexture name="iconCloseDown" x="1736" y="396" width="77" height="77"/>
+    <SubTexture name="iconCloseUp" x="1736" y="479" width="77" height="77"/>
+    <SubTexture name="iconParentsDown" x="960" y="646" width="148" height="57" frameX="0" frameY="0" frameWidth="148" frameHeight="58"/>
+    <SubTexture name="iconParentsUp" x="1783" y="598" width="148" height="58"/>
+    <SubTexture name="iconPlayBigDown" x="1428" y="396" width="148" height="148"/>
+    <SubTexture name="iconPlayBigUp" x="1582" y="396" width="148" height="148"/>
+    <SubTexture name="iconUsersDown" x="1700" y="562" width="77" height="77"/>
+    <SubTexture name="iconUsersUp" x="1937" y="598" width="77" height="77"/>
+    <SubTexture name="logo" x="1199" y="4" width="619" height="386"/>
+    <SubTexture name="star" x="1118" y="339" width="15" height="15" frameX="-1" frameY="-1" frameWidth="17" frameHeight="17"/>
+    <SubTexture name="stars" x="4" y="339" width="953" height="251" frameX="-37" frameY="0" frameWidth="1035" frameHeight="675"/>
+</TextureAtlas>

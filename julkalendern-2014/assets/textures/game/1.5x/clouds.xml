@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:c29df62364bfc71a8b54e08d17fc3441:59fb0089073ac059ff272a08521136d7:1a1a6f65bf9086c3f16d3a53bfca6557$ -->
+<TextureAtlas imagePath="clouds.png">
+    <SubTexture name="clouds/cloud1" x="850" y="597" width="594" height="519" frameX="0" frameY="-2" frameWidth="594" frameHeight="521"/>
+    <SubTexture name="clouds/cloud2" x="4" y="4" width="840" height="644"/>
+    <SubTexture name="clouds/cloud3" x="850" y="4" width="798" height="587" frameX="0" frameY="0" frameWidth="798" frameHeight="590"/>
+    <SubTexture name="clouds/cloud4" x="4" y="654" width="372" height="251" frameX="-3" frameY="-1" frameWidth="375" frameHeight="255"/>
+    <SubTexture name="clouds/cloud5" x="1450" y="597" width="370" height="360" frameX="0" frameY="-2" frameWidth="370" frameHeight="362"/>
+    <SubTexture name="icons/iconCannonDown" x="1695" y="963" width="77" height="77"/>
+    <SubTexture name="icons/iconCannonUp" x="249" y="911" width="77" height="77"/>
+    <SubTexture name="icons/iconCloseDown" x="627" y="858" width="77" height="77"/>
+    <SubTexture name="icons/iconCloseUp" x="249" y="994" width="77" height="77"/>
+    <SubTexture name="icons/iconMapDown" x="603" y="654" width="82" height="74"/>
+    <SubTexture name="icons/iconMapUp" x="691" y="654" width="82" height="74"/>
+    <SubTexture name="icons/iconPauseDown" x="710" y="858" width="77" height="77"/>
+    <SubTexture name="icons/iconPauseUp" x="575" y="1003" width="77" height="77"/>
+    <SubTexture name="ui/interactions/miniPins/miniPinFlaskpost" x="658" y="1003" width="56" height="77"/>
+    <SubTexture name="ui/interactions/miniPins/miniPinFlower" x="720" y="1003" width="56" height="77"/>
+    <SubTexture name="ui/interactions/miniPins/miniPinFood1" x="782" y="1020" width="56" height="77"/>
+    <SubTexture name="ui/interactions/miniPins/miniPinFood2" x="332" y="1034" width="56" height="77"/>
+    <SubTexture name="ui/interactions/miniPins/miniPinFood3" x="394" y="1034" width="56" height="77"/>
+    <SubTexture name="ui/interactions/miniPins/miniPinGoods1" x="456" y="1034" width="56" height="77"/>
+    <SubTexture name="ui/interactions/miniPins/miniPinGoods2" x="1654" y="4" width="56" height="77"/>
+    <SubTexture name="ui/interactions/miniPins/miniPinGoods3" x="1654" y="87" width="56" height="77"/>
+    <SubTexture name="ui/interactions/miniPins/miniPinGoods4" x="1654" y="170" width="56" height="77"/>
+    <SubTexture name="ui/interactions/miniPins/miniPinGoods5" x="1654" y="253" width="56" height="77"/>
+    <SubTexture name="ui/interactions/miniPins/miniPinHarbor" x="1654" y="336" width="56" height="77"/>
+    <SubTexture name="ui/interactions/miniPins/miniPinNikola" x="1654" y="419" width="56" height="77"/>
+    <SubTexture name="ui/interactions/miniPins/miniPinTreasure" x="1778" y="963" width="42" height="38" frameX="-2" frameY="0" frameWidth="44" frameHeight="39"/>
+    <SubTexture name="ui/points/points0001" x="782" y="1003" width="10" height="11" frameX="-19" frameY="-19" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0002" x="798" y="1003" width="10" height="11" frameX="-19" frameY="-19" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0003" x="249" y="1077" width="10" height="11" frameX="-19" frameY="-19" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0004" x="779" y="716" width="12" height="12" frameX="-18" frameY="-18" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0005" x="797" y="716" width="11" height="11" frameX="-19" frameY="-19" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0006" x="814" y="716" width="11" height="11" frameX="-19" frameY="-19" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0007" x="831" y="716" width="11" height="11" frameX="-19" frameY="-19" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0008" x="603" y="858" width="11" height="11" frameX="-19" frameY="-19" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0009" x="558" y="1000" width="11" height="11" frameX="-19" frameY="-19" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0010" x="360" y="911" width="14" height="15" frameX="-17" frameY="-17" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0011" x="822" y="960" width="14" height="14" frameX="-17" frameY="-17" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0012" x="822" y="980" width="14" height="14" frameX="-17" frameY="-17" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0013" x="822" y="1000" width="14" height="14" frameX="-17" frameY="-17" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0014" x="533" y="1027" width="14" height="14" frameX="-17" frameY="-17" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0015" x="553" y="1027" width="14" height="14" frameX="-17" frameY="-17" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0016" x="822" y="936" width="18" height="18" frameX="-15" frameY="-15" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0017" x="793" y="886" width="21" height="18" frameX="-13" frameY="-16" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0018" x="818" y="858" width="21" height="18" frameX="-13" frameY="-16" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0019" x="793" y="910" width="21" height="18" frameX="-13" frameY="-16" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0020" x="1769" y="1092" width="22" height="18" frameX="-13" frameY="-16" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0021" x="332" y="911" width="22" height="18" frameX="-13" frameY="-16" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0022" x="820" y="882" width="19" height="21" frameX="-14" frameY="-14" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0023" x="820" y="909" width="19" height="21" frameX="-14" frameY="-14" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0024" x="1797" y="1092" width="19" height="22" frameX="-14" frameY="-13" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0025" x="533" y="1000" width="19" height="21" frameX="-14" frameY="-14" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0026" x="793" y="858" width="19" height="22" frameX="-14" frameY="-13" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/points/points0027" x="1651" y="1087" width="25" height="25" frameX="-8" frameY="-12" frameWidth="48" frameHeight="48"/>
+    <SubTexture name="ui/scoreboards/scoreProgress" x="1813" y="1007" width="4" height="4"/>
+    <SubTexture name="ui/scoreboards/scoreboard0" x="1450" y="963" width="239" height="56"/>
+    <SubTexture name="ui/scoreboards/scoreboard1" x="1450" y="1025" width="239" height="56"/>
+    <SubTexture name="ui/scoreboards/scoreboard2" x="382" y="876" width="239" height="56"/>
+    <SubTexture name="ui/scoreboards/scoreboard3" x="4" y="911" width="239" height="56"/>
+    <SubTexture name="ui/scoreboards/scoreboard4" x="4" y="973" width="239" height="56"/>
+    <SubTexture name="ui/scoreboards/scoreboard5" x="603" y="734" width="239" height="56"/>
+    <SubTexture name="ui/scoreboards/scoreboard6" x="603" y="796" width="239" height="56"/>
+    <SubTexture name="ui/scoreboards/scoreboard7" x="332" y="938" width="239" height="56"/>
+    <SubTexture name="ui/scoreboards/scoreboard8" x="4" y="1035" width="239" height="56"/>
+    <SubTexture name="ui/scoreboards/scoreboard9" x="577" y="941" width="239" height="56"/>
+    <SubTexture name="ui/scoreboards/scoreboardTop" x="1450" y="1087" width="195" height="28"/>
+    <SubTexture name="ui/scoreboards/scoreboardTop2" x="332" y="1000" width="195" height="28"/>
+    <SubTexture name="ui/treasureChestClosed" x="779" y="654" width="58" height="56" frameX="-20" frameY="-21" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="ui/treasureChestOpen" x="1769" y="1046" width="39" height="40" frameX="-30" frameY="-24" frameWidth="96" frameHeight="96"/>
+    <SubTexture name="vj/arrow" x="1778" y="1007" width="29" height="27" frameX="0" frameY="-1" frameWidth="29" frameHeight="29"/>
+    <SubTexture name="vj/moveCircle" x="1695" y="1046" width="68" height="68"/>
+    <SubTexture name="vj/outerCircle" x="382" y="654" width="215" height="216"/>
+</TextureAtlas>

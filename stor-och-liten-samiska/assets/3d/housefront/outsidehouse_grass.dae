@@ -1,0 +1,2272 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Sarah Bird</author>
+      <authoring_tool>Maya2008 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=0;exportCameraAsLookat=0;
+exportLights=0;exportCameras=0;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=0;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=0;exportPhysics=0;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Documents%20and%20Settings/Sarah%20Bird/My%20Documents/BigAndSmall/papervision/HouseOutside/HouseOutside_12Feb_v01.mb</source_data>
+    </contributor>
+    <created>2009-02-12T12:48:11Z</created>
+    <modified>2009-02-12T12:48:12Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file51" name="file51">
+      <init_from>./grass_baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file47" name="file47">
+      <init_from>./steppingstone01_baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file48" name="file48">
+      <init_from>./steppingstone02_baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file49" name="file49">
+      <init_from>./steppingstone03_baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file50" name="file50">
+      <init_from>./steppingstone04_baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file58" name="file58">
+      <init_from>./house_grass1.png</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file61" name="file61">
+      <init_from>./house_middle_grass.png</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file69" name="file69">
+      <init_from>./houseflowers06.png</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file70" name="file70">
+      <init_from>./houseflowers07.png</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Grass2" name="Grass2">
+      <instance_effect url="#Grass2-fx"/>
+    </material>
+    <material id="Stone1" name="Stone1">
+      <instance_effect url="#Stone1-fx"/>
+    </material>
+    <material id="Stone2" name="Stone2">
+      <instance_effect url="#Stone2-fx"/>
+    </material>
+    <material id="Stone3" name="Stone3">
+      <instance_effect url="#Stone3-fx"/>
+    </material>
+    <material id="Stone4" name="Stone4">
+      <instance_effect url="#Stone4-fx"/>
+    </material>
+    <material id="HouseGrass01" name="HouseGrass01">
+      <instance_effect url="#HouseGrass01-fx"/>
+    </material>
+    <material id="HouseGrass04" name="HouseGrass04">
+      <instance_effect url="#HouseGrass04-fx"/>
+    </material>
+    <material id="HouseFlowers06" name="HouseFlowers06">
+      <instance_effect url="#HouseFlowers06-fx"/>
+    </material>
+    <material id="HouseFlowers07" name="HouseFlowers07">
+      <instance_effect url="#HouseFlowers07-fx"/>
+    </material>
+    <material id="lambert1" name="lambert1">
+      <instance_effect url="#lambert1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Grass2-fx">
+      <profile_COMMON>
+        <newparam sid="file51-surface">
+          <surface type="2D">
+            <init_from>file51</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file51-sampler">
+          <sampler2D>
+            <source>file51-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file51-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Stone1-fx">
+      <profile_COMMON>
+        <newparam sid="file47-surface">
+          <surface type="2D">
+            <init_from>file47</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file47-sampler">
+          <sampler2D>
+            <source>file47-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file47-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Stone2-fx">
+      <profile_COMMON>
+        <newparam sid="file48-surface">
+          <surface type="2D">
+            <init_from>file48</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file48-sampler">
+          <sampler2D>
+            <source>file48-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file48-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Stone3-fx">
+      <profile_COMMON>
+        <newparam sid="file49-surface">
+          <surface type="2D">
+            <init_from>file49</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file49-sampler">
+          <sampler2D>
+            <source>file49-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file49-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="Stone4-fx">
+      <profile_COMMON>
+        <newparam sid="file50-surface">
+          <surface type="2D">
+            <init_from>file50</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file50-sampler">
+          <sampler2D>
+            <source>file50-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file50-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="HouseGrass01-fx">
+      <profile_COMMON>
+        <newparam sid="file58-surface">
+          <surface type="2D">
+            <init_from>file58</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file58-sampler">
+          <sampler2D>
+            <source>file58-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file58-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="file58-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="HouseGrass04-fx">
+      <profile_COMMON>
+        <newparam sid="file61-surface">
+          <surface type="2D">
+            <init_from>file61</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file61-sampler">
+          <sampler2D>
+            <source>file61-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file61-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="file61-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="HouseFlowers06-fx">
+      <profile_COMMON>
+        <newparam sid="file69-surface">
+          <surface type="2D">
+            <init_from>file69</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file69-sampler">
+          <sampler2D>
+            <source>file69-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file69-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="file69-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="HouseFlowers07-fx">
+      <profile_COMMON>
+        <newparam sid="file70-surface">
+          <surface type="2D">
+            <init_from>file70</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file70-sampler">
+          <sampler2D>
+            <source>file70-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file70-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="A_ONE">
+              <texture texture="file70-sampler" texcoord="TEX1">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="lambert1-fx">
+      <profile_COMMON>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <color>0.4 0.4 0.4 0.8</color>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="GrassShape1" name="GrassShape1">
+      <mesh>
+        <source id="GrassShape1-positions" name="position">
+          <float_array id="GrassShape1-positions-array" count="60">-16.2924 0 -6.52989 -3.07626 0 -6.53442 17.7135 0 -6.52989 -16.2924 0 -12.6579 17.7135 0 -12.6579 -16.2924 0 -9.9219 17.7135 0 -9.9219 -3.11464 0 -12.6579 -3.078 0 -9.91857 3.16539 0 -12.6579 9.36062 0 -9.92189 9.30842 0 -12.6579 9.36617 0 -6.53302 -3.08367 0 -4.71437 9.36874 0 -4.72805 3.1431 0 -9.92023 3.14317 0 -6.53372 3.14312 0 -4.72121 -3.09632 0 -11.2882 -16.2924 0 -11.2899</float_array>
+          <technique_common>
+            <accessor source="#GrassShape1-positions-array" count="20" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GrassShape1-normals" name="normal">
+          <float_array id="GrassShape1-normals-array" count="135">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#GrassShape1-normals-array" count="45" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="GrassShape1-map1" name="map1">
+          <float_array id="GrassShape1-map1-array" count="40">0.464903 0.678034 0.006738 0.232583 0.006738 0.033891 0.006738 0.48927 0.464969 0.232835 0.464894 0.033891 0.819149 0.232583 0.993261 0.232583 0.993261 0.03389 0.819355 0.033891 0.642786 0.232709 0.642818 0.48898 0.819076 0.489033 0.993261 0.48927 0.465098 0.488927 0.642712 0.033891 0.819319 0.676998 0.642706 0.677516 0.464931 0.133363 0.006738 0.133237</float_array>
+          <technique_common>
+            <accessor source="#GrassShape1-map1-array" count="20" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="GrassShape1-vertices">
+          <input semantic="POSITION" source="#GrassShape1-positions"/>
+        </vertices>
+        <triangles material="Grass2SG" count="23">
+          <input semantic="VERTEX" source="#GrassShape1-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#GrassShape1-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#GrassShape1-map1" offset="2" set="0"/>
+          <p>19 1 19 5 2 1 18 0 18 18 0 18 5 2 1 8 3 4 5 4 1 0 5 3 8 7 4 8 7 4 0 5 3 1 6 14 6 9 7 4 10 8 10 8 6 10 8 6 4 10 8 11 11 9 15 12 10 16 13 11 10 15 6 10 15 6 16 13 11 12 14 12 2 17 13 6 18 7 12 16 12 12 16 12 6 18 7 10 19 6 9 20 15 15 21 10 11 23 9 11 23 9 15 21 10 10 22 6 14 24 16 12 25 12 17 27 17 17 27 17 12 25 12 16 26 11 7 28 5 18 29 18 9 32 15 9 32 15 18 29 18 15 31 10 18 29 18 8 30 4 15 31 10 8 33 4 1 34 14 15 36 10 15 36 10 1 34 14 16 35 11 16 38 11 1 39 14 17 37 17 17 37 17 1 39 14 13 40 0 3 42 2 19 43 19 7 41 5 7 41 5 19 43 19 18 44 18</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="Left_Grass0Shape1" name="Left_Grass0Shape1">
+      <mesh>
+        <source id="Left_Grass0Shape1-positions" name="position">
+          <float_array id="Left_Grass0Shape1-positions-array" count="18">-14.7728 0 1.77501 14.7728 0 1.77501 -14.7728 0 -1.77501 14.7728 0 -1.77501 14.7728 0 0.319668 -14.7728 0 0.332465</float_array>
+          <technique_common>
+            <accessor source="#Left_Grass0Shape1-positions-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Left_Grass0Shape1-normals" name="normal">
+          <float_array id="Left_Grass0Shape1-normals-array" count="24">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Left_Grass0Shape1-normals-array" count="8" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Left_Grass0Shape1-map1" name="map1">
+          <float_array id="Left_Grass0Shape1-map1-array" count="12">0.012058 0.244542 0.988675 0.244542 0.012058 0.880234 0.988675 0.880234 0.988675 0.504655 0.012058 0.503345</float_array>
+          <technique_common>
+            <accessor source="#Left_Grass0Shape1-map1-array" count="6" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Left_Grass0Shape1-vertices">
+          <input semantic="POSITION" source="#Left_Grass0Shape1-positions"/>
+        </vertices>
+        <triangles material="HouseFlowers_Large1SG" count="4">
+          <input semantic="VERTEX" source="#Left_Grass0Shape1-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#Left_Grass0Shape1-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#Left_Grass0Shape1-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 5 3 5 5 3 5 1 1 1 4 2 4 5 4 5 4 5 4 2 7 2 2 7 2 4 5 4 3 6 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="Mid_Grass0Shape1" name="Mid_Grass0Shape1">
+      <mesh>
+        <source id="Mid_Grass0Shape1-positions" name="position">
+          <float_array id="Mid_Grass0Shape1-positions-array" count="12">-14.7728 0 1.77501 14.7728 0 1.77501 -14.7728 0 -1.77501 14.7728 0 -1.77501</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape1-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mid_Grass0Shape1-normals" name="normal">
+          <float_array id="Mid_Grass0Shape1-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape1-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mid_Grass0Shape1-map1" name="map1">
+          <float_array id="Mid_Grass0Shape1-map1-array" count="8">0.028694 0.190612 0.975335 0.190612 0.028694 0.93344 0.975335 0.93344</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape1-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Mid_Grass0Shape1-vertices">
+          <input semantic="POSITION" source="#Mid_Grass0Shape1-positions"/>
+          <input semantic="NORMAL" source="#Mid_Grass0Shape1-normals"/>
+        </vertices>
+        <triangles material="HouseGrass04SG" count="2">
+          <input semantic="VERTEX" source="#Mid_Grass0Shape1-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#Mid_Grass0Shape1-map1" offset="1" set="0"/>
+          <p>0 0 1 1 2 2 2 2 1 1 3 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="Left_Grass0Shape2" name="Left_Grass0Shape2">
+      <mesh>
+        <source id="Left_Grass0Shape2-positions" name="position">
+          <float_array id="Left_Grass0Shape2-positions-array" count="12">-14.7728 0 1.77501 14.7728 0 1.77501 -14.7728 0 -1.77501 14.7728 0 -1.77501</float_array>
+          <technique_common>
+            <accessor source="#Left_Grass0Shape2-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Left_Grass0Shape2-normals" name="normal">
+          <float_array id="Left_Grass0Shape2-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Left_Grass0Shape2-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Left_Grass0Shape2-map1" name="map1">
+          <float_array id="Left_Grass0Shape2-map1-array" count="8">0.012058 0.239193 0.988675 0.239193 0.012058 0.876784 0.988675 0.876784</float_array>
+          <technique_common>
+            <accessor source="#Left_Grass0Shape2-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Left_Grass0Shape2-vertices">
+          <input semantic="POSITION" source="#Left_Grass0Shape2-positions"/>
+          <input semantic="NORMAL" source="#Left_Grass0Shape2-normals"/>
+        </vertices>
+        <triangles material="HouseFlowers_Large1SG" count="2">
+          <input semantic="VERTEX" source="#Left_Grass0Shape2-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#Left_Grass0Shape2-map1" offset="1" set="0"/>
+          <p>0 0 1 1 2 2 2 2 1 1 3 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="Mid_Grass0Shape2" name="Mid_Grass0Shape2">
+      <mesh>
+        <source id="Mid_Grass0Shape2-positions" name="position">
+          <float_array id="Mid_Grass0Shape2-positions-array" count="12">-14.7728 0 1.77501 14.7728 0 1.77501 -14.7728 0 -1.77501 14.7728 0 -1.77501</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape2-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mid_Grass0Shape2-normals" name="normal">
+          <float_array id="Mid_Grass0Shape2-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape2-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mid_Grass0Shape2-map1" name="map1">
+          <float_array id="Mid_Grass0Shape2-map1-array" count="8">0.018344 0.203986 0.985685 0.203986 0.018344 0.93344 0.985685 0.93344</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape2-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Mid_Grass0Shape2-vertices">
+          <input semantic="POSITION" source="#Mid_Grass0Shape2-positions"/>
+          <input semantic="NORMAL" source="#Mid_Grass0Shape2-normals"/>
+        </vertices>
+        <triangles material="HouseGrass04SG" count="2">
+          <input semantic="VERTEX" source="#Mid_Grass0Shape2-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#Mid_Grass0Shape2-map1" offset="1" set="0"/>
+          <p>0 0 1 1 2 2 2 2 1 1 3 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="Left_Grass0Shape4" name="Left_Grass0Shape4">
+      <mesh>
+        <source id="Left_Grass0Shape4-positions" name="position">
+          <float_array id="Left_Grass0Shape4-positions-array" count="12">-14.7728 0 1.77501 14.7728 0 1.77501 -14.7728 0 -1.77501 14.7728 0 -1.77501</float_array>
+          <technique_common>
+            <accessor source="#Left_Grass0Shape4-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Left_Grass0Shape4-normals" name="normal">
+          <float_array id="Left_Grass0Shape4-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Left_Grass0Shape4-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Left_Grass0Shape4-map1" name="map1">
+          <float_array id="Left_Grass0Shape4-map1-array" count="8">0.008608 0.247216 0.988675 0.247216 0.008608 0.869884 0.988675 0.869884</float_array>
+          <technique_common>
+            <accessor source="#Left_Grass0Shape4-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Left_Grass0Shape4-vertices">
+          <input semantic="POSITION" source="#Left_Grass0Shape4-positions"/>
+          <input semantic="NORMAL" source="#Left_Grass0Shape4-normals"/>
+        </vertices>
+        <triangles material="HouseFlowers_Large1SG" count="2">
+          <input semantic="VERTEX" source="#Left_Grass0Shape4-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#Left_Grass0Shape4-map1" offset="1" set="0"/>
+          <p>0 0 1 1 2 2 2 2 1 1 3 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="Left_Grass0Shape6" name="Left_Grass0Shape6">
+      <mesh>
+        <source id="Left_Grass0Shape6-positions" name="position">
+          <float_array id="Left_Grass0Shape6-positions-array" count="12">-14.7728 0 1.77501 14.7728 0 1.77501 -14.7728 0 -1.77501 14.7728 0 -1.77501</float_array>
+          <technique_common>
+            <accessor source="#Left_Grass0Shape6-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Left_Grass0Shape6-normals" name="normal">
+          <float_array id="Left_Grass0Shape6-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Left_Grass0Shape6-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Left_Grass0Shape6-map1" name="map1">
+          <float_array id="Left_Grass0Shape6-map1-array" count="8">0.012058 0.243418 0.985225 0.243418 0.012058 0.887134 0.985225 0.887134</float_array>
+          <technique_common>
+            <accessor source="#Left_Grass0Shape6-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Left_Grass0Shape6-vertices">
+          <input semantic="POSITION" source="#Left_Grass0Shape6-positions"/>
+          <input semantic="NORMAL" source="#Left_Grass0Shape6-normals"/>
+        </vertices>
+        <triangles material="HouseFlowers_Large1SG" count="2">
+          <input semantic="VERTEX" source="#Left_Grass0Shape6-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#Left_Grass0Shape6-map1" offset="1" set="0"/>
+          <p>0 0 1 1 2 2 2 2 1 1 3 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="Left_Grass0Shape8" name="Left_Grass0Shape8">
+      <mesh>
+        <source id="Left_Grass0Shape8-positions" name="position">
+          <float_array id="Left_Grass0Shape8-positions-array" count="12">-14.7728 0 1.77501 14.7728 0 1.77501 -14.7728 0 -1.77501 14.7728 0 -1.77501</float_array>
+          <technique_common>
+            <accessor source="#Left_Grass0Shape8-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Left_Grass0Shape8-normals" name="normal">
+          <float_array id="Left_Grass0Shape8-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Left_Grass0Shape8-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Left_Grass0Shape8-map1" name="map1">
+          <float_array id="Left_Grass0Shape8-map1-array" count="8">0.008608 0.244542 0.988675 0.244542 0.008608 0.869885 0.988675 0.869885</float_array>
+          <technique_common>
+            <accessor source="#Left_Grass0Shape8-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Left_Grass0Shape8-vertices">
+          <input semantic="POSITION" source="#Left_Grass0Shape8-positions"/>
+          <input semantic="NORMAL" source="#Left_Grass0Shape8-normals"/>
+        </vertices>
+        <triangles material="HouseFlowers_Large1SG" count="2">
+          <input semantic="VERTEX" source="#Left_Grass0Shape8-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#Left_Grass0Shape8-map1" offset="1" set="0"/>
+          <p>0 0 1 1 2 2 2 2 1 1 3 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="Mid_Grass0Shape5" name="Mid_Grass0Shape5">
+      <mesh>
+        <source id="Mid_Grass0Shape5-positions" name="position">
+          <float_array id="Mid_Grass0Shape5-positions-array" count="12">-14.7728 0 1.77501 14.7728 0 1.77501 -14.7728 0 -1.77501 14.7728 0 -1.77501</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape5-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mid_Grass0Shape5-normals" name="normal">
+          <float_array id="Mid_Grass0Shape5-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape5-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mid_Grass0Shape5-map1" name="map1">
+          <float_array id="Mid_Grass0Shape5-map1-array" count="8">0.028694 0.161192 0.989135 0.161192 0.028694 0.93344 0.989135 0.93344</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape5-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Mid_Grass0Shape5-vertices">
+          <input semantic="POSITION" source="#Mid_Grass0Shape5-positions"/>
+          <input semantic="NORMAL" source="#Mid_Grass0Shape5-normals"/>
+        </vertices>
+        <triangles material="HouseGrass04SG" count="2">
+          <input semantic="VERTEX" source="#Mid_Grass0Shape5-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#Mid_Grass0Shape5-map1" offset="1" set="0"/>
+          <p>0 0 1 1 2 2 2 2 1 1 3 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="Mid_Grass0Shape7" name="Mid_Grass0Shape7">
+      <mesh>
+        <source id="Mid_Grass0Shape7-positions" name="position">
+          <float_array id="Mid_Grass0Shape7-positions-array" count="12">-14.7728 0 1.77501 14.7728 0 1.77501 -14.7728 0 -1.77501 14.7728 0 -1.77501</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape7-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mid_Grass0Shape7-normals" name="normal">
+          <float_array id="Mid_Grass0Shape7-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape7-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mid_Grass0Shape7-map1" name="map1">
+          <float_array id="Mid_Grass0Shape7-map1-array" count="8">0.032144 0.190612 0.985685 0.190612 0.032144 0.93344 0.985685 0.93344</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape7-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Mid_Grass0Shape7-vertices">
+          <input semantic="POSITION" source="#Mid_Grass0Shape7-positions"/>
+          <input semantic="NORMAL" source="#Mid_Grass0Shape7-normals"/>
+        </vertices>
+        <triangles material="HouseGrass04SG" count="2">
+          <input semantic="VERTEX" source="#Mid_Grass0Shape7-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#Mid_Grass0Shape7-map1" offset="1" set="0"/>
+          <p>0 0 1 1 2 2 2 2 1 1 3 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="Mid_Grass0Shape8" name="Mid_Grass0Shape8">
+      <mesh>
+        <source id="Mid_Grass0Shape8-positions" name="position">
+          <float_array id="Mid_Grass0Shape8-positions-array" count="12">-14.7728 0 1.77501 14.7728 0 1.77501 -14.7728 0 -1.77501 14.7728 0 -1.77501</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape8-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mid_Grass0Shape8-normals" name="normal">
+          <float_array id="Mid_Grass0Shape8-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape8-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mid_Grass0Shape8-map1" name="map1">
+          <float_array id="Mid_Grass0Shape8-map1-array" count="8">0.025244 0.201311 0.982235 0.201311 0.025244 0.93344 0.982235 0.93344</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape8-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Mid_Grass0Shape8-vertices">
+          <input semantic="POSITION" source="#Mid_Grass0Shape8-positions"/>
+          <input semantic="NORMAL" source="#Mid_Grass0Shape8-normals"/>
+        </vertices>
+        <triangles material="HouseGrass04SG" count="2">
+          <input semantic="VERTEX" source="#Mid_Grass0Shape8-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#Mid_Grass0Shape8-map1" offset="1" set="0"/>
+          <p>0 0 1 1 2 2 2 2 1 1 3 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="Mid_Grass0Shape9" name="Mid_Grass0Shape9">
+      <mesh>
+        <source id="Mid_Grass0Shape9-positions" name="position">
+          <float_array id="Mid_Grass0Shape9-positions-array" count="12">-14.7728 0 1.77501 14.7728 0 1.77501 -14.7728 0 -1.77501 14.7728 0 -1.77501</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape9-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mid_Grass0Shape9-normals" name="normal">
+          <float_array id="Mid_Grass0Shape9-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape9-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mid_Grass0Shape9-map1" name="map1">
+          <float_array id="Mid_Grass0Shape9-map1-array" count="8">0.028694 0.198636 0.985685 0.198636 0.028694 0.93344 0.985685 0.93344</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape9-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Mid_Grass0Shape9-vertices">
+          <input semantic="POSITION" source="#Mid_Grass0Shape9-positions"/>
+          <input semantic="NORMAL" source="#Mid_Grass0Shape9-normals"/>
+        </vertices>
+        <triangles material="HouseGrass04SG" count="2">
+          <input semantic="VERTEX" source="#Mid_Grass0Shape9-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#Mid_Grass0Shape9-map1" offset="1" set="0"/>
+          <p>0 0 1 1 2 2 2 2 1 1 3 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="Mid_Grass0Shape11" name="Mid_Grass0Shape11">
+      <mesh>
+        <source id="Mid_Grass0Shape11-positions" name="position">
+          <float_array id="Mid_Grass0Shape11-positions-array" count="12">-14.7728 0 1.77501 14.7728 0 1.77501 -14.7728 0 -1.77501 14.7728 0 -1.77501</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape11-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mid_Grass0Shape11-normals" name="normal">
+          <float_array id="Mid_Grass0Shape11-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape11-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="Mid_Grass0Shape11-map1" name="map1">
+          <float_array id="Mid_Grass0Shape11-map1-array" count="8">0.028694 0.190612 0.975335 0.190612 0.028694 0.93344 0.975335 0.93344</float_array>
+          <technique_common>
+            <accessor source="#Mid_Grass0Shape11-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="Mid_Grass0Shape11-vertices">
+          <input semantic="POSITION" source="#Mid_Grass0Shape11-positions"/>
+          <input semantic="NORMAL" source="#Mid_Grass0Shape11-normals"/>
+        </vertices>
+        <triangles material="HouseGrass04SG" count="2">
+          <input semantic="VERTEX" source="#Mid_Grass0Shape11-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#Mid_Grass0Shape11-map1" offset="1" set="0"/>
+          <p>0 0 1 1 2 2 2 2 1 1 3 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="FlowersShape10" name="FlowersShape10">
+      <mesh>
+        <source id="FlowersShape10-positions" name="position">
+          <float_array id="FlowersShape10-positions-array" count="12">0.561676 0 -1.12506 0.588699 0 1.12506 -0.791398 0 -1.12506 -0.757876 0 1.12506</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape10-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FlowersShape10-normals" name="normal">
+          <float_array id="FlowersShape10-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape10-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FlowersShape10-map1" name="map1">
+          <float_array id="FlowersShape10-map1-array" count="8">0.74962 1 0.76163 0.112334 0.148287 1 0.163185 0.112334</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape10-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="FlowersShape10-vertices">
+          <input semantic="POSITION" source="#FlowersShape10-positions"/>
+          <input semantic="NORMAL" source="#FlowersShape10-normals"/>
+        </vertices>
+        <triangles material="HouseFlowers06SG" count="2">
+          <input semantic="VERTEX" source="#FlowersShape10-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#FlowersShape10-map1" offset="1" set="0"/>
+          <p>1 1 0 0 3 3 3 3 0 0 2 2</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="FlowersShape11" name="FlowersShape11">
+      <mesh>
+        <source id="FlowersShape11-positions" name="position">
+          <float_array id="FlowersShape11-positions-array" count="12">-1.12506 0 1.12506 1.12506 0 1.12506 -1.12506 0 -1.12506 1.12506 0 -1.12506</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape11-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FlowersShape11-normals" name="normal">
+          <float_array id="FlowersShape11-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape11-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FlowersShape11-map1" name="map1">
+          <float_array id="FlowersShape11-map1-array" count="8">0 0.093611 1 0.093611 0 1 1 1</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape11-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="FlowersShape11-vertices">
+          <input semantic="POSITION" source="#FlowersShape11-positions"/>
+          <input semantic="NORMAL" source="#FlowersShape11-normals"/>
+        </vertices>
+        <triangles material="HouseFlowers07SG" count="2">
+          <input semantic="VERTEX" source="#FlowersShape11-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#FlowersShape11-map1" offset="1" set="0"/>
+          <p>0 0 1 1 2 2 2 2 1 1 3 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="FlowersShape15" name="FlowersShape15">
+      <mesh>
+        <source id="FlowersShape15-positions" name="position">
+          <float_array id="FlowersShape15-positions-array" count="18">0.561676 0 -1.12506 0.588699 0 1.12506 -0.791398 0 -1.12506 -0.757876 0 1.12506 -0.774637 0 -0.081491 0.573218 0 -0.082541</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape15-positions-array" count="6" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FlowersShape15-normals" name="normal">
+          <float_array id="FlowersShape15-normals-array" count="36">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape15-normals-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FlowersShape15-map1" name="map1">
+          <float_array id="FlowersShape15-map1-array" count="12">0.74962 0.969198 0.76163 0.117608 0.148287 0.969198 0.163185 0.117608 0.155736 0.573597 0.754749 0.57529</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape15-map1-array" count="6" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="FlowersShape15-vertices">
+          <input semantic="POSITION" source="#FlowersShape15-positions"/>
+        </vertices>
+        <triangles material="HouseFlowers06SG" count="4">
+          <input semantic="VERTEX" source="#FlowersShape15-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#FlowersShape15-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#FlowersShape15-map1" offset="2" set="0"/>
+          <p>2 0 2 5 1 5 0 2 0 3 3 3 1 4 1 5 5 5 4 6 4 5 7 5 2 8 2 3 9 3 5 10 5 4 11 4</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="FlowersShape16" name="FlowersShape16">
+      <mesh>
+        <source id="FlowersShape16-positions" name="position">
+          <float_array id="FlowersShape16-positions-array" count="12">0.561676 0 -1.12506 0.588699 0 1.12506 -0.791398 0 -1.12506 -0.757876 0 1.12506</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape16-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FlowersShape16-normals" name="normal">
+          <float_array id="FlowersShape16-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape16-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FlowersShape16-map1" name="map1">
+          <float_array id="FlowersShape16-map1-array" count="8">0.74962 0.980399 0.76163 0.025201 0.148287 0.980399 0.163185 0.025201</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape16-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="FlowersShape16-vertices">
+          <input semantic="POSITION" source="#FlowersShape16-positions"/>
+          <input semantic="NORMAL" source="#FlowersShape16-normals"/>
+        </vertices>
+        <triangles material="HouseFlowers06SG" count="2">
+          <input semantic="VERTEX" source="#FlowersShape16-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#FlowersShape16-map1" offset="1" set="0"/>
+          <p>1 1 0 0 3 3 3 3 0 0 2 2</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="FlowersShape17" name="FlowersShape17">
+      <mesh>
+        <source id="FlowersShape17-positions" name="position">
+          <float_array id="FlowersShape17-positions-array" count="12">0.561676 0 -1.12506 0.588699 0 1.12506 -0.791398 0 -1.12506 -0.757876 0 1.12506</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape17-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FlowersShape17-normals" name="normal">
+          <float_array id="FlowersShape17-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape17-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FlowersShape17-map1" name="map1">
+          <float_array id="FlowersShape17-map1-array" count="8">0.74962 0.977599 0.76163 0.100807 0.148287 0.977599 0.163185 0.100807</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape17-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="FlowersShape17-vertices">
+          <input semantic="POSITION" source="#FlowersShape17-positions"/>
+          <input semantic="NORMAL" source="#FlowersShape17-normals"/>
+        </vertices>
+        <triangles material="HouseFlowers06SG" count="2">
+          <input semantic="VERTEX" source="#FlowersShape17-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#FlowersShape17-map1" offset="1" set="0"/>
+          <p>1 1 0 0 3 3 3 3 0 0 2 2</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="FlowersShape18" name="FlowersShape18">
+      <mesh>
+        <source id="FlowersShape18-positions" name="position">
+          <float_array id="FlowersShape18-positions-array" count="12">0.561676 0 -1.12506 0.588699 0 1.12506 -0.791398 0 -1.12506 -0.757876 0 1.12506</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape18-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FlowersShape18-normals" name="normal">
+          <float_array id="FlowersShape18-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape18-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FlowersShape18-map1" name="map1">
+          <float_array id="FlowersShape18-map1-array" count="8">0.74962 0.974799 0.76163 0.022401 0.148287 0.974799 0.163185 0.022401</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape18-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="FlowersShape18-vertices">
+          <input semantic="POSITION" source="#FlowersShape18-positions"/>
+          <input semantic="NORMAL" source="#FlowersShape18-normals"/>
+        </vertices>
+        <triangles material="HouseFlowers06SG" count="2">
+          <input semantic="VERTEX" source="#FlowersShape18-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#FlowersShape18-map1" offset="1" set="0"/>
+          <p>1 1 0 0 3 3 3 3 0 0 2 2</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="FlowersShape20" name="FlowersShape20">
+      <mesh>
+        <source id="FlowersShape20-positions" name="position">
+          <float_array id="FlowersShape20-positions-array" count="12">-1.12506 0 1.12506 1.12506 0 1.12506 -1.12506 0 -1.12506 1.12506 0 -1.12506</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape20-positions-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FlowersShape20-normals" name="normal">
+          <float_array id="FlowersShape20-normals-array" count="12">0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape20-normals-array" count="4" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="FlowersShape20-map1" name="map1">
+          <float_array id="FlowersShape20-map1-array" count="8">0.014001 0.095206 0.983199 0.095206 0.014001 0.988799 0.983199 0.988799</float_array>
+          <technique_common>
+            <accessor source="#FlowersShape20-map1-array" count="4" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="FlowersShape20-vertices">
+          <input semantic="POSITION" source="#FlowersShape20-positions"/>
+          <input semantic="NORMAL" source="#FlowersShape20-normals"/>
+        </vertices>
+        <triangles material="HouseFlowers07SG" count="2">
+          <input semantic="VERTEX" source="#FlowersShape20-vertices" offset="0"/>
+          <input semantic="TEXCOORD" source="#FlowersShape20-map1" offset="1" set="0"/>
+          <p>0 0 1 1 2 2 2 2 1 1 3 3</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="SteppingStonesShape" name="SteppingStonesShape">
+      <mesh>
+        <source id="SteppingStonesShape-positions" name="position">
+          <float_array id="SteppingStonesShape-positions-array" count="216">-2.4127 -0.03625 2.64405 -0.18701 -0.03625 2.78785 1.89218 -0.03625 2.30139 -2.70695 -0.072496 0.309949 -3.17147 -0.03625 0.955442 1.8836 -0.03625 0.056069 -3.20528 -0.03625 1.62482 2.61641 -0.03625 1.12001 2.55221 -0.03625 1.79203 -2.36424 0.264339 2.60164 -0.19099 0.270599 2.73782 1.83989 0.300585 2.26661 2.48497 0.300585 1.77488 -3.13708 0.300585 1.62001 2.5484 0.300585 1.12702 -3.10333 0.300585 0.974721 1.81922 0.261122 0.072998 -1.82922 0.300585 0.141988 -2.64901 0.300585 0.351983 -0.406918 0.270599 0.247631 0.947146 0.300585 -0.048378 -1.76374 0.025509 5.912 0.151266 0.025509 6.29659 1.79726 0.021071 5.94696 -1.84322 -0.010736 3.31641 -2.37305 0.025509 4.66962 2.60689 0.026335 4.7168 2.40799 0.026441 5.42923 -1.71862 0.264339 5.86836 0.151576 0.302405 6.23906 1.75463 0.300585 5.90207 2.34968 0.300585 5.40442 -2.31368 0.300585 4.67088 2.55254 0.300585 4.70287 -1.79624 0.300585 3.37015 0.151576 0.302405 2.93375 1.3454 0.300585 2.88711 2.14545 0.274374 3.52412 7.61609 -0.03625 0.635308 6.82707 -0.03625 2.68102 5.85741 -0.066236 2.40115 4.28543 -0.03625 2.15055 7.8895 -0.03625 2.10765 8.01264 -0.03625 1.57303 3.87919 -0.03625 1.12366 4.05362 -0.03625 0.594616 7.57623 0.264339 0.662393 6.09273 0.270599 0.234183 4.61724 0.300585 0.31644 4.09759 0.300585 0.618289 7.96473 0.300585 1.56691 3.92729 0.300585 1.12798 7.84522 0.300585 2.08212 6.82707 0.300585 2.68102 5.86792 0.270599 2.30212 4.34893 0.274374 2.07553 6.51014 0.026015 6.10241 4.66973 0.026015 6.02378 3.04798 0.025893 5.33592 7.09749 -0.01023 3.8963 7.37412 0.026015 5.18125 2.58895 0.02472 4.0748 6.47722 0.264339 6.05543 4.68084 0.302405 5.97445 3.09615 0.300585 5.30388 7.31917 0.300585 5.16968 2.64619 0.300585 4.08894 7.04357 0.300585 3.93232 5.36145 0.302405 3.03159 4.24498 0.300585 2.84923 3.4596 0.274374 3.12204 3.45859 0.028557 3.04383</float_array>
+          <technique_common>
+            <accessor source="#SteppingStonesShape-positions-array" count="72" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SteppingStonesShape-normals" name="normal">
+          <float_array id="SteppingStonesShape-normals-array" count="363">0.000408 0.999994 0.003455 0.000408 0.999994 0.003455 0.000408 0.999994 0.003455 0.000408 0.999994 0.003455 0.000408 0.999994 0.003455 0.000408 0.999994 0.003455 0.000408 0.999994 0.003455 0.000408 0.999994 0.003455 0.000408 0.999994 0.003455 0.000408 0.999994 0.003455 0.000408 0.999994 0.003455 0.000408 0.999994 0.003455 -0.792331 0.190765 -0.5795 -0.792331 0.190765 -0.5795 -0.792331 0.190765 -0.5795 -0.792331 0.190765 -0.5795 -0.978676 0.199156 -0.050292 -0.932603 0.205333 0.2968 -0.932603 0.205333 0.2968 -0.978676 0.199156 -0.050292 -0.456091 0.186222 0.870231 -0.456091 0.186222 0.870231 0.081088 0.152159 0.985024 0.081088 0.152159 0.985024 0.223466 0.146502 0.963639 0.223466 0.146502 0.963639 0.600096 0.166779 0.782348 0.600096 0.166779 0.782348 0.600096 0.166779 0.782348 0.600096 0.166779 0.782348 0.946847 0.205506 -0.247484 0.946847 0.205506 -0.247484 0.975786 0.19733 0.094355 0.975786 0.19733 0.094355 0.806409 0.189481 -0.560179 0.806409 0.189481 -0.560179 -0.000328 0.999997 0.002258 -0.000328 0.999997 0.002258 -0.000328 0.999997 0.002258 -0.000328 0.999997 0.002258 -0.000328 0.999997 0.002258 -0.000328 0.999997 0.002258 -0.000328 0.999997 0.002258 -0.000328 0.999997 0.002258 -0.000328 0.999997 0.002258 -0.000328 0.999997 0.002258 -0.973523 0.225108 0.039744 -0.910637 0.199116 -0.362069 -0.910637 0.199116 -0.362069 -0.973523 0.225108 0.039744 -0.591559 0.231999 0.772162 -0.591559 0.231999 0.772162 0.004981 0.20274 0.97922 0.004981 0.20274 0.97922 0.203266 0.192186 0.960077 0.203266 0.192186 0.960077 0.629359 0.208981 0.748488 0.629359 0.208981 0.748488 0.629359 0.208981 0.748488 0.629359 0.208981 0.748488 0.940063 0.212005 0.267086 0.940063 0.212005 0.267086 0.940063 0.212005 0.267086 0.940063 0.212005 0.267086 0.000682 0.999997 -0.0022 0.000682 0.999997 -0.0022 0.000682 0.999997 -0.0022 0.000682 0.999997 -0.0022 0.000682 0.999997 -0.0022 0.000682 0.999997 -0.0022 0.000682 0.999997 -0.0022 0.000682 0.999997 -0.0022 0.000682 0.999997 -0.0022 0.000682 0.999997 -0.0022 0.090981 0.113844 0.989324 0.090981 0.113844 0.989324 0.489837 0.065138 0.869377 0.489837 0.065138 0.869377 -0.23535 0.208657 0.949248 -0.23535 0.208657 0.949248 -0.143908 0.272194 0.95142 -0.143908 0.272194 0.95142 0.964378 0.14244 0.222902 0.985134 0.147467 -0.088114 0.985134 0.147467 -0.088114 0.964378 0.14244 0.222902 0.910147 0.138163 -0.390567 0.910147 0.138163 -0.390567 -0.982849 0.180652 0.037063 -0.982849 0.180652 0.037063 -0.939565 0.141379 -0.311817 -0.939565 0.141379 -0.311817 -0.903145 0.197319 0.381307 -0.903145 0.197319 0.381307 -0.00018 0.999997 0.002413 -0.00018 0.999997 0.002413 -0.00018 0.999997 0.002413 -0.00018 0.999997 0.002413 -0.00018 0.999997 0.002413 -0.00018 0.999997 0.002413 -0.00018 0.999997 0.002413 -0.00018 0.999997 0.002413 -0.00018 0.999997 0.002413 0.940677 0.217494 0.260429 0.940677 0.217494 0.260429 0.959019 0.187245 -0.212653 0.959019 0.187245 -0.212653 0.366296 0.208414 0.906858 0.366296 0.208414 0.906858 -0.216038 0.181458 0.959375 -0.216038 0.181458 0.959375 -0.384149 0.175182 0.906499 -0.384149 0.175182 0.906499 -0.922112 0.187549 0.33843 -0.922112 0.187549 0.33843 -0.922112 0.187549 0.33843 -0.922112 0.187549 0.33843 -0.748923 0.195697 -0.633102 -0.748923 0.195697 -0.633102 -0.748923 0.195697 -0.633102 -0.748923 0.195697 -0.633102</float_array>
+          <technique_common>
+            <accessor source="#SteppingStonesShape-normals-array" count="121" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SteppingStonesShape-map1" name="map1">
+          <float_array id="SteppingStonesShape-map1-array" count="144">0.816038 0.20652 0.694221 0.119791 0.482404 0.19899 0.259912 0.17702 0.162996 0.218614 0.105631 0.382331 0.100352 0.576321 0.21929 0.832267 0.516182 0.873205 0.833873 0.726144 0.883491 0.622879 0.891298 0.428115 0.092506 0.157159 0.014045 0.366687 0.008334 0.583969 0.142207 0.914814 0.518145 0.941178 0.863533 0.778918 0.980821 0.638245 0.991665 0.420108 0.92363 0.215114 0.907184 0.532484 0.790427 0.266769 0.703063 0.21152 0.492918 0.211745 0.165565 0.219144 0.087175 0.532484 0.1891 0.824692 0.492918 0.890143 0.808461 0.812449 0.877946 0.722713 0.109493 0.152499 0.00782 0.535055 0.124744 0.88628 0.49222 0.959089 0.822342 0.861628 0.947554 0.750205 0.981128 0.535055 0.11976 0.400434 0.161494 0.669158 0.48531 0.771705 0.681457 0.880768 0.845979 0.696244 0.860631 0.539225 0.794328 0.258124 0.527658 0.117809 0.249722 0.143819 0.151838 0.239266 0.706889 0.990257 0.956337 0.76427 0.479219 0.879948 0.110132 0.78118 0.98525 0.553556 0.892143 0.183967 0.01475 0.376445 0.055705 0.167928 0.192888 0.680633 0.451039 0.83055 0.743674 0.848655 0.880831 0.650629 0.835935 0.394715 0.561912 0.255507 0.380034 0.155335 0.215987 0.20808 0.119423 0.407947 0.969787 0.693942 0.933798 0.332413 0.800952 0.929632 0.436082 0.901984 0.122946 0.706316 0.025255 0.381716 0.16728 0.166962</float_array>
+          <technique_common>
+            <accessor source="#SteppingStonesShape-map1-array" count="72" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="SteppingStonesShape-vertices">
+          <input semantic="POSITION" source="#SteppingStonesShape-positions"/>
+        </vertices>
+        <triangles material="Stone4SG" count="19">
+          <input semantic="VERTEX" source="#SteppingStonesShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#SteppingStonesShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#SteppingStonesShape-map1" offset="2" set="0"/>
+          <p>66 102 64 64 94 56 70 101 63 64 94 56 63 95 57 70 101 63 70 101 63 63 95 57 69 100 62 69 100 62 63 95 57 68 99 61 68 99 61 63 95 57 67 98 60 67 98 60 63 95 57 65 97 59 63 95 57 62 96 58 65 97 59 65 103 59 60 104 65 67 106 60 67 106 60 60 104 65 59 105 66 62 107 58 56 108 67 65 103 59 65 103 59 56 108 67 60 104 65 63 109 57 57 110 68 62 107 58 62 107 58 57 110 68 56 108 67 63 109 57 64 111 56 57 110 68 57 110 68 64 111 56 58 112 69 64 113 56 66 114 64 58 116 69 58 116 69 66 114 64 61 115 70 66 117 64 70 118 63 61 120 70 61 120 70 70 118 63 71 119 71</p>
+        </triangles>
+        <triangles material="Stone1SG" count="26">
+          <input semantic="VERTEX" source="#SteppingStonesShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#SteppingStonesShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#SteppingStonesShape-map1" offset="2" set="0"/>
+          <p>16 0 0 20 1 1 14 11 11 14 11 11 20 1 1 12 10 10 12 10 10 20 1 1 11 9 9 11 9 9 20 1 1 10 8 8 20 1 1 19 2 2 10 8 8 10 8 8 19 2 2 9 7 7 19 2 2 17 3 3 9 7 7 9 7 7 17 3 3 13 6 6 13 6 6 17 3 3 15 5 5 17 3 3 18 4 4 15 5 5 4 13 13 15 14 5 3 12 12 3 12 12 15 14 5 18 15 4 4 16 13 6 17 14 15 19 5 15 19 5 6 17 14 13 18 6 9 20 7 13 18 6 0 21 15 0 21 15 13 18 6 6 17 14 0 21 15 1 22 16 9 20 7 9 20 7 1 22 16 10 23 8 10 23 8 1 22 16 11 25 9 11 25 9 1 22 16 2 24 17 8 26 18 12 27 10 2 29 17 2 29 17 12 27 10 11 28 9 7 30 19 14 31 11 8 33 18 8 33 18 14 31 11 12 32 10 16 35 0 14 31 11 5 34 20 5 34 20 14 31 11 7 30 19</p>
+        </triangles>
+        <triangles material="Stone3SG" count="20">
+          <input semantic="VERTEX" source="#SteppingStonesShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#SteppingStonesShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#SteppingStonesShape-map1" offset="2" set="0"/>
+          <p>34 40 25 32 41 26 35 39 24 32 41 26 28 42 27 35 39 24 28 42 27 29 43 28 35 39 24 29 43 28 30 44 29 35 39 24 35 39 24 30 44 29 36 38 23 36 38 23 30 44 29 37 37 22 30 44 29 31 45 30 37 37 22 33 36 21 37 37 22 31 45 30 32 46 26 34 47 25 25 49 32 25 49 32 34 47 25 24 48 31 28 50 27 32 46 26 21 51 33 21 51 33 32 46 26 25 49 32 21 51 33 22 52 34 28 50 27 28 50 27 22 52 34 29 53 28 29 53 28 22 52 34 30 55 29 30 55 29 22 52 34 23 54 35 27 56 36 31 57 30 23 59 35 23 59 35 31 57 30 30 58 29 33 61 21 31 62 30 26 60 37 26 60 37 31 62 30 27 63 36</p>
+        </triangles>
+        <triangles material="Stone2SG" count="22">
+          <input semantic="VERTEX" source="#SteppingStonesShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#SteppingStonesShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#SteppingStonesShape-map1" offset="2" set="0"/>
+          <p>55 65 39 54 66 40 51 64 38 51 64 38 54 66 40 49 73 47 49 73 47 54 66 40 48 72 46 48 72 46 54 66 40 47 71 45 47 71 45 54 66 40 46 70 44 54 66 40 53 67 41 46 70 44 52 68 42 50 69 43 53 67 41 53 67 41 50 69 43 46 70 44 53 74 41 39 75 48 52 77 42 52 77 42 39 75 48 42 76 49 39 75 48 53 74 41 40 78 50 40 78 50 53 74 41 54 79 40 54 79 40 55 80 39 40 78 50 40 78 50 55 80 39 41 81 51 42 82 49 43 83 52 52 85 42 52 85 42 43 83 52 50 84 43 46 86 44 50 84 43 38 87 53 38 87 53 50 84 43 43 83 52 44 88 54 51 89 38 45 91 55 45 91 55 51 89 38 49 90 47 51 89 38 44 88 54 55 93 39 55 93 39 44 88 54 41 92 51</p>
+        </triangles>
+        <polylist material="initialShadingGroup" count="0">
+          <input semantic="VERTEX" source="#SteppingStonesShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#SteppingStonesShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#SteppingStonesShape-map1" offset="2" set="0"/>
+          <vcount/>
+          <p/>
+        </polylist>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="HouseOutside_12Feb_v01">
+      <node id="Still" name="Still" type="NODE">
+        <translate sid="translate">-0.241091 6.8834 40.8293</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+      </node>
+      <node id="Grass1" name="Grass1" type="NODE">
+        <translate sid="translate">-0.244472 0.020486 12.5456</translate>
+        <translate sid="rotatePivot">13.5705 0 -12.5847</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="rotatePivotInverse">-13.5705 0 12.5847</translate>
+        <translate sid="scalePivotTranslation">-1.14709 0 0</translate>
+        <translate sid="scalePivot">14.7176 0 -12.5847</translate>
+        <scale sid="scale">0.92206 1 1</scale>
+        <translate sid="scalePivotInverse">-14.7176 0 12.5847</translate>
+        <instance_geometry url="#GrassShape1">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Grass2SG" target="#Grass2">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <node id="Grass" name="Grass" type="NODE">
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <node id="Left_Grass01" name="Left_Grass01" type="NODE">
+          <translate sid="translate">-7.98312 0.856954 1.12089</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.210147 1 0.467853</scale>
+          <instance_geometry url="#Left_Grass0Shape1">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseFlowers_Large1SG" target="#HouseGrass01">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Mid_Grass01" name="Mid_Grass01" type="NODE">
+          <translate sid="translate">3.26908 0.938115 1.9418</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.058714 1 0.513338</scale>
+          <instance_geometry url="#Mid_Grass0Shape1">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseGrass04SG" target="#HouseGrass04">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Left_Grass02" name="Left_Grass02" type="NODE">
+          <translate sid="translate">-8.24385 0.859418 1.74348</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.210147 1 0.467853</scale>
+          <instance_geometry url="#Left_Grass0Shape2">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseFlowers_Large1SG" target="#HouseGrass01">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Mid_Grass02" name="Mid_Grass02" type="NODE">
+          <translate sid="translate">2.34909 0.934928 2.53039</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.058714 1 0.513338</scale>
+          <instance_geometry url="#Mid_Grass0Shape2">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseGrass04SG" target="#HouseGrass04">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Left_Grass04" name="Left_Grass04" type="NODE">
+          <translate sid="translate">12.6815 0.865915 1.64076</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.210147 1 0.467853</scale>
+          <instance_geometry url="#Left_Grass0Shape4">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseFlowers_Large1SG" target="#HouseGrass01">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Left_Grass06" name="Left_Grass06" type="NODE">
+          <translate sid="translate">11.2998 0.8638 1.00806</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.210147 1 0.467853</scale>
+          <instance_geometry url="#Left_Grass0Shape6">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseFlowers_Large1SG" target="#HouseGrass01">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Left_Grass08" name="Left_Grass08" type="NODE">
+          <translate sid="translate">11.9896 0.862649 2.60849</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.210147 1 0.467853</scale>
+          <instance_geometry url="#Left_Grass0Shape8">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseFlowers_Large1SG" target="#HouseGrass01">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Mid_Grass05" name="Mid_Grass05" type="NODE">
+          <translate sid="translate">-4.36561 0.937854 2.53039</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.058714 1 0.513338</scale>
+          <instance_geometry url="#Mid_Grass0Shape5">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseGrass04SG" target="#HouseGrass04">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Mid_Grass07" name="Mid_Grass07" type="NODE">
+          <translate sid="translate">8.09294 0.932461 3.04826</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.058714 1 0.513338</scale>
+          <instance_geometry url="#Mid_Grass0Shape7">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseGrass04SG" target="#HouseGrass04">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Mid_Grass08" name="Mid_Grass08" type="NODE">
+          <translate sid="translate">8.88044 0.940159 1.9989</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.058714 1 0.513338</scale>
+          <instance_geometry url="#Mid_Grass0Shape8">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseGrass04SG" target="#HouseGrass04">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Mid_Grass09" name="Mid_Grass09" type="NODE">
+          <translate sid="translate">3.42705 0.429426 1.00515</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.028705 0.649441 0.229588</scale>
+          <instance_geometry url="#Mid_Grass0Shape9">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseGrass04SG" target="#HouseGrass04">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Mid_Grass011" name="Mid_Grass011" type="NODE">
+          <translate sid="translate">8.8645 0.928539 1.40299</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.058714 1 0.513338</scale>
+          <instance_geometry url="#Mid_Grass0Shape11">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseGrass04SG" target="#HouseGrass04">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+      <node id="Flowers" name="Flowers" type="NODE">
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <node id="Flowers10" name="Flowers10" type="NODE">
+          <translate sid="translate">-7.82344 0.89469 1.41343</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.772447 0.772447 0.772447</scale>
+          <instance_geometry url="#FlowersShape10">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseFlowers06SG" target="#HouseFlowers06">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Flowers11" name="Flowers11" type="NODE">
+          <translate sid="translate">-5.72483 0.959434 2.05932</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.834237 0.834237 0.834237</scale>
+          <instance_geometry url="#FlowersShape11">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseFlowers07SG" target="#HouseFlowers07">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Flowers15" name="Flowers15" type="NODE">
+          <translate sid="translate">-4.32734 0.680105 0.965972</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.586115 0.586115 0.586115</scale>
+          <instance_geometry url="#FlowersShape15">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseFlowers06SG" target="#HouseFlowers06">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Flowers16" name="Flowers16" type="NODE">
+          <translate sid="translate">-9.45001 0.68648 0.965972</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.586115 0.586115 0.586115</scale>
+          <instance_geometry url="#FlowersShape16">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseFlowers06SG" target="#HouseFlowers06">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Flowers17" name="Flowers17" type="NODE">
+          <translate sid="translate">11.551 0.681665 1.77689</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.586115 0.586115 0.586115</scale>
+          <instance_geometry url="#FlowersShape17">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseFlowers06SG" target="#HouseFlowers06">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Flowers18" name="Flowers18" type="NODE">
+          <translate sid="translate">10.6118 0.682481 1.27636</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.586115 0.586115 0.586115</scale>
+          <instance_geometry url="#FlowersShape18">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseFlowers06SG" target="#HouseFlowers06">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="Flowers20" name="Flowers20" type="NODE">
+          <translate sid="translate">12.2534 0.961299 0.776337</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 90</rotate>
+          <scale sid="scale">0.834237 0.834237 0.834237</scale>
+          <instance_geometry url="#FlowersShape20">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="HouseFlowers07SG" target="#HouseFlowers07">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  <bind_vertex_input semantic="TEX1" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+      <node id="SteppingStones" name="SteppingStones" type="NODE">
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <instance_geometry url="#SteppingStonesShape">
+          <bind_material>
+            <technique_common>
+              <instance_material symbol="Stone4SG" target="#Stone4">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Stone1SG" target="#Stone1">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Stone3SG" target="#Stone3">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="Stone2SG" target="#Stone2">
+                <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+              </instance_material>
+              <instance_material symbol="initialShadingGroup" target="#lambert1"/>
+            </technique_common>
+          </bind_material>
+        </instance_geometry>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>
