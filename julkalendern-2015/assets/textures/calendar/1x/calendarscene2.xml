@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:a29a9520b3a8c955ac342085f1569609:b262c67fedb93c8f828dacb11a16379f:63c82ba2691ef03c8fda8d52449ea85e$ -->
+<TextureAtlas imagePath="calendarscene2.png" width="1682" height="488">
+    <SubTexture name="bg" x="4" y="238" width="796" height="181" frameX="0" frameY="-43" frameWidth="796" frameHeight="224"/>
+    <SubTexture name="bg_fog" x="1446" y="464" rotated="true" width="86" height="5" frameX="0" frameY="-99" frameWidth="5" frameHeight="185"/>
+    <SubTexture name="fg" x="4" y="4" width="800" height="228" frameX="0" frameY="-109" frameWidth="800" frameHeight="337"/>
+    <SubTexture name="julgran_erase" x="207" y="425" width="196" height="49" frameX="-4" frameY="-102" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="julgran_gifts_erase" x="4" y="425" width="197" height="49" frameX="-3" frameY="-102" frameWidth="200" frameHeight="200"/>
+    <SubTexture name="julgran_on" x="1446" y="4" width="152" height="252" frameX="-103" frameY="0" frameWidth="400" frameHeight="400"/>
+    <SubTexture name="moon" x="1446" y="262" width="214" height="196" frameX="-46" frameY="-124" frameWidth="320" frameHeight="320"/>
+    <SubTexture name="sun_moon" x="810" y="4" rotated="true" width="630" height="480" frameX="-42" frameY="0" frameWidth="640" frameHeight="640"/>
+    <SubTexture name="van_lights" x="1604" y="4" rotated="true" width="74" height="218"/>
+</TextureAtlas>

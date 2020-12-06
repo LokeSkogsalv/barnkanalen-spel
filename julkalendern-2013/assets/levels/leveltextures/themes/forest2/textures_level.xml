@@ -1,0 +1,147 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:f4f305a346541f37395174e0fded2cf7:1/1$ -->
+<TextureAtlas imagePath="textures_level.png">
+    <SubTexture name="block_001" x="534" y="1571" width="128" height="128"/>
+    <SubTexture name="block_002" x="972" y="1556" width="128" height="100" frameX="0" frameY="-28" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_003" x="1050" y="1038" width="128" height="92" frameX="0" frameY="-36" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_004" x="848" y="1682" width="128" height="106" frameX="0" frameY="-22" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_005" x="400" y="1712" width="128" height="122" frameX="0" frameY="-6" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_006" x="567" y="1349" width="128" height="128"/>
+    <SubTexture name="block_007" x="433" y="1351" width="128" height="128"/>
+    <SubTexture name="block_008" x="474" y="1840" width="128" height="128"/>
+    <SubTexture name="block_009" x="400" y="1578" width="128" height="128"/>
+    <SubTexture name="block_010" x="507" y="1485" width="68" height="80" frameX="-60" frameY="-48" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_011" x="433" y="1485" width="68" height="86" frameX="-60" frameY="-42" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_012" x="1112" y="1858" width="78" height="90" frameX="-50" frameY="-38" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_013" x="981" y="1454" width="68" height="96" frameX="-60" frameY="-32" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_014" x="781" y="1342" width="70" height="128" frameX="-58" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_015" x="701" y="1342" width="74" height="128" frameX="-54" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_016" x="400" y="1145" width="82" height="128" frameX="-46" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_017" x="686" y="1839" width="72" height="128" frameX="-56" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_018" x="626" y="1052" width="128" height="128"/>
+    <SubTexture name="block_019" x="492" y="1037" width="128" height="128"/>
+    <SubTexture name="block_020" x="834" y="1004" width="128" height="128"/>
+    <SubTexture name="block_021" x="628" y="918" width="128" height="128"/>
+    <SubTexture name="block_022" x="1112" y="1760" width="70" height="92" frameX="0" frameY="-36" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_023" x="1178" y="1622" width="70" height="90" frameX="0" frameY="-38" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_024" x="1231" y="1406" width="72" height="76" frameX="0" frameY="-52" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_025" x="1122" y="1954" width="72" height="90" frameX="0" frameY="-38" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_026" x="840" y="1835" width="70" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_027" x="772" y="1701" width="70" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_028" x="764" y="1835" width="70" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_029" x="668" y="1567" width="72" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_030" x="399" y="1279" width="128" height="66" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_031" x="474" y="1974" width="128" height="68" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_032" x="488" y="1171" width="128" height="100" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_033" x="749" y="1476" width="128" height="76" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_034" x="746" y="1567" width="70" height="128" frameX="-58" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_035" x="760" y="1052" width="68" height="128" frameX="-60" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_036" x="618" y="1705" width="72" height="128" frameX="-56" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_037" x="608" y="1839" width="72" height="128" frameX="-56" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_038" x="968" y="904" width="128" height="128"/>
+    <SubTexture name="block_039" x="1228" y="808" width="128" height="128"/>
+    <SubTexture name="block_040" x="834" y="870" width="128" height="128"/>
+    <SubTexture name="block_041" x="994" y="770" width="128" height="128"/>
+    <SubTexture name="block_042" x="830" y="1969" width="68" height="66" frameX="-60" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_043" x="756" y="1973" width="68" height="66" frameX="-60" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_044" x="682" y="1973" width="68" height="66" frameX="-60" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_045" x="608" y="1973" width="68" height="66" frameX="-60" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_046" x="494" y="903" width="128" height="128"/>
+    <SubTexture name="block_047" x="494" y="769" width="128" height="128"/>
+    <SubTexture name="block_048" x="500" y="635" width="128" height="128"/>
+    <SubTexture name="block_049" x="366" y="529" width="128" height="128"/>
+    <SubTexture name="block_050" x="761" y="1270" width="70" height="66" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_051" x="685" y="1270" width="70" height="66" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_052" x="609" y="1277" width="70" height="66" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_053" x="533" y="1277" width="70" height="66" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_054" x="696" y="1701" width="70" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_055" x="534" y="1705" width="78" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_056" x="400" y="1011" width="86" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="block_057" x="317" y="1098" width="76" height="128" frameX="0" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="enter" x="925" y="1340" width="108" height="108" frameX="-10" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="exit" x="925" y="1340" width="108" height="108" frameX="-10" frameY="-11" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="goal" x="837" y="1270" width="128" height="64" frameX="0" frameY="-25" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="goalobject_009" x="4" y="551" width="130" height="130" frameX="-65" frameY="-80" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="goalobject_010" x="1885" y="4" width="146" height="242" frameX="-45" frameY="-1" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="goalobject_012" x="688" y="417" width="256" height="112" frameX="0" frameY="-144" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="goalobject_013" x="634" y="646" width="256" height="64" frameX="0" frameY="-176" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="goalobject_019" x="4" y="1847" width="210" height="192" frameX="-20" frameY="-50" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="goalobject_021" x="994" y="688" width="232" height="76" frameX="0" frameY="-164" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="goalobject_022" x="628" y="836" width="200" height="76" frameX="-36" frameY="-162" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="goalobject_023" x="638" y="535" width="319" height="105" frameX="0" frameY="-214" frameWidth="319" frameHeight="319"/>
+    <SubTexture name="goalobject_029" x="1864" y="446" width="144" height="174" frameX="-54" frameY="-73" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="goalobject_030" x="216" y="291" width="242" height="232" frameX="-10" frameY="-4" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="goalobject_033" x="4" y="688" width="246" height="200" frameX="-10" frameY="-52" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="goalobject_034" x="1232" y="688" width="186" height="114" frameX="-52" frameY="-103" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="goalobject_035" x="688" y="291" width="256" height="120" frameX="0" frameY="-105" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="goalobject_037" x="388" y="663" width="100" height="216" frameX="-62" frameY="-21" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="goalobject_042" x="1864" y="252" width="160" height="188" frameX="-52" frameY="-56" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="goalobject_057" x="634" y="716" width="236" height="114" frameX="-20" frameY="-130" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="golden_piece" x="1204" y="1504" width="78" height="76" frameX="-11" frameY="-2" frameWidth="100" frameHeight="100"/>
+    <SubTexture name="levelobject_001" x="2002" y="827" width="38" height="68" frameX="-45" frameY="-28" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_002" x="883" y="1474" width="92" height="76" frameX="-17" frameY="-31" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_003" x="2002" y="745" width="40" height="76" frameX="-43" frameY="-27" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_004" x="1153" y="1406" width="72" height="92" frameX="-33" frameY="-28" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_005" x="1424" y="742" width="50" height="74" frameX="-38" frameY="-23" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_006" x="2014" y="446" width="30" height="52" frameX="-50" frameY="-36" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_007" x="834" y="1138" width="78" height="40" frameX="-27" frameY="-54" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_008" x="968" y="1038" width="76" height="94" frameX="-29" frameY="-18" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_009" x="1424" y="688" width="56" height="48" frameX="-33" frameY="-64" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_010" x="886" y="1556" width="80" height="106" frameX="-25" frameY="-8" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_011" x="918" y="1138" width="120" height="124" frameX="-8" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_012" x="904" y="1969" width="128" height="54" frameX="0" frameY="-68" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_013" x="1105" y="1250" width="128" height="52" frameX="0" frameY="-70" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_014" x="876" y="744" width="112" height="120" frameX="0" frameY="-2" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_015" x="1044" y="1138" width="128" height="106" frameX="0" frameY="-15" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_016" x="317" y="1232" width="76" height="114" frameX="-3" frameY="-8" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_017" x="388" y="885" width="100" height="120" frameX="-5" frameY="-7" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_018" x="1128" y="770" width="94" height="118" frameX="-4" frameY="-8" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_019" x="308" y="1841" width="60" height="166" frameX="-100" frameY="-78" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="levelobject_020" x="4" y="1611" width="110" height="230" frameX="-72" frameY="-17" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="levelobject_021" x="4" y="291" width="88" height="254" frameX="-82" frameY="-2" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="levelobject_022" x="1864" y="626" width="132" height="226" frameX="-19" frameY="-15" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="levelobject_023" x="274" y="529" width="86" height="150" frameX="-86" frameY="-97" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="levelobject_024" x="256" y="688" width="126" height="200" frameX="-30" frameY="-40" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="levelobject_025" x="857" y="1340" width="62" height="128" frameX="-33" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_026" x="971" y="1268" width="128" height="54" frameX="0" frameY="-67" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_027" x="822" y="1558" width="58" height="118" frameX="-30" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_028" x="317" y="964" width="62" height="128" frameX="-34" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_029" x="1039" y="1328" width="100" height="92" frameX="-16" frameY="-36" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="levelobject_030" x="192" y="1611" width="202" height="224" frameX="-22" frameY="-29" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="levelobject_031" x="464" y="291" width="218" height="230" frameX="-18" frameY="-22" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="levelobject_032" x="98" y="291" width="112" height="242" frameX="-49" frameY="-7" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="levelobject_033" x="317" y="1352" width="110" height="220" frameX="-67" frameY="-23" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="levelobject_034" x="220" y="1841" width="82" height="200" frameX="-82" frameY="-44" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="levelobject_035" x="374" y="1841" width="94" height="162" frameX="-87" frameY="-82" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="levelobject_036" x="120" y="1611" width="66" height="230" frameX="-111" frameY="-23" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="levelobject_037" x="500" y="527" width="132" height="102" frameX="-63" frameY="-64" frameWidth="256" frameHeight="256"/>
+    <SubTexture name="lightmap_05" x="4" y="901" width="307" height="704"/>
+    <SubTexture name="lightmap_15" x="1487" y="38" width="371" height="704"/>
+    <SubTexture name="lightmap_16" x="4" y="4" width="985" height="281"/>
+    <SubTexture name="lightmap_19" x="995" y="4" width="486" height="678"/>
+    <SubTexture name="object_gift" x="790" y="1186" width="78" height="78"/>
+    <SubTexture name="object_glue" x="665" y="1483" width="78" height="78"/>
+    <SubTexture name="object_life" x="581" y="1483" width="78" height="78"/>
+    <SubTexture name="object_sagogryn" x="317" y="894" width="64" height="64"/>
+    <SubTexture name="object_shield" x="706" y="1186" width="78" height="78"/>
+    <SubTexture name="object_speed" x="622" y="1186" width="78" height="78"/>
+    <SubTexture name="object_texture_1" x="1106" y="1524" width="92" height="92"/>
+    <SubTexture name="object_texture_10" x="1014" y="1858" width="92" height="92"/>
+    <SubTexture name="object_texture_11" x="1080" y="1662" width="92" height="92"/>
+    <SubTexture name="object_texture_12" x="1014" y="1760" width="92" height="92"/>
+    <SubTexture name="object_texture_2" x="982" y="1662" width="92" height="92"/>
+    <SubTexture name="object_texture_3" x="916" y="1794" width="92" height="92"/>
+    <SubTexture name="object_texture_4" x="1184" y="992" width="92" height="92"/>
+    <SubTexture name="object_texture_5" x="1145" y="1308" width="92" height="92"/>
+    <SubTexture name="object_texture_6" x="1055" y="1426" width="92" height="92"/>
+    <SubTexture name="object_texture_7" x="1178" y="1136" width="92" height="92"/>
+    <SubTexture name="object_texture_8" x="1128" y="894" width="92" height="92"/>
+    <SubTexture name="object_texture_9" x="896" y="646" width="92" height="92"/>
+    <SubTexture name="roadblock_1" x="1487" y="4" width="392" height="28"/>
+    <SubTexture name="roadblock_2" x="2014" y="504" width="21" height="235"/>
+    <SubTexture name="roadblock_3" x="950" y="291" width="21" height="177"/>
+    <SubTexture name="rocket" x="140" y="539" width="128" height="128"/>
+    <SubTexture name="rocket_default" x="762" y="918" width="66" height="128" frameX="-30" frameY="0" frameWidth="128" frameHeight="128"/>
+    <SubTexture name="treasure" x="1038" y="1956" width="78" height="76" frameX="-25" frameY="-26" frameWidth="128" frameHeight="128"/>
+</TextureAtlas>

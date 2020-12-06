@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:481d8b5f6a1125de3a13f84dd5d8abcd:64e50091b5199f5f9297c2f8a1aa3e03:740994ceb175d001807dad091ad576fc$ -->
+<TextureAtlas imagePath="gamestate.png" width="946" height="1760">
+    <SubTexture name="bar_big_bg" x="4" y="53" width="472" height="37"/>
+    <SubTexture name="bar_big_black_and_white" x="725" y="164" width="110" height="34"/>
+    <SubTexture name="bar_big_frame" x="4" y="4" width="479" height="43"/>
+    <SubTexture name="bar_big_yellow" x="4" y="96" width="472" height="37"/>
+    <SubTexture name="btn_van_big_down" x="725" y="4" width="158" height="154" frameX="-38" frameY="-39" frameWidth="230" frameHeight="230"/>
+    <SubTexture name="btn_van_big_up" x="4" y="1555" width="198" height="192" frameX="-17" frameY="-20" frameWidth="230" frameHeight="230"/>
+    <SubTexture name="btn_van_big_up_overlay" x="208" y="1555" width="198" height="192" frameX="-17" frameY="-20" frameWidth="230" frameHeight="230"/>
+    <SubTexture name="game_card_backside_0" x="4" y="139" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_1" x="4" y="375" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_10" x="240" y="139" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_11" x="4" y="611" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_12" x="240" y="375" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_13" x="4" y="847" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_14" x="240" y="611" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_15" x="4" y="1083" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_16" x="240" y="847" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_17" x="4" y="1319" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_18" x="240" y="1083" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_19" x="240" y="1319" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_2" x="489" y="4" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_20" x="476" y="240" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_21" x="712" y="240" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_22" x="476" y="476" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_23" x="712" y="476" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_3" x="476" y="712" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_4" x="712" y="712" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_5" x="476" y="948" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_6" x="712" y="948" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_7" x="476" y="1184" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_8" x="712" y="1184" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_backside_9" x="476" y="1420" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="game_card_frontside_bg" x="712" y="1420" width="230" height="230" frameX="-2" frameY="-2" frameWidth="234" frameHeight="234"/>
+    <SubTexture name="star" x="412" y="1656" width="100" height="100"/>
+</TextureAtlas>

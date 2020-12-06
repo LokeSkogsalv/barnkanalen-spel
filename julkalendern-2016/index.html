@@ -1,0 +1,106 @@
+<!doctype html>
+<html lang="en-us">
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+    <title>Julkalendern</title>
+    <link rel="stylesheet" href="TemplateData/style.css">
+    <link rel="shortcut icon" href="TemplateData/favicon.ico" />
+    <script src="modernizr.min.js"></script>
+    <script type="text/javascript">
+      (function(Modernizr) {
+  var UA = {
+    CANALDIGITAL: 'adb',
+    ANDROID: 'android',
+    ANDROID4: 'android 4',
+    ANDROID5: 'android 5',
+    CHROME: 'chrome',
+    IE: 'msie',
+    INETTV: 'inettvbrowser', // Sony
+    IPAD: 'ipad',
+    IPOD: 'ipod',
+    IOS7: 'cpu os 7',
+    IPHONE: 'iphone',
+    LG: 'lg browser',
+    MAC: 'mac',
+    PANASONIC: 'viera',
+    PHILIPS: 'philips',
+    PS4: 'playstation 4',
+    SAFARI: 'safari',
+    SONYCE: 'sonycebrowser',
+    WIIU: 'nintendo wiiu',
+    WIN8: 'msapphost/2.0',
+    WP: 'windows phone',
+    WP_DESKTOP: 'wpdesktop'
+  };
+
+  var UA_SETTINGS = {
+    fullScreen: [UA.PS4, UA.SONYCE, UA.INETTV, UA.PHILIPS],
+    hlsCapable: [UA.PS4, UA.ANDROID5, UA.LG, UA.WIIU, UA.WEBOS, UA.NETCAST],
+    hlsOnly: [UA.CANALDIGITAL, UA.PHILIPS, UA.SONYCE, UA.INETTV, UA.PANASONIC],
+    iOS: [UA.IPAD, UA.IPHONE, UA.IPOD],
+    iOSMobile: [UA.IPHONE, UA.IPOD],
+    maxQuality: [UA.PS4, UA.LG, UA.WIIU, UA.SONYCE, UA.INETTV, UA.PANASONIC, UA.PHILIPS, UA.CANALDIGITAL],
+    windowsPhone: [UA.WP, UA.WP_DESKTOP]
+  };
+
+  var CURR_UA = navigator.userAgent.toLowerCase();
+
+  function _matchUserAgent(ua) {
+    return CURR_UA.indexOf(ua) !== -1;
+  }
+
+  function _matchUserAgentList(uaList) {
+
+    for (var i = 0; i < uaList.length; i++) {
+      if (_matchUserAgent(uaList[i])) {
+        return true;
+      }
+    }
+    return false;
+  }
+
+  function isAndroid() {
+    return _matchUserAgent(UA.ANDROID) && !_matchUserAgent(UA.WP);
+  }
+
+  function isIOS() {
+    return _matchUserAgentList(UA_SETTINGS.iOS) && !_matchUserAgent(UA.WP);
+  }
+
+  Modernizr.addTest('isiOS', function() {
+    return isIOS();
+  });
+
+  Modernizr.addTest('isAndroid', function() {
+    return isAndroid();
+  });
+
+})(Modernizr);
+    </script>
+    <script src="./js/127ef19de2893511e7e0.main.js" type="text/javascript"></script>
+    <script src="TemplateData/UnityProgress.js"></script>
+  </head>
+  <body class="template">
+    <div class="template-wrap clear">
+      <canvas class="emscripten" id="canvas" oncontextmenu="event.preventDefault()" height="768px" width="1024px"></canvas>
+    </div>
+    <script type='text/javascript'>
+      var Module = {
+        TOTAL_MEMORY: 536870912,
+        errorhandler: null,
+        compatibilitycheck: function() {
+          // Not enough resources on these devices to run in browser, use separate landing page
+          if (Modernizr.isios || Modernizr.isandroid) {
+            window.location.href = 'mobile.html';
+          }
+        },
+        dataUrl: "Release/WebGL.data",
+        codeUrl: "Release/WebGL.js",
+        memUrl: "Release/WebGL.mem",
+
+      };
+    </script>
+    <script src="Release/UnityLoader.js"></script>
+  </body>
+</html>

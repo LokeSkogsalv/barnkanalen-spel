@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:5d64c4cea477d1b03331ef46181286a0:cd0739b2266a4e4022d71cb912515225:985e254fd7cd23e43c06b3a4ea32e55e$ -->
+<TextureAtlas imagePath="calendarstate.png" width="2045" height="3362">
+    <SubTexture name="btn_enter_down" x="1888" y="2780" width="74" height="74" frameX="-23" frameY="-23" frameWidth="120" frameHeight="120"/>
+    <SubTexture name="btn_enter_up" x="664" y="2876" rotated="true" width="93" height="92" frameX="-14" frameY="-14" frameWidth="120" frameHeight="120"/>
+    <SubTexture name="btn_gifts_down" x="1852" y="2463" width="90" height="79" frameX="-14" frameY="-20" frameWidth="120" frameHeight="120"/>
+    <SubTexture name="btn_gifts_up" x="1651" y="2543" rotated="true" width="98" height="113" frameX="0" frameY="-14" frameWidth="120" frameHeight="120"/>
+    <SubTexture name="btn_locked" x="1948" y="2254" rotated="true" width="93" height="92" frameX="-14" frameY="-15" frameWidth="120" frameHeight="120"/>
+    <SubTexture name="gift_1" x="1862" y="2657" width="78" height="65" frameX="-31" frameY="-35" frameWidth="140" frameHeight="100"/>
+    <SubTexture name="gift_2" x="1981" y="1790" rotated="true" width="58" height="90" frameX="-19" frameY="-42" frameWidth="140" frameHeight="100"/>
+    <SubTexture name="gift_3" x="1946" y="2607" width="84" height="62" frameX="-32" frameY="-38" frameWidth="140" frameHeight="100"/>
+    <SubTexture name="gift_card_bg" x="1630" y="2122" width="115" height="115" frameX="-1" frameY="-1" frameWidth="117" frameHeight="117"/>
+    <SubTexture name="gift_clothes_card_24_10" x="1862" y="2548" width="78" height="103" frameX="-15" frameY="-12" frameWidth="117" frameHeight="117"/>
+    <SubTexture name="gift_clothes_card_24_11" x="1948" y="2352" rotated="true" width="93" height="76" frameX="-17" frameY="-16" frameWidth="117" frameHeight="117"/>
+    <SubTexture name="gift_clothes_card_24_12" x="1755" y="2463" width="91" height="101" frameX="-1" frameY="-15" frameWidth="117" frameHeight="117"/>
+    <SubTexture name="gift_clothes_card_24_13" x="1946" y="2675" width="84" height="99" frameX="-9" frameY="-15" frameWidth="117" frameHeight="117"/>
+    <SubTexture name="gift_clothes_card_24_14" x="1755" y="2570" rotated="true" width="101" height="87" frameX="-4" frameY="-9" frameWidth="117" frameHeight="117"/>
+    <SubTexture name="gift_clothes_card_24_7" x="1732" y="2663" rotated="true" width="101" height="83" frameX="-11" frameY="-14" frameWidth="117" frameHeight="117"/>
+    <SubTexture name="gift_clothes_card_24_8" x="1815" y="2752" width="67" height="102" frameX="-18" frameY="-14" frameWidth="117" frameHeight="117"/>
+    <SubTexture name="gift_clothes_card_24_9" x="1948" y="2516" rotated="true" width="87" height="85" frameX="-10" frameY="-16" frameWidth="117" frameHeight="117"/>
+    <SubTexture name="gift_furniture_card_24_3" x="1651" y="2662" width="75" height="95" frameX="-15" frameY="-1" frameWidth="117" frameHeight="117"/>
+    <SubTexture name="gift_furniture_card_24_4" x="1673" y="3224" width="66" height="112" frameX="-12" frameY="-5" frameWidth="117" frameHeight="117"/>
+    <SubTexture name="gift_furniture_card_24_5" x="1948" y="2434" rotated="true" width="93" height="76" frameX="-14" frameY="-19" frameWidth="117" frameHeight="117"/>
+    <SubTexture name="gift_furniture_card_24_6" x="1277" y="2805" rotated="true" width="103" height="65" frameX="-20" frameY="-8" frameWidth="117" frameHeight="117"/>
+    <SubTexture name="gift_furniture_card_24_7" x="1599" y="2467" width="115" height="70" frameX="-1" frameY="-27" frameWidth="117" frameHeight="117"/>
+    <SubTexture name="house_0" x="4" y="2994" width="753" height="358" frameX="-11" frameY="-197" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_1" x="1455" y="1156" rotated="true" width="438" height="644" frameX="-70" frameY="-117" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_10" x="768" y="4" width="716" height="500" frameX="-48" frameY="-55" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_11" x="735" y="1367" width="693" height="428" frameX="-42" frameY="-127" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_12" x="729" y="1801" width="684" height="406" frameX="-55" frameY="-149" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_13" x="1490" y="4" rotated="true" width="551" height="637" frameX="-71" frameY="-4" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_14" x="4" y="536" width="743" height="523" frameX="-22" frameY="-32" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_15" x="664" y="2584" width="607" height="286" frameX="-22" frameY="-269" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_16" x="728" y="2213" width="656" height="365" frameX="-37" frameY="-190" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_17" x="1474" y="647" width="532" height="503" frameX="-157" frameY="-52" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_2" x="4" y="1065" width="725" height="473" frameX="0" frameY="-82" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_27_sign_start" x="1419" y="1806" width="308" height="310" frameX="-207" frameY="-217" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_3" x="753" y="954" width="696" height="407" frameX="-30" frameY="-148" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_4" x="768" y="510" width="700" height="438" frameX="-36" frameY="-117" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_5" x="763" y="2876" width="569" height="478" frameX="-119" frameY="-77" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_6" x="4" y="2021" width="718" height="470" frameX="-35" frameY="-85" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_7" x="4" y="4" width="758" height="526" frameX="-10" frameY="-29" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_8" x="4" y="2497" width="654" height="491" frameX="-62" frameY="-64" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="house_9" x="4" y="1544" width="719" height="471" frameX="-45" frameY="-84" frameWidth="800" frameHeight="800"/>
+    <SubTexture name="info" x="1338" y="3168" width="120" height="190"/>
+    <SubTexture name="star_small_filled" x="2012" y="647" width="28" height="27" frameX="-2" frameY="-2" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="star_small_outlined" x="1390" y="2213" rotated="true" width="23" height="24" frameX="-4" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="steer_arrow_left" x="664" y="2497" width="31" height="41" frameX="-9" frameY="-29" frameWidth="100" frameHeight="100"/>
+    <SubTexture name="steer_arrow_right" x="1464" y="3168" width="31" height="41" frameX="-60" frameY="-29" frameWidth="100" frameHeight="100"/>
+    <SubTexture name="van_0" x="1543" y="2554" rotated="true" width="102" height="203" frameX="-58" frameY="-41" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_1" x="1899" y="1156" rotated="true" width="142" height="209" frameX="-59" frameY="-1" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_10" x="1547" y="2888" rotated="true" width="122" height="203" frameX="-58" frameY="-21" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_11" x="1599" y="2258" rotated="true" width="125" height="203" frameX="-58" frameY="-18" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_12" x="1547" y="3097" width="203" height="121" frameX="-58" frameY="-22" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_13" x="1419" y="2122" width="205" height="130" frameX="-56" frameY="-13" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_14" x="1873" y="1806" rotated="true" width="102" height="203" frameX="-58" frameY="-41" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_15" x="1675" y="2888" rotated="true" width="127" height="203" frameX="-58" frameY="-16" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_16" x="1338" y="3034" width="203" height="128" frameX="-58" frameY="-15" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_17" x="1840" y="2254" rotated="true" width="102" height="203" frameX="-58" frameY="-41" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_18" x="1390" y="2407" width="203" height="141" frameX="-58" frameY="-2" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_19" x="1751" y="2045" rotated="true" width="105" height="203" frameX="-58" frameY="-38" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_2" x="1730" y="2254" rotated="true" width="104" height="203" frameX="-58" frameY="-39" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_20" x="1390" y="2258" width="203" height="143" frameX="-58" frameY="0" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_21" x="1899" y="1371" rotated="true" width="142" height="203" frameX="-58" frameY="-1" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_22" x="1862" y="2045" rotated="true" width="104" height="203" frameX="-58" frameY="-39" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_23" x="1396" y="2554" rotated="true" width="141" height="203" frameX="-58" frameY="-2" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_24" x="1808" y="2888" rotated="true" width="102" height="203" frameX="-58" frameY="-41" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_25" x="1756" y="3097" width="203" height="102" frameX="-58" frameY="-41" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_26" x="1396" y="2763" width="204" height="119" frameX="-57" frameY="-24" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_3" x="1899" y="1580" rotated="true" width="141" height="204" frameX="-57" frameY="-2" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_4" x="1733" y="1806" rotated="true" width="134" height="233" frameX="-58" frameY="-9" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_5" x="1338" y="2888" width="203" height="140" frameX="-58" frameY="-3" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_6" x="1756" y="3205" width="203" height="102" frameX="-58" frameY="-41" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_7" x="1606" y="2763" width="203" height="119" frameX="-58" frameY="-24" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_8" x="1464" y="3224" width="203" height="111" frameX="-58" frameY="-41" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_9" x="1277" y="2584" rotated="true" width="113" height="215" frameX="-46" frameY="-30" frameWidth="300" frameHeight="200"/>
+    <SubTexture name="van_wheel" x="1981" y="1886" width="25" height="25" frameX="-1" frameY="-1" frameWidth="26" frameHeight="26"/>
+</TextureAtlas>

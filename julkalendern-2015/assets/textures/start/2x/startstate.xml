@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:035f11f4f3393a10bfb624e7488ca75d:e4cd1c5d451fb9a50530a4e7ef193180:84d01f79334574468282111aa9cc65f7$ -->
+<TextureAtlas imagePath="startstate.png" width="3206" height="832">
+    <SubTexture name="bg" x="1610" y="4" width="1592" height="362" frameX="0" frameY="-85" frameWidth="1592" frameHeight="447"/>
+    <SubTexture name="fg" x="4" y="4" width="1600" height="457" frameX="0" frameY="-217" frameWidth="1600" frameHeight="674"/>
+    <SubTexture name="logo" x="1933" y="372" width="367" height="316" frameX="-1" frameY="-1" frameWidth="370" frameHeight="318"/>
+    <SubTexture name="splash_houses" x="4" y="467" width="1600" height="361" frameX="0" frameY="-39" frameWidth="1600" frameHeight="400"/>
+    <SubTexture name="splash_lights_left" x="1610" y="372" width="317" height="332" frameX="0" frameY="0" frameWidth="319" frameHeight="333"/>
+    <SubTexture name="splash_lights_right" x="2306" y="372" width="260" height="293"/>
+    <SubTexture name="splash_van" x="1610" y="710" width="106" height="51"/>
+    <SubTexture name="splash_van_lights" x="1610" y="767" width="159" height="46" frameX="-4" frameY="-5" frameWidth="163" frameHeight="56"/>
+</TextureAtlas>
