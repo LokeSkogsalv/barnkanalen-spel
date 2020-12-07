@@ -1,0 +1,121 @@
+A:hover {color:#ffeeee;
+}
+P {
+margin-top: 6px;
+margin-bottom: 6px;
+}
+.rubrik1 {
+color : #0E3948; 
+font-size: 18px;
+font-weight:bold;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : none;
+}
+.rubrik1 A {
+color : #0E3948; 
+font-size: 18px;
+font-weight:bold;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : none;
+}
+.fonttest {
+color : #0E3948; 
+font-size: 13px;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : none;
+}
+.fonttest A {
+color : #0E3948; 
+font-size: 13px;
+font-weight:bold;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : underline;
+}
+.fonttest A:hover {
+color : #0D6685; 
+font-size: 13px;
+font-weight:bold;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : underline;
+}
+.fontpussel {
+color : #0E3948; 
+font-size: 10px;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : none;
+}
+.fontpussel A {
+color : #0E3948; 
+font-size: 13px;
+font-weight:bold;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : underline;
+}
+
+.fontrally {
+color : #ffffdd; 
+font-size: 13px;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : none;
+}
+.fontrally A {
+color : #ffffdd; 
+font-size: 13px;
+font-weight:bold;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : underline;
+}
+.fontrally A:hover {
+color : #CFF626; 
+font-size: 13px;
+font-weight:bold;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : underline;
+}
+.fontrally_liten {
+color : #ffffdd; 
+font-size: 10px;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : none;
+}
+.fontrally_liten A {
+color : #ffffdd; 
+font-size: 13px;
+font-weight:bold;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : underline;
+}
+
+.fontslalom {
+color : #0E3948; 
+font-size: 13px;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : none;
+}
+.fontslalom A {
+color : #0E3948; 
+font-size: 13px;
+font-weight:bold;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : underline;
+}
+.fontslalom A:hover {
+color : #cc0000; 
+font-size: 13px;
+font-weight:bold;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : underline;
+}
+.fontslalom_liten {
+color : #0E3948; 
+font-size: 10px;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : none;
+}
+.fontslalom_liten A {
+color : #0E3948; 
+font-size: 13px;
+font-weight:bold;
+font-family: Geneva, Verdana, Arial, Helvetica, sans-serif; 
+text-decoration : underline;
+}
