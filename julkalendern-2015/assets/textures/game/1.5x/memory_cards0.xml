@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:17c23fef9588db05f3d2f95a142a9cf6:7eca36fb81ebdd7ff4f571504aab5b8a:e3669a9f75b85b4da9523bc5e4bb0085$ -->
+<TextureAtlas imagePath="memory_cards0.png" width="1986" height="255">
+    <SubTexture name="clothes_card_0_0" x="811" y="124" rotated="true" width="146" height="121" frameX="-17" frameY="-23" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="clothes_card_0_1" x="344" y="146" rotated="true" width="151" height="104" frameX="-26" frameY="-21" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="clothes_card_0_10" x="1131" y="109" rotated="true" width="129" height="134" frameX="-10" frameY="-32" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="clothes_card_0_11" x="963" y="114" width="162" height="137" frameX="0" frameY="0" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="clothes_card_0_2" x="1116" y="4" rotated="true" width="155" height="99" frameX="-28" frameY="-18" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="clothes_card_0_3" x="1763" y="110" rotated="true" width="142" height="92" frameX="-28" frameY="0" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="clothes_card_0_4" x="961" y="4" rotated="true" width="149" height="104" frameX="-25" frameY="-21" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="clothes_card_0_5" x="646" y="4" rotated="true" width="143" height="128" frameX="-14" frameY="-23" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="clothes_card_0_6" x="501" y="139" rotated="true" width="154" height="109" frameX="-23" frameY="-19" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="clothes_card_0_7" x="1545" y="102" rotated="true" width="106" height="139" frameX="-8" frameY="-36" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="clothes_card_0_8" x="310" y="4" width="164" height="136" frameX="0" frameY="-24" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="clothes_card_0_9" x="661" y="138" width="144" height="109" frameX="-7" frameY="-33" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="furniture_card_0_0" x="171" y="161" width="167" height="85" frameX="0" frameY="-53" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="furniture_card_0_1" x="480" y="4" rotated="true" width="160" height="129" frameX="-13" frameY="-13" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="furniture_card_0_10" x="1277" y="4" rotated="true" width="152" height="98" frameX="-31" frameY="-15" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="furniture_card_0_11" x="1657" y="94" width="100" height="134" frameX="-28" frameY="-30" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="furniture_card_0_12" x="1435" y="4" width="161" height="92" frameX="0" frameY="-50" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="furniture_card_0_2" x="1776" y="4" rotated="true" width="136" height="100" frameX="-28" frameY="-28" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="furniture_card_0_3" x="1390" y="108" width="149" height="143" frameX="-4" frameY="-24" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="furniture_card_0_4" x="1266" y="109" rotated="true" width="118" height="135" frameX="-10" frameY="-37" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="furniture_card_0_5" x="153" y="4" width="151" height="151" frameX="-1" frameY="-21" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="furniture_card_0_6" x="4" y="172" rotated="true" width="161" height="68" frameX="-44" frameY="0" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="furniture_card_0_7" x="1602" y="4" width="168" height="84" frameX="0" frameY="-54" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="furniture_card_0_8" x="795" y="4" rotated="true" width="160" height="114" frameX="-21" frameY="-13" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="furniture_card_0_9" x="4" y="4" width="143" height="162" frameX="-7" frameY="-11" frameWidth="173" frameHeight="173"/>
+</TextureAtlas>

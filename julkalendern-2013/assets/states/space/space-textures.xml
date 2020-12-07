@@ -1,0 +1,138 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:78e0749d3a12c9b9cca79fca7c264a15:1/1$ -->
+<TextureAtlas imagePath="space-textures.png">
+    <SubTexture name="black_hole_1" x="916" y="764" width="244" height="246"/>
+    <SubTexture name="btn_back_down" x="358" y="983" width="78" height="78" frameX="-8" frameY="-11" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="btn_back_up" x="1949" y="572" width="82" height="82" frameX="-5" frameY="-9" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="btn_backtolab_down" x="1949" y="738" width="80" height="80" frameX="-7" frameY="-10" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="btn_backtolab_up" x="1949" y="230" width="86" height="84" frameX="-3" frameY="-8" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="btn_close_down" x="1949" y="656" width="80" height="80" frameX="-7" frameY="-10" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="btn_close_up" x="1949" y="402" width="84" height="84" frameX="-4" frameY="-8" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="btn_lab_up" x="1949" y="2" width="96" height="134" frameX="-25" frameY="-10" frameWidth="144" frameHeight="144"/>
+    <SubTexture name="btn_lab_up_down" x="164" y="881" width="78" height="110" frameX="-35" frameY="-23" frameWidth="144" frameHeight="144"/>
+    <SubTexture name="btn_parents_down" x="446" y="925" width="134" height="37" frameX="-12" frameY="-4" frameWidth="158" frameHeight="45"/>
+    <SubTexture name="btn_parents_up" x="654" y="810" width="154" height="41" frameX="-2" frameY="-2" frameWidth="158" frameHeight="45"/>
+    <SubTexture name="btn_pause_down" x="164" y="993" width="78" height="78" frameX="-8" frameY="-11" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="btn_pause_up" x="1949" y="316" width="84" height="84" frameX="-4" frameY="-8" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="btn_play_big_down" x="446" y="964" width="132" height="148" frameX="-34" frameY="-28" frameWidth="196" frameHeight="196"/>
+    <SubTexture name="btn_play_big_up" x="2" y="827" width="160" height="182" frameX="-22" frameY="-12" frameWidth="196" frameHeight="196"/>
+    <SubTexture name="btn_replay_down" x="244" y="983" width="112" height="110" frameX="-17" frameY="-22" frameWidth="144" frameHeight="144"/>
+    <SubTexture name="btn_replay_up" x="518" y="659" width="138" height="132" frameX="-5" frameY="-12" frameWidth="144" frameHeight="144"/>
+    <SubTexture name="btn_space_big_down" x="654" y="853" width="150" height="146" frameX="-24" frameY="-33" frameWidth="196" frameHeight="196"/>
+    <SubTexture name="btn_space_big_up" x="260" y="801" width="184" height="180" frameX="-7" frameY="-16" frameWidth="196" frameHeight="196"/>
+    <SubTexture name="btn_space_down" x="806" y="898" width="108" height="106" frameX="-20" frameY="-23" frameWidth="144" frameHeight="144"/>
+    <SubTexture name="btn_space_up" x="518" y="793" width="134" height="130" frameX="-7" frameY="-13" frameWidth="144" frameHeight="144"/>
+    <SubTexture name="btn_start_down" x="446" y="964" width="132" height="148" frameX="-34" frameY="-28" frameWidth="196" frameHeight="196"/>
+    <SubTexture name="btn_start_up.png" x="2" y="827" width="160" height="182" frameX="-22" frameY="-12" frameWidth="196" frameHeight="196"/>
+    <SubTexture name="btn_users_down" x="810" y="818" width="78" height="78" frameX="-8" frameY="-11" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="btn_users_up" x="1949" y="488" width="82" height="82" frameX="-5" frameY="-9" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="earth_ani_00000" x="1433" y="390" width="256" height="192"/>
+    <SubTexture name="earth_ani_00001" x="1175" y="390" width="256" height="192"/>
+    <SubTexture name="earth_ani_00002" x="917" y="390" width="256" height="192"/>
+    <SubTexture name="earth_ani_00003" x="659" y="390" width="256" height="192"/>
+    <SubTexture name="earth_ani_00004" x="1691" y="196" width="256" height="192"/>
+    <SubTexture name="earth_ani_00005" x="1433" y="196" width="256" height="192"/>
+    <SubTexture name="earth_ani_00006" x="1175" y="196" width="256" height="192"/>
+    <SubTexture name="earth_ani_00007" x="917" y="196" width="256" height="192"/>
+    <SubTexture name="earth_ani_00008" x="659" y="196" width="256" height="192"/>
+    <SubTexture name="earth_ani_00009" x="1691" y="2" width="256" height="192"/>
+    <SubTexture name="earth_ani_00010" x="1433" y="2" width="256" height="192"/>
+    <SubTexture name="earth_ani_00011" x="1175" y="2" width="256" height="192"/>
+    <SubTexture name="earth_ani_00012" x="917" y="2" width="256" height="192"/>
+    <SubTexture name="earth_ani_00013" x="659" y="2" width="256" height="192"/>
+    <SubTexture name="earth_ani_00014" x="1691" y="390" width="256" height="188" frameX="0" frameY="-4" frameWidth="256" frameHeight="192"/>
+    <SubTexture name="earth_ani_00015" x="1691" y="580" width="256" height="174" frameX="0" frameY="-18" frameWidth="256" frameHeight="192"/>
+    <SubTexture name="earth_ani_00016" x="659" y="584" width="256" height="162" frameX="0" frameY="-30" frameWidth="256" frameHeight="192"/>
+    <SubTexture name="earth_ani_00017" x="2" y="659" width="256" height="150" frameX="0" frameY="-42" frameWidth="256" frameHeight="192"/>
+    <SubTexture name="earth_ani_00018" x="260" y="659" width="256" height="140" frameX="0" frameY="-52" frameWidth="256" frameHeight="192"/>
+    <SubTexture name="earth_ani_00019" x="917" y="584" width="256" height="130" frameX="0" frameY="-62" frameWidth="256" frameHeight="192"/>
+    <SubTexture name="earth_ani_00020" x="1175" y="584" width="256" height="122" frameX="0" frameY="-70" frameWidth="256" frameHeight="192"/>
+    <SubTexture name="earth_ani_00021" x="1433" y="584" width="256" height="106" frameX="0" frameY="-86" frameWidth="256" frameHeight="192"/>
+    <SubTexture name="earth_ani_00022" x="1433" y="692" width="256" height="90" frameX="0" frameY="-102" frameWidth="256" frameHeight="192"/>
+    <SubTexture name="earth_ani_00023" x="1691" y="756" width="256" height="74" frameX="0" frameY="-118" frameWidth="256" frameHeight="192"/>
+    <SubTexture name="earth_ani_00024" x="1175" y="708" width="256" height="60" frameX="0" frameY="-132" frameWidth="256" frameHeight="192"/>
+    <SubTexture name="earth_ani_00025" x="917" y="716" width="256" height="46" frameX="0" frameY="-146" frameWidth="256" frameHeight="192"/>
+    <SubTexture name="earth_ani_00026" x="658" y="748" width="256" height="34" frameX="0" frameY="-158" frameWidth="256" frameHeight="192"/>
+    <SubTexture name="earth_ani_00027" x="658" y="784" width="222" height="24" frameX="-15" frameY="-168" frameWidth="256" frameHeight="192"/>
+    <SubTexture name="earth_ani_00028" x="2" y="811" width="168" height="14" frameX="-42" frameY="-178" frameWidth="256" frameHeight="192"/>
+    <SubTexture name="earth_ani_00029" x="810" y="810" width="102" height="6" frameX="-75" frameY="-186" frameWidth="256" frameHeight="192"/>
+    <SubTexture name="earth_ani_00030" x="2043" y="138" width="1" height="1" frameX="0" frameY="0" frameWidth="256" frameHeight="192"/>
+    <SubTexture name="gift" x="1949" y="138" width="92" height="90" frameX="0" frameY="-2" frameWidth="92" frameHeight="92"/>
+    <SubTexture name="level_completed/level_completed_01" x="1772" y="832" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_02" x="1665" y="832" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_03" x="1269" y="877" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_04" x="1162" y="877" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_05" x="1483" y="784" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_06" x="1376" y="784" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_07" x="1269" y="770" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_08" x="1162" y="770" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_09" x="2" y="1332" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_10" x="109" y="1287" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_11" x="216" y="1202" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_12" x="323" y="1138" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_13" x="433" y="1114" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_14" x="687" y="1108" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_15" x="580" y="1108" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_16" x="794" y="1006" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_17" x="687" y="1001" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_18" x="580" y="1001" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_19" x="2" y="1225" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_20" x="109" y="1180" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_21" x="216" y="1095" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_22" x="2" y="1118" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_23" x="109" y="1073" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_completed/level_completed_24" x="2" y="1011" width="105" height="105" frameX="-24" frameY="-24" frameWidth="153" frameHeight="153"/>
+    <SubTexture name="level_locked/level_locked_01" x="323" y="1245" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_02" x="430" y="1221" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_03" x="540" y="1215" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_04" x="1019" y="1162" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_05" x="944" y="1162" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_06" x="794" y="1188" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_07" x="869" y="1162" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_08" x="1901" y="1080" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_09" x="1826" y="1080" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_10" x="1201" y="1134" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_11" x="1126" y="1134" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_12" x="1351" y="1116" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_13" x="1276" y="1116" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_14" x="1751" y="1014" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_15" x="1676" y="1014" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_16" x="1462" y="1084" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_17" x="1601" y="1014" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_18" x="1051" y="1087" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_19" x="976" y="1087" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_20" x="794" y="1113" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_21" x="901" y="1087" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_22" x="1901" y="1005" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_23" x="1826" y="1005" width="73" height="73"/>
+    <SubTexture name="level_locked/level_locked_24" x="1201" y="1059" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_01" x="1126" y="1059" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_02" x="1387" y="1041" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_03" x="1312" y="1041" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_04" x="1751" y="939" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_05" x="1676" y="939" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_06" x="1526" y="1009" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_07" x="1601" y="939" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_08" x="1051" y="1012" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_09" x="976" y="1012" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_10" x="901" y="1012" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_11" x="1237" y="984" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_12" x="1162" y="984" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_13" x="1451" y="966" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_14" x="1376" y="966" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_15" x="1526" y="934" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_16" x="1451" y="891" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_17" x="1376" y="891" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_18" x="1954" y="930" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_19" x="1879" y="930" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_20" x="1954" y="855" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_21" x="1879" y="855" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_22" x="1590" y="859" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_23" x="1590" y="784" width="73" height="73"/>
+    <SubTexture name="level_uncompleted/level_uncompleted_24" x="358" y="1063" width="73" height="73"/>
+    <SubTexture name="shine" x="2" y="2" width="655" height="655" frameX="-22" frameY="-25" frameWidth="701" frameHeight="701"/>
+    <SubTexture name="star_count_1" x="164" y="846" width="79" height="33" frameX="-1" frameY="-2" frameWidth="83" frameHeight="37"/>
+    <SubTexture name="star_count_2" x="172" y="811" width="79" height="33" frameX="-1" frameY="-2" frameWidth="83" frameHeight="37"/>
+    <SubTexture name="star_count_3" x="1949" y="820" width="79" height="33" frameX="-1" frameY="-2" frameWidth="83" frameHeight="37"/>
+</TextureAtlas>

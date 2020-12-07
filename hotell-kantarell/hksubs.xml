@@ -1,0 +1,1963 @@
+<root>
+	
+	<filename_03_Rec_Intro_Intro_Marimba>
+		<swe>Öppna hör ni, nu kommer jag! Oj, hoppsan, en gäst. Välkommen till Hotell Kantarell. Jag måste damma av mig lite. Jag tar köksvägen, men gå in du. Lucia hjälper dig där inne.</swe>
+		<eng></eng>		
+	</filename_03_Rec_Intro_Intro_Marimba>
+	
+	<Rec_Lucia_Login1>
+		<swe>Tryck på knappen med ditt namn på. Om du inte hittar ditt namn så tryck på pennan istället.</swe>
+		<eng></eng>		
+	</Rec_Lucia_Login1>
+	
+	<Rec_Lucia_Login2>
+		<swe>Tryck på kantarellknappen när du är klar.</swe>
+		<eng></eng>		
+	</Rec_Lucia_Login2>
+	
+	<filename_05_Rec_Intro_VantaLite_2A_Lucia>
+		<swe>Vänta ett tag, jag kommer. Jag håller på i köket. Skriv in dig i gästdatorn så länge.</swe>
+		<eng></eng>		
+	</filename_05_Rec_Intro_VantaLite_2A_Lucia>
+	
+	<filename_05_Rec_Intro_VantaLite_2B_Lucia>
+		<swe>Vänta ett tag, jag kommer. Jag är nere i källaren. Skriv in dig i gästdatorn så länge.</swe>
+		<eng></eng>		
+	</filename_05_Rec_Intro_VantaLite_2B_Lucia>
+	
+	<filename_05_Rec_Intro_VantaLite_2C_Lucia>
+		<swe>Vänta ett tag, jag kommer. Jag är uppe på vinden. Skriv in dig i gästdatorn så länge.</swe>
+		<eng></eng>		
+	</filename_05_Rec_Intro_VantaLite_2C_Lucia>
+	
+	<filename_05_Rec_Intro_VantaLite_2D_Lucia>
+		<swe>Vänta ett tag jag kommer. Jag dukar i matsalen. Skriv in dig i gästdatorn så länge.</swe>
+		<eng></eng>		
+	</filename_05_Rec_Intro_VantaLite_2D_Lucia>
+	
+	<filename_05_Rec_Intro_VantaLite_3_Lucia>
+		<swe>Skriv in dig i gästdatorn så länge.</swe>
+		<eng></eng>		
+	</filename_05_Rec_Intro_VantaLite_3_Lucia>
+	
+	<filename_06_Rec_Intro_SkrivInDig_Ake>
+		<swe>Goddag goddag. Datorn har du där om du behöver skriva in dig.</swe>
+		<eng></eng>		
+	</filename_06_Rec_Intro_SkrivInDig_Ake>
+	
+	<filename_09_Rec_SkrivIn_OkandNamnFinns_LuciaAke>
+		<swe>Hej, vad kul att ha dig här. Välkommen till Hotell Kantarell. Jag vet en rolig grej vi kan göra. Vänta, jag ska bara hitta en sak först.</swe>
+		<eng></eng>		
+	</filename_09_Rec_SkrivIn_OkandNamnFinns_LuciaAke>
+	
+	<filename_10_Rec_SkrivIn_IngaLekarA_Lucia>
+		<swe>Å, vad roligt att du är här igen. Jag trodde att du hade gått på en promenad. Jag vet en rolig grej vi kan göra idag. Jag måste bara leta efter en sak först.</swe>
+		<eng></eng>		
+	</filename_10_Rec_SkrivIn_IngaLekarA_Lucia>
+	
+	<filename_10_Rec_SkrivIn_IngaLekarB_Lucia>
+		<swe>Å, vad roligt att du är här igen. Jag trodde faktiskt du hade gått din väg. Jag vet en rolig grej vi kan göra idag. Jag måste bara leta efter en sak först.</swe>
+		<eng></eng>		
+	</filename_10_Rec_SkrivIn_IngaLekarB_Lucia>
+	
+	<filename_10_Rec_SkrivIn_IngaLekarC_Lucia>
+		<swe>Å, vad roligt att du är här igen. Det var ju flera dagar sen du var här. Jag vet en rolig grej vi kan göra idag. Jag måste bara leta efter en sak först.</swe>
+		<eng></eng>		
+	</filename_10_Rec_SkrivIn_IngaLekarC_Lucia>
+	
+	<filename_10_Rec_SkrivIn_IngaLekarD_Lucia>
+		<swe>Å, vad roligt att du är här igen. Det var ju flera veckor sen du var här. Jag vet en rolig grej vi kan göra idag. Jag måste bara leta efter en sak först.</swe>
+		<eng></eng>		
+	</filename_10_Rec_SkrivIn_IngaLekarD_Lucia>
+	
+	<filename_10_Rec_SkrivIn_IngaLekarE_Lucia>
+		<swe>Å, vad roligt att du är här igen. Det var ju flera månader sen du var här. Jag vet en rolig grej vi kan göra idag. Jag måste bara leta efter en sak först.</swe>
+		<eng></eng>		
+	</filename_10_Rec_SkrivIn_IngaLekarE_Lucia>	
+	
+	<filename_13_Rec_Return_VadNu_Lucia_GoraNu>
+		<swe>Kompis, vad ska vi hitta på nu då tycker du?</swe>
+		<eng></eng>		
+	</filename_13_Rec_Return_VadNu_Lucia_GoraNu>
+	
+	<Rec_Lucia_VadArDuSugenPa>
+		<swe>Vad är du sugen på att göra då?</swe>
+		<eng></eng>		
+	</Rec_Lucia_VadArDuSugenPa>	
+
+	<Lucia_GaEllerKvar>
+		<swe>Jaha, ska du gå? Eller ska du vara kvar lite till?</swe>
+		<eng></eng>		
+	</Lucia_GaEllerKvar>
+	
+	<Lucia_EnGangTill>
+		<swe>En gång till.</swe>
+		<eng></eng>		
+	</Lucia_EnGangTill>
+	
+	<Lucia_Ga>
+		<swe>Gå</swe>
+		<eng></eng>		
+	</Lucia_Ga>
+	
+	<Lucia_GoraNatAnnat>
+		<swe>Göra något annat.</swe>
+		<eng></eng>		
+	</Lucia_GoraNatAnnat>
+	
+	<Lucia_Ja>
+		<swe>Ja</swe>
+		<eng></eng>		
+	</Lucia_Ja>
+	
+	<Lucia_Nej>
+		<swe>Nej</swe>
+		<eng></eng>		
+	</Lucia_Nej>
+	
+	<Lucia_VaraKvar>
+		<swe>Vara kvar</swe>
+		<eng></eng>		
+	</Lucia_VaraKvar>
+	
+	<Rec_Vaktis_Lucia_Ake_JagBlirTokig>
+		<swe>Å det är så mycket att göra. Tänk om vi hade en vaktmästare som kunde hjälpa till. &#xa;För länge sen fanns det faktiskt det. Det gamla vaktmästarrummet finns kvar här bakom, på andra sidan väggen.</swe>
+		<eng></eng>		
+	</Rec_Vaktis_Lucia_Ake_JagBlirTokig>
+	
+	<Rec_Vaktis_Lucia_SkojarDu>
+		<swe>Skojar du, vad spännande! Ska vi gå in och titta i vaktisrummet?</swe>
+		<eng></eng>		
+	</Rec_Vaktis_Lucia_SkojarDu>
+	
+	<Vaktis_Lucia_Hej_1>
+		<swe>Hej! Visst är det mysigt här!</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Hej_1>
+	
+	<Vaktis_Lucia_Hej_2>
+		<swe>Tjena, tjena!</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Hej_2>
+	
+	<Vaktis_Lucia_Hej_3>
+		<swe>Hej! Undrar vem som kommer ringa idag.</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Hej_3>
+
+ 	<Vaktis_Lucia_Intervju_intro>
+  		<swe>Hej, visst är det mysigt här! Marimba vill att du svarar på några frågor innan du blir vaktmästare.</swe>
+		<eng>Hi, nice isn´t it! Marimba wants you to answer some questions before you become janitor.</eng>
+	</Vaktis_Lucia_Intervju_intro>
+	
+	<Vaktis_Lucia_Intervju_f1>
+  		<swe>Är du beredd? Vilket verktyg väljer du när du ska spika i en spik?</swe>
+		<eng>Are you ready? Which tool do you use to nail a nail?</eng>
+	</Vaktis_Lucia_Intervju_f1>
+	
+	<Vaktis_Lucia_Intervju_f1_s1>
+		<swe>Bra val!</swe>
+		<eng></eng>
+	</Vaktis_Lucia_Intervju_f1_s1>
+	
+	<Vaktis_Lucia_Intervju_f1_s2>
+		<swe>Haha nä inte en tandborste!</swe>
+		<eng></eng>	
+	</Vaktis_Lucia_Intervju_f1_s2>
+	
+	<Vaktis_Lucia_Intervju_f2>
+		<swe>Koncentration! Vilken skruvmejsel passar till den här skruven?</swe>
+		<eng></eng>	
+	</Vaktis_Lucia_Intervju_f2>
+	
+	<Vaktis_Lucia_Intervju_f2_s1>
+		<swe>Nä, den passar bara nästan.</swe>
+		<eng></eng>	
+	</Vaktis_Lucia_Intervju_f2_s1>
+		
+	<Vaktis_Lucia_Intervju_f2_s2>
+		<swe>Du är ju jättebra på det här!</swe>
+		<eng></eng>	
+	</Vaktis_Lucia_Intervju_f2_s2>
+	
+	<Vaktis_Lucia_Intervju_f3>
+		<swe>Om du var vaktis, vilken träbit skulle du laga det här hålet med?</swe>
+		<eng></eng>	
+	</Vaktis_Lucia_Intervju_f3>
+	
+	<Vaktis_Lucia_Intervju_f3_s1>
+		<swe>Ja, den sitter som en smäck!</swe>
+		<eng></eng>	
+	</Vaktis_Lucia_Intervju_f3_s1>
+	
+	<Vaktis_Lucia_Intervju_f3_s2>
+		<swe>Nej den är lite för fyrkantig för att passa i det där hålet.</swe>
+		<eng></eng>	
+	</Vaktis_Lucia_Intervju_f3_s2>
+	
+	<Vaktis_Lucia_Intervju_f4>
+		<swe>Var slänger du gamla batterier?</swe>
+		<eng></eng>	
+	</Vaktis_Lucia_Intervju_f4>
+	
+	<Vaktis_Lucia_Intervju_f4_s1>
+		<swe>Japp där ska de va!</swe>
+		<eng></eng>	
+	</Vaktis_Lucia_Intervju_f4_s1>
+	
+	<Vaktis_Lucia_Intervju_f4_s2>
+		<swe>Nej du, batterier är inte bra för naturen!</swe>
+		<eng></eng>	
+	</Vaktis_Lucia_Intervju_f4_s2>
+	
+	<Vaktis_Lucia_Intervju_f5>
+		<swe>Så där ja! Nu får du välja vilken tapet du tycker passar bäst här i vaktisrummet.</swe>
+		<eng></eng>	
+	</Vaktis_Lucia_Intervju_f5>
+	
+	<Vaktis_Lucia_Intro_1>
+		<swe>Vad mysigt det blev! Ibland ringer gästerna hit för att beställa något. Oj nu ringer det från rum nummer sex! Tryck på den blinkande knappen för att svara.</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Intro_1>
+	
+	<Vaktis_Lucia_Intro_2>
+		<swe>Ta den där lappen nu och lägg den i mathissen. Mathissen är luckan där nere på andra sidan. Ring sen efter Marimba på ringklockan.</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Intro_2>
+	
+	<Vaktis_Lucia_Intro_3>
+		<swe>Nu är det bara att vänta tills Marimba är klar.</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Intro_3>
+	
+	<Vaktis_Lucia_Intro_4>
+		<swe>Tryck på sexan för att skicka upp hissen till Åkes rum.</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Intro_4>
+	
+	<Vaktis_Ake_DarSitterDuJa>
+		<swe>Jaha, där sitter du ja. Hej på dig!</swe>
+		<eng></eng>		
+	</Vaktis_Ake_DarSitterDuJa>
+	
+	<Vaktis_Ake_FlitensLampa>
+		<swe>Jaha, ja här lyser flitens lampa.</swe>
+		<eng></eng>		
+	</Vaktis_Ake_FlitensLampa>
+	
+	<Vaktis_Ake_NamenHej>
+		<swe>Nämen hej, där sitter du. Hej på dig!</swe>
+		<eng></eng>		
+	</Vaktis_Ake_NamenHej>
+	
+	<Vaktis_Ake_SaHarDetSagUt>
+		<swe>Jaha, det var så här det såg ut i vaktisrummet.</swe>
+		<eng></eng>		
+	</Vaktis_Ake_SaHarDetSagUt>
+	
+	<Vaktis_Ake_Tapeter>
+		<swe>Nämen titta. Nya tapeter. Snyggt!</swe>
+		<eng></eng>		
+	</Vaktis_Ake_Tapeter>
+	
+	<Vaktis_Lucia_Spindel_IngenRinger>
+		<swe>Jag vet vi busar lite! Tryck på ett rum som lyser för att ringa dit och sen på spindelknappen. Då lovar jag att det blir roligt. </swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Spindel_IngenRinger>
+	
+	<Vaktis_Lucia_Spindel_KlickaPaKnappen>
+		<swe>Klicka på spindelknappen nästa gång, så får du se vad som händer!</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Spindel_KlickaPaKnappen>
+	
+	<Vaktis_Bildtelefon_Telesvar_2>
+		<swe>Hallå?</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Telesvar_2>
+	
+	<Vaktis_Bildtelefon_Spindel_2>
+		<swe>Intressant, en äkta tarantella! Men var tog den vägen?</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Spindel_2>
+	
+	<Vaktis_Bildtelefon_Telesvar_3>
+		<swe>Hallå?</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Telesvar_3>
+	
+	<Vaktis_Bildtelefon_Spindel_3>
+		<swe>Tjenare Bengan! Är det du? Men vad gör du?</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Spindel_3>
+	
+	<Vaktis_Bildtelefon_Telesvar_4>
+		<swe>Hallå?</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Telesvar_4>
+	
+	<Vaktis_Bildtelefon_Spindel_4>
+		<swe>Iiiiii. Fy vad läskigt.</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Spindel_4>
+	
+	<Vaktis_Bildtelefon_Telesvar_6>
+		<swe>Hallå?</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Telesvar_6>
+	
+	<Vaktis_Bildtelefon_Spindel_6>
+		<swe>Mamma!</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Spindel_6>
+	
+	<Vaktis_Lucia_Spindel_2>
+		<swe>Hihi, Gio är så tokig!</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Spindel_2>
+	
+	<Vaktis_Lucia_Spindel_3>
+		<swe>Men, det var ju hennes kompis.</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Spindel_3>
+	
+	<Vaktis_Lucia_Spindel_4>
+		<swe>Stackars Erland. Han trodde kanske att det var en giftig spindel. Men det va det ju inte.</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Spindel_4>
+	
+	<Vaktis_Lucia_Spindel_6>
+		<swe>Oj då, Åke är nog lite rädd för spindlar.</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Spindel_6>
+	
+	<Vaktis_Lucia_Periskop_Mossen>
+		<swe>Det rör sig så konstigt under den stora granen här utanför. &#xa;Du kan väl titta i periskopet så det inte är nån som gått vilse?</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Periskop_Mossen>
+	
+	<Vaktis_Lucia_Periskop_Snoken>
+		<swe>Det är något som prasslar så konstigt utanför hotelldörren. Om du tittar i periskopet kanske du kan se om det är nån där?</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Periskop_Snoken>
+	
+	<Vaktis_Lucia_Periskop_Stjarnorna>
+		<swe>Åh det är världens snyggaste stjärnhimmel ikväll. &#xa;Du måste kolla i periskopet!</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Periskop_Stjarnorna>
+	
+	<Vaktis_Lucia_Periskop_Ugglan>
+		<swe>Jag hörde precis ett konstigt hoande utanför fönstret. Så här lät det: Hohoo hohoo. Om du tittar i periskopet kanske du kan se vad det är?</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Periskop_Ugglan>
+	
+	<Vaktis_Periskop_Mossen>
+		<swe>Det var mössen! Nej, de har ju inte gått vilse. De bor ju överallt.</swe>
+		<eng></eng>		
+	</Vaktis_Periskop_Mossen>
+	
+	<Vaktis_Periskop_Snoken>
+		<swe>Snoken Lisen! Hej!</swe>
+		<eng></eng>		
+	</Vaktis_Periskop_Snoken>
+	
+	<Vaktis_Periskop_Stjarnorna>
+		<swe>Wow! Coolt!</swe>
+		<eng></eng>		
+	</Vaktis_Periskop_Stjarnorna>
+	
+	<Vaktis_Periskop_Ugglan>
+		<swe>Det var Ugglan! Hoho på dig själv du.</swe>
+		<eng></eng>		
+	</Vaktis_Periskop_Ugglan>
+	
+	<Vaktis_Lucia_ValjVilkenVaning>
+		<swe></swe>
+		<eng></eng>		
+	</Vaktis_Lucia_ValjVilkenVaning>
+	
+	<Vaktis_Lucia_Vykort>
+		<swe>Titta, ett vykort! "Till vaktmästaren på Hotell Kantarell. Tack för ett trevligt bemötande och skogens godaste korv. Jag och min chaufför kommer snart tillbaka. Hälsningar Miljardären." Vad fint.</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Vykort>
+	
+	<Vaktis_Lucia_CooltAttDuJobbar>
+		<swe>Kompis, det är verkligen coolt att du jobbar här hos oss!</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_CooltAttDuJobbar>
+	
+	<Vaktis_Lucia_Hylla_1>
+		<swe>Kolla bland prylarna på hyllan.</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_Hylla_1>
+	
+	<Vaktis_Lucia_OjDetRinger>
+		<swe>Oj, nu ringer det igen. Svara du, jag ska bara fixa en grej i datorn. Kommer snart tillbaka.</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_OjDetRinger>
+	
+	<Vaktis_Lucia_VillDuVaraMer >
+		<swe>Vill du vara mer i vaktisrummet eller vill du göra något annat?</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_VillDuVaraMer>
+	
+	<Vaktis_Lucia_OkejJagSkallBara>
+		<swe>Okej, jag ska bara skriva in några gäster i datorn.</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_OkejJagSkallBara>
+	
+	<Vaktis_Lucia_OkejKomUtTill>
+		<swe>Okej, kom ut i receptionen!</swe>
+		<eng></eng>		
+	</Vaktis_Lucia_OkejKomUtTill>
+	
+	<Vaktis_Bildtelefon_Order_2_1>
+		<swe>Hej där! Har ni gröna oliver på det här stället? Jag är så himla sugen.</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Order_2_1>
+	
+	<Vaktis_Bildtelefon_Tack_2_1>
+		<swe>Mmm smakar precis som hemma! Ciao!</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Tack_2_1>
+	
+	<Vaktis_Bildtelefon_Order_2_2>
+		<swe>Tjena tjena tjena! Flugan Felix här. Har ni en koblaja att bjuda på? Hehe, nä det är bara jag, Gio! Lurade!</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Order_2_2>
+	
+	<Vaktis_Bildtelefon_Order_3_1>
+		<swe>Hej! Är det här man kan beställa en saftig morot? Det skulle jag vilja ha.</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Order_3_1>
+	
+	<Vaktis_Bildtelefon_Tack_3_1>
+		<swe>Smaskens!</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Tack_3_1>
+	
+	<Vaktis_Bildtelefon_Order_3_2>
+		<swe>Hallå, är det nån där? Lampan har gått sönder. Är det nån där som kan skicka upp en ny glödlampa?</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Order_3_2>
+	
+	<Vaktis_Bildtelefon_Tack_3_2>
+		<swe>Så där ja. Tack för hjälpen!</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Tack_3_2>
+	
+	<Vaktis_Bildtelefon_Order_4_1>
+		<swe>God kväll. Min chef miljardären ber härmed att få beställa ett exemplar av er finaste korv.</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Order_4_1>
+	
+	<Vaktis_Bildtelefon_Tack_4_1>
+		<swe>Ah en bratwurst. Nu blir han glad!</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Tack_4_1>
+	
+	<Vaktis_Bildtelefon_Order_4_2>
+		<swe>Hej. Kan man möjligtvis få lite välling? Jag har så svårt att somna.</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Order_4_2>
+	
+	<Vaktis_Bildtelefon_Tack_4_2>
+		<swe>Tack och god natt!</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Tack_4_2>
+	
+	<Vaktis_Bildtelefon_Order_4_3>
+		<swe>Ursäkta mig, men toalettpappret är slut här på rummet. Kan du vara så snäll och skicka upp en rulle?</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Order_4_3>
+	
+	<Vaktis_Bildtelefon_Tack_4_3>
+		<swe>Å tack, det var för väl.</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Tack_4_3>
+	
+	<Vaktis_Bildtelefon_Order_6_1>
+		<swe>Hej! Jag är lite krasslig i halsen. Vill du vara så snäll och skicka upp ett glas vatten till mig?</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Order_6_1>
+	
+	<Vaktis_Bildtelefon_Tack_6_1>
+		<swe>Tack ska du ha!</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Tack_6_1>
+	
+	<Vaktis_Bildtelefon_Order_6_2>
+		<swe>Hej där! Poppade popcorn för två, tack.</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Order_6_2>
+	
+	<Vaktis_Bildtelefon_Tack_6_2>
+		<swe>Nu kan myskvällen börja Bertil!</swe>
+		<eng></eng>		
+	</Vaktis_Bildtelefon_Tack_6_2>
+	
+	<Vaktis_Mathiss_TarLapp_1>
+		<swe>Det kan jag ordna.</swe>
+		<eng></eng>		
+	</Vaktis_Mathiss_TarLapp_1>
+	
+	<Vaktis_Mathiss_TarLapp_2>
+		<swe>Jaha, okej!</swe>
+		<eng></eng>		
+	</Vaktis_Mathiss_TarLapp_2>
+	
+	<Vaktis_Mathiss_TarLapp_3>
+		<swe>Jasså, jaha.</swe>
+		<eng></eng>		
+	</Vaktis_Mathiss_TarLapp_3>
+	
+	<Vaktis_Mathiss_In_2_1>
+		<swe>Ja, oliver var det här!</swe>
+		<eng></eng>		
+	</Vaktis_Mathiss_In_2_1>
+	
+	<Vaktis_Mathiss_In_3_1>
+		<swe>En nyplockad morot, varsågod.</swe>
+		<eng></eng>		
+	</Vaktis_Mathiss_In_3_1>
+	
+	<Vaktis_Mathiss_In_4_1>
+		<swe>Ja så där ja, här var det korv!</swe>
+		<eng></eng>		
+	</Vaktis_Mathiss_In_4_1>
+	
+	<Vaktis_Mathiss_In_4_2>
+		<swe>Så där ja, en kopp med välling.</swe>
+		<eng></eng>		
+	</Vaktis_Mathiss_In_4_2>
+	
+	<Vaktis_Mathiss_In_6_1>
+		<swe>Här var det vatten!</swe>
+		<eng></eng>		
+	</Vaktis_Mathiss_In_6_1>
+	
+	<Vaktis_Mathiss_In_6_2>
+		<swe>Här kommer popcornen.</swe>
+		<eng></eng>		
+	</Vaktis_Mathiss_In_6_2>
+	
+	<Vaktis_Mathiss_Kommer_1>
+		<swe>Kommer på momangen!</swe>
+		<eng></eng>		
+	</Vaktis_Mathiss_Kommer_1>
+	
+	<Vaktis_Mathiss_Kommer_2>
+		<swe>En sekund bara!</swe>
+		<eng></eng>		
+	</Vaktis_Mathiss_Kommer_2>
+	
+	<Vaktis_Mathiss_Kommer_3>
+		<swe>Jag kommer!</swe>
+		<eng></eng>		
+	</Vaktis_Mathiss_Kommer_3>
+	
+	<Vaktis_Hissfel_2_1>
+		<swe>Det här är inte till mig!</swe>
+		<eng></eng>		
+	</Vaktis_Hissfel_2_1>
+	
+	<Vaktis_Hissfel_2_2>
+		<swe>Vad är det här?</swe>
+		<eng></eng>		
+	</Vaktis_Hissfel_2_2>
+	
+	<Vaktis_Hissfel_4_1>
+		<swe>Jag har inte beställt nåt.</swe>
+		<eng></eng>		
+	</Vaktis_Hissfel_4_1>
+	
+	<Vaktis_Hissfel_4_2>
+		<swe>Det där var nog inte till mig.</swe>
+		<eng></eng>		
+	</Vaktis_Hissfel_4_2>
+	
+	<Vaktis_Hissfel_6_1>
+		<swe>Nej tack.</swe>
+		<eng></eng>		
+	</Vaktis_Hissfel_6_1>
+	
+	<Vaktis_Mathiss_Marimba_Hej>
+		<swe>Hej! Är det du som är vår nya vaktmästare? Jag finns här i köket, ring på klockan bara. Hej då!</swe>
+		<eng></eng>		
+	</Vaktis_Mathiss_Marimba_Hej>
+	
+	<Vaktis_Mathiss_Marimba_Tittut>
+		<swe>Tittut!</swe>
+		<eng></eng>		
+	</Vaktis_Mathiss_Marimba_Tittut>
+	
+	<Efterlyst_Lucia_Gasten_Hej>
+		<swe>God dag. Jag söker en gäst här på hotellet som jag tyvärr inte minns namnet på. &#xa;Hej! Vi har bilder på alla gäster här i gästdatorn. Så vi ska nog hitta den du letar efter.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_Hej>
+	
+	<Efterlyst_Lucia_VillDuHjalpa>
+		<swe>Kompis, vill du hjälpa mig att hitta rätt gäst i datorn?</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_VillDuHjalpa>
+	
+	<Efterlyst_Lucia_VadArDuSugenPa>
+		<swe>Vad är du sugen på att göra då?</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_VadArDuSugenPa>
+	
+	<Efterlyst_Lucia_Gasten_ArDetNagon>
+		<swe>År det någon annan du letar efter?</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_ArDetNagon>
+	
+	<Efterlyst_Lucia_Gasten_BerattaLiteOm>
+		<swe>Berätta lite om den du letar efter.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_BerattaLiteOm>
+	
+	<Efterlyst_Lucia_Gasten_Scen_1>
+		<swe>Jo, ni förstår, det har skett en förväxling. Någon råkade få på sig mina skor efter gymnastiken igår.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_Scen_1>
+	
+	<Efterlyst_Lucia_Gasten_Scen_2>
+		<swe>Jo, jag letar efter en fantastisk talang som sjöng karaoke i matsalen igår. Jag skulle göra vad som helst för att få höra den där vackra rösten igen.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_Scen_2>
+	
+	<Efterlyst_Lucia_Gasten_Scen_3>
+		<swe>Här om dagen var det någon som bjöd mig på en så god kaka. Och nu vill jag få tag på receptet.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_Scen_3>
+	
+	<Efterlyst_Lucia_Gasten_Scen_4>
+		<swe>Min allra finaste mössa är borta men jag precis vet hur tjuven ser ut!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_Scen_4>
+	
+	<Efterlyst_Lucia_Gasten_Scen_5>
+		<swe>Jo, igår lånade jag ut en superspännande bok, men nu ska jag åka hem och jag vill ha tillbaka den!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_Scen_5>
+	
+	<Efterlyst_Lucia_Gasten_Scen_6>
+		<swe>Jo, förra veckan var det någon här som frågade mig vad som kom först. Hönan eller ägget. Och nu tror jag att jag kommit på svaret!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_Scen_6>
+	
+	<Efterlyst_Lucia_Gasten_Scen_7>
+		<swe>Jo jag träffade en utomordentligt duktig schackspelare här om dagen. Och nu är jag så sugen på att spela ett parti.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_Scen_7>
+	
+	<Efterlyst_Lucia_Gasten_Scen_8>
+		<swe>8.	Jag pratade med en så trevliga filur under frukosten idag. Men jag vågade inte be om mailadressen. Om vi ses igen ska jag minsann fråga om vi kan bli brevvänner.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_Scen_8>
+	
+	<Efterlyst_Lucia_UndrarVem_1>
+		<swe>Jaha, då ska vi se vem det kan va.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_UndrarVem_1>
+	
+	<Efterlyst_Lucia_UndrarVem_2>
+		<swe>Hm, undrar vem det kan va?</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_UndrarVem_2>
+	
+	<Efterlyst_Lucia_UndrarVem_3>
+		<swe>Okej hoppas vi kan komma på vem du menar.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_UndrarVem_3>
+	
+	<Efterlyst_Lucia_Gasten_QA_1a>
+		<swe>Hade den några glasögon på sig? &#xa;Ja precis, det stämmer.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_QA_1a>
+	
+	<Efterlyst_Lucia_Gasten_QA_1b>
+		<swe>Hade den några glasögon på sig? &#xa;Nej, inga glasögon.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_QA_1b>
+	
+	<Efterlyst_Lucia_Gasten_QA_2a>
+		<swe>Var det någon med eller utan päls? &#xa;Oj, låt mig tänka. Jo, päls hade den minsann.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_QA_2a>
+	
+	<Efterlyst_Lucia_Gasten_QA_2b>
+		<swe>Var det någon med eller utan päls? &#xa;Det var en alldeles pälslös liten stackare.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_QA_2b>	
+	
+	<Efterlyst_Lucia_Gasten_QA_3a>
+		<swe>Vad för slags hår hade den här figuren? &#xa;Inget hår alls faktiskt.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_QA_3a>
+	
+	<Efterlyst_Lucia_Gasten_QA_3b>
+		<swe>Vad för slags hår hade den här figuren? &#xa;Jättelångt hår!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_QA_3b>	
+		
+	<Efterlyst_Lucia_Gasten_QA_3c>
+		<swe>Vad för slags hår hade den här figuren? &#xa;En kort frisyr var det.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_QA_3c>
+	
+	<Efterlyst_Lucia_Gasten_QA_3d>
+		<swe>Vad för slags hår hade den här figuren? &#xa;Mörkt som natten.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_QA_3d>
+	
+	<Efterlyst_Lucia_Gasten_QA_4a>
+		<swe>Mustasch då, hade den det? &#xa;Ja, jag tror att jag minns en mustasch där, mitt i ansiktet.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_QA_4a>
+	
+	<Efterlyst_Lucia_Gasten_QA_4b>
+		<swe>Mustasch då, hade den det? &#xa;Nej, ingen mustasch.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_QA_4b>
+	
+	<Efterlyst_Lucia_Gasten_QA_5a>
+		<swe>Hade gästen slips på sig kanske? &#xa;Ja slips hade den. Mycket stiligt!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_QA_5a>
+	
+	<Efterlyst_Lucia_Gasten_QA_5b>
+		<swe>Hade gästen slips på sig kanske? &#xa;Nix ingen slips.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_QA_5b>
+	
+	<Efterlyst_Lucia_Gasten_QA_6a>
+		<swe>Hade den något på huvudet, som en mössa eller så? &#xa;Ja, det var en slags mössa eller hatt.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_QA_6a>
+	
+	<Efterlyst_Lucia_Gasten_QA_6b>
+		<swe>Hade den något på huvudet, som en mössa eller så? &#xa;Nej, ingen huvudbonad.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_QA_6b>
+	
+	<Efterlyst_Lucia_Tips_1a>
+		<swe>Gästen vi letar efter har glasögon på sig. Klicka bort alla som inte har det. Och klicka sen på kantarellknappen när du är klar. </swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Tips_1a>
+	
+	<Efterlyst_Lucia_Tips_1b>
+		<swe>Gästen vi letar efter har inte glasögon på sig. Klicka bort alla som har det. Och klicka sen på kantarellknappen när du är klar.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Tips_1b>
+	
+	<Efterlyst_Lucia_HelpSound_1a>
+		<swe>Bort med alla som inte har glasögon!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_HelpSound_1a>
+	
+	<Efterlyst_Lucia_HelpSound_1b>
+		<swe>Bort med alla som har glasögon!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_HelpSound_1b>
+	
+	<Efterlyst_Lucia_HelpSound_2a>
+		<swe>Alla som inte har päls ska bort!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_HelpSound_2a>
+	
+	<Efterlyst_Lucia_HelpSound_2b>
+		<swe>Alla som har päls ska bort!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_HelpSound_2b>
+	
+	<Efterlyst_Lucia_HelpSound_3a>
+		<swe>Hörde du? Det är nån som inte har nåt hår.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_HelpSound_3a>
+	
+	<Efterlyst_Lucia_HelpSound_3b>
+		<swe>Hörde du? Det är nån som har jättelångt hår.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_HelpSound_3b>
+	
+	<Efterlyst_Lucia_HelpSound_3c>
+		<swe>Hörde du? Det är nån som har kort frisyr.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_HelpSound_3c>
+	
+	<Efterlyst_Lucia_HelpSound_3d>
+		<swe>Hörde du? Det är nån som har mörkt hår.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_HelpSound_3d>
+	
+	<Efterlyst_Lucia_HelpSound_4a>
+		<swe>Alla som inte har mustasch ska bort!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_HelpSound_4a>
+	
+	<Efterlyst_Lucia_HelpSound_4b>
+		<swe>Alla mustascher ska bort!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_HelpSound_4b>
+	
+	<Efterlyst_Lucia_HelpSound_5a>
+		<swe>Jaha, ta bort alla som inte har slips.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_HelpSound_5a>
+	
+	<Efterlyst_Lucia_HelpSound_5b>
+		<swe>Jaha, ta bort alla med slips.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_HelpSound_5b>
+	
+	<Efterlyst_Lucia_HelpSound_6a>
+		<swe>Okej, då tar vi bort alla som inte har mössa eller hatt.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_HelpSound_6a>
+	
+	<Efterlyst_Lucia_HelpSound_6b>
+		<swe>Okej, då tar vi bort alla som har mössa eller hatt.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_HelpSound_6b>
+	
+	<Efterlyst_Lucia_Klicka>
+		<swe>Klicka på kantarellknappen när du är klar.</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Klicka>
+	
+	<Efterlyst_Lucia_HurVarDetNu>
+		<swe>Hm hur var det nu…</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_HurVarDetNu>
+	
+	<Efterlyst_Lucia_Gissning_1>
+		<swe>Vi tror att det är Åke!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gissning_1>
+	
+	<Efterlyst_Lucia_Gissning_2>
+		<swe>Är det kanske miljardärens chaufför du letar efter?</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gissning_2>
+	
+	<Efterlyst_Lucia_Gissning_3>
+		<swe>Det måste vara den världskända filmstjärnan!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gissning_3>
+	
+	<Efterlyst_Lucia_Gissning_4>
+		<swe>Vi tror att det är fru Rodentia som du letar efter!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gissning_4>
+	
+	<Efterlyst_Lucia_Gissning_5>
+		<swe>Nu vet vi vem det var! Gio!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gissning_5>
+	
+	<Efterlyst_Lucia_Gissning_6>
+		<swe>Är det Hanna du letar efter?</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gissning_6>
+	
+	<Efterlyst_Lucia_Gissning_7>
+		<swe>Herman verkar passa in på beskrivningen. Är det han?</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gissning_7>
+	
+	<Efterlyst_Lucia_Gissning_8>
+		<swe>Det måste vara miljardären!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gissning_8>
+	
+	<Efterlyst_Lucia_Gissning_9>
+		<swe>Vi vet vem det var! Sebbe, eller hur!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gissning_9>
+	
+	<Efterlyst_Lucia_Gissning_10>
+		<swe>Vi vet vem det var! Stina!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gissning_10>
+	
+	<Efterlyst_Gasten_Fel_1>
+		<swe>Nej, den där känner jag inte igen. Men nu minns jag, det var ju Åke!</swe>
+		<eng></eng>		
+	</Efterlyst_Gasten_Fel_1>
+	
+	<Efterlyst_Gasten_Fel_2>
+		<swe>Nej, den där känner jag inte igen. Men nu minns jag, det var ju Erland - chauffören!</swe>
+		<eng></eng>		
+	</Efterlyst_Gasten_Fel_2>
+	
+	<Efterlyst_Gasten_Fel_3>
+		<swe>Nej, den där känner jag inte igen. Men nu minns jag, det var ju filmstjärnan!</swe>
+		<eng></eng>		
+	</Efterlyst_Gasten_Fel_3>
+	
+	<Efterlyst_Gasten_Fel_4>
+		<swe>Nej, den där känner jag inte igen. Men nu minns jag, det var ju fru Rodentia!</swe>
+		<eng></eng>		
+	</Efterlyst_Gasten_Fel_4>
+	
+	<Efterlyst_Gasten_Fel_5>
+		<swe>Nej, den där känner jag inte igen. Men nu minns jag, det var ju Gio!</swe>
+		<eng></eng>		
+	</Efterlyst_Gasten_Fel_5>
+	
+	<Efterlyst_Gasten_Fel_6>
+		<swe>Nej, den där känner jag inte igen. Men nu minns jag, det var ju Hanna!</swe>
+		<eng></eng>		
+	</Efterlyst_Gasten_Fel_6>
+	
+	<Efterlyst_Gasten_Fel_7>
+		<swe>Nej, den där känner jag inte igen. Men nu minns jag, det var ju Herman!</swe>
+		<eng></eng>		
+	</Efterlyst_Gasten_Fel_7>
+	
+	<Efterlyst_Gasten_Fel_8>
+		<swe>Nej, den där känner jag inte igen. Men nu minns jag, det var ju miljardären!</swe>
+		<eng></eng>		
+	</Efterlyst_Gasten_Fel_8>
+	
+	<Efterlyst_Gasten_Fel_9>
+		<swe>Nej, den där känner jag inte igen. Men nu minns jag, det var ju Stina!</swe>
+		<eng></eng>		
+	</Efterlyst_Gasten_Fel_9>
+	
+	<Efterlyst_Gasten_Fel_10>
+		<swe>Nej, den där känner jag inte igen. Men nu minns jag, det var ju Sebbe!</swe>
+		<eng></eng>		
+	</Efterlyst_Gasten_Fel_10>
+	
+	<Efterlyst_Lucia_Jaha>
+		<swe>Jaha, den gästen var det!</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Jaha>
+	
+	<Efterlyst_Gasten_Ratt_1>
+		<swe>Ja minsann, helt rätt! Vilket detektivarbete.</swe>
+		<eng></eng>		
+	</Efterlyst_Gasten_Ratt_1>
+	
+	<Efterlyst_Gasten_Ratt_2>
+		<swe>Ja minsann! Bra jobbat.</swe>
+		<eng></eng>		
+	</Efterlyst_Gasten_Ratt_2>
+	
+	<Efterlyst_Gasten_Ratt_3>
+		<swe>Ja det stämmer, den var det!</swe>
+		<eng></eng>		
+	</Efterlyst_Gasten_Ratt_3>
+	
+	<Efterlyst_Lucia_LetaUppEnTill>
+		<swe>Vill du leta upp en till gäst eller ska vi göra något annat?</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_LetaUppEnTill>
+	
+	<Efterlyst_Lucia_Gasten_HejDa>
+		<swe>Tack för hjälpen! &#xa;Ja, tack så mycket. &#xa;Vem var det där?</swe>
+		<eng></eng>		
+	</Efterlyst_Lucia_Gasten_HejDa>
+	
+	<Rec_KanDu_LuciaAke_RoligGrej>
+		<swe>Vet du en rolig grej? Det finns en lek som Marimba tycker om som heter Kan du göra vad jag gör! </swe>
+		<eng></eng>		
+	</Rec_KanDu_LuciaAke_RoligGrej>
+	
+	<Rec_KanDu_Lucia_SkallViLekaDen>
+		<swe>Ska vi leka den?</swe>
+		<eng></eng>		
+	</Rec_KanDu_Lucia_SkallViLekaDen>
+	
+	<KanDu_Intro_PromPromProm>
+		<swe>Kan du göra vad jag gör? Prom, prom, prom-prom, prom. Kom ut i köket vet jag! &#xa;Okej, vi kommer!</swe>
+		<eng></eng>		
+	</KanDu_Intro_PromPromProm>	
+		
+	<KanDu_Alla_Start>
+		<swe>Oj, vad det svänger. Får man vara med? &#xa;Javisst Åke. Då spelar jag och Åke först. Sen härmar du oss. &#xa;Okej, då kör vi!</swe>
+		<eng></eng>		
+	</KanDu_Alla_Start>	
+	
+	<KanDu_Ake_Marimba_KanNiGoraSomViGor>
+		<swe>Kan ni göra som vi gör?</swe>
+		<eng></eng>		
+	</KanDu_Ake_Marimba_KanNiGoraSomViGor>	
+	
+	<KanDu_Lucia_NuArDetVarTurAttSpela_1>
+		<swe>Nu är det vår tur. Vi kan göra som ni gör!</swe>
+		<eng></eng>		
+	</KanDu_Lucia_NuArDetVarTurAttSpela_1>
+	
+	<KanDu_Lucia_NuArDetVarTurAttSpela_2>
+		<swe>Nu är det vår tur. Spela på kastrullerna! Vi kan göra som ni gör.</swe>
+		<eng></eng>		
+	</KanDu_Lucia_NuArDetVarTurAttSpela_2>
+	
+	<KanDu_Lucia_OkejNuArDetViSomBestammer>
+		<swe>Okej, nu är det vi som bestämmer! Kan ni göra som vi gör?</swe>
+		<eng></eng>		
+	</KanDu_Lucia_OkejNuArDetViSomBestammer>
+	
+	<KanDu_Lucia_ViKanGoraSomNiGor>
+		<swe>Vi kan göra som ni gör!</swe>
+		<eng></eng>		
+	</KanDu_Lucia_ViKanGoraSomNiGor>
+	
+	<KanDu_Lucia_VO_KlickaForAttSpela>
+		<swe>Klicka för att spela!</swe>
+		<eng></eng>		
+	</KanDu_Lucia_VO_KlickaForAttSpela>
+	
+	<KanDu_Lucia_VO_SpelaPaKastrullernaNu>
+		<swe>Spela på kastrullerna nu!</swe>
+		<eng></eng>		
+	</KanDu_Lucia_VO_SpelaPaKastrullernaNu>
+	
+	<KanDu_Marimba_RiktigtSnyggt>
+		<swe>Riktigt snyggt! Nu kör vi en gång till.</swe>
+		<eng></eng>		
+	</KanDu_Marimba_RiktigtSnyggt>	
+	
+	<KanDu_Marimba_NuArDetDinTur>
+		<swe>Härligt! Nu är det din tur att spela först. Och så härmar jag och Åke dig istället.</swe>
+		<eng></eng>		
+	</KanDu_Marimba_NuArDetDinTur>
+	
+	<KanDu_Ake_Marimba_ViKanGoraSomNiGor>
+		<swe>Vi kan göra som ni gör.</swe>
+		<eng></eng>		
+	</KanDu_Ake_Marimba_ViKanGoraSomNiGor>	
+	
+	<KanDu_Ake_Dacapo>
+		<swe>Da capo!</swe>
+		<eng></eng>		
+	</KanDu_Ake_Dacapo>
+	
+	<KanDu_Ake_LackertLirat>
+		<swe>Läckert lirat!</swe>
+		<eng></eng>		
+	</KanDu_Ake_LackertLirat>
+	
+	<KanDu_Lucia_KanNiGoraSomViGor>
+		<swe>Kan ni göra som vi gör?</swe>
+		<eng></eng>		
+	</KanDu_Lucia_KanNiGoraSomViGor>
+	
+	<KanDu_Lucia_DetVarSvangigt>
+		<swe>Det var svängigt! Ska vi hålla på mer här eller ska vi göra något annat?</swe>
+		<eng></eng>		
+	</KanDu_Lucia_DetVarSvangigt>
+	
+	<KanDu_Lucia_JaViFortsatterHar>
+		<swe>Ja! Vi fortsätter här.</swe>
+		<eng></eng>		
+	</KanDu_Lucia_JaViFortsatterHar>
+	
+	<KanDu_Lucia_OkejViHittarPaNagotAnnat>
+		<swe>Okej, vi hittar på något annat!</swe>
+		<eng></eng>		
+	</KanDu_Lucia_OkejViHittarPaNagotAnnat>
+	
+	<KanDu_Alla_Slut>
+		<swe>Vi får köra mer en annan gång. Ciao! &#xa;Ja! Hej då.</swe>
+		<eng></eng>		
+	</KanDu_Alla_Slut>
+	
+	<filename_02_MarRam_Intro_Reception_Entre_Lucia>
+		<swe>Lucia, var är du? &#xa;Här Marimba, i receptionen!</swe>
+		<eng></eng>		
+	</filename_02_MarRam_Intro_Reception_Entre_Lucia>
+	
+	<filename_03_MarRam_Game_Intro_DarArNi_Marimba>
+		<swe>Där är ni! Jag har skrivit en sån underbar ramsa. Men jag vet inte hur den ska rimma. Kan inte ni hjälpa mig?</swe>
+		<eng></eng>		
+	</filename_03_MarRam_Game_Intro_DarArNi_Marimba>
+	
+	<Rec_MarRam_SkaViDet_Lucia>
+		<swe>Ska vi det? Ska vi hjälpa till att rimma?</swe>
+		<eng></eng>		
+	</Rec_MarRam_SkaViDet_Lucia>	
+	
+	<filename_04A_MarRam_Game_Intro_SkojarDuB_Lucia>
+		<swe>Skojar du! Vi är faktiskt väldigt bra på att rimma. Kompis, visst är vi det? Det är klart vi hjälper dig, Marimba.</swe>
+		<eng></eng>		
+	</filename_04A_MarRam_Game_Intro_SkojarDuB_Lucia>
+	
+	<filename_04A_MarRam_Game_Intro_SkojarDuA_Lucia>
+		<swe>Skojar du! Det var jätteroligt när vi rimmade sist. Kompis, visst var det det? Det är klart vi hjälper dig, Marimba.</swe>
+		<eng></eng>		
+	</filename_04A_MarRam_Game_Intro_SkojarDuA_Lucia>
+	
+	<filename_04B_MarRam_Game_Intro_JaMenVaRoligt_Marimba>
+		<swe>Ja, men vad roligt! Sätter du igång musiken då?</swe>
+		<eng></eng>		
+	</filename_04B_MarRam_Game_Intro_JaMenVaRoligt_Marimba>
+	
+	<filename_06_MarRam_Game_Verse_Action1_Marimba>
+		<swe>Jag är Marimba och jag är cool, jag sätter mig på en...</swe>
+		<eng></eng>		
+	</filename_06_MarRam_Game_Verse_Action1_Marimba>
+	
+	<filename_07_MarRam_Game_Verse_ValjA_Marimba>
+		<swe>Välj en grej som Marimba ska rimma på!</swe>
+		<eng></eng>		
+	</filename_07_MarRam_Game_Verse_ValjA_Marimba>
+	
+	<filename_07_MarRam_Game_Verse_ValjB_Marimba>
+		<swe>Välj en grej som Marimba ska rimma på!</swe>
+		<eng></eng>		
+	</filename_07_MarRam_Game_Verse_ValjB_Marimba>
+	
+	<filename_07_MarRam_Game_Verse_ValjC_Marimba>
+		<swe>Välj en grej som Marimba ska rimma på!</swe>
+		<eng></eng>		
+	</filename_07_MarRam_Game_Verse_ValjC_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction1A_Marimba>
+		<swe>...en trasig stol!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction1A_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction1B_Marimba>
+		<swe>...en vattenpool!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction1B_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction1C_Marimba>
+		<swe>...en spräckt fiol!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction1C_Marimba>
+	
+	<filename_06_MarRam_Game_Verse_Action2_Marimba>
+		<swe>Jag är Marimba mjuk och rund, jag kramar gärna...</swe>
+		<eng></eng>		
+	</filename_06_MarRam_Game_Verse_Action2_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction2A_Marimba>
+		<swe>...en lurvig hund!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction2A_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction2B_Marimba>
+		<swe>...mig själv en stund!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction2B_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction2C_Marimba>
+		<swe>...vår bästa kund!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction2C_Marimba>
+	
+	<filename_06_MarRam_Game_Verse_Action3_Marimba>
+		<swe>Jag är Marimba så elegant, jag gör en mössa av...</swe>
+		<eng></eng>		
+	</filename_06_MarRam_Game_Verse_Action3_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction3A_Marimba>
+		<swe>...en elefant!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction3A_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction3B_Marimba>
+		<swe>...en ostbitskant!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction3B_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction3C_Marimba>
+		<swe>...en gammal tant!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction3C_Marimba>
+	
+	<filename_06_MarRam_Game_Verse_Action4_Marimba>
+		<swe>Jag är Marimba go och glad, jag ställer mig i...</swe>
+		<eng></eng>		
+	</filename_06_MarRam_Game_Verse_Action4_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction4A_Marimba>
+		<swe>...en kopp choklad!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction4A_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction4B_Marimba>
+		<swe>...en hög med blad!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction4B_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction4C_Marimba>
+		<swe>...ett fågelbad!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction4C_Marimba>
+	
+	<filename_06_MarRam_Game_Verse_Action5_Marimba>
+		<swe>Jag är Marimba mjuk att klappa, jag kliver upp på...</swe>
+		<eng></eng>		
+	</filename_06_MarRam_Game_Verse_Action5_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction5A_Marimba>
+		<swe>...hotellets trappa!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction5A_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction5B_Marimba>
+		<swe>...min vän Frank Zappa!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction5B_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction5C_Marimba>
+		<swe>...min snälla pappa!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction5C_Marimba>
+	
+	<filename_06_MarRam_Game_Verse_Action6_Marimba>
+		<swe>Jag är Marimba med tjusig stil, jag kör gärna runt i...</swe>
+		<eng></eng>		
+	</filename_06_MarRam_Game_Verse_Action6_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction6A_Marimba>
+		<swe>...min snabba bil!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction6A_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction6B_Marimba>
+		<swe>...en tallrik fil!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction6B_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction6C_Marimba>
+		<swe>...en rostig sil!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction6C_Marimba>
+	
+	<filename_06_MarRam_Game_Verse_Action7_Marimba>
+		<swe>Jag är Marimba femtioåtta, min bästa vän är...</swe>
+		<eng></eng>		
+	</filename_06_MarRam_Game_Verse_Action7_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction7A_Marimba>
+		<swe>...en ökenråtta!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction7A_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction7B_Marimba>
+		<swe>...är Anna-Lotta!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction7B_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction7C_Marimba>
+		<swe>...min gamla potta!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction7C_Marimba>
+	
+	<filename_06_MarRam_Game_Verse_Action8_Marimba>
+		<swe>Jag är Marimba svart och gul, jag bodde förr i...</swe>
+		<eng></eng>		
+	</filename_06_MarRam_Game_Verse_Action8_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction8A_Marimba>
+		<swe>...ett mysigt skjul!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction8A_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction8B_Marimba>
+		<swe>...en vagn med hjul!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction8B_Marimba>
+	
+	<filename_08_MarRam_Game_Verse_Reaction8C_Marimba>
+		<swe>...Istanbul!</swe>
+		<eng></eng>		
+	</filename_08_MarRam_Game_Verse_Reaction8C_Marimba>
+	
+	<filename_10_MarRam_Game_Outro_Eftersnack_LuciaMarimbaAke>
+		<swe>Oj vad roligt det blev! &#xa;Ja, det blev ju jättebra. Tack ska ni ha. &#xa;Ja, det blev verkligen lustigt.</swe>
+		<eng></eng>		
+	</filename_10_MarRam_Game_Outro_Eftersnack_LuciaMarimbaAke>
+	
+	<filename_11_MarRam_Game_Outro_EnGangTill_Ake>
+		<swe>Ska ni inte göra en gång till? Eller du kanske vill göra nånting annat?</swe>
+		<eng></eng>		
+	</filename_11_MarRam_Game_Outro_EnGangTill_Ake>
+	
+	<filename_11_MarRam_Game_Outro_Dacapo_Ake>
+		<swe>Ja! Dacapo!</swe>
+		<eng></eng>		
+	</filename_11_MarRam_Game_Outro_Dacapo_Ake>
+	
+	<filename_11_MarRam_Game_Outro_Quit_LuciaMarimbaAke>
+		<swe>Okej. &#xa;Ja, ni får väl hitta på något annat Lucia och du. &#xa;Tackar för hjälpen det blev storstilat!</swe>
+		<eng></eng>		
+	</filename_11_MarRam_Game_Outro_Quit_LuciaMarimbaAke>
+	
+	<filename_15_Rec_ValjLek_Foreslar_LuciaAke>
+		<swe>Vet du, vi kan spela låten för vår gäst. &#xa;Då ska jag putsa trumpeten.</swe>
+		<eng></eng>		
+	</filename_15_Rec_ValjLek_Foreslar_LuciaAke>
+	
+	<Rec_DinSang_VillDuAttViSpelar_Lucia>
+		<swe>Vill du att vi spelar låten för dig?</swe>
+		<eng></eng>		
+	</Rec_DinSang_VillDuAttViSpelar_Lucia>
+		
+	<filename_01_Din_Intro_Count>
+		<swe>Hej, nu är jag här igen. &#xa;Så, då börjar vi. &#xa;Ja, hej.</swe>
+		<eng></eng>		
+	</filename_01_Din_Intro_Count>
+	
+	<filename_01_Din_Intro_Start>
+		<swe>En, två, tre, fyra.</swe>
+		<eng></eng>		
+	</filename_01_Din_Intro_Start>
+	
+	<filename_03_Din_Ake_DuHarVaritHarIdag>
+		<swe>Du har varit här ett tag. &#xa;Ja, det har du.</swe>
+		<eng></eng>		
+	</filename_03_Din_Ake_DuHarVaritHarIdag>
+	
+	<filename_03B_Din_Mar_ViHarRimmatDuOchJag>
+		<swe>Vi har rimmat du och jag. &#xa;Ja, ja verkligen.</swe>
+		<eng></eng>		
+	</filename_03B_Din_Mar_ViHarRimmatDuOchJag>
+	
+	<filename_03A_Din_Mar_DetHarVaritKulIdag>
+		<swe>Det har varit kul idag! &#xa;Ja, ja verkligen.</swe>
+		<eng></eng>		
+	</filename_03A_Din_Mar_DetHarVaritKulIdag>
+	
+	<filename_04A_Din_Lucia_DuVaHarVilkenTur>
+		<swe>Du var här, vilken tur!</swe>
+		<eng></eng>		
+	</filename_04A_Din_Lucia_DuVaHarVilkenTur>
+	
+	<filename_05_Din_Alla_DuArVaranAlsklingsf>
+		<swe>Du våran älsklingsfilur!</swe>
+		<eng></eng>		
+	</filename_05_Din_Alla_DuArVaranAlsklingsf>
+	
+	<filename_06_Din_Alla_Chorus>
+		<swe>Du är vår bästa gäst.&#xa;Med dig blir allt en fest. &#xa;Kom snart igen. &#xa;Du är vår bästa vän!</swe>
+		<eng></eng>		
+	</filename_06_Din_Alla_Chorus>
+	
+	<filename_07B_Din_Mar_ILekenDuHarmadeMig>
+		<swe>I leken du härmade mig. &#xa;Ja, det gjorde du.</swe>
+		<eng></eng>		
+	</filename_07B_Din_Mar_ILekenDuHarmadeMig>
+	
+	<filename_07A_Din_Mar_ViVillInteSkiljas>
+		<swe>Vi vill inte skiljas från dig. &#xa;Nej, det blir tråkigt.</swe>
+		<eng></eng>		
+	</filename_07A_Din_Mar_ViVillInteSkiljas>
+	
+	<filename_08A_Din_Lucia_VadCooltAttDuVaHar>
+		<swe>Vad coolt att du varit här hos mig.</swe>
+		<eng></eng>		
+	</filename_08A_Din_Lucia_VadCooltAttDuVaHar>
+	
+	<filename_09B_Din_Ake_DuFannMigIEnKartong>
+		<swe>Du fann mig i en kartong.</swe>
+		<eng></eng>		
+	</filename_09B_Din_Ake_DuFannMigIEnKartong>
+	
+	<filename_09A_Din_Ake_ViSesEnAnnanGang>
+		<swe>Vi ses en annan gång.</swe>
+		<eng></eng>		
+	</filename_09A_Din_Ake_ViSesEnAnnanGang>
+	
+	<filename_10_Din_Alla_NuSjungerViDinSang>
+		<swe>Nu vi sjunger din sång!</swe>
+		<eng></eng>		
+	</filename_10_Din_Alla_NuSjungerViDinSang>
+	
+	<filename_11_Din_Alla_Chorus>
+		<swe>Du är vår bästa gäst. &#xa;Med dig blir allt en fest. &#xa;Kom snart igen. &#xa;Du är vår bästa vän!</swe>
+		<eng></eng>		
+	</filename_11_Din_Alla_Chorus>
+	
+	<filename_12_Din_Lucia_Snack1B_MarimbasRamsa>
+		<swe>Kompis, vilka roliga rim du valde när vi rimmade med Marimba!</swe>
+		<eng></eng>		
+	</filename_12_Din_Lucia_Snack1B_MarimbasRamsa>
+	
+	<filename_12_Din_Lucia_Snack1A_Generell>
+		<swe>Kompis, det var jättekul att du kom hit idag till vårt hotell.</swe>
+		<eng></eng>		
+	</filename_12_Din_Lucia_Snack1A_Generell>
+	
+	<filename_12_Din_Lucia_Snack2A_Generell>
+		<swe>Du vet att du får vara här hur mycket du vill. &#xa;Du kommer stortrivas här!</swe>
+		<eng></eng>		
+	</filename_12_Din_Lucia_Snack2A_Generell>
+	
+	<filename_12_Din_Lucia_Snack2B_KanDuGora>
+		<swe>Vi bankade på kastrullerna så jag fick ont i öronen!</swe>
+		<eng></eng>		
+	</filename_12_Din_Lucia_Snack2B_KanDuGora>
+	
+	<filename_12_Din_Lucia_Snack3A_Generell>
+		<swe>Vad roligt att vi fick sjunga din sång för dig.</swe>
+		<eng></eng>		
+	</filename_12_Din_Lucia_Snack3A_Generell>
+	
+	<filename_12_Din_Lucia_Snack3D_LadKurragomma>
+		<swe>Vad duktig Åke var på att gömma sig. Men vi hittade honom allt!</swe>
+		<eng></eng>		
+	</filename_12_Din_Lucia_Snack3D_LadKurragomma>
+	
+	<filename_12_Din_Lucia_Snack4A_Fortsatt>
+		<swe>Åh, vad mycket kul vi ska hitta på du och jag!</swe>
+		<eng></eng>		
+	</filename_12_Din_Lucia_Snack4A_Fortsatt>
+	
+	<filename_12_Din_Lucia_Snack4B_Avslut>
+		<swe>Kom gärna och hälsa på oss snart igen!</swe>
+		<eng></eng>		
+	</filename_12_Din_Lucia_Snack4B_Avslut>
+	
+	<filename_13_Din_Brygga>
+		<swe>Du är vår bästa vän.</swe>
+		<eng></eng>		
+	</filename_13_Din_Brygga>
+	
+	<filename_14_Din_Alla_End_KomSnartIgeeeen>
+		<swe>Vår bästa vääään!</swe>
+		<eng></eng>		
+	</filename_14_Din_Alla_End_KomSnartIgeeeen>
+	
+	<filename_14_Din_Lucia_End_InteSlut>
+		<swe>Tackar för hjälpen, det blev storstilat. &#xa;Skojar du, vilken bra låt. Vill du höra den igen, eller ska vi göra något annat?</swe>
+		<eng></eng>		
+	</filename_14_Din_Lucia_End_InteSlut>
+	
+	<filename_15_Din_Alla_End_Quit>
+		<swe>Vi tar den en gång till när du vill gå. &#xa;Men du, kom, vi hittar på något nytt.</swe>
+		<eng></eng>		
+	</filename_15_Din_Alla_End_Quit>
+	
+	<filename_15_Din_Ake_End_Dacapo>
+		<swe>Ja det var din låt det. Dacapo!</swe>
+		<eng></eng>		
+	</filename_15_Din_Ake_End_Dacapo>
+
+	<filename_15_Din_Marimba_End_123>
+		<swe>Okej då kör vi!</swe>
+		<eng></eng>		
+	</filename_15_Din_Marimba_End_123>
+	
+	<filename_14_Din_Alla_End_Slut>
+		<swe>Ja, haha, ja, flyg försiktigt käre vän. &#xa;Kompis, hoppas att du kommer hit snart igen &#xa;Ja det har varit angenämt att ha dig här. &#xa;Hej då, ciao!</swe>
+		<eng></eng>		
+	</filename_14_Din_Alla_End_Slut>
+	
+	<filename_01_Rec_Lucia_HejKanJagHjalpa>
+		<swe>Hej, kan jag hjälpa dig med nåt?</swe>
+		<eng></eng>		
+	</filename_01_Rec_Lucia_HejKanJagHjalpa>
+	
+	<filename_02_Rec_Naken_JaTjena>
+		<swe>Tjena. Jag har lämnat lite flyttlådor i trädgården. Bara så ni vet. &#xa;Jaha. Det måste vara Marimba som har beställt dom. Tack! &#xa;Javisst. Tjena.</swe>
+		<eng></eng>		
+	</filename_02_Rec_Naken_JaTjena>
+	
+	<filename_03_Kurra_Rec_Lucia_Flyttlador>
+		<swe>Flyttlådor? Kompis, kom vi går ut och tittar! &#xa;Jaha, lådor. Vad är det för lådor? Jag följer med.</swe>
+		<eng></eng>		
+	</filename_03_Kurra_Rec_Lucia_Flyttlador>
+	
+	<Rec_Kurra_SkaViGaUt_Lucia>
+		<swe>Ska vi gå ut i trädgården?</swe>
+		<eng></eng>		
+	</Rec_Kurra_SkaViGaUt_Lucia>
+	
+	<filename_04_Kurra_Game_LuciaAke_ViSomArSaBra_R>
+		<swe>Ska vi leka kurragömma? &#xa;Jaha, ni vill se ännu en uppvisning i gömmandets konst. Blunda&#xa;och ge mig tio sekunder. &#xa;Kompis, du ska också blunda.</swe>
+		<eng></eng>		
+	</filename_04_Kurra_Game_LuciaAke_ViSomArSaBra_R>
+	
+	<filename_04_Kurra_Game_LuciaAke_ViSomArSaBra_F>
+		<swe>Du ska vi leka kurragömma? &#xa;Gärna det. Vi gräshoppor är mycket bra på att gömma oss. &#xa;Är ni? Ni som är så långa? &#xa;Ja, om ni blundar så gömmer jag mig.</swe>
+		<eng></eng>		
+	</filename_04_Kurra_Game_LuciaAke_ViSomArSaBra_F>
+		
+	<filename_05_Kurra_Game_Lucia_DuKanTittaNu>
+		<swe>Du kan titta nu. Du kan öppna ögonen.</swe>
+		<eng></eng>		
+	</filename_05_Kurra_Game_Lucia_DuKanTittaNu>
+	
+	<filename_05_Kurra_Game_Lucia_OkVilkenSkaViLeta>
+		<swe>Okej, vilken ska vi leta under?</swe>
+		<eng></eng>		
+	</filename_05_Kurra_Game_Lucia_OkVilkenSkaViLeta>
+	
+	<filename_05_Kurra_Game_Lucia_UndraVarHarGomt>
+		<swe>Kompis, vilken låda ska vi ta nu?</swe>
+		<eng></eng>		
+	</filename_05_Kurra_Game_Lucia_UndraVarHarGomt>
+	
+	<filename_06_Kurra_Game_Lucia_LadaA>
+		<swe>Låda A!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaA>
+	
+	<filename_06_Kurra_Game_Lucia_LadaAring>
+		<swe>Låda Å!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaAring>
+	
+	<filename_06_Kurra_Game_Lucia_LadaAuml>
+		<swe>Låda Ä!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaAuml>
+	
+	<filename_06_Kurra_Game_Lucia_LadaOuml>
+		<swe>Låda Ö!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaOuml>
+	
+	<filename_06_Kurra_Game_Lucia_LadaB>
+		<swe>Låda B!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaB>
+	
+	<filename_06_Kurra_Game_Lucia_LadaC>
+		<swe>Låda C!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaC>
+	
+	<filename_06_Kurra_Game_Lucia_LadaD>
+		<swe>Låda D!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaD>
+	
+	<filename_06_Kurra_Game_Lucia_LadaE>
+		<swe>Låda E!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaE>
+	
+	<filename_06_Kurra_Game_Lucia_LadaF>
+		<swe>Låda F!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaF>
+	
+	<filename_06_Kurra_Game_Lucia_LadaG>
+		<swe>Låda G!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaG>
+	
+	<filename_06_Kurra_Game_Lucia_LadaH>
+		<swe>Låda H!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaH>
+	
+	<filename_06_Kurra_Game_Lucia_LadaI>
+		<swe>Låda I!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaI>
+	
+	<filename_06_Kurra_Game_Lucia_LadaJ>
+		<swe>Låda J!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaJ>
+	
+	<filename_06_Kurra_Game_Lucia_LadaK>
+		<swe>Låda K!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaK>
+	
+	<filename_06_Kurra_Game_Lucia_LadaL>
+		<swe>Låda L!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaL>
+	
+	<filename_06_Kurra_Game_Lucia_LadaM>
+		<swe>Låda M!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaM>
+	
+	<filename_06_Kurra_Game_Lucia_LadaN>
+		<swe>Låda N!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaN>
+	
+	<filename_06_Kurra_Game_Lucia_LadaO>
+		<swe>Låda O!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaO>
+	
+	<filename_06_Kurra_Game_Lucia_LadaP>
+		<swe>Låda P!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaP>
+	
+	<filename_06_Kurra_Game_Lucia_LadaQ>
+		<swe>Låda Q!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaQ>
+	
+	<filename_06_Kurra_Game_Lucia_LadaR>
+		<swe>Låda R!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaR>
+	
+	<filename_06_Kurra_Game_Lucia_LadaS>
+		<swe>Låda S!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaS>
+	
+	<filename_06_Kurra_Game_Lucia_LadaT>
+		<swe>Låda T!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaT>
+	
+	<filename_06_Kurra_Game_Lucia_LadaU>
+		<swe>Låda U!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaU>
+	
+	<filename_06_Kurra_Game_Lucia_LadaV>
+		<swe>Låda V!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaV>
+	
+		<filename_06_Kurra_Game_Lucia_LadaW>
+		<swe>Låda W!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaW>
+	
+	<filename_06_Kurra_Game_Lucia_LadaX>
+		<swe>Låda X!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaX>
+	
+	<filename_06_Kurra_Game_Lucia_LadaY>
+		<swe>Låda Y!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaY>
+	
+	<filename_06_Kurra_Game_Lucia_LadaZ>
+		<swe>Låda Z!</swe>
+		<eng></eng>		
+	</filename_06_Kurra_Game_Lucia_LadaZ>
+
+	<filename_07_Kurra_Game_Lucia_GenReaction_1>
+		<swe>Var kan han då vara?</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Lucia_GenReaction_1>
+	
+	<filename_07_Kurra_Game_Lucia_GenReaction_2>
+		<swe>Han var bra på att gömma sig!</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Lucia_GenReaction_2>
+	
+	<filename_07_Kurra_Game_Lucia_GenReaction_3>
+		<swe>Var ska vi leta nu då?</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Lucia_GenReaction_3>
+	
+	<filename_07_Kurra_Game_Lucia_GenReaction_4>
+		<swe>Vilken låda ska vi ta nu?</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Lucia_GenReaction_4>
+	
+	<filename_07_Kurra_Game_Lucia_GenReaction_5>
+		<swe>Vi tar lådan bredvid, va?</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Lucia_GenReaction_5>
+	
+	<filename_07_Kurra_Game_Lucia_GenReaction_6>
+		<swe>Var kan han då vara?</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Lucia_GenReaction_6>
+	
+	<filename_07_Kurra_Game_Lucia_GenReaction_7>
+		<swe>Åke kanske gick tillbaks till hotellet?</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Lucia_GenReaction_7>
+	
+	<filename_07_Kurra_Game_Ake_Tip_DarNiStar1>
+		<swe>Leta närmare där ni står, kära ni!</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_DarNiStar1>
+	
+	<filename_07_Kurra_Game_Ake_Tip_ForstaRaden1>
+		<swe>Jag kan avslöja att jag faktisk är ungefär då ni letar. Alltså i raden närmast er.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_ForstaRaden1>
+	
+	<filename_07_Kurra_Game_Ake_Tip_Hoger1>
+		<swe>Mer åt höger, hörrni!</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_Hoger1>
+	
+	<filename_07_Kurra_Game_Ake_Tip_Hoger2>
+		<swe>Till höger bör du leta!</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_Hoger2>
+	
+	<filename_07_Kurra_Game_Ake_Tip_Hoger3>
+		<swe>Precis, ni är mig på spåret. Jag är i en av de högra lådorna.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_Hoger3>	
+		
+	<filename_07_Kurra_Game_Ake_FelLada_1>
+		<swe>Nej, där är jag inte.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_FelLada_1>
+	
+	<filename_07_Kurra_Game_Ake_FelLada_2>
+		<swe>Ni hittar mig aldrig!</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_FelLada_2>
+	
+	<filename_07_Kurra_Game_Ake_FelLada_3>
+		<swe>Nu är jag allt klurigt gömd.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_FelLada_3>
+	
+	<filename_07_Kurra_Game_Ake_FelLada_4>
+		<swe>Där är jag inte. Fortsätt leta.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_FelLada_4>
+	
+	<filename_07_Kurra_Game_Ake_FelLada_5>
+		<swe>Nej, den lådan var tom för där låg jag inte.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_FelLada_5>
+	
+	<filename_07_Kurra_Game_Ake_FelLada_6>
+		<swe>Nej, jag ligger inte i en tom låda. Jag är ju i den.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_FelLada_6>
+	
+	<filename_07_Kurra_Game_Ake_FelLada_7>
+		<swe>Misströsta inte, ni kommer nog att hitta mig. Men det är inte lätt!</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_FelLada_7>
+		
+	<filename_07_Kurra_Game_Ake_FelLada_8>
+		<swe>Leta på ni.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_FelLada_8>
+	
+	<filename_07_Kurra_Game_Ake_Tip_InteKlistermarke1>
+		<swe>Den låda jag gömmer mig i har inga klistermärken alls.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_InteKlistermarke1>
+	
+	<filename_07_Kurra_Game_Ake_Tip_InteKlistermarke2>
+		<swe>Min låda har inte heller några klistermärken.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_InteKlistermarke2>
+	
+	<filename_07_Kurra_Game_Ake_Tip_Klistermarke1>
+		<swe>Ja, lådan jag har gömt mig i har klistermärken på sig.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_Klistermarke1>
+	
+	<filename_07_Kurra_Game_Ake_Tip_Klistermarke2>
+		<swe>Nej, lådan jag har gömt mig i har ett klistermärke på sig.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_Klistermarke2>
+	
+	<filename_07_Kurra_Game_Ake_Tip_LitenLada1>
+		<swe>Ja, lådan jag ligger i är av den lilla sorten.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_LitenLada1>
+	
+	<filename_07_Kurra_Game_Ake_Tip_LitenLada2>
+		<swe>Ja, lådan jag ligger i är av den lilla sorten.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_LitenLada2>
+	
+	<filename_07_Kurra_Game_Ake_Tip_LitenLada3>
+		<swe>Precis, om ni bara letar bland de små lådorna så har ni större chans att hitta mig.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_LitenLada3>
+	
+	<filename_07_Kurra_Game_Ake_Tip_LitenLada4>
+		<swe>Jag har gömt mig i en liten låda. Det är otroligt att jag får plats i den här över huvud taget.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_LitenLada4>
+	
+	<filename_07_Kurra_Game_Ake_Tip_LangreBort1>
+		<swe>Nej, längre bort finns jag.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_LangreBort1>
+	
+	<filename_07_Kurra_Game_Ake_Tip_NaraKantarellen1>
+		<swe>Leta bland lådorna som är nära kantarellen!</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_NaraKantarellen1>
+	
+	<filename_07_Kurra_Game_Ake_Tip_StorLada1>
+		<swe>Ni ska veta att den låda jag befinner mig är stor och rymlig. Jag skulle kunna bo här.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_StorLada1>
+	
+	<filename_07_Kurra_Game_Ake_Tip_StorLada2>
+		<swe>Leta bland de stora lådorna, då kanske ni hittar mig.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_StorLada2>
+	
+	<filename_07_Kurra_Game_Ake_Tip_StorLada3>
+		<swe>Vill ni absolut veta så kan jag berätta att jag finns i en stor låda.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_StorLada3>
+	
+	<filename_07_Kurra_Game_Ake_Tip_StorLada4>
+		<swe>Ja precis, fokusera på de stora lådorna.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_StorLada4>
+	
+	<filename_07_Kurra_Game_Ake_Tip_Vanster1>
+		<swe>Leta längre till vänster!</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_Vanster1>
+	
+	<filename_07_Kurra_Game_Ake_Tip_Vanster2>
+		<swe>Ja just det, jag är här bland lådorna till vänster.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Ake_Tip_Vanster2>
+	
+	<filename_07_Kurra_Game_Lucia_Aha_EnTillLedtrad>
+		<swe>Aha, en till ledtråd.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Lucia_Aha_EnTillLedtrad>
+	
+	<filename_07_Kurra_Game_Lucia_Aha_Jahaa>
+		<swe>Jaha, då vet vi det.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Lucia_Aha_Jahaa>
+	
+	<filename_07_Kurra_Game_Lucia_Aha_Klister>
+		<swe>Jaha, en låda med klistermärken.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Lucia_Aha_Klister>
+	
+	<filename_07_Kurra_Game_Lucia_Aha_SmaLador>
+		<swe>Okej, då öppnar vi alla smålådor.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Lucia_Aha_SmaLador>
+	
+	<filename_07_Kurra_Game_Lucia_Aha_StoraLador>
+		<swe>Okej, då öppnar vi alla de stora lådorna.</swe>
+		<eng></eng>		
+	</filename_07_Kurra_Game_Lucia_Aha_StoraLador>
+	
+	<filename_08_Kurra_Game_Ake_DykerUpp_Hehe_Close>
+		<swe>Ni hittade mig! Nästa gång ska jag gömma mig på ett helt annat ställe.</swe>
+		<eng></eng>		
+	</filename_08_Kurra_Game_Ake_DykerUpp_Hehe_Close>
+	
+	<filename_08_Kurra_Game_Ake_DykerUpp_Tank_Close>
+		<swe>Tänka sig! Hur kunde du hitta mig så fort?</swe>
+		<eng></eng>		
+	</filename_08_Kurra_Game_Ake_DykerUpp_Tank_Close>
+	
+	<filename_08_Kurra_Game_Ake_DykerUpp_Asch_Close>
+		<swe>Äsch då! Nu hittade du mig i alla fall. Jag ska nog kunna gömma mig bättre än så.</swe>
+		<eng></eng>		
+	</filename_08_Kurra_Game_Ake_DykerUpp_Asch_Close>
+	
+	<filename_08_Kurra_Game_Ake_DykerUpp_Outro>
+		<swe>Blunda så gör vi det en gång till.</swe>
+		<eng></eng>		
+	</filename_08_Kurra_Game_Ake_DykerUpp_Outro>
+	
+	<filename_09_Kurra_Game_Lucia_JaLiteTill>
+		<swe>Ja, vi leker lite till!</swe>
+		<eng></eng>		
+	</filename_09_Kurra_Game_Lucia_JaLiteTill>
+	
+	<filename_09_Kurra_Game_Lucia_EmmaVillDuGaTillb>
+		<swe>Kompis, ska vi gå tillbaks till hotellet eller vill du leka mer?</swe>
+		<eng></eng>		
+	</filename_09_Kurra_Game_Lucia_EmmaVillDuGaTillb>
+	
+	<filename_10_Kurra_Game_Lucia_SlutaLeka>
+		<swe>Åke, vi vill sluta leka.</swe>
+		<eng></eng>		
+	</filename_10_Kurra_Game_Lucia_SlutaLeka>
+	
+	<filename_10_Kurra_Game_Ake_EhhLeka_Close_1>
+		<swe>Leka? Ja... ja, jag kommer nu!</swe>
+		<eng></eng>		
+	</filename_10_Kurra_Game_Ake_EhhLeka_Close_1>
+	
+	<filename_10_Kurra_Game_Ake_EhhLeka_Close_2>
+		<swe>Leka? Ja... ja, jag kommer nu!</swe>
+		<eng></eng>		
+	</filename_10_Kurra_Game_Ake_EhhLeka_Close_2>
+	
+	<filename_10_Kurra_Game_Lucia_SlutaLeka_EmmaKom>
+		<swe>Kompis, kom!</swe>
+		<eng></eng>		
+	</filename_10_Kurra_Game_Lucia_SlutaLeka_EmmaKom>
+	
+	<filename_13_Rec_Return_FromKurra_Lucia>
+		<swe>Ja då var vi här igen. Nu ska vi se vad som står i Skogsnytt.</swe>
+		<eng></eng>		
+	</filename_13_Rec_Return_FromKurra_Lucia>
+	
+	<Kalej_DuFarLanaDet_Lucia>
+		<swe>Du får låna det medan du väntar.</swe>
+		<eng></eng>		
+	</Kalej_DuFarLanaDet_Lucia>
+	
+	<Kalej_FinaMonster_Lucia>
+		<swe>Vilka fina mönster det blir.</swe>
+		<eng></eng>		
+	</Kalej_FinaMonster_Lucia>
+	
+	<Kalej_KomNu_Lucia>
+		<swe>Kom nu!</swe>
+		<eng></eng>		
+	</Kalej_KomNu_Lucia>
+	
+	<Kalej_KomNuDa_Lucia>
+		<swe>Kom nu då!</swe>
+		<eng></eng>		
+	</Kalej_KomNuDa_Lucia>
+	
+	<Kalej_SerUtSomEnBlomma_Lucia>
+		<swe>Å, det ser ut som en blomma.</swe>
+		<eng></eng>		
+	</Kalej_SerUtSomEnBlomma_Lucia>
+	
+	<Kalej_TittaHar_Lucia>
+		<swe>Titta här, i mitt kaledoskop.</swe>
+		<eng></eng>		
+	</Kalej_TittaHar_Lucia>
+	
+	<filename_14_Rec_Return_LoopSelect_Lucia_DinSang>
+		<swe>Ja, vi tar och sjunger din fina sång istället.</swe>
+		<eng></eng>		
+	</filename_14_Rec_Return_LoopSelect_Lucia_DinSang>
+	
+	<filename_14_Rec_Return_LoopSelect_Lucia_Efterlyst>
+		<swe>Vad kul!</swe>
+		<eng></eng>		
+	</filename_14_Rec_Return_LoopSelect_Lucia_Efterlyst>
+	
+	<filename_14_Rec_Return_LoopSelect_Lucia_KanDu>
+		<swe>Ja, kul! Kan du göra vad jag gör?</swe>
+		<eng></eng>		
+	</filename_14_Rec_Return_LoopSelect_Lucia_KanDu>
+	
+	<filename_14_Rec_Return_LoopSelect_Lucia_Kurra>
+		<swe>Ja, vi kan leka kurragömma med Åke.</swe>
+		<eng></eng>		
+	</filename_14_Rec_Return_LoopSelect_Lucia_Kurra>
+	
+	<filename_14_Rec_Return_LoopSelect_Lucia_MarRam>
+		<swe>Ja, vi kan rimma med Marimba.</swe>
+		<eng></eng>		
+	</filename_14_Rec_Return_LoopSelect_Lucia_MarRam>
+	
+	<filename_14_Rec_Return_LoopSelect_Lucia_Vaktis>
+		<swe>Ja, du kan vara vaktis.</swe>
+		<eng></eng>		
+	</filename_14_Rec_Return_LoopSelect_Lucia_Vaktis>
+		
+</root>
