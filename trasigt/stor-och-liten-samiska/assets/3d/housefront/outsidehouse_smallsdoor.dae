@@ -1,0 +1,219 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Sarah Bird</author>
+      <authoring_tool>Maya2008 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=0;exportCameraAsLookat=0;
+exportLights=0;exportCameras=0;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=0;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=0;exportPhysics=0;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Documents%20and%20Settings/Sarah%20Bird/My%20Documents/BigAndSmall/papervision/HouseOutside/HouseOutside_9Feb_v02.mb</source_data>
+    </contributor>
+    <created>2009-02-09T14:06:09Z</created>
+    <modified>2009-02-09T14:06:09Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file43" name="file43">
+      <init_from>./smallsdoor_baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="SmallsDoor1" name="SmallsDoor1">
+      <instance_effect url="#SmallsDoor1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="SmallsDoor1-fx">
+      <profile_COMMON>
+        <newparam sid="file43-surface">
+          <surface type="2D">
+            <init_from>file43</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file43-sampler">
+          <sampler2D>
+            <source>file43-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file43-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="SmallDoorShape" name="SmallDoorShape">
+      <mesh>
+        <source id="SmallDoorShape-positions" name="position">
+          <float_array id="SmallDoorShape-positions-array" count="66">-11.0442 0 -1.17382 -11.0445 0 -7.74148 -1.6629 0 -1.09359 -1.60749 0 -7.98705 1.57075 0 -4.49033 -11.0404 0 -4.48161 1.31553 0 -3.2819 -11.0404 0 -3.36222 1.38661 0 -6.04887 -11.0404 0 -5.71305 0.382705 0 -1.93875 -11.0404 0 -2.09559 0.62372 0 -7.17331 -11.0404 0 -6.78651 -0.315363 0 -1.55841 -11.0404 0 -1.73509 -11.0404 0 -7.2161 -5.21 0 -0.79236 -5.23543 0 -1.90258 -5.213 0 -8.11052 -5.25606 0 -6.92587 -5.25349 0 -3.35152</float_array>
+          <technique_common>
+            <accessor source="#SmallDoorShape-positions-array" count="22" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SmallDoorShape-normals" name="normal">
+          <float_array id="SmallDoorShape-normals-array" count="69">0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#SmallDoorShape-normals-array" count="23" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="SmallDoorShape-map1" name="map1">
+          <float_array id="SmallDoorShape-map1-array" count="44">0.204142 0.464101 0.164851 0.793297 0.208161 0.839409 0.676188 0.905725 0.637948 0.084825 0.804231 0.85533 0.776054 0.466925 0.760184 0.084825 0.369036 0.467095 0.361108 0.90103 0.498714 0.917889 0.497721 0.084825 0.370254 0.084825 0.868929 0.084556 0.910953 0.469769 0.111921 0.704281 0.077619 0.469967 0.22602 0.084825 0.121058 0.084573 0.18497 0.084825 0.896893 0.707942 0.809103 0.084825</float_array>
+          <technique_common>
+            <accessor source="#SmallDoorShape-map1-array" count="22" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="SmallDoorShape-vertices">
+          <input semantic="POSITION" source="#SmallDoorShape-positions"/>
+        </vertices>
+        <triangles material="SmallsDoor1SG" count="23">
+          <input semantic="VERTEX" source="#SmallDoorShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#SmallDoorShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#SmallDoorShape-map1" offset="2" set="0"/>
+          <p>14 0 1 18 1 0 10 2 2 8 3 3 9 4 4 12 5 5 12 5 5 9 4 4 20 6 6 9 4 4 13 7 7 20 6 6 21 8 8 10 2 2 18 1 0 10 2 2 21 8 8 6 9 9 4 10 10 6 9 9 5 11 11 6 9 9 21 8 8 5 11 11 7 12 12 5 11 11 21 8 8 9 4 4 8 3 3 5 11 11 5 11 11 8 3 3 4 10 10 20 6 6 1 13 13 19 14 14 2 15 15 18 1 0 14 0 1 15 17 19 18 1 0 0 16 18 0 16 18 18 1 0 17 18 16 20 6 6 19 14 14 3 19 20 21 8 8 18 1 0 11 20 17 11 20 17 18 1 0 15 21 19 18 1 0 2 15 15 17 18 16 21 8 8 11 20 17 7 12 12 20 6 6 3 19 20 12 5 5 1 13 13 20 6 6 16 22 21 16 22 21 20 6 6 13 7 7</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="HouseOutside_9Feb_v02">
+      <node id="Still" name="Still" type="NODE">
+        <translate sid="translate">-0.241091 6.8834 40.8293</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+      </node>
+      <node id="Door" name="Door" type="NODE">
+        <translate sid="translate">-2.34844 0 12.5853</translate>
+        <translate sid="rotatePivotTranslation">12.5374 0 -12.5374</translate>
+        <translate sid="rotatePivot">-12.5374 0 0</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 -90</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="rotatePivotInverse">12.5374 0 0</translate>
+        <translate sid="scalePivot">-12.5374 0 0</translate>
+        <translate sid="scalePivotInverse">12.5374 0 0</translate>
+        <node id="SmallsDoor" name="SmallsDoor" type="NODE">
+          <translate sid="translate">0.223817 0 3.00236</translate>
+          <translate sid="rotatePivot">-12.8092 0 -5.35081</translate>
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <translate sid="rotatePivotInverse">12.8092 0 5.35081</translate>
+          <translate sid="scalePivotTranslation">0.00606 0 0.246914</translate>
+          <translate sid="scalePivot">-12.8152 0 -5.59772</translate>
+          <scale sid="scale">0.55 0.55 0.55</scale>
+          <translate sid="scalePivotInverse">12.8152 0 5.59772</translate>
+          <node id="SmallDoor" name="SmallDoor" type="NODE">
+            <translate sid="translate">-12.8152 9.54615 2.02974</translate>
+            <translate sid="rotatePivotTranslation">9.56084 -9.56084 0</translate>
+            <translate sid="rotatePivot">-9.56084 0 -7.1124</translate>
+            <rotate sid="rotateZ">0 0 1 90</rotate>
+            <rotate sid="rotateY">0 1 0 0</rotate>
+            <rotate sid="rotateX">1 0 0 0</rotate>
+            <translate sid="rotatePivotInverse">9.56084 0 7.1124</translate>
+            <translate sid="scalePivotTranslation">1.53062 0 0.453983</translate>
+            <translate sid="scalePivot">-11.0915 0 -7.56638</translate>
+            <scale sid="scale">0.852082 1 0.946547</scale>
+            <translate sid="scalePivotInverse">11.0915 0 7.56638</translate>
+            <instance_geometry url="#SmallDoorShape">
+              <bind_material>
+                <technique_common>
+                  <instance_material symbol="SmallsDoor1SG" target="#SmallsDoor1">
+                    <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                  </instance_material>
+                </technique_common>
+              </bind_material>
+            </instance_geometry>
+          </node>
+        </node>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0.041666</start_time>
+          <end_time>2</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

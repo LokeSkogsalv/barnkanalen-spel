@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Sarah Bird</author>
+      <authoring_tool>Maya2008 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=0;exportCameraAsLookat=0;
+exportLights=0;exportCameras=0;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=0;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=0;exportPhysics=0;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Documents%20and%20Settings/Sarah%20Bird/My%20Documents/BigAndSmall/papervision/Bedroom/landing_v01_12Feb.mb</source_data>
+    </contributor>
+    <created>2009-02-12T15:52:23Z</created>
+    <modified>2009-02-12T15:52:23Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file85" name="file85">
+      <init_from>./landingdoor_baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="Landing_Door1" name="Landing_Door1">
+      <instance_effect url="#Landing_Door1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="Landing_Door1-fx">
+      <profile_COMMON>
+        <newparam sid="file85-surface">
+          <surface type="2D">
+            <init_from>file85</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file85-sampler">
+          <sampler2D>
+            <source>file85-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file85-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="LandingDoor1Shape" name="LandingDoor1Shape">
+      <mesh>
+        <source id="LandingDoor1Shape-positions" name="position">
+          <float_array id="LandingDoor1Shape-positions-array" count="87">-11.1275 -0.000000 -1.25141 -11.1275 -0.000000 -7.57543 -1.53446 -0.000000 -1.13156 -1.56653 -0.000000 -7.77065 1.65315 -0.000000 -4.42302 -11.1275 -0.000000 -4.48161 1.06889 -0.000000 -2.63842 -11.1275 -0.000000 -2.75971 1.54252 -0.000000 -5.62089 -11.1275 -0.000000 -5.61487 0.4582 -0.000000 -1.9621 1.4278 -0.000000 -3.43153 -11.1275 -0.000000 -3.77996 0.69332 -0.000000 -7.01495 -11.1275 -0.000000 -6.7865 -4.9893 -0.000000 -7.92887 -5.35026 -0.000000 -1.94426 -11.1275 -0.000000 -2.17123 -5.35041 -0.000000 -2.76386 -5.04608 -0.000000 -0.874691 -5.19065 -0.000000 -6.90067 -0.729103 -0.000000 -3.49139 -0.851452 -0.000000 -2.67501 -0.610009 -0.000000 -4.43339 -0.41273 -0.000000 -5.61996 -3.42406 -0.000000 -3.56651 -3.53849 -0.000000 -2.72869 -3.33346 -0.000000 -4.44593 -3.15197 -0.000000 -5.61866</float_array>
+          <technique_common>
+            <accessor source="#LandingDoor1Shape-positions-array" count="29" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="LandingDoor1Shape-normals" name="normal">
+          <float_array id="LandingDoor1Shape-normals-array" count="240">0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0 0 -1 0</float_array>
+          <technique_common>
+            <accessor source="#LandingDoor1Shape-normals-array" count="80" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="LandingDoor1Shape-map1" name="map1">
+          <float_array id="LandingDoor1Shape-map1-array" count="58">0.822139 0.877494 0.652378 0.939485 0.651645 0.018701 0.794331 0.018701 0.808235 0.448098 0.890419 0.018701 0.933471 0.462818 0.19894 0.450517 0.082909 0.448778 0.428182 0.018701 0.38575 0.931112 0.289162 0.904919 0.275065 0.450505 0.303932 0.018701 0.206797 0.860351 0.506497 0.947558 0.513632 0.018701 0.106306 0.716072 0.232266 0.018701 0.914173 0.712581 0.120222 0.018701 0.39304 0.774368 0.285049 0.764258 0.50776 0.78308 0.652265 0.797389 0.402188 0.577644 0.279017 0.568654 0.509287 0.58427 0.652106 0.598318</float_array>
+          <technique_common>
+            <accessor source="#LandingDoor1Shape-map1-array" count="29" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="LandingDoor1Shape-vertices">
+          <input semantic="POSITION" source="#LandingDoor1Shape-positions"/>
+        </vertices>
+        <triangles material="LandingDoorSG" count="38">
+          <input semantic="VERTEX" source="#LandingDoor1Shape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#LandingDoor1Shape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#LandingDoor1Shape-map1" offset="2" set="0"/>
+          <p>8 2 1 24 3 24 13 1 0 13 1 0 24 3 24 20 0 4 24 3 24 28 4 28 20 0 4 28 4 28 9 5 2 20 0 4 20 0 4 9 5 2 14 6 3 20 7 4 1 8 5 15 9 6 25 13 25 26 14 26 12 12 9 26 14 26 18 10 12 12 12 9 18 10 12 7 11 13 12 12 9 6 20 11 10 15 14 22 19 22 10 15 14 16 16 7 22 19 22 22 19 22 16 16 7 26 18 26 16 16 7 18 17 12 26 18 26 8 22 1 4 23 15 24 21 24 24 21 24 4 23 15 23 24 23 21 25 21 23 26 23 11 28 10 11 28 10 23 26 23 4 27 15 16 29 7 10 30 14 2 31 17 20 32 4 15 33 6 3 34 19 20 35 4 3 36 19 13 37 0 0 38 20 17 39 18 16 40 7 16 41 7 2 42 17 19 43 8 16 44 7 19 45 8 0 46 20 18 47 12 16 48 7 7 49 13 14 50 3 1 51 5 20 52 4 7 53 13 16 54 7 17 55 18 22 56 22 21 57 21 6 59 11 6 59 11 21 57 21 11 58 10 25 60 25 27 61 27 21 63 21 21 63 21 27 61 27 23 62 23 24 65 24 23 66 23 28 64 28 28 64 28 23 66 23 27 67 27 26 68 26 25 69 25 22 71 22 22 71 22 25 69 25 21 70 21 12 72 9 5 73 16 25 75 25 25 75 25 5 73 16 27 74 27 28 77 28 27 78 27 9 76 2 9 76 2 27 78 27 5 79 16</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="landing_v01_12Feb">
+      <node id="camera1" name="camera1" type="NODE">
+        <translate sid="translate">-6.0861 13.9788 -11.0056</translate>
+        <rotate sid="rotateZ">0 0 1 180</rotate>
+        <rotate sid="rotateY">0 1 0 -51.4</rotate>
+        <rotate sid="rotateX">1 0 0 160.495</rotate>
+      </node>
+      <node id="Landing_Door" name="Landing_Door" type="NODE">
+        <translate sid="translate">-13.4905 -0.052146 5.87666</translate>
+        <translate sid="rotatePivotTranslation">26.9809 0 -11.7533</translate>
+        <translate sid="rotatePivot">-13.4905 5.52005 5.87666</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 180</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="rotatePivotInverse">13.4905 -5.52005 -5.87666</translate>
+        <translate sid="scalePivotTranslation">-0.675241 0.276296 11.4592</translate>
+        <translate sid="scalePivot">-12.8152 5.24375 -5.58251</translate>
+        <scale sid="scale">1.05269 1.05269 -1.05269</scale>
+        <translate sid="scalePivotInverse">12.8152 -5.24375 5.58251</translate>
+        <node id="LandingDoor1" name="LandingDoor1" type="NODE">
+          <translate sid="translate">-12.8152 9.54615 1.89161</translate>
+          <translate sid="rotatePivotTranslation">9.56084 -9.56084 0</translate>
+          <translate sid="rotatePivot">-9.56084 0 -7.1124</translate>
+          <rotate sid="rotateZ">0 0 1 90</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <translate sid="rotatePivotInverse">9.56084 0 7.1124</translate>
+          <translate sid="scalePivotTranslation">1.53062 0 0.453983</translate>
+          <translate sid="scalePivot">-11.0915 0 -7.56638</translate>
+          <scale sid="scale">0.862 1 0.997888</scale>
+          <translate sid="scalePivotInverse">11.0915 0 7.56638</translate>
+          <instance_geometry url="#LandingDoor1Shape">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="LandingDoorSG" target="#Landing_Door1">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>5</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

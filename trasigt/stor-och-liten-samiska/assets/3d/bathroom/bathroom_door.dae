@@ -1,0 +1,215 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Sarah Bird</author>
+      <authoring_tool>Maya2008 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=0;exportCameraAsLookat=0;
+exportLights=0;exportCameras=0;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=0;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=0;exportPhysics=0;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Documents%20and%20Settings/Sarah%20Bird/My%20Documents/BigAndSmall/papervision/bathroom/bathroom_12Feb_v01.mb</source_data>
+    </contributor>
+    <created>2009-02-12T16:02:55Z</created>
+    <modified>2009-02-12T16:02:55Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="bathroomdoortex" name="bathroomdoortex">
+      <init_from>./bathroomdoor_baked.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="bathroomdoor1" name="bathroomdoor1">
+      <instance_effect url="#bathroomdoor1-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="bathroomdoor1-fx">
+      <profile_COMMON>
+        <newparam sid="bathroomdoortex-surface">
+          <surface type="2D">
+            <init_from>bathroomdoortex</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="bathroomdoortex-sampler">
+          <sampler2D>
+            <source>bathroomdoortex-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="bathroomdoortex-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="bathroomdoorShape" name="bathroomdoorShape">
+      <mesh>
+        <source id="bathroomdoorShape-positions" name="position">
+          <float_array id="bathroomdoorShape-positions-array" count="72">-11.129 0 -1.24638 -11.129 0 -7.57981 -1.54295 0 -1.12752 -1.60691 0 -7.77508 1.65315 0 -4.42788 -11.129 0 -4.48161 1.06926 0 -2.64387 -11.129 0 -2.75971 1.311 0 -6.25093 -11.129 0 -6.03561 0.457828 0 -1.96659 1.42761 0 -3.43622 -11.129 0 -3.77996 1.60822 0 -5.4201 -11.129 0 -5.05159 0.693105 0 -7.01955 -11.129 0 -6.7865 -11.129 0 -1.73509 -4.98894 0 -7.9338 -5.35252 0 -1.89816 -11.1287 0 -2.16693 -5.35041 0 -2.76386 -5.04608 0 -0.876373 -5.19065 0 -6.90067</float_array>
+          <technique_common>
+            <accessor source="#bathroomdoorShape-positions-array" count="24" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="bathroomdoorShape-normals" name="normal">
+          <float_array id="bathroomdoorShape-normals-array" count="177">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#bathroomdoorShape-normals-array" count="59" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="bathroomdoorShape-map1" name="map1">
+          <float_array id="bathroomdoorShape-map1-array" count="48">0.152049 0.051129 0.178031 0.859461 0.501282 0.051129 0.583118 0.051129 0.698881 0.051129 0.79436 0.051129 0.789527 0.853217 0.701237 0.894967 0.282334 0.051129 0.280052 0.903953 0.501388 0.939967 0.393254 0.93217 0.586117 0.921632 0.901505 0.051129 0.927749 0.534706 0.08211 0.71784 0.396317 0.051129 0.897873 0.71784 0.10106 0.051129 0.172386 0.452627 0.206963 0.053266 0.282862 0.452776 0.076487 0.456011 0.791944 0.452173</float_array>
+          <technique_common>
+            <accessor source="#bathroomdoorShape-map1-array" count="24" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="bathroomdoorShape-vertices">
+          <input semantic="POSITION" source="#bathroomdoorShape-positions"/>
+        </vertices>
+        <triangles material="lambert39SG" count="25">
+          <input semantic="VERTEX" source="#bathroomdoorShape-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#bathroomdoorShape-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#bathroomdoorShape-map1" offset="2" set="0"/>
+          <p>8 4 7 15 0 6 9 3 4 15 0 6 23 1 23 9 3 4 23 1 23 16 2 5 9 3 4 9 6 4 14 7 3 8 5 7 8 5 7 14 7 3 13 8 12 23 9 23 18 10 14 1 11 13 19 12 19 22 13 22 2 14 15 19 15 19 17 16 0 0 17 18 11 22 11 12 18 16 6 21 9 6 21 9 12 18 16 21 20 21 12 18 16 7 19 8 21 20 21 6 24 9 21 25 21 10 23 1 10 23 1 21 25 21 19 26 19 4 27 10 13 28 12 5 30 2 5 30 2 13 28 12 14 29 3 4 31 10 5 32 2 11 34 11 11 34 11 5 32 2 12 33 16 19 35 19 2 36 15 10 37 1 21 38 21 7 39 8 20 40 20 23 41 23 15 42 6 3 43 17 23 44 23 3 45 17 18 46 14 16 47 5 23 48 23 1 49 13 19 50 19 0 51 18 22 52 22 17 53 0 19 54 19 20 55 20 21 56 21 20 57 20 19 58 19</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+          <dynamic_attributes>
+            <miShadingSamplesOverride short_name="mso" type="bool">0</miShadingSamplesOverride>
+            <miShadingSamples short_name="msh" type="float">0</miShadingSamples>
+            <miMaxDisplaceOverride short_name="mdo" type="bool">0</miMaxDisplaceOverride>
+            <miMaxDisplace short_name="mmd" type="float">0</miMaxDisplace>
+          </dynamic_attributes>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="bathroom_12Feb_v01">
+      <node id="camera1" name="camera1" type="NODE">
+        <translate sid="translate">7.68287 5.58737 0.482434</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 -145.8</rotate>
+        <rotate sid="rotateX">1 0 0 13.495</rotate>
+      </node>
+      <node id="door" name="door" type="NODE">
+        <translate sid="translate">-13.3537 -0.052146 6.18639</translate>
+        <translate sid="rotatePivotTranslation">26.8441 0 -12.0682</translate>
+        <translate sid="rotatePivot">-13.4905 5.52005 5.88184</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 180</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="rotatePivotInverse">13.4905 -5.52005 -5.88184</translate>
+        <translate sid="scalePivotTranslation">-0.675241 0.276296 11.4693</translate>
+        <translate sid="scalePivot">-12.8152 5.24375 -5.58744</translate>
+        <scale sid="scale">1.05269 1.05269 -1.05269</scale>
+        <translate sid="scalePivotInverse">12.8152 -5.24375 5.58744</translate>
+        <node id="bathroomdoor" name="bathroomdoor" type="NODE">
+          <translate sid="translate">-12.8152 9.54615 1.89161</translate>
+          <translate sid="rotatePivotTranslation">9.56084 -9.56084 0</translate>
+          <translate sid="rotatePivot">-9.56084 0 -7.1124</translate>
+          <rotate sid="rotateZ">0 0 1 90</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <translate sid="rotatePivotInverse">9.56084 0 7.1124</translate>
+          <translate sid="scalePivotTranslation">1.53062 0 0.453983</translate>
+          <translate sid="scalePivot">-11.0915 0 -7.56638</translate>
+          <scale sid="scale">0.862 1 0.997888</scale>
+          <translate sid="scalePivotInverse">11.0915 0 7.56638</translate>
+          <instance_geometry url="#bathroomdoorShape">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lambert39SG" target="#bathroomdoor1">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>5</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>

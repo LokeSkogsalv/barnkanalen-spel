@@ -1,0 +1,52 @@
+html {margin:0; padding:0; border:0; min-width: 786px;}
+
+body {
+	margin:0; padding:0; border:0;
+	text-align: center;
+	background:#000000 top left repeat;
+	font: 70%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+	}
+
+td.standard {
+	margin:0; padding:0; border:0;
+	vertical-align: top;
+	background:#000000 top left repeat;
+	font: 70%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+}
+
+td.alternative {
+	margin:0; padding:0; border:0;
+	vertical-align: top;
+	background:#000000 top left repeat;
+	font: 70%/1.4 Verdana, Arial, Helvetica, sans-serif;
+	color:#000000;
+}
+	
+A:link, A:visited, A:active { text-decoration: underline; color: #FFFFFF }
+
+#wrapper{margin: 0 auto;}
+
+
+#headercontent {font-family:arial, verdana, tahoma; color:#cccccc; font-size:11px; height:110px;}
+#headercontent a:link {font-weight:bold; color:#000000;}
+#headercontent a:visited {font-weight:bold; color:#000000;}
+#headercontent a:active, #content a:hover {font-weight:bold; color:#EC274D;}
+
+#gamecontent {font-family:arial, verdana, tahoma; color:#cccccc; font-size:11px; height:450px;}
+#gamecontent a:link {font-weight:bold; color:#000000;}
+#gamecontent a:visited {font-weight:bold; color:#000000;}
+#gamecontent a:active, #content a:hover {font-weight:bold; color:#EC274D;}
+
+#footercontent {font-family:arial, verdana, tahoma; color:#cccccc; font-size:11px; height:66px;}
+#footercontent a:link {font-weight:bold; color:#000000;}
+#footercontent a:visited {font-weight:bold; color:#000000;}
+#footercontent a:active, #content a:hover {font-weight:bold; color:#EC274D;}
+
+#noflashLayer {font-family:arial, verdana, tahoma; color:#cccccc; font-size:11px; height:224px; visibility:hidden}
+#noflashLayer a:link {font-weight:bold; color:#000000;}
+#noflashLayer a:visited {font-weight:bold; color:#000000;}
+#noflashLayer a:active, #content a:hover {font-weight:bold; color:#EC274D;}
+
+

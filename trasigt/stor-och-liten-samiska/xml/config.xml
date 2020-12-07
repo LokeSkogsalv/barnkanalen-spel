@@ -1,0 +1,9 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<BigAndSmallConfig>
+	<assetFolder id='swf'><![CDATA[./assets/swf/]]></assetFolder>
+	<assetFolder id='3d'><![CDATA[./assets/3d/]]></assetFolder>
+	<assetFolder id='xml'><![CDATA[xml/]]></assetFolder>
+
+	<errorText><![CDATA[An error has occurred; please try again later...]]></errorText>
+
+</BigAndSmallConfig>

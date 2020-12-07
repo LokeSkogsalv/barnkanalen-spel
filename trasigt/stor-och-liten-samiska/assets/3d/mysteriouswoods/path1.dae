@@ -1,0 +1,635 @@
+<?xml version="1.0" encoding="utf-8"?>
+<COLLADA xmlns="http://www.collada.org/2005/11/COLLADASchema" version="1.4.1">
+  <asset>
+    <contributor>
+      <author>Sarah Bird</author>
+      <authoring_tool>Maya2008 | ColladaMaya v3.05B</authoring_tool>
+      <comments>ColladaMaya export options: bakeTransforms=0;exportPolygonMeshes=1;bakeLighting=0;isSampling=0;
+curveConstrainSampling=0;removeStaticCurves=0;exportCameraAsLookat=0;
+exportLights=0;exportCameras=0;exportJointsAndSkin=0;
+exportAnimations=0;exportTriangles=1;exportInvisibleNodes=0;
+exportNormals=1;exportTexCoords=1;
+exportVertexColors=0;exportVertexColorsAnimation=0;exportTangents=0;
+exportTexTangents=0;exportConstraints=0;exportPhysics=0;exportXRefs=1;
+dereferenceXRefs=0;cameraXFov=0;cameraYFov=1</comments>
+      <source_data>file:///C:/Documents%20and%20Settings/Sarah%20Bird/My%20Documents/BigAndSmall/Phase2/Production/3D/MysteriousWoods/woods.mb</source_data>
+    </contributor>
+    <created>2009-06-12T11:23:07Z</created>
+    <modified>2009-06-12T11:23:07Z</modified>
+    <unit meter="0.01" name="centimeter"/>
+    <up_axis>Y_UP</up_axis>
+  </asset>
+  <library_images>
+    <image id="file4" name="file4">
+      <init_from>./pathsection.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+    <image id="file5" name="file5">
+      <init_from>./grass_patchy.jpg</init_from>
+      <extra>
+        <technique profile="MAYA">
+          <dgnode_type>kFile</dgnode_type>
+          <image_sequence>0</image_sequence>
+        </technique>
+      </extra>
+    </image>
+  </library_images>
+  <library_materials>
+    <material id="pathsection" name="pathsection">
+      <instance_effect url="#pathsection-fx"/>
+    </material>
+    <material id="green" name="green">
+      <instance_effect url="#green-fx"/>
+    </material>
+  </library_materials>
+  <library_effects>
+    <effect id="pathsection-fx">
+      <profile_COMMON>
+        <newparam sid="file4-surface">
+          <surface type="2D">
+            <init_from>file4</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file4-sampler">
+          <sampler2D>
+            <source>file4-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file4-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+    <effect id="green-fx">
+      <profile_COMMON>
+        <newparam sid="file5-surface">
+          <surface type="2D">
+            <init_from>file5</init_from>
+            <format>A8R8G8B8</format>
+          </surface>
+        </newparam>
+        <newparam sid="file5-sampler">
+          <sampler2D>
+            <source>file5-surface</source>
+            <wrap_s>WRAP</wrap_s>
+            <wrap_t>WRAP</wrap_t>
+            <minfilter>NONE</minfilter>
+            <magfilter>NONE</magfilter>
+            <mipfilter>NONE</mipfilter>
+          </sampler2D>
+        </newparam>
+        <technique sid="common">
+          <lambert>
+            <emission>
+              <color>0 0 0 1</color>
+            </emission>
+            <ambient>
+              <color>0 0 0 1</color>
+            </ambient>
+            <diffuse>
+              <texture texture="file5-sampler" texcoord="TEX0">
+                <extra>
+                  <technique profile="MAYA">
+                    <wrapU>1</wrapU>
+                    <wrapV>1</wrapV>
+                    <mirrorU>0</mirrorU>
+                    <mirrorV>0</mirrorV>
+                    <coverageU>1</coverageU>
+                    <coverageV>1</coverageV>
+                    <translateFrameU>0</translateFrameU>
+                    <translateFrameV>0</translateFrameV>
+                    <rotateFrame>0</rotateFrame>
+                    <stagger>0</stagger>
+                    <fast>0</fast>
+                    <repeatU>1</repeatU>
+                    <repeatV>1</repeatV>
+                    <offsetU>0</offsetU>
+                    <offsetV>0</offsetV>
+                    <rotateUV>0</rotateUV>
+                    <noiseU>0</noiseU>
+                    <noiseV>0</noiseV>
+                    <blend_mode>NONE</blend_mode>
+                  </technique>
+                </extra>
+              </texture>
+            </diffuse>
+            <transparent opaque="RGB_ZERO">
+              <color>0 0 0 1</color>
+            </transparent>
+            <transparency>
+              <float>1</float>
+            </transparency>
+          </lambert>
+          <extra>
+            <technique profile="FCOLLADA"/>
+          </extra>
+        </technique>
+      </profile_COMMON>
+    </effect>
+  </library_effects>
+  <library_geometries>
+    <geometry id="pathShape1" name="pathShape1">
+      <mesh>
+        <source id="pathShape1-positions" name="position">
+          <float_array id="pathShape1-positions-array" count="36">-36.0495 0.005249 48.4474 35.9505 0.005249 48.4474 -36.0495 0.005249 40.8848 35.9505 0.005249 39.5782 -6.73178 0.00525 40.5311 -8.64475 0.005249 48.4474 7.99907 0.005249 48.4474 9.91923 0.005248 39.9703 20.8831 0.005249 48.4474 20.8831 0.005249 39.8052 -21.2581 0.005249 48.4474 -21.2581 0.005249 40.7063</float_array>
+          <technique_common>
+            <accessor source="#pathShape1-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pathShape1-normals" name="normal">
+          <float_array id="pathShape1-normals-array" count="48">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pathShape1-normals-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pathShape1-map1" name="map1">
+          <float_array id="pathShape1-map1-array" count="32">0 0 0.318719 0 0.358735 0.159826 0 0.152525 0.656829 0 0.994939 0 0.994939 0.172772 0.704399 0.16686 0 0 0.998593 0 0.998593 1 0 1 0.812679 0 0.82677 0.16935 0.172025 0 0.180989 0.156208</float_array>
+          <technique_common>
+            <accessor source="#pathShape1-map1-array" count="16" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pathShape1-vertices">
+          <input semantic="POSITION" source="#pathShape1-positions"/>
+        </vertices>
+        <triangles material="lambert3SG" count="2">
+          <input semantic="VERTEX" source="#pathShape1-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pathShape1-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pathShape1-map1" offset="2" set="0"/>
+          <p>5 8 8 6 9 9 4 11 11 4 11 11 6 9 9 7 10 10</p>
+        </triangles>
+        <triangles material="lambert4SG" count="8">
+          <input semantic="VERTEX" source="#pathShape1-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pathShape1-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pathShape1-map1" offset="2" set="0"/>
+          <p>4 0 2 11 1 15 5 3 1 5 3 1 11 1 15 10 2 14 6 5 4 8 6 12 7 4 7 7 4 7 8 6 12 9 7 13 8 6 12 1 12 5 9 7 13 9 7 13 1 12 5 3 13 6 11 1 15 2 14 3 10 2 14 10 2 14 2 14 3 0 15 0</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="pathShape2" name="pathShape2">
+      <mesh>
+        <source id="pathShape2-positions" name="position">
+          <float_array id="pathShape2-positions-array" count="36">-36.0495 0.005249 40.8848 35.9505 0.005249 39.5782 -6.73178 0.005249 40.5311 9.91923 0.005249 39.9703 -6.48405 0.00525 33.3752 8.18469 0.005249 31.2951 -36.0495 0.005249 35.8451 35.9505 0.005248 29.032 20.8831 0.005249 39.8052 20.8831 0.005249 30.2601 -21.2581 0.005249 40.7063 -21.2581 0.005249 34.6094</float_array>
+          <technique_common>
+            <accessor source="#pathShape2-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pathShape2-normals" name="normal">
+          <float_array id="pathShape2-normals-array" count="48">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pathShape2-normals-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pathShape2-map1" name="map1">
+          <float_array id="pathShape2-map1-array" count="32">0 0 0.997815 0 0.997815 1 0 1 0.679387 0.363094 0.704399 0.16686 0.994939 0.172772 0.994939 0.402234 0 0.152525 0.358735 0.159826 0.363834 0.323954 0 0.278826 0.82677 0.16935 0.823702 0.380994 0.180989 0.156208 0.182024 0.301403</float_array>
+          <technique_common>
+            <accessor source="#pathShape2-map1-array" count="16" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pathShape2-vertices">
+          <input semantic="POSITION" source="#pathShape2-positions"/>
+        </vertices>
+        <triangles material="lambert3SG" count="2">
+          <input semantic="VERTEX" source="#pathShape2-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pathShape2-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pathShape2-map1" offset="2" set="0"/>
+          <p>3 1 1 5 2 2 2 0 0 2 0 0 5 2 2 4 3 3</p>
+        </triangles>
+        <triangles material="lambert4SG" count="8">
+          <input semantic="VERTEX" source="#pathShape2-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pathShape2-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pathShape2-map1" offset="2" set="0"/>
+          <p>5 4 4 3 5 5 9 7 13 9 7 13 3 5 5 8 6 12 4 8 10 11 9 15 2 11 9 2 11 9 11 9 15 10 10 14 8 6 12 1 12 6 9 7 13 9 7 13 1 12 6 7 13 7 11 9 15 6 14 11 10 10 14 10 10 14 6 14 11 0 15 8</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="pathShape3" name="pathShape3">
+      <mesh>
+        <source id="pathShape3-positions" name="position">
+          <float_array id="pathShape3-positions-array" count="36">-6.48405 0.005249 33.3752 8.18469 0.005249 31.2951 -36.0495 0.005249 35.8451 35.9505 0.005249 29.032 -8.62234 0.00525 24.3515 5.25512 0.005249 24.338 -36.0495 0.005249 24.3656 35.9505 0.005248 24.2723 20.8831 0.005249 30.2601 20.8831 0.005249 24.3045 -21.2581 0.005249 34.6094 -21.2581 0.005249 24.358</float_array>
+          <technique_common>
+            <accessor source="#pathShape3-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pathShape3-normals" name="normal">
+          <float_array id="pathShape3-normals-array" count="48">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pathShape3-normals-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pathShape3-map1" name="map1">
+          <float_array id="pathShape3-map1-array" count="32">0 0 0.997808 0 0.997808 1 0 1 0.607637 0.495799 0.679387 0.363094 0.994939 0.402234 0.994939 0.504431 0 0.278826 0.363834 0.323954 0.319649 0.489381 0 0.482256 0.823702 0.380994 0.804825 0.500194 0.182024 0.301403 0.172386 0.486098</float_array>
+          <technique_common>
+            <accessor source="#pathShape3-map1-array" count="16" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pathShape3-vertices">
+          <input semantic="POSITION" source="#pathShape3-positions"/>
+        </vertices>
+        <triangles material="lambert3SG" count="2">
+          <input semantic="VERTEX" source="#pathShape3-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pathShape3-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pathShape3-map1" offset="2" set="0"/>
+          <p>1 1 1 5 2 2 0 0 0 0 0 0 5 2 2 4 3 3</p>
+        </triangles>
+        <triangles material="lambert4SG" count="8">
+          <input semantic="VERTEX" source="#pathShape3-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pathShape3-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pathShape3-map1" offset="2" set="0"/>
+          <p>5 4 4 1 5 5 9 7 13 9 7 13 1 5 5 8 6 12 11 9 15 10 10 14 4 8 10 4 8 10 10 10 14 0 11 9 8 6 12 3 12 6 9 7 13 9 7 13 3 12 6 7 13 7 11 9 15 6 14 11 10 10 14 10 10 14 6 14 11 2 15 8</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="pathShape4" name="pathShape4">
+      <mesh>
+        <source id="pathShape4-positions" name="position">
+          <float_array id="pathShape4-positions-array" count="36">-8.62234 0.005249 24.3515 5.25512 0.005249 24.338 -36.0495 0.005249 24.3656 35.9505 0.005249 24.2723 -9.98539 0.00525 15.6405 4.73737 0.005249 17.098 -36.0495 0.005249 14.2394 35.9505 0.005248 18.9525 20.8831 0.005249 24.3045 20.8831 0.005249 18.0573 -21.2581 0.005249 24.358 -21.2581 0.005249 15.0345</float_array>
+          <technique_common>
+            <accessor source="#pathShape4-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pathShape4-normals" name="normal">
+          <float_array id="pathShape4-normals-array" count="48">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pathShape4-normals-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pathShape4-map1" name="map1">
+          <float_array id="pathShape4-map1-array" count="32">0.007283 0.005843 0.99711 -0.000486 0.997766 0.996943 0.00784 0.997907 0.597023 0.646539 0.607637 0.495799 0.994939 0.504431 0.994939 0.615306 0 0.482256 0.319649 0.489381 0.291839 0.670493 0 0.6934 0.804825 0.500194 0.802855 0.630383 0.172386 0.486098 0.165619 0.6804</float_array>
+          <technique_common>
+            <accessor source="#pathShape4-map1-array" count="16" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pathShape4-vertices">
+          <input semantic="POSITION" source="#pathShape4-positions"/>
+        </vertices>
+        <triangles material="lambert3SG" count="2">
+          <input semantic="VERTEX" source="#pathShape4-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pathShape4-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pathShape4-map1" offset="2" set="0"/>
+          <p>1 1 1 5 2 2 0 0 0 0 0 0 5 2 2 4 3 3</p>
+        </triangles>
+        <triangles material="lambert4SG" count="8">
+          <input semantic="VERTEX" source="#pathShape4-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pathShape4-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pathShape4-map1" offset="2" set="0"/>
+          <p>5 4 4 1 5 5 9 7 13 9 7 13 1 5 5 8 6 12 11 9 15 10 10 14 4 8 10 4 8 10 10 10 14 0 11 9 9 7 13 8 6 12 7 13 7 7 13 7 8 6 12 3 12 6 10 10 14 11 9 15 2 15 8 2 15 8 11 9 15 6 14 11</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="pathShape5" name="pathShape5">
+      <mesh>
+        <source id="pathShape5-positions" name="position">
+          <float_array id="pathShape5-positions-array" count="36">-9.98539 0.005249 15.6405 4.73737 0.005249 17.098 -36.0495 0.005249 14.2394 35.9505 0.005249 18.9525 -9.99014 0.00525 7.73512 6.586 0.005249 9.10544 -36.0495 0.005249 6.57346 35.9505 0.005248 10.5062 20.8831 0.005249 18.0573 20.8831 0.005249 9.78745 -21.2581 0.005249 15.0345 -21.2581 0.005249 7.23282</float_array>
+          <technique_common>
+            <accessor source="#pathShape5-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pathShape5-normals" name="normal">
+          <float_array id="pathShape5-normals-array" count="48">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pathShape5-normals-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pathShape5-map1" name="map1">
+          <float_array id="pathShape5-map1-array" count="32">0.006887 0.006118 0.993082 0.006118 0.993082 0.997213 0.006887 0.997213 0.643145 0.803047 0.597023 0.646539 0.994939 0.615306 0.994939 0.781135 0 0.6934 0.291839 0.670493 0.29135 0.824959 0 0.843107 0.802855 0.630383 0.814428 0.792379 0.165619 0.6804 0.165372 0.832806</float_array>
+          <technique_common>
+            <accessor source="#pathShape5-map1-array" count="16" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pathShape5-vertices">
+          <input semantic="POSITION" source="#pathShape5-positions"/>
+        </vertices>
+        <triangles material="lambert3SG" count="2">
+          <input semantic="VERTEX" source="#pathShape5-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pathShape5-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pathShape5-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 4 3 3 4 3 3 1 1 1 5 2 2</p>
+        </triangles>
+        <triangles material="lambert4SG" count="8">
+          <input semantic="VERTEX" source="#pathShape5-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pathShape5-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pathShape5-map1" offset="2" set="0"/>
+          <p>1 5 5 8 6 12 5 4 4 5 4 4 8 6 12 9 7 13 11 9 15 10 10 14 4 8 10 4 8 10 10 10 14 0 11 9 9 7 13 8 6 12 7 13 7 7 13 7 8 6 12 3 12 6 10 10 14 11 9 15 2 15 8 2 15 8 11 9 15 6 14 11</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+    <geometry id="pathShape6" name="pathShape6">
+      <mesh>
+        <source id="pathShape6-positions" name="position">
+          <float_array id="pathShape6-positions-array" count="36">-9.99014 0.005249 7.73512 6.586 0.005249 9.10544 -36.0495 0.005249 6.57346 35.9505 0.005249 10.5062 -8.60412 0.005249 0.447251 7.96166 0.005249 0.447251 -36.0495 0.005249 0.447251 35.9505 0.005248 0.447251 20.8831 0.005249 9.78745 20.8831 0.005249 0.447251 -21.2581 0.005249 7.23282 -21.2581 0.005249 0.447251</float_array>
+          <technique_common>
+            <accessor source="#pathShape6-positions-array" count="12" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pathShape6-normals" name="normal">
+          <float_array id="pathShape6-normals-array" count="48">0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0 0 1 0</float_array>
+          <technique_common>
+            <accessor source="#pathShape6-normals-array" count="16" stride="3">
+              <param name="X" type="float"/>
+              <param name="Y" type="float"/>
+              <param name="Z" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <source id="pathShape6-map1" name="map1">
+          <float_array id="pathShape6-map1-array" count="32">0.006887 0.006963 0.993082 0.006963 0.993082 0.998059 0.006887 0.998059 0.657527 0.992813 0.643145 0.803047 0.994939 0.781135 0.994939 0.992813 0 0.843107 0.29135 0.824959 0.320115 0.992813 0 0.992813 0.814428 0.792379 0.813299 0.992813 0.165372 0.832806 0.172523 0.992813</float_array>
+          <technique_common>
+            <accessor source="#pathShape6-map1-array" count="16" stride="2">
+              <param name="S" type="float"/>
+              <param name="T" type="float"/>
+            </accessor>
+          </technique_common>
+        </source>
+        <vertices id="pathShape6-vertices">
+          <input semantic="POSITION" source="#pathShape6-positions"/>
+        </vertices>
+        <triangles material="lambert3SG" count="2">
+          <input semantic="VERTEX" source="#pathShape6-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pathShape6-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pathShape6-map1" offset="2" set="0"/>
+          <p>0 0 0 1 1 1 4 3 3 4 3 3 1 1 1 5 2 2</p>
+        </triangles>
+        <triangles material="lambert4SG" count="8">
+          <input semantic="VERTEX" source="#pathShape6-vertices" offset="0"/>
+          <input semantic="NORMAL" source="#pathShape6-normals" offset="1"/>
+          <input semantic="TEXCOORD" source="#pathShape6-map1" offset="2" set="0"/>
+          <p>1 5 5 8 6 12 5 4 4 5 4 4 8 6 12 9 7 13 4 8 10 11 9 15 0 11 9 0 11 9 11 9 15 10 10 14 9 7 13 8 6 12 7 13 7 7 13 7 8 6 12 3 12 6 10 10 14 11 9 15 2 15 8 2 15 8 11 9 15 6 14 11</p>
+        </triangles>
+      </mesh>
+      <extra>
+        <technique profile="MAYA">
+          <double_sided>1</double_sided>
+        </technique>
+      </extra>
+    </geometry>
+  </library_geometries>
+  <library_visual_scenes>
+    <visual_scene id="VisualSceneNode" name="woods">
+      <node id="top" name="top" type="NODE">
+        <translate sid="translate">9.34078 399.87 -34.5391</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 -90</rotate>
+      </node>
+      <node id="floor1" name="floor1" type="NODE">
+        <translate sid="translate">0.0495 0 -48.4474</translate>
+        <translate sid="rotatePivot">-0.0495 0 48.4474</translate>
+        <rotate sid="rotateZ">0 0 1 0</rotate>
+        <rotate sid="rotateY">0 1 0 0</rotate>
+        <rotate sid="rotateX">1 0 0 0</rotate>
+        <translate sid="rotatePivotInverse">0.0495 0 -48.4474</translate>
+        <translate sid="scalePivot">-0.0495 0 48.4474</translate>
+        <translate sid="scalePivotInverse">0.0495 0 -48.4474</translate>
+        <node id="path1" name="path1" type="NODE">
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <instance_geometry url="#pathShape1">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lambert3SG" target="#pathsection">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+                <instance_material symbol="lambert4SG" target="#green">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="path2" name="path2" type="NODE">
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <instance_geometry url="#pathShape2">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lambert3SG" target="#pathsection">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+                <instance_material symbol="lambert4SG" target="#green">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="path3" name="path3" type="NODE">
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <instance_geometry url="#pathShape3">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lambert3SG" target="#pathsection">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+                <instance_material symbol="lambert4SG" target="#green">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="path4" name="path4" type="NODE">
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <instance_geometry url="#pathShape4">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lambert3SG" target="#pathsection">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+                <instance_material symbol="lambert4SG" target="#green">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="path5" name="path5" type="NODE">
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <instance_geometry url="#pathShape5">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lambert3SG" target="#pathsection">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+                <instance_material symbol="lambert4SG" target="#green">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+        <node id="path6" name="path6" type="NODE">
+          <rotate sid="rotateZ">0 0 1 0</rotate>
+          <rotate sid="rotateY">0 1 0 0</rotate>
+          <rotate sid="rotateX">1 0 0 0</rotate>
+          <instance_geometry url="#pathShape6">
+            <bind_material>
+              <technique_common>
+                <instance_material symbol="lambert3SG" target="#pathsection">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+                <instance_material symbol="lambert4SG" target="#green">
+                  <bind_vertex_input semantic="TEX0" input_semantic="TEXCOORD" input_set="0"/>
+                </instance_material>
+              </technique_common>
+            </bind_material>
+          </instance_geometry>
+        </node>
+      </node>
+      <extra>
+        <technique profile="FCOLLADA">
+          <start_time>0</start_time>
+          <end_time>5</end_time>
+        </technique>
+      </extra>
+    </visual_scene>
+  </library_visual_scenes>
+  <scene>
+    <instance_visual_scene url="#VisualSceneNode"/>
+  </scene>
+</COLLADA>
