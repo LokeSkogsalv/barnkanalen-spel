@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:18857937855a2eb96231ee4918d83df8:36840c9ade85e7ed491b955d314092e8:a5eb5b53efff0dcb099a9117548df7de$ -->
+<TextureAtlas imagePath="calendarstate2.png" width="1964" height="853">
+    <SubTexture name="barnkanalen_presenterar" x="495" y="610" width="373" height="93" frameX="0" frameY="0" frameWidth="373" frameHeight="120"/>
+    <SubTexture name="house_18" x="638" y="4" rotated="true" width="276" height="561" frameX="-31" frameY="-140" frameWidth="600" frameHeight="600"/>
+    <SubTexture name="house_19" x="874" y="571" width="493" height="276" frameX="-46" frameY="-140" frameWidth="600" frameHeight="600"/>
+    <SubTexture name="house_20" x="1308" y="4" rotated="true" width="323" height="544" frameX="-15" frameY="-93" frameWidth="600" frameHeight="600"/>
+    <SubTexture name="house_21" x="1373" y="554" width="531" height="295" frameX="-9" frameY="-121" frameWidth="600" frameHeight="600"/>
+    <SubTexture name="house_22" x="1637" y="4" rotated="true" width="323" height="500" frameX="-10" frameY="-93" frameWidth="600" frameHeight="600"/>
+    <SubTexture name="house_23" x="920" y="4" rotated="true" width="382" height="547" frameX="-9" frameY="-34" frameWidth="600" frameHeight="600"/>
+    <SubTexture name="house_28_sign_end" x="4" y="610" rotated="true" width="198" height="236" frameX="-169" frameY="-198" frameWidth="600" frameHeight="600"/>
+    <SubTexture name="julgran" x="266" y="4" rotated="true" width="180" height="600" frameX="0" frameY="-306" frameWidth="600" frameHeight="600"/>
+    <SubTexture name="julgran_gifts" x="452" y="4" rotated="true" width="180" height="600" frameX="0" frameY="-306" frameWidth="600" frameHeight="600"/>
+    <SubTexture name="julgran_top" x="208" y="610" rotated="true" width="281" height="200" frameX="-172" frameY="-26" frameWidth="600" frameHeight="600"/>
+    <SubTexture name="timeline_tile_0" x="4" y="4" rotated="true" width="256" height="600"/>
+</TextureAtlas>

@@ -1,0 +1,318 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:2a3c6b4345a18c254235f3afd56a85ed:df82caa7364b89e47f59189bf91b4310:426acf535738b232fb107cc032b976ee$ -->
+<TextureAtlas imagePath="furniture.png" width="3918" height="2045">
+    <SubTexture name="furniture_0_0" x="3458" y="4" width="404" height="136"/>
+    <SubTexture name="furniture_0_1" x="1017" y="1704" width="177" height="221"/>
+    <SubTexture name="furniture_0_10" x="1136" y="877" rotated="true" width="215" height="116"/>
+    <SubTexture name="furniture_0_11" x="3125" y="1469" rotated="true" width="43" height="30"/>
+    <SubTexture name="furniture_0_12" x="3321" y="576" width="80" height="32"/>
+    <SubTexture name="furniture_0_2" x="3256" y="1844" width="28" height="41" frameX="-3" frameY="-1" frameWidth="34" frameHeight="42"/>
+    <SubTexture name="furniture_0_3" x="3283" y="1920" rotated="true" width="71" height="79"/>
+    <SubTexture name="furniture_0_4" x="3806" y="1855" rotated="true" width="47" height="62"/>
+    <SubTexture name="furniture_0_5" x="1772" y="1858" width="77" height="72"/>
+    <SubTexture name="furniture_0_6" x="3073" y="1226" width="46" height="193"/>
+    <SubTexture name="furniture_0_7" x="2465" y="107" width="328" height="86"/>
+    <SubTexture name="furniture_0_8" x="1519" y="875" rotated="true" width="190" height="126"/>
+    <SubTexture name="furniture_0_9" x="2131" y="204" width="236" height="274"/>
+    <SubTexture name="furniture_10_0" x="2811" y="290" rotated="true" width="180" height="182"/>
+    <SubTexture name="furniture_10_1" x="1946" y="1676" width="122" height="221"/>
+    <SubTexture name="furniture_10_2" x="3332" y="165" rotated="true" width="120" height="131"/>
+    <SubTexture name="furniture_10_3" x="3265" y="1617" width="44" height="98"/>
+    <SubTexture name="furniture_10_4" x="2663" y="759" width="222" height="165"/>
+    <SubTexture name="furniture_10_5" x="793" y="1691" width="218" height="230"/>
+    <SubTexture name="furniture_10_6" x="516" y="166" width="270" height="281"/>
+    <SubTexture name="furniture_10_7" x="3734" y="1855" width="66" height="61"/>
+    <SubTexture name="furniture_10_8" x="3067" y="1508" width="87" height="122"/>
+    <SubTexture name="furniture_10_9" x="3833" y="1610" rotated="true" width="68" height="74"/>
+    <SubTexture name="furniture_11_0" x="3178" y="812" width="117" height="180"/>
+    <SubTexture name="furniture_11_1" x="1857" y="1098" width="219" height="184"/>
+    <SubTexture name="furniture_11_2" x="2723" y="1375" width="137" height="158"/>
+    <SubTexture name="furniture_11_3" x="1147" y="545" rotated="true" width="195" height="326"/>
+    <SubTexture name="furniture_11_4" x="2193" y="1642" rotated="true" width="49" height="288"/>
+    <SubTexture name="furniture_11_5" x="3833" y="811" width="81" height="106"/>
+    <SubTexture name="furniture_11_6" x="775" y="1927" rotated="true" width="139" height="114"/>
+    <SubTexture name="furniture_11_7" x="3492" y="360" width="206" height="42"/>
+    <SubTexture name="furniture_11_8" x="3000" y="1893" width="93" height="148"/>
+    <SubTexture name="furniture_11_9" x="2883" y="1066" width="293" height="29"/>
+    <SubTexture name="furniture_12_0" x="3071" y="1425" width="48" height="61"/>
+    <SubTexture name="furniture_12_1" x="1324" y="161" width="278" height="331"/>
+    <SubTexture name="furniture_12_2" x="3315" y="1607" width="75" height="92"/>
+    <SubTexture name="furniture_12_3" x="3340" y="1804" width="50" height="56"/>
+    <SubTexture name="furniture_12_4" x="4" y="1517" rotated="true" width="220" height="483"/>
+    <SubTexture name="furniture_12_5" x="1855" y="1858" rotated="true" width="56" height="39"/>
+    <SubTexture name="furniture_12_6" x="3258" y="1509" rotated="true" width="44" height="102"/>
+    <SubTexture name="furniture_12_7" x="3125" y="1226" rotated="true" width="52" height="237"/>
+    <SubTexture name="furniture_12_8" x="3183" y="1467" rotated="true" width="74" height="36"/>
+    <SubTexture name="furniture_12_9" x="3217" y="1852" width="33" height="33"/>
+    <SubTexture name="furniture_13_0" x="3571" y="1893" rotated="true" width="63" height="49"/>
+    <SubTexture name="furniture_13_1" x="3399" y="1498" rotated="true" width="80" height="92"/>
+    <SubTexture name="furniture_13_2" x="3872" y="1180" width="42" height="43"/>
+    <SubTexture name="furniture_13_3" x="2462" y="921" width="188" height="153"/>
+    <SubTexture name="furniture_13_4" x="552" y="1734" rotated="true" width="87" height="35"/>
+    <SubTexture name="furniture_13_5" x="3574" y="1850" width="74" height="37"/>
+    <SubTexture name="furniture_13_6" x="2508" y="448" rotated="true" width="157" height="251"/>
+    <SubTexture name="furniture_13_7" x="3290" y="1721" rotated="true" width="44" height="95"/>
+    <SubTexture name="furniture_13_8" x="1372" y="1440" width="171" height="221"/>
+    <SubTexture name="furniture_13_9" x="2997" y="4" rotated="true" width="455" height="155"/>
+    <SubTexture name="furniture_14_0" x="2677" y="1772" width="167" height="122"/>
+    <SubTexture name="furniture_14_1" x="3748" y="211" rotated="true" width="114" height="95"/>
+    <SubTexture name="furniture_14_2" x="1723" y="1274" width="112" height="160"/>
+    <SubTexture name="furniture_14_3" x="2474" y="4" width="517" height="32"/>
+    <SubTexture name="furniture_14_4" x="2821" y="42" width="170" height="242"/>
+    <SubTexture name="furniture_14_5" x="3308" y="1500" rotated="true" width="85" height="101"/>
+    <SubTexture name="furniture_14_6" x="3133" y="934" rotated="true" width="39" height="93"/>
+    <SubTexture name="furniture_14_7" x="3862" y="1533" width="52" height="66"/>
+    <SubTexture name="furniture_14_8" x="2707" y="1581" width="74" height="17"/>
+    <SubTexture name="furniture_14_9" x="1252" y="128" width="45" height="29"/>
+    <SubTexture name="furniture_15_0" x="2227" y="1426" width="123" height="210"/>
+    <SubTexture name="furniture_15_1" x="625" y="2023" width="74" height="17"/>
+    <SubTexture name="furniture_15_2" x="514" y="758" width="257" height="182"/>
+    <SubTexture name="furniture_15_3" x="3416" y="302" rotated="true" width="35" height="45"/>
+    <SubTexture name="furniture_15_4" x="2078" y="1293" rotated="true" width="174" height="127"/>
+    <SubTexture name="furniture_15_5" x="3160" y="1509" width="92" height="122"/>
+    <SubTexture name="furniture_15_6" x="3485" y="1604" width="85" height="84"/>
+    <SubTexture name="furniture_15_7" x="920" y="1931" rotated="true" width="183" height="110"/>
+    <SubTexture name="furniture_15_8" x="3859" y="1854" width="45" height="67"/>
+    <SubTexture name="furniture_15_9" x="3321" y="454" rotated="true" width="89" height="116"/>
+    <SubTexture name="furniture_16_0" x="1755" y="1681" rotated="true" width="185" height="171"/>
+    <SubTexture name="furniture_16_1" x="2285" y="901" width="171" height="185"/>
+    <SubTexture name="furniture_16_10" x="3644" y="2004" rotated="true" width="68" height="24"/>
+    <SubTexture name="furniture_16_2" x="2486" y="1773" rotated="true" width="185" height="107"/>
+    <SubTexture name="furniture_16_3" x="272" y="1301" rotated="true" width="155" height="171"/>
+    <SubTexture name="furniture_16_4" x="1852" y="4" width="616" height="36"/>
+    <SubTexture name="furniture_16_5" x="2462" y="1080" width="188" height="143"/>
+    <SubTexture name="furniture_16_6" x="2821" y="1966" width="20" height="67"/>
+    <SubTexture name="furniture_16_7" x="3833" y="1000" width="30" height="48"/>
+    <SubTexture name="furniture_16_8" x="552" y="2023" rotated="true" width="67" height="18"/>
+    <SubTexture name="furniture_16_9" x="2871" y="1539" rotated="true" width="53" height="36"/>
+    <SubTexture name="furniture_17_0" x="1017" y="1443" rotated="true" width="124" height="255"/>
+    <SubTexture name="furniture_17_1" x="3446" y="1937" width="29" height="92"/>
+    <SubTexture name="furniture_17_2" x="3644" y="1938" width="60" height="60"/>
+    <SubTexture name="furniture_17_3" x="4" y="993" rotated="true" width="197" height="518"/>
+    <SubTexture name="furniture_17_4" x="1837" y="728" width="296" height="149"/>
+    <SubTexture name="furniture_17_5" x="1109" y="999" rotated="true" width="253" height="116"/>
+    <SubTexture name="furniture_17_6" x="648" y="1450" width="139" height="319"/>
+    <SubTexture name="furniture_17_7" x="1761" y="1440" rotated="true" width="128" height="235"/>
+    <SubTexture name="furniture_17_8" x="454" y="1734" rotated="true" width="92" height="307"/>
+    <SubTexture name="furniture_17_9" x="3413" y="790" width="64" height="64"/>
+    <SubTexture name="furniture_18_0" x="2134" y="2018" width="56" height="23"/>
+    <SubTexture name="furniture_18_1" x="3627" y="1058" width="129" height="185"/>
+    <SubTexture name="furniture_18_10" x="2134" y="1893" rotated="true" width="47" height="119"/>
+    <SubTexture name="furniture_18_2" x="454" y="447" rotated="true" width="54" height="470"/>
+    <SubTexture name="furniture_18_3" x="2997" y="467" width="318" height="125"/>
+    <SubTexture name="furniture_18_4" x="3695" y="717" rotated="true" width="127" height="137"/>
+    <SubTexture name="furniture_18_5" x="3492" y="408" rotated="true" width="206" height="103"/>
+    <SubTexture name="furniture_18_6" x="1083" y="1121" width="275" height="161"/>
+    <SubTexture name="furniture_18_7" x="3377" y="1216" width="109" height="207"/>
+    <SubTexture name="furniture_18_8" x="2926" y="1226" width="141" height="189"/>
+    <SubTexture name="furniture_18_9" x="3458" y="211" rotated="true" width="284" height="143"/>
+    <SubTexture name="furniture_19_0" x="230" y="1765" width="218" height="239"/>
+    <SubTexture name="furniture_19_1" x="1538" y="1285" width="179" height="149"/>
+    <SubTexture name="furniture_19_10" x="1608" y="161" rotated="true" width="215" height="321"/>
+    <SubTexture name="furniture_19_2" x="3458" y="146" width="374" height="59"/>
+    <SubTexture name="furniture_19_3" x="3241" y="1732" rotated="true" width="43" height="106"/>
+    <SubTexture name="furniture_19_4" x="2891" y="756" rotated="true" width="87" height="50"/>
+    <SubTexture name="furniture_19_5" x="1085" y="1288" width="274" height="146"/>
+    <SubTexture name="furniture_19_6" x="3272" y="2005" width="72" height="24"/>
+    <SubTexture name="furniture_19_7" x="3429" y="639" width="53" height="68"/>
+    <SubTexture name="furniture_19_8" x="207" y="993" rotated="true" width="59" height="374"/>
+    <SubTexture name="furniture_19_9" x="3781" y="1455" rotated="true" width="127" height="72"/>
+    <SubTexture name="furniture_1_0" x="3316" y="321" rotated="true" width="94" height="127"/>
+    <SubTexture name="furniture_1_1" x="4" y="166" width="506" height="275"/>
+    <SubTexture name="furniture_1_10" x="3868" y="4" rotated="true" width="46" height="277"/>
+    <SubTexture name="furniture_1_11" x="3301" y="812" width="94" height="29"/>
+    <SubTexture name="furniture_1_2" x="2707" y="1539" width="158" height="36"/>
+    <SubTexture name="furniture_1_3" x="3182" y="998" width="104" height="216"/>
+    <SubTexture name="furniture_1_4" x="1162" y="163" rotated="true" width="156" height="376"/>
+    <SubTexture name="furniture_1_5" x="3158" y="1852" rotated="true" width="53" height="33"/>
+    <SubTexture name="furniture_1_6" x="2984" y="598" width="320" height="109"/>
+    <SubTexture name="furniture_1_7" x="2187" y="1936" rotated="true" width="55" height="41"/>
+    <SubTexture name="furniture_1_8" x="3512" y="1187" width="82" height="56"/>
+    <SubTexture name="furniture_1_9" x="1521" y="498" rotated="true" width="151" height="371"/>
+    <SubTexture name="furniture_20_0" x="433" y="1126" width="329" height="159"/>
+    <SubTexture name="furniture_20_1" x="2959" y="1740" width="98" height="147"/>
+    <SubTexture name="furniture_20_2" x="3292" y="998" width="107" height="212"/>
+    <SubTexture name="furniture_20_3" x="2664" y="1900" rotated="true" width="151" height="113"/>
+    <SubTexture name="furniture_20_4" x="2880" y="1101" rotated="true" width="219" height="119"/>
+    <SubTexture name="furniture_20_5" x="2356" y="1425" width="122" height="210"/>
+    <SubTexture name="furniture_20_6" x="2984" y="713" rotated="true" width="290" height="93"/>
+    <SubTexture name="furniture_20_7" x="2997" y="321" rotated="true" width="313" height="140"/>
+    <SubTexture name="furniture_20_8" x="1109" y="1931" rotated="true" width="149" height="110"/>
+    <SubTexture name="furniture_20_9" x="3614" y="1948" rotated="true" width="24" height="72"/>
+    <SubTexture name="furniture_21_0" x="3567" y="1954" rotated="true" width="41" height="77"/>
+    <SubTexture name="furniture_21_1" x="2462" y="1229" rotated="true" width="196" height="140"/>
+    <SubTexture name="furniture_21_2" x="2043" y="1903" rotated="true" width="85" height="138"/>
+    <SubTexture name="furniture_21_3" x="2058" y="1426" rotated="true" width="163" height="210"/>
+    <SubTexture name="furniture_21_4" x="3704" y="499" rotated="true" width="52" height="106"/>
+    <SubTexture name="furniture_21_5" x="2891" y="812" rotated="true" width="281" height="116"/>
+    <SubTexture name="furniture_21_6" x="703" y="128" width="543" height="29"/>
+    <SubTexture name="furniture_21_7" x="3492" y="1414" width="158" height="89"/>
+    <SubTexture name="furniture_21_8" x="2664" y="1229" rotated="true" width="196" height="140"/>
+    <SubTexture name="furniture_21_9" x="3206" y="2003" width="60" height="38"/>
+    <SubTexture name="furniture_22_0" x="4" y="2006" width="203" height="32"/>
+    <SubTexture name="furniture_22_1" x="768" y="1290" rotated="true" width="311" height="147"/>
+    <SubTexture name="furniture_22_10" x="1304" y="4" rotated="true" width="542" height="151"/>
+    <SubTexture name="furniture_22_2" x="3105" y="1101" rotated="true" width="71" height="119"/>
+    <SubTexture name="furniture_22_3" x="3183" y="1220" width="85" height="241"/>
+    <SubTexture name="furniture_22_4" x="2474" y="42" width="341" height="59"/>
+    <SubTexture name="furniture_22_5" x="3704" y="360" width="38" height="133"/>
+    <SubTexture name="furniture_22_6" x="2065" y="901" rotated="true" width="214" height="173"/>
+    <SubTexture name="furniture_22_7" x="1357" y="873" width="156" height="112"/>
+    <SubTexture name="furniture_22_8" x="3781" y="1412" rotated="true" width="133" height="37"/>
+    <SubTexture name="furniture_22_9" x="3669" y="1249" width="106" height="184"/>
+    <SubTexture name="furniture_23_0" x="3206" y="1891" width="71" height="106"/>
+    <SubTexture name="furniture_23_1" x="2139" y="704" width="320" height="191"/>
+    <SubTexture name="furniture_23_2" x="1200" y="1675" rotated="true" width="167" height="243"/>
+    <SubTexture name="furniture_23_3" x="2866" y="1229" width="54" height="246"/>
+    <SubTexture name="furniture_23_4" x="3405" y="998" width="101" height="192"/>
+    <SubTexture name="furniture_23_5" x="3428" y="860" rotated="true" width="193" height="123"/>
+    <SubTexture name="furniture_23_6" x="2342" y="46" width="117" height="133"/>
+    <SubTexture name="furniture_23_7" x="1365" y="1288" width="167" height="146"/>
+    <SubTexture name="furniture_23_8" x="3492" y="635" rotated="true" width="197" height="107"/>
+    <SubTexture name="furniture_23_9" x="216" y="447" width="232" height="490" frameX="-1" frameY="0" frameWidth="234" frameHeight="491"/>
+    <SubTexture name="furniture_24_0" x="3485" y="1694" rotated="true" width="84" height="79"/>
+    <SubTexture name="furniture_24_1" x="3396" y="1774" rotated="true" width="83" height="75"/>
+    <SubTexture name="furniture_24_2" x="3825" y="1773" width="75" height="75"/>
+    <SubTexture name="furniture_24_3" x="3748" y="312" rotated="true" width="166" height="117"/>
+    <SubTexture name="furniture_24_4" x="3416" y="510" width="70" height="123"/>
+    <SubTexture name="furniture_24_5" x="3750" y="2007" rotated="true" width="39" height="32"/>
+    <SubTexture name="furniture_24_6" x="2926" y="1421" rotated="true" width="139" height="81"/>
+    <SubTexture name="furniture_24_7" x="703" y="4" width="595" height="118"/>
+    <SubTexture name="furniture_2_0" x="2950" y="1508" width="111" height="143"/>
+    <SubTexture name="furniture_2_1" x="3492" y="1249" width="171" height="159"/>
+    <SubTexture name="furniture_2_10" x="768" y="1100" rotated="true" width="309" height="184"/>
+    <SubTexture name="furniture_2_11" x="3063" y="1740" width="89" height="145"/>
+    <SubTexture name="furniture_2_12" x="3640" y="1907" width="69" height="25"/>
+    <SubTexture name="furniture_2_2" x="3762" y="612" rotated="true" width="152" height="99"/>
+    <SubTexture name="furniture_2_3" x="3656" y="1516" width="100" height="69"/>
+    <SubTexture name="furniture_2_4" x="2850" y="1741" width="103" height="150"/>
+    <SubTexture name="furniture_2_5" x="3290" y="1822" rotated="true" width="43" height="92"/>
+    <SubTexture name="furniture_2_6" x="3274" y="1220" width="97" height="218"/>
+    <SubTexture name="furniture_2_7" x="4" y="4" width="693" height="156"/>
+    <SubTexture name="furniture_2_8" x="3795" y="2007" rotated="true" width="41" height="30"/>
+    <SubTexture name="furniture_2_9" x="1701" y="1007" width="150" height="261"/>
+    <SubTexture name="furniture_3_0" x="1348" y="498" rotated="true" width="167" height="369"/>
+    <SubTexture name="furniture_3_1" x="2997" y="165" width="329" height="150"/>
+    <SubTexture name="furniture_3_10" x="2248" y="1886" width="131" height="155"/>
+    <SubTexture name="furniture_3_2" x="3658" y="1839" width="70" height="62"/>
+    <SubTexture name="furniture_3_3" x="3290" y="1444" width="81" height="50"/>
+    <SubTexture name="furniture_3_4" x="2950" y="1657" width="116" height="77"/>
+    <SubTexture name="furniture_3_5" x="785" y="516" rotated="true" width="356" height="346"/>
+    <SubTexture name="furniture_3_6" x="1477" y="1858" width="289" height="53"/>
+    <SubTexture name="furniture_3_7" x="3492" y="517" rotated="true" width="202" height="112"/>
+    <SubTexture name="furniture_3_8" x="3280" y="713" width="127" height="93"/>
+    <SubTexture name="furniture_3_9" x="759" y="984" rotated="true" width="344" height="110"/>
+    <SubTexture name="furniture_4_0" x="3627" y="860" width="95" height="192"/>
+    <SubTexture name="furniture_4_1" x="2255" y="1092" width="196" height="170"/>
+    <SubTexture name="furniture_4_2" x="433" y="946" width="320" height="174"/>
+    <SubTexture name="furniture_4_3" x="3775" y="1923" width="66" height="40"/>
+    <SubTexture name="furniture_4_4" x="3872" y="1097" width="42" height="77"/>
+    <SubTexture name="furniture_4_5" x="3842" y="1974" rotated="true" width="43" height="30"/>
+    <SubTexture name="furniture_4_6" x="433" y="1291" width="329" height="153"/>
+    <SubTexture name="furniture_4_7" x="3413" y="713" width="73" height="71"/>
+    <SubTexture name="furniture_4_8" x="213" y="2010" width="139" height="31"/>
+    <SubTexture name="furniture_4_9" x="2821" y="1900" rotated="true" width="23" height="60"/>
+    <SubTexture name="furniture_5_0" x="3781" y="1247" width="128" height="159"/>
+    <SubTexture name="furniture_5_1" x="2591" y="199" rotated="true" width="214" height="234"/>
+    <SubTexture name="furniture_5_2" x="2248" y="1642" width="113" height="237"/>
+    <SubTexture name="furniture_5_3" x="2367" y="1641" width="113" height="237"/>
+    <SubTexture name="furniture_5_4" x="2385" y="1886" width="121" height="155"/>
+    <SubTexture name="furniture_5_5" x="1715" y="883" rotated="true" width="136" height="107"/>
+    <SubTexture name="furniture_5_6" x="2671" y="439" rotated="true" width="127" height="314"/>
+    <SubTexture name="furniture_5_7" x="3872" y="1000" rotated="true" width="42" height="91"/>
+    <SubTexture name="furniture_5_8" x="2836" y="1581" width="108" height="154"/>
+    <SubTexture name="furniture_5_9" x="216" y="943" rotated="true" width="47" height="41"/>
+    <SubTexture name="furniture_6_0" x="272" y="943" rotated="true" width="155" height="352"/>
+    <SubTexture name="furniture_6_1" x="3340" y="1705" width="50" height="93"/>
+    <SubTexture name="furniture_6_10" x="1886" y="1903" rotated="true" width="151" height="138" frameX="-3" frameY="-4" frameWidth="145" frameHeight="158"/>
+    <SubTexture name="furniture_6_2" x="3833" y="923" width="81" height="71"/>
+    <SubTexture name="furniture_6_3" x="3718" y="2004" width="26" height="37"/>
+    <SubTexture name="furniture_6_4" x="2664" y="2019" width="98" height="19"/>
+    <SubTexture name="furniture_6_5" x="3492" y="748" rotated="true" width="197" height="106"/>
+    <SubTexture name="furniture_6_6" x="3762" y="1054" width="104" height="187"/>
+    <SubTexture name="furniture_6_7" x="3157" y="1637" rotated="true" width="102" height="89"/>
+    <SubTexture name="furniture_6_8" x="2082" y="1080" width="167" height="207" frameX="-3" frameY="-3" frameWidth="173" frameHeight="213"/>
+    <SubTexture name="furniture_6_9" x="3301" y="860" rotated="true" width="121" height="132" frameX="-2" frameY="-3" frameWidth="137" frameHeight="127"/>
+    <SubTexture name="furniture_7_0" x="4" y="447" width="206" height="540"/>
+    <SubTexture name="furniture_7_1" x="1841" y="1288" rotated="true" width="231" height="131"/>
+    <SubTexture name="furniture_7_2" x="2391" y="448" width="111" height="250"/>
+    <SubTexture name="furniture_7_3" x="1373" y="1667" width="98" height="251"/>
+    <SubTexture name="furniture_7_4" x="3339" y="1866" width="41" height="47"/>
+    <SubTexture name="furniture_7_5" x="3775" y="1969" width="61" height="32"/>
+    <SubTexture name="furniture_7_6" x="207" y="1373" width="57" height="99"/>
+    <SubTexture name="furniture_7_7" x="792" y="163" width="364" height="347"/>
+    <SubTexture name="furniture_7_8" x="1147" y="1440" rotated="true" width="219" height="229"/>
+    <SubTexture name="furniture_7_9" x="3762" y="498" rotated="true" width="152" height="108"/>
+    <SubTexture name="furniture_8_0" x="1746" y="1936" rotated="true" width="134" height="105"/>
+    <SubTexture name="furniture_8_1" x="1852" y="46" width="484" height="152"/>
+    <SubTexture name="furniture_8_2" x="1264" y="1924" rotated="true" width="247" height="117"/>
+    <SubTexture name="furniture_8_3" x="2074" y="1642" width="113" height="245"/>
+    <SubTexture name="furniture_8_4" x="3310" y="639" width="113" height="68"/>
+    <SubTexture name="furniture_8_5" x="3099" y="1891" width="101" height="144"/>
+    <SubTexture name="furniture_8_6" x="1517" y="1917" rotated="true" width="223" height="124"/>
+    <SubTexture name="furniture_8_7" x="358" y="2010" width="74" height="27"/>
+    <SubTexture name="furniture_8_8" x="2883" y="934" rotated="true" width="244" height="126"/>
+    <SubTexture name="furniture_8_9" x="3377" y="1429" rotated="true" width="109" height="63"/>
+    <SubTexture name="furniture_9_0" x="1678" y="488" rotated="true" width="153" height="375"/>
+    <SubTexture name="furniture_9_1" x="1837" y="470" width="269" height="252"/>
+    <SubTexture name="furniture_9_2" x="2258" y="1268" width="198" height="151"/>
+    <SubTexture name="furniture_9_3" x="3728" y="860" width="99" height="188"/>
+    <SubTexture name="furniture_9_4" x="3416" y="360" rotated="true" width="70" height="144"/>
+    <SubTexture name="furniture_9_5" x="3748" y="435" width="165" height="57"/>
+    <SubTexture name="furniture_9_6" x="3158" y="1732" rotated="true" width="77" height="114"/>
+    <SubTexture name="furniture_9_7" x="777" y="868" rotated="true" width="353" height="110"/>
+    <SubTexture name="furniture_9_8" x="3847" y="1927" width="41" height="41"/>
+    <SubTexture name="furniture_9_9" x="3710" y="1938" rotated="true" width="59" height="60"/>
+    <SubTexture name="sticker_0" x="3831" y="1690" width="76" height="77"/>
+    <SubTexture name="sticker_1" x="3576" y="1690" rotated="true" width="77" height="76"/>
+    <SubTexture name="sticker_10" x="3582" y="1509" width="68" height="78"/>
+    <SubTexture name="sticker_11" x="3485" y="1509" rotated="true" width="91" height="89"/>
+    <SubTexture name="sticker_12" x="3700" y="611" rotated="true" width="56" height="70"/>
+    <SubTexture name="sticker_13" x="3072" y="1636" rotated="true" width="79" height="98"/>
+    <SubTexture name="sticker_14" x="3399" y="1596" width="80" height="80"/>
+    <SubTexture name="sticker_15" x="3396" y="1682" width="83" height="86"/>
+    <SubTexture name="sticker_16" x="3485" y="1868" width="80" height="80"/>
+    <SubTexture name="sticker_17" x="3762" y="1533" width="94" height="71"/>
+    <SubTexture name="sticker_18" x="3828" y="717" width="86" height="88"/>
+    <SubTexture name="sticker_19" x="3360" y="1937" rotated="true" width="80" height="79"/>
+    <SubTexture name="sticker_2" x="3748" y="1610" rotated="true" width="79" height="74"/>
+    <SubTexture name="sticker_20" x="3485" y="1779" width="83" height="83"/>
+    <SubTexture name="sticker_21" x="3659" y="1756" width="77" height="77"/>
+    <SubTexture name="sticker_22" x="3742" y="1773" rotated="true" width="77" height="76"/>
+    <SubTexture name="sticker_23" x="3656" y="1439" width="119" height="71"/>
+    <SubTexture name="sticker_24" x="2866" y="1481" rotated="true" width="50" height="52"/>
+    <SubTexture name="sticker_3" x="3747" y="1690" rotated="true" width="78" height="77"/>
+    <SubTexture name="sticker_4" x="3662" y="1674" width="79" height="76"/>
+    <SubTexture name="sticker_5" x="3575" y="1772" rotated="true" width="77" height="72"/>
+    <SubTexture name="sticker_6" x="3481" y="1954" width="80" height="80"/>
+    <SubTexture name="sticker_7" x="3576" y="1604" width="80" height="80"/>
+    <SubTexture name="sticker_8" x="3396" y="1855" rotated="true" width="83" height="76"/>
+    <SubTexture name="sticker_9" x="3662" y="1591" width="80" height="77"/>
+    <SubTexture name="window_0" x="436" y="1450" width="206" height="278"/>
+    <SubTexture name="window_1" x="230" y="1478" width="200" height="281"/>
+    <SubTexture name="window_10" x="2804" y="478" width="174" height="272"/>
+    <SubTexture name="window_11" x="1549" y="1440" width="206" height="232"/>
+    <SubTexture name="window_12" x="1364" y="1125" rotated="true" width="151" height="157"/>
+    <SubTexture name="window_13" x="2112" y="484" rotated="true" width="273" height="214"/>
+    <SubTexture name="window_14" x="1368" y="991" width="145" height="128"/>
+    <SubTexture name="window_15" x="2486" y="1605" width="171" height="162"/>
+    <SubTexture name="window_16" x="2465" y="705" width="192" height="210"/>
+    <SubTexture name="window_17" x="793" y="1443" width="218" height="242"/>
+    <SubTexture name="window_18" x="552" y="1775" width="217" height="242"/>
+    <SubTexture name="window_19" x="1857" y="883" width="202" height="209"/>
+    <SubTexture name="window_2" x="3512" y="989" width="109" height="192"/>
+    <SubTexture name="window_20" x="2663" y="1605" rotated="true" width="167" height="161"/>
+    <SubTexture name="window_21" x="2373" y="199" width="212" height="243"/>
+    <SubTexture name="window_22" x="2656" y="930" width="221" height="162"/>
+    <SubTexture name="window_23" x="1829" y="204" rotated="true" width="296" height="260"/>
+    <SubTexture name="window_24" x="2656" y="1098" width="218" height="125"/>
+    <SubTexture name="window_26" x="514" y="453" width="265" height="299"/>
+    <SubTexture name="window_3" x="2484" y="1375" width="233" height="102"/>
+    <SubTexture name="window_4" x="2512" y="1886" width="146" height="145"/>
+    <SubTexture name="window_5" x="2484" y="1483" rotated="true" width="217" height="116"/>
+    <SubTexture name="window_6" x="1895" y="1425" rotated="true" width="157" height="245"/>
+    <SubTexture name="window_7" x="1521" y="1007" width="174" height="272"/>
+    <SubTexture name="window_8" x="1477" y="1678" rotated="true" width="272" height="174"/>
+    <SubTexture name="window_9" x="2850" y="1897" width="144" height="144"/>
+</TextureAtlas>

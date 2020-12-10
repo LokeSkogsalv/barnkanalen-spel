@@ -1,0 +1,602 @@
+<?xml version="1.0" encoding="utf-8"?>
+<BT_data>
+	<preferences>
+		<defaultObjectScale>
+			<!-- Can be overridden by adding scale node to world objects -->
+			<min>50</min>
+			<max>120</max>
+		</defaultObjectScale>
+	</preferences>
+	<characters>
+		<HoodFlower id="C01">
+			<worldID>W01</worldID>
+			<weather>night</weather>
+			<fx>buddies</fx>
+		</HoodFlower>
+		<LoveFish id="C02">
+			<worldID>W04</worldID>
+			<weather>sun</weather>
+			<fx>bubbles</fx>
+			<carriageSnapOffset>
+				<x>7</x>
+				<y>-5</y>
+				<rotation>-22</rotation>
+			</carriageSnapOffset>
+		</LoveFish>
+		<HippieHare id="C03">
+			<worldID>W03</worldID>
+			<weather>leaves</weather>
+			<fx>magic</fx>
+		</HippieHare>
+		<PigPrince id="C04">
+			<worldID>W02</worldID>
+			<weather>snow</weather>
+			<fx>flowers</fx>
+		</PigPrince>
+	</characters>
+	<worlds>
+		<default id="W00">
+		</default>
+		<!--
+		
+		CITY
+
+		-->
+		<city id="W01">
+			<sky>default</sky>
+			<bushes>default</bushes>
+			<objects>
+				<flower>
+					<scale>
+						<min>40</min>
+						<max>80</max>
+					</scale>
+					<distanceData>
+						<distance rate="90">
+							<min>200</min>
+							<max>600</max>
+						</distance>
+						<distance rate="10">
+							<min>10</min>
+							<max>20</max>
+						</distance>
+					</distanceData>
+				</flower>
+				<basketfield depthLevel="0">
+					<scale>
+						<min>60</min>
+						<max>140</max>
+					</scale>
+					<positionBounds>
+						<top>25</top>
+						<bottom>55</bottom>
+					</positionBounds>
+					<distanceData>
+						<distance>
+							<min>4000</min>
+							<max>10000</max>
+						</distance>
+					</distanceData>
+				</basketfield>
+				<bush>
+					<distanceData>
+						<distance>
+							<min>1000</min>
+							<max>4000</max>
+						</distance>
+					</distanceData>
+				</bush>
+				<sign>
+					<distanceData>
+						<distance>
+							<min>300</min>
+							<max>1400</max>
+						</distance>
+					</distanceData>
+				</sign>
+				<trafficlight>
+					<distanceData>
+						<distance>
+							<min>3000</min>
+							<max>8000</max>
+						</distance>
+					</distanceData>
+				</trafficlight>
+				<pipe>
+					<distanceData>
+						<distance>
+							<min>1000</min>
+							<max>3000</max>
+						</distance>
+					</distanceData>
+				</pipe>
+				<shop>
+					<distanceData>
+						<distance>
+							<min>500</min>
+							<max>800</max>
+						</distance>
+					</distanceData>
+				</shop>
+				<cinema displayCount="1">
+					<positionBounds>
+						<top>45</top>
+						<bottom>50</bottom>
+					</positionBounds>
+					<distanceData>
+						<distance>
+							<min>10000</min>
+							<max>20000</max>
+						</distance>
+					</distanceData>
+				</cinema>
+			</objects>
+		</city>
+		<!--
+		
+		DESERT
+
+		-->
+		<desert id="W02">
+			<sky>default</sky>
+			<objects>
+				<arrowSign>
+					<positionBounds>
+						<top>20</top>
+						<bottom>70</bottom>
+					</positionBounds>
+					<distanceData>
+						<distance>
+							<min>2000</min>
+							<max>8000</max>
+						</distance>
+					</distanceData>
+				</arrowSign>
+				<cactus>
+					<positionBounds>
+						<top>0</top>
+						<bottom>90</bottom>
+					</positionBounds>
+					<distanceData>
+						<distance rate="85">
+							<min>600</min>
+							<max>2000</max>
+						</distance>
+						<distance rate="15">
+							<min>80</min>
+							<max>180</max>
+						</distance>
+					</distanceData>
+				</cactus>
+				<!-- dune>
+					<distanceData>
+						<distance>
+							<min>300</min>
+							<max>1000</max>
+						</distance>
+					</distanceData>
+				</dune -->
+				<flower>
+					<distanceData>
+						<distance rate="50">
+							<min>100</min>
+							<max>400</max>
+						</distance>
+						<distance rate="30">
+							<min>200</min>
+							<max>400</max>
+						</distance>
+						<distance rate="20">
+							<min>10</min>
+							<max>20</max>
+						</distance>
+					</distanceData>
+				</flower>
+				<hat>
+					<distanceData>
+						<distance rate="90">
+							<min>800</min>
+							<max>3200</max>
+						</distance>
+						<distance rate="10">
+							<min>50</min>
+							<max>150</max>
+						</distance>
+					</distanceData>
+				</hat>
+				<oasis>
+					<positionBounds>
+						<top>0</top>
+						<bottom>20</bottom>
+					</positionBounds>
+					<scale>
+						<min>70</min>
+						<max>110</max>
+					</scale>
+					<distanceData>
+						<distance>
+							<min>2000</min>
+							<max>8000</max>
+						</distance>
+					</distanceData>
+				</oasis>
+				<palace displayCount="10">
+					<scale>
+						<min>40</min>
+						<max>100</max>
+					</scale>
+					<positionBounds>
+						<top>55</top>
+						<bottom>75</bottom>
+					</positionBounds>
+					<distanceData>
+						<distance>
+							<min>10000</min>
+							<max>20000</max>
+						</distance>
+					</distanceData>
+				</palace>
+				<palm>
+					<positionBounds>
+						<top>0</top>
+						<bottom>85</bottom>
+					</positionBounds>
+					<scale>
+						<min>40</min>
+						<max>100</max>
+					</scale>
+					<distanceData>
+						<distance rate="70">
+							<min>200</min>
+							<max>400</max>
+						</distance>
+						<distance rate="15">
+							<min>400</min>
+							<max>800</max>
+						</distance>
+						<distance rate="15">
+							<min>100</min>
+							<max>200</max>
+						</distance>
+					</distanceData>
+				</palm>
+				<sword>
+					<positionBounds>
+						<top>0</top>
+						<bottom>50</bottom>
+					</positionBounds>
+					<distanceData>
+						<distance>
+							<min>2000</min>
+							<max>7000</max>
+						</distance>
+					</distanceData>
+				</sword>
+			</objects>
+		</desert>
+		<!--
+		
+		FANTASY
+
+		-->
+		<fantasy id="W03">
+			<sky>default</sky>
+			<bushes>default</bushes>
+			<objects>
+				<flower>
+					<distanceData>
+						<distance rate="65">
+							<min>80</min>
+							<max>300</max>
+						</distance>
+						<distance rate="20">
+							<min>10</min>
+							<max>20</max>
+						</distance>
+						<distance rate="15">
+							<min>200</min>
+							<max>400</max>
+						</distance>
+					</distanceData>
+				</flower>
+				<cupcake>
+					<distanceData>
+						<distance rate="85">
+							<min>800</min>
+							<max>2000</max>
+						</distance>
+						<distance rate="15">
+							<min>100</min>
+							<max>200</max>
+						</distance>
+					</distanceData>
+				</cupcake>
+				<polka>
+					<distanceData>
+						<distance>
+							<min>600</min>
+							<max>2200</max>
+						</distance>
+					</distanceData>
+				</polka>
+				<mushroom>
+					<distanceData>
+						<distance rate="60">
+							<min>400</min>
+							<max>1200</max>
+						</distance>
+						<distance rate="40">
+							<min>40</min>
+							<max>150</max>
+						</distance>
+					</distanceData>
+				</mushroom>
+				<tree>
+					<positionBounds>
+						<top>0</top>
+						<bottom>85</bottom>
+					</positionBounds>
+					<scale>
+						<min>40</min>
+						<max>120</max>
+					</scale>
+					<distanceData>
+						<distance rate="85">
+							<min>200</min>
+							<max>600</max>
+						</distance>
+						<distance rate="15">
+							<min>100</min>
+							<max>200</max>
+						</distance>
+					</distanceData>
+				</tree>
+				<hat>
+					<distanceData>
+						<distance rate="90">
+							<min>1000</min>
+							<max>5000</max>
+						</distance>
+						<distance rate="10">
+							<min>50</min>
+							<max>150</max>
+						</distance>
+					</distanceData>
+				</hat>
+				<egg>
+					<positionBounds>
+						<top>30</top>
+						<bottom>85</bottom>
+					</positionBounds>
+					<distanceData>
+						<distance>
+							<min>5000</min>
+							<max>10000</max>
+						</distance>
+					</distanceData>
+				</egg>
+				<teacup>
+					<distanceData>
+						<distance rate="90">
+							<min>1000</min>
+							<max>4000</max>
+						</distance>
+						<distance rate="10">
+							<min>300</min>
+							<max>600</max>
+						</distance>
+					</distanceData>
+				</teacup>
+				<mountain displayCount="1">
+					<positionBounds>
+						<top>50</top>
+						<bottom>70</bottom>
+					</positionBounds>
+					<distanceData>
+						<distance>
+							<min>10000</min>
+							<max>20000</max>
+						</distance>
+					</distanceData>
+				</mountain>
+			</objects>
+		</fantasy>
+		<!--
+		
+		OCEAN
+
+		-->
+		<ocean id="W04">
+			<objects>
+				<anchor>
+					<distanceData>
+						<distance>
+							<min>3000</min>
+							<max>10000</max>
+						</distance>
+					</distanceData>
+				</anchor>
+				<boot>
+					<distanceData>
+						<distance>
+							<min>4000</min>
+							<max>12000</max>
+						</distance>
+					</distanceData>
+				</boot>
+				<bottle>
+					<distanceData>
+						<distance>
+							<min>1000</min>
+							<max>8000</max>
+						</distance>
+					</distanceData>
+				</bottle>
+				<canonball>
+					<distanceData>
+						<distance rate="90">
+							<min>2000</min>
+							<max>8000</max>
+						</distance>
+						<distance rate="10">
+							<min>50</min>
+							<max>100</max>
+						</distance>
+					</distanceData>
+				</canonball>
+				<cave displayCount="1">
+					<positionBounds>
+						<top>40</top>
+						<bottom>50</bottom>
+					</positionBounds>
+					<distanceData>
+						<distance>
+							<min>10000</min>
+							<max>20000</max>
+						</distance>
+					</distanceData>
+				</cave>
+				<chest>
+					<positionBounds>
+						<top>40</top>
+						<bottom>60</bottom>
+					</positionBounds>
+					<distanceData>
+						<distance>
+							<min>10000</min>
+							<max>20000</max>
+						</distance>
+					</distanceData>
+				</chest>
+				<coins>
+					<distanceData>
+						<distance rate="90">
+							<min>400</min>
+							<max>2500</max>
+						</distance>
+						<distance rate="10">
+							<min>50</min>
+							<max>200</max>
+						</distance>
+					</distanceData>
+				</coins>
+				<crab>
+					<positionBounds>
+						<top>40</top>
+						<bottom>90</bottom>
+					</positionBounds>
+					<distanceData>
+						<distance rate="80">
+							<min>500</min>
+							<max>3000</max>
+						</distance>
+						<distance rate="20">
+							<min>50</min>
+							<max>500</max>
+						</distance>
+					</distanceData>
+				</crab>
+				<flag>
+					<positionBounds>
+						<top>40</top>
+						<bottom>80</bottom>
+					</positionBounds>
+					<distanceData>
+						<distance>
+							<min>5000</min>
+							<max>10000</max>
+						</distance>
+					</distanceData>
+				</flag>
+				<flower>
+					<distanceData>
+						<distance rate="80">
+							<min>2000</min>
+							<max>4000</max>
+						</distance>
+						<distance rate="20">
+							<min>50</min>
+							<max>400</max>
+						</distance>
+					</distanceData>
+				</flower>
+				<jewel>
+					<distanceData>
+						<distance>
+							<min>4000</min>
+							<max>12000</max>
+						</distance>
+					</distanceData>
+				</jewel>
+				<plant>
+					<distanceData>
+						<distance rate="80">
+							<min>300</min>
+							<max>700</max>
+						</distance>
+						<distance rate="20">
+							<min>40</min>
+							<max>300</max>
+						</distance>
+					</distanceData>
+				</plant>
+				<shell>
+					<distanceData>
+						<distance rate="75">
+							<min>180</min>
+							<max>800</max>
+						</distance>
+						<distance rate="25">
+							<min>30</min>
+							<max>180</max>
+						</distance>
+					</distanceData>
+				</shell>
+				<spyglass>
+					<distanceData>
+						<distance>
+							<min>8000</min>
+							<max>14000</max>
+						</distance>
+					</distanceData>
+				</spyglass>
+				<starfish>
+					<positionBounds>
+						<top>0</top>
+						<bottom>80</bottom>
+					</positionBounds>
+					<scale>
+						<min>30</min>
+						<max>100</max>
+					</scale>
+					<positionBounds>
+						<top>10</top>
+						<bottom>70</bottom>
+					</positionBounds>
+					<distanceData>
+						<distance rate="50">
+							<min>200</min>
+							<max>400</max>
+						</distance>
+						<distance rate="50">
+							<min>20</min>
+							<max>100</max>
+						</distance>
+					</distanceData>
+				</starfish>
+				<wreckparts>
+					<positionBounds>
+						<top>30</top>
+						<bottom>70</bottom>
+					</positionBounds>
+					<distanceData>
+						<distance>
+							<min>10000</min>
+							<max>20000</max>
+						</distance>
+					</distanceData>
+				</wreckparts>
+			</objects>
+		</ocean>
+	</worlds>
+</BT_data>

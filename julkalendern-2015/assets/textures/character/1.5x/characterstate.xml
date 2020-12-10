@@ -1,0 +1,337 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:6b387d43c5090951d0e3bde92aae24bd:db7a8d62065eed620f2436eeff7cb88c:3eff7c458909414e8cabcdf35c61b6e0$ -->
+<TextureAtlas imagePath="characterstate.png" width="2037" height="1149">
+    <SubTexture name="buttons/btn_bodyclr_down" x="132" y="1010" width="119" height="117" frameX="-27" frameY="-28" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="buttons/btn_bodyclr_up" x="4" y="859" width="149" height="145" frameX="-11" frameY="-13" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="buttons/btn_clothes_down" x="794" y="161" width="119" height="117" frameX="-24" frameY="-27" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="buttons/btn_clothes_up" x="520" y="161" width="149" height="145" frameX="-11" frameY="-13" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="buttons/btn_face_down" x="1082" y="33" width="119" height="117" frameX="-27" frameY="-28" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="buttons/btn_face_up" x="159" y="859" width="149" height="145" frameX="-11" frameY="-13" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="buttons/btn_hair_down" x="956" y="33" width="120" height="117" frameX="-26" frameY="-27" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="buttons/btn_hair_up" x="520" y="312" width="149" height="145" frameX="-11" frameY="-13" frameWidth="173" frameHeight="173"/>
+    <SubTexture name="clothes_cards_small/clothes_card_0_0" x="1000" y="392" rotated="true" width="72" height="60" frameX="-9" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_0_1" x="749" y="677" width="52" height="76" frameX="-13" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_0_10" x="591" y="941" width="67" height="64" frameX="-5" frameY="-16" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_0_11" x="1128" y="156" width="80" height="68" frameX="0" frameY="0" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_0_2" x="717" y="511" width="49" height="77" frameX="-14" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_0_3" x="664" y="941" width="46" height="71" frameX="-14" frameY="0" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_0_4" x="1510" y="258" rotated="true" width="75" height="52" frameX="-12" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_0_5" x="1849" y="181" rotated="true" width="72" height="63" frameX="-7" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_0_6" x="716" y="594" width="54" height="77" frameX="-12" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_0_7" x="1755" y="521" width="69" height="53" frameX="-4" frameY="-18" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_0_8" x="1214" y="153" width="81" height="68" frameX="0" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_0_9" x="729" y="1009" rotated="true" width="54" height="72" frameX="-3" frameY="-17" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_10_0" x="1301" y="268" rotated="true" width="78" height="60" frameX="-9" frameY="-8" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_10_1" x="1133" y="295" width="74" height="68" frameX="-2" frameY="-18" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_10_2" x="1128" y="230" rotated="true" width="81" height="59" frameX="-9" frameY="-5" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_10_3" x="1133" y="369" rotated="true" width="75" height="48" frameX="-15" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_10_4" x="1296" y="414" width="65" height="65" frameX="-6" frameY="-15" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_10_5" x="1512" y="383" width="78" height="50" frameX="0" frameY="-19" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_10_6" x="422" y="961" rotated="true" width="76" height="48" frameX="-15" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_10_7" x="1612" y="510" width="65" height="65" frameX="-6" frameY="-15" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_10_8" x="529" y="1006" width="50" height="78" frameX="-14" frameY="-8" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_11_0" x="1695" y="581" rotated="true" width="61" height="50" frameX="-14" frameY="-17" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_11_1" x="1596" y="382" rotated="true" width="75" height="51" frameX="-13" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_11_10" x="1694" y="708" width="66" height="44" frameX="-5" frameY="-18" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_11_2" x="1297" y="565" rotated="true" width="68" height="61" frameX="-8" frameY="-14" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_11_3" x="1375" y="628" rotated="true" width="64" height="60" frameX="-9" frameY="-16" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_11_4" x="663" y="1018" width="60" height="63" frameX="-9" frameY="-16" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_11_5" x="1078" y="418" width="49" height="75" frameX="-14" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_11_6" x="1297" y="632" rotated="true" width="72" height="46" frameX="-15" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_11_7" x="1514" y="316" rotated="true" width="71" height="61" frameX="-8" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_11_8" x="1694" y="637" width="62" height="65" frameX="-8" frameY="-15" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_11_9" x="1375" y="760" width="65" height="42" frameX="-6" frameY="-23" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_12_0" x="1204" y="883" rotated="true" width="74" height="50" frameX="-13" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_12_1" x="1375" y="808" rotated="true" width="65" height="60" frameX="-9" frameY="-15" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_12_2" x="1677" y="385" rotated="true" width="78" height="49" frameX="-14" frameY="-8" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_12_3" x="1375" y="694" rotated="true" width="64" height="60" frameX="-9" frameY="-16" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_12_4" x="807" y="677" width="52" height="76" frameX="-13" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_12_5" x="1816" y="879" rotated="true" width="42" height="67" frameX="-6" frameY="-23" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_12_6" x="1078" y="499" width="49" height="78" frameX="-14" frameY="-8" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_12_7" x="914" y="602" rotated="true" width="48" height="63" frameX="-7" frameY="-20" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_12_8" x="669" y="759" rotated="true" width="69" height="80" frameX="0" frameY="-13" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_13_0" x="1427" y="257" rotated="true" width="77" height="53" frameX="-12" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_13_1" x="1591" y="181" width="79" height="65" frameX="0" frameY="-15" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_13_2" x="1677" y="319" rotated="true" width="77" height="60" frameX="-8" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_13_3" x="1133" y="560" rotated="true" width="75" height="49" frameX="-14" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_13_4" x="1214" y="364" rotated="true" width="76" height="62" frameX="-8" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_13_5" x="1529" y="577" width="77" height="40" frameX="0" frameY="-24" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_13_6" x="1078" y="583" width="49" height="74" frameX="-14" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_13_7" x="716" y="926" width="61" height="77" frameX="-8" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_13_8" x="907" y="1005" width="48" height="76" frameX="-15" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_13_9" x="1215" y="227" rotated="true" width="80" height="63" frameX="-7" frameY="-6" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_14_0" x="783" y="931" width="60" height="72" frameX="-9" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_14_1" x="961" y="1005" width="51" height="76" frameX="-13" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_14_2" x="1692" y="758" rotated="true" width="74" height="51" frameX="-13" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_14_3" x="1678" y="249" rotated="true" width="77" height="64" frameX="-6" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_14_4" x="1214" y="564" rotated="true" width="77" height="48" frameX="-15" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_14_5" x="1284" y="874" rotated="true" width="64" height="59" frameX="-9" frameY="-16" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_14_6" x="1133" y="615" rotated="true" width="75" height="50" frameX="-14" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_14_7" x="1214" y="432" rotated="true" width="76" height="61" frameX="-8" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_14_8" x="520" y="463" width="73" height="42" frameX="-2" frameY="-23" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_14_9" x="1445" y="510" rotated="true" width="78" height="49" frameX="-14" frameY="-8" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_15_0" x="1599" y="804" rotated="true" width="71" height="60" frameX="-9" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_15_1" x="823" y="1087" rotated="true" width="56" height="58" frameX="-9" frameY="-20" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_15_2" x="595" y="856" width="49" height="79" frameX="-14" frameY="-7" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_15_3" x="1214" y="499" rotated="true" width="77" height="59" frameX="-9" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_15_4" x="1078" y="333" width="49" height="79" frameX="-14" frameY="-7" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_15_5" x="937" y="451" width="57" height="57" frameX="-10" frameY="-19" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_15_6" x="1367" y="357" rotated="true" width="54" height="66" frameX="-5" frameY="-17" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_15_7" x="1772" y="758" width="66" height="59" frameX="-6" frameY="-18" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_15_8" x="920" y="758" rotated="true" width="46" height="75" frameX="-1" frameY="-25" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_16_0" x="1427" y="374" rotated="true" width="79" height="49" frameX="-14" frameY="-7" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_16_1" x="1830" y="521" width="61" height="63" frameX="-8" frameY="-16" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_16_10" x="636" y="594" width="74" height="77" frameX="-2" frameY="-6" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_16_2" x="772" y="535" width="74" height="52" frameX="-1" frameY="-23" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_16_3" x="1864" y="879" width="51" height="74" frameX="-13" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_16_4" x="1612" y="581" rotated="true" width="77" height="47" frameX="-15" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_16_5" x="1762" y="654" rotated="true" width="62" height="48" frameX="-15" frameY="-17" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_16_6" x="855" y="1008" rotated="true" width="46" height="73" frameX="-2" frameY="-21" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_16_7" x="1676" y="181" rotated="true" width="80" height="62" frameX="-8" frameY="-6" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_16_8" x="1522" y="801" rotated="true" width="71" height="61" frameX="-8" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_16_9" x="972" y="758" width="52" height="75" frameX="-12" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_17_0" x="789" y="1009" width="60" height="72" frameX="-9" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_17_1" x="1529" y="510" rotated="true" width="77" height="61" frameX="-8" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_17_2" x="675" y="465" rotated="true" width="85" height="40" frameX="-18" frameY="0" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_17_3" x="810" y="759" width="50" height="77" frameX="-13" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_17_4" x="257" y="1098" rotated="true" width="78" height="47" frameX="-15" frameY="-8" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_17_5" x="1030" y="758" width="49" height="75" frameX="-14" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_17_6" x="1115" y="839" rotated="true" width="40" height="76" frameX="-1" frameY="-24" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_17_7" x="1709" y="1008" rotated="true" width="62" height="61" frameX="-8" frameY="-16" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_17_8" x="1838" y="823" rotated="true" width="74" height="50" frameX="-14" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_18_0" x="1380" y="1001" rotated="true" width="49" height="72" frameX="-3" frameY="-19" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_18_1" x="842" y="842" rotated="true" width="37" height="77" frameX="0" frameY="-25" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_18_10" x="1085" y="758" width="52" height="75" frameX="-14" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_18_2" x="1824" y="361" width="51" height="74" frameX="-13" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_18_3" x="1371" y="562" rotated="true" width="68" height="60" frameX="-9" frameY="-14" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_18_4" x="885" y="839" width="59" height="77" frameX="-9" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_18_5" x="776" y="593" width="50" height="78" frameX="-14" frameY="-8" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_18_6" x="1446" y="799" rotated="true" width="70" height="63" frameX="-7" frameY="-13" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_18_7" x="849" y="925" rotated="true" width="38" height="77" frameX="0" frameY="-25" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_18_8" x="893" y="922" width="60" height="77" frameX="-9" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_18_9" x="650" y="855" width="53" height="80" frameX="-12" frameY="-6" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_19_0" x="1223" y="1081" width="66" height="64" frameX="-5" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_19_1" x="668" y="1087" rotated="true" width="73" height="58" frameX="-9" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_19_2" x="470" y="1015" width="53" height="69" frameX="-12" frameY="-13" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_19_3" x="1018" y="1005" width="52" height="76" frameX="-12" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_19_4" x="1214" y="618" rotated="true" width="77" height="53" frameX="-12" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_19_5" x="885" y="1087" rotated="true" width="73" height="57" frameX="-10" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_19_6" x="747" y="1087" rotated="true" width="70" height="58" frameX="-9" frameY="-13" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_19_7" x="744" y="759" width="60" height="80" frameX="-8" frameY="0" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_19_8" x="793" y="460" width="53" height="69" frameX="-12" frameY="-13" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_19_9" x="1295" y="1081" width="65" height="64" frameX="-6" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_1_0" x="1611" y="634" rotated="true" width="77" height="51" frameX="-13" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_1_1" x="1138" y="921" width="52" height="76" frameX="-12" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_1_10" x="585" y="1087" rotated="true" width="77" height="58" frameX="-10" frameY="-8" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_1_2" x="1766" y="708" width="63" height="44" frameX="-7" frameY="-22" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_1_3" x="1579" y="941" rotated="true" width="64" height="47" frameX="-15" frameY="-16" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_1_4" x="1143" y="758" width="51" height="75" frameX="-13" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_1_5" x="1920" y="441" width="41" height="71" frameX="-18" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_1_6" x="1599" y="870" width="65" height="65" frameX="-6" frameY="-15" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_1_7" x="1076" y="1005" width="61" height="76" frameX="-8" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_1_8" x="504" y="856" width="85" height="79" frameX="0" frameY="-7" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_1_9" x="1835" y="708" width="66" height="44" frameX="-8" frameY="-21" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_20_0" x="1143" y="1003" width="52" height="76" frameX="-12" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_20_1" x="1354" y="874" rotated="true" width="71" height="61" frameX="-8" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_20_2" x="1452" y="429" width="54" height="75" frameX="-12" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_20_3" x="1161" y="839" rotated="true" width="37" height="76" frameX="-1" frameY="-25" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_20_4" x="1762" y="580" width="60" height="68" frameX="-9" frameY="-14" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_20_5" x="1983" y="767" width="50" height="68" frameX="-14" frameY="-14" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_20_6" x="341" y="1090" rotated="true" width="71" height="55" frameX="-11" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_20_7" x="1445" y="683" rotated="true" width="77" height="52" frameX="-11" frameY="0" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_20_8" x="314" y="967" width="81" height="36" frameX="0" frameY="-26" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_21_0" x="964" y="1087" rotated="true" width="71" height="57" frameX="-10" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_21_1" x="1676" y="815" rotated="true" width="75" height="49" frameX="-14" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_21_10" x="950" y="839" rotated="true" width="38" height="77" frameX="0" frameY="-25" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_21_2" x="1366" y="1080" rotated="true" width="67" height="65" frameX="-6" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_21_3" x="1844" y="758" rotated="true" width="67" height="59" frameX="-9" frameY="-14" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_21_4" x="1755" y="440" width="49" height="75" frameX="-14" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_21_5" x="1327" y="127" rotated="true" width="81" height="58" frameX="-9" frameY="-5" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_21_6" x="852" y="451" width="79" height="40" frameX="0" frameY="-24" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_21_7" x="1159" y="671" width="49" height="76" frameX="-14" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_21_8" x="418" y="1090" rotated="true" width="70" height="55" frameX="-11" frameY="-13" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_21_9" x="1528" y="690" rotated="true" width="77" height="51" frameX="-13" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_22_0" x="1293" y="742" rotated="true" width="76" height="49" frameX="-14" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_22_1" x="1273" y="939" rotated="true" width="70" height="57" frameX="-10" frameY="-13" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_22_2" x="1214" y="745" rotated="true" width="73" height="61" frameX="-8" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_22_3" x="1000" y="458" rotated="true" width="72" height="63" frameX="-7" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_22_4" x="865" y="671" width="48" height="78" frameX="-15" frameY="-8" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_22_5" x="1385" y="191" rotated="true" width="36" height="81" frameX="0" frameY="-26" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_22_6" x="1528" y="747" rotated="true" width="76" height="48" frameX="-15" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_22_7" x="1090" y="215" rotated="true" width="32" height="68" frameX="-5" frameY="-28" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_22_8" x="937" y="514" width="57" height="76" frameX="-11" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_23_0" x="1864" y="250" width="57" height="70" frameX="-10" frameY="-13" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_23_1" x="1828" y="590" rotated="true" width="71" height="56" frameX="-11" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_23_2" x="1927" y="212" rotated="true" width="81" height="60" frameX="-9" frameY="-5" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_23_3" x="1976" y="841" width="49" height="67" frameX="-14" frameY="-14" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_23_4" x="1610" y="750" rotated="true" width="76" height="48" frameX="-15" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_23_5" x="866" y="755" width="48" height="78" frameX="-15" frameY="-5" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_23_6" x="1000" y="527" rotated="true" width="72" height="64" frameX="-7" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_23_7" x="919" y="671" width="43" height="71" frameX="-17" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_24_0" x="1196" y="939" rotated="true" width="71" height="57" frameX="-10" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_24_1" x="1967" y="497" rotated="true" width="66" height="49" frameX="-14" frameY="-15" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_24_10" x="1041" y="1087" rotated="true" width="76" height="57" frameX="-11" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_24_11" x="494" y="1090" rotated="true" width="68" height="55" frameX="-13" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_24_12" x="709" y="845" width="68" height="75" frameX="0" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_24_13" x="1214" y="677" rotated="true" width="73" height="62" frameX="-7" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_24_14" x="1297" y="485" width="64" height="74" frameX="-3" frameY="-2" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_24_2" x="1574" y="1064" width="60" height="61" frameX="-9" frameY="-14" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_24_3" x="1761" y="361" width="57" height="70" frameX="-10" frameY="-13" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_24_4" x="1506" y="939" rotated="true" width="67" height="47" frameX="-15" frameY="-14" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_24_5" x="1856" y="959" width="61" height="60" frameX="-8" frameY="-15" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_24_6" x="1094" y="677" width="59" height="75" frameX="-10" frameY="-7" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_24_7" x="1143" y="1085" rotated="true" width="74" height="60" frameX="-9" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_24_8" x="1757" y="823" rotated="true" width="75" height="50" frameX="-13" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_24_9" x="1897" y="521" rotated="true" width="64" height="63" frameX="-7" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_2_0" x="1611" y="691" rotated="true" width="77" height="53" frameX="-12" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_2_1" x="1427" y="181" width="77" height="70" frameX="0" frameY="-13" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_2_10" x="1201" y="1002" width="61" height="73" frameX="-8" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_2_2" x="1431" y="925" rotated="true" width="69" height="42" frameX="-18" frameY="-13" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_2_3" x="959" y="922" width="53" height="77" frameX="-12" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_2_4" x="1446" y="868" rotated="true" width="75" height="51" frameX="-13" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_2_5" x="1018" y="597" rotated="true" width="54" height="73" frameX="-2" frameY="-17" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_2_6" x="1981" y="552" width="52" height="71" frameX="-12" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_2_7" x="1923" y="949" width="41" height="62" frameX="-18" frameY="-17" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_2_8" x="1927" y="278" rotated="true" width="75" height="51" frameX="-13" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_2_9" x="1938" y="63" rotated="true" width="83" height="74" frameX="0" frameY="-3" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_3_0" x="1293" y="684" rotated="true" width="76" height="52" frameX="-13" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_3_1" x="1762" y="247" rotated="true" width="75" height="51" frameX="-13" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_3_2" x="1936" y="335" width="39" height="70" frameX="-21" frameY="-13" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_3_3" x="257" y="1010" width="53" height="82" frameX="-12" frameY="-4" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_3_4" x="1867" y="441" width="47" height="74" frameX="-15" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_3_5" x="1976" y="914" rotated="true" width="49" height="64" frameX="-7" frameY="-19" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_3_6" x="783" y="845" width="53" height="80" frameX="-12" frameY="-6" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_3_7" x="599" y="463" rotated="true" width="70" height="42" frameX="-13" frameY="-13" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_3_8" x="911" y="392" rotated="true" width="83" height="53" frameX="-11" frameY="-3" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_3_9" x="1762" y="181" width="81" height="60" frameX="0" frameY="-18" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_4_0" x="1761" y="304" rotated="true" width="75" height="51" frameX="-14" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_4_1" x="1776" y="1086" width="65" height="43" frameX="-6" frameY="-22" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_4_2" x="1640" y="1074" rotated="true" width="62" height="61" frameX="-8" frameY="-17" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_4_3" x="1268" y="1002" width="51" height="73" frameX="-12" frameY="-13" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_4_4" x="1708" y="1075" rotated="true" width="62" height="60" frameX="-9" frameY="-15" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_4_5" x="1213" y="296" rotated="true" width="77" height="62" frameX="-8" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_4_6" x="1911" y="649" rotated="true" width="65" height="60" frameX="-8" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_4_7" x="1502" y="992" rotated="true" width="66" height="45" frameX="-16" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_5_0" x="1982" y="416" width="51" height="75" frameX="-15" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_5_1" x="994" y="839" width="49" height="77" frameX="-14" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_5_2" x="1921" y="868" width="49" height="75" frameX="-14" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_5_3" x="1574" y="994" width="60" height="64" frameX="-9" frameY="-16" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_5_4" x="1325" y="1002" width="49" height="72" frameX="-14" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_5_5" x="1649" y="941" rotated="true" width="64" height="60" frameX="-9" frameY="-16" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_5_6" x="1367" y="429" rotated="true" width="79" height="54" frameX="-12" frameY="-7" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_5_7" x="397" y="1015" rotated="true" width="67" height="69" frameX="-3" frameY="0" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_6_0" x="1788" y="952" rotated="true" width="62" height="61" frameX="-8" frameY="-17" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_6_1" x="1810" y="441" width="51" height="74" frameX="-13" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_6_10" x="1035" y="676" rotated="true" width="53" height="76" frameX="-1" frameY="-18" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_6_2" x="1917" y="751" width="60" height="65" frameX="-9" frameY="-15" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_6_3" x="1881" y="361" width="49" height="74" frameX="-14" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_6_4" x="1296" y="334" width="65" height="74" frameX="-6" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_6_5" x="1385" y="278" rotated="true" width="36" height="73" frameX="-3" frameY="-26" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_6_6" x="585" y="1011" width="72" height="70" frameX="-4" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_6_7" x="1506" y="1043" rotated="true" width="62" height="63" frameX="-7" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_6_8" x="1512" y="439" rotated="true" width="74" height="65" frameX="-6" frameY="-11" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_6_9" x="1719" y="941" rotated="true" width="63" height="61" frameX="-8" frameY="-16" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_7_0" x="1445" y="616" rotated="true" width="77" height="61" frameX="-8" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_7_1" x="1777" y="1019" rotated="true" width="62" height="61" frameX="-8" frameY="-16" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_7_2" x="1435" y="973" width="61" height="65" frameX="-8" frameY="-15" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_7_3" x="852" y="497" width="79" height="39" frameX="0" frameY="-24" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_7_4" x="1981" y="335" width="52" height="75" frameX="-13" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_7_5" x="1446" y="741" rotated="true" width="76" height="52" frameX="-12" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_7_6" x="968" y="676" width="61" height="76" frameX="-8" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_7_7" x="1528" y="623" rotated="true" width="77" height="61" frameX="-8" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_7_8" x="1439" y="1044" width="61" height="65" frameX="-8" frameY="-15" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_7_9" x="1592" y="439" rotated="true" width="74" height="65" frameX="-6" frameY="-12" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_8_0" x="1670" y="870" width="63" height="65" frameX="-7" frameY="-15" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_8_1" x="852" y="542" rotated="true" width="79" height="54" frameX="-12" frameY="-7" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_8_10" x="1133" y="493" width="75" height="61" frameX="-1" frameY="-25" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_8_11" x="1018" y="922" width="49" height="77" frameX="-17" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_8_2" x="1683" y="508" width="66" height="67" frameX="-6" frameY="-14" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_8_3" x="1830" y="652" rotated="true" width="75" height="50" frameX="-13" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_8_4" x="1204" y="812" width="70" height="65" frameX="-4" frameY="-15" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_8_5" x="504" y="941" rotated="true" width="81" height="59" frameX="-9" frameY="-5" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_8_6" x="1510" y="181" width="75" height="71" frameX="0" frameY="-15" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_8_7" x="1591" y="252" rotated="true" width="81" height="59" frameX="-9" frameY="-5" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_8_8" x="669" y="677" width="74" height="76" frameX="0" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_8_9" x="1367" y="489" width="72" height="67" frameX="-3" frameY="-19" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_9_0" x="1983" y="686" width="50" height="75" frameX="-13" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_9_1" x="1049" y="839" width="60" height="77" frameX="-9" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_9_2" x="1672" y="440" rotated="true" width="77" height="62" frameX="-7" frameY="-9" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_9_3" x="832" y="602" rotated="true" width="76" height="63" frameX="-7" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_9_4" x="1293" y="797" rotated="true" width="76" height="51" frameX="-13" frameY="-10" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_9_5" x="1349" y="941" width="74" height="54" frameX="-2" frameY="-17" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_9_6" x="1427" y="316" rotated="true" width="81" height="52" frameX="-13" frameY="-5" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/clothes_card_9_7" x="1640" y="1007" rotated="true" width="63" height="61" frameX="-8" frameY="-16" frameWidth="86" frameHeight="86"/>
+    <SubTexture name="clothes_cards_small/furniture_card_active" x="1207" y="33" width="114" height="114" frameX="-3" frameY="-3" frameWidth="120" frameHeight="120"/>
+    <SubTexture name="clothes_cards_small/furniture_card_bg" x="1327" y="33" width="88" height="88"/>
+    <SubTexture name="clothes_cards_small/furniture_card_shadows" x="314" y="859" width="102" height="102" frameX="-5" frameY="-15" frameWidth="120" frameHeight="120"/>
+    <SubTexture name="titles/title_0" x="675" y="293" rotated="true" width="53" height="166"/>
+    <SubTexture name="titles/title_1" x="734" y="293" rotated="true" width="53" height="166"/>
+    <SubTexture name="titles/title_10" x="459" y="511" rotated="true" width="53" height="166"/>
+    <SubTexture name="titles/title_11" x="518" y="511" rotated="true" width="53" height="166"/>
+    <SubTexture name="titles/title_12" x="1425" y="4" width="167" height="53"/>
+    <SubTexture name="titles/title_13" x="793" y="293" rotated="true" width="53" height="161"/>
+    <SubTexture name="titles/title_14" x="1421" y="122" width="164" height="53"/>
+    <SubTexture name="titles/title_15" x="1594" y="63" width="166" height="53"/>
+    <SubTexture name="titles/title_16" x="1766" y="63" width="166" height="53"/>
+    <SubTexture name="titles/title_17" x="1598" y="4" width="167" height="53"/>
+    <SubTexture name="titles/title_18" x="1771" y="4" width="167" height="53"/>
+    <SubTexture name="titles/title_19" x="1591" y="122" width="162" height="53"/>
+    <SubTexture name="titles/title_2" x="919" y="215" width="165" height="53"/>
+    <SubTexture name="titles/title_20" x="1759" y="122" width="162" height="53"/>
+    <SubTexture name="titles/title_21" x="577" y="511" rotated="true" width="53" height="166"/>
+    <SubTexture name="titles/title_22" x="492" y="683" rotated="true" width="53" height="167"/>
+    <SubTexture name="titles/title_23" x="433" y="683" rotated="true" width="53" height="170"/>
+    <SubTexture name="titles/title_24" x="1944" y="4" width="87" height="53"/>
+    <SubTexture name="titles/title_3" x="919" y="274" width="165" height="53"/>
+    <SubTexture name="titles/title_4" x="551" y="683" rotated="true" width="53" height="167"/>
+    <SubTexture name="titles/title_5" x="1421" y="63" width="167" height="53"/>
+    <SubTexture name="titles/title_6" x="610" y="683" rotated="true" width="53" height="166"/>
+    <SubTexture name="titles/title_7" x="956" y="156" width="166" height="53"/>
+    <SubTexture name="titles/title_8" x="852" y="284" rotated="true" width="53" height="161"/>
+    <SubTexture name="titles/title_9" x="911" y="333" width="161" height="53"/>
+    <SubTexture name="ui/clr" x="1982" y="629" width="51" height="51" frameX="-12" frameY="-12" frameWidth="75" frameHeight="75"/>
+    <SubTexture name="ui/clr_active" x="316" y="1009" width="75" height="75"/>
+    <SubTexture name="ui/clr_shadow" x="1527" y="868" rotated="true" width="66" height="65" frameX="-1" frameY="-9" frameWidth="75" frameHeight="75"/>
+    <SubTexture name="ui/frame_clothes_bg" x="4" y="679" width="423" height="122"/>
+    <SubTexture name="ui/frame_clothes_divider" x="4" y="807" width="423" height="46" frameX="0" frameY="-1" frameWidth="423" frameHeight="48"/>
+    <SubTexture name="ui/frame_hair_bg_left" x="520" y="33" width="292" height="122"/>
+    <SubTexture name="ui/frame_hair_bg_right" x="818" y="33" width="132" height="122"/>
+    <SubTexture name="ui/frame_hair_divider" x="459" y="33" width="55" height="472" frameX="-2" frameY="0" frameWidth="60" frameHeight="472"/>
+    <SubTexture name="ui/frame_lower_bg" x="4" y="1010" width="122" height="122"/>
+    <SubTexture name="ui/frame_lower_top" x="459" y="4" width="960" height="23"/>
+    <SubTexture name="ui/frame_vertical" x="4" y="4" width="449" height="669" frameX="-1" frameY="0" frameWidth="450" frameHeight="669"/>
+    <SubTexture name="ui/hair_item_0" x="636" y="511" width="75" height="77" frameX="-18" frameY="-24" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/hair_item_1" x="1739" y="879" width="71" height="56" frameX="-21" frameY="-23" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/hair_item_10" x="1905" y="590" width="70" height="53" frameX="-22" frameY="-24" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/hair_item_11" x="1907" y="715" width="60" height="30" frameX="-26" frameY="-33" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/hair_item_2" x="1591" y="317" rotated="true" width="80" height="59" frameX="-28" frameY="-25" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/hair_item_3" x="1133" y="423" width="75" height="64" frameX="-21" frameY="-24" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/hair_item_4" x="1445" y="565" width="78" height="45" frameX="-18" frameY="-24" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/hair_item_5" x="1280" y="854" rotated="true" width="69" height="13" frameX="-49" frameY="-6" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/hair_item_6" x="968" y="597" rotated="true" width="44" height="71" frameX="-21" frameY="-23" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/hair_item_7" x="1123" y="1087" rotated="true" width="14" height="35" frameX="-39" frameY="-24" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/hair_item_8" x="1301" y="191" width="78" height="71" frameX="-18" frameY="-3" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/hair_item_9" x="1927" y="143" rotated="true" width="82" height="63" frameX="-24" frameY="-24" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/head" x="1073" y="922" width="59" height="77" frameX="-27" frameY="-27" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/head_active" x="675" y="161" width="113" height="126"/>
+    <SubTexture name="ui/head_shadow" x="422" y="859" width="76" height="96" frameX="-14" frameY="-24" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/mood_item_blush" x="1885" y="326" width="36" height="29" frameX="-39" frameY="-46" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/mood_item_cat" x="1890" y="1025" rotated="true" width="27" height="37" frameX="-39" frameY="-48" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/mood_item_clown" x="1889" y="1112" width="35" height="27" frameX="-39" frameY="-48" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/mood_item_crazy" x="1847" y="1106" width="36" height="28" frameX="-39" frameY="-48" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/mood_item_dead" x="1439" y="1115" width="36" height="29" frameX="-39" frameY="-48" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/mood_item_dissapointed" x="1090" y="289" rotated="true" width="28" height="38" frameX="-38" frameY="-47" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/mood_item_flirty" x="1481" y="1115" width="36" height="27" frameX="-39" frameY="-48" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/mood_item_happy" x="1923" y="1017" width="36" height="34" frameX="-39" frameY="-45" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/mood_item_love" x="1965" y="1051" width="32" height="27" frameX="-41" frameY="-51" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/mood_item_redlips" x="1842" y="326" width="37" height="29" frameX="-38" frameY="-48" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/mood_item_roboteyes" x="1523" y="1112" width="36" height="27" frameX="-39" frameY="-49" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/mood_item_sad" x="1889" y="1068" rotated="true" width="27" height="38" frameX="-38" frameY="-49" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/mood_item_standard" x="1923" y="1057" width="36" height="27" frameX="-39" frameY="-48" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/mood_item_supersad" x="1845" y="1025" width="39" height="35" frameX="-37" frameY="-45" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/mood_item_surprised" x="1847" y="1066" width="36" height="34" frameX="-39" frameY="-45" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/mood_item_worried" x="919" y="161" rotated="true" width="28" height="38" frameX="-38" frameY="-48" frameWidth="113" frameHeight="126"/>
+    <SubTexture name="ui/star_new" x="1918" y="822" width="39" height="40" frameX="-9" frameY="-9" frameWidth="56" frameHeight="56"/>
+    <SubTexture name="ui/star_new_big" x="1970" y="984" width="61" height="61" frameX="-1" frameY="-2" frameWidth="63" frameHeight="63"/>
+</TextureAtlas>

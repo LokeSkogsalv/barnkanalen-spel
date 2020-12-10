@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Testa typen</title>
+		<meta content="width=device-width, initial-scale=1, minimum-scale=1" name="viewport" />
+		<meta charset="utf-8" />
+		<meta name="robots" content="noindex, nofollow" />
+		<link rel="stylesheet" type="text/css" href="base-barn.css" />
+
+		<!--[if lt IE 9]>
+			<link rel="stylesheet" type="text/css" href="base-barnIE.css" />
+		<![endif]-->
+
+	 	<script src="js/jquery-1.8.2.min.js"></script>
+
+	 	<script src="js/jquery.mb.CSSAnimate.js"></script>
+		<script src="testa-typen.js"></script>
+</head>
+
+
+<body>
+	<div class="needle">
+			<div class="needle1"><img src="bilder/barn_web/needle1.png"></div>
+			<div class="needle2"><img src="bilder/barn_web/needle2.png"></div>
+		</div>
+	<div class="outer">
+		<noscript>
+			<style type="text/css">
+		    #pins,#qa,#cs,#diplom {display:none;}
+		    img {max-width:100%;}
+		    </style>
+			<img class="noJavascript" src="https://media.svt.se/download/flash/fiktion/spel/img/nojavascript.png" alt="Du vill Spela. Be en vuxen slå på Javascript">
+		</noscript>
+		<div id="pins">
+			<p id="progresstitle">Laddar...</p>
+		</div>
+	    <div id="qa">
+        	<div id="qa1">
+        		<p class="q" id="questiontext"></p>
+		      	<!-- The questions are added here with code, id=a1, a2, etc  -->
+    		</div>
+		</div>
+      	<div id="cs" >
+       		<p id="candidates-title" class="q"></p>
+	        <div class="hide-button"><a href="javascript:testaTypen.hideCandidateView();"></a></div>
+   			<div id="cs-grid" class="grid">
+		      	<!-- The candidate images are here added with code with id c1, c2, c3, etc    -->
+		    </div>
+			<div id="restartbutton">
+    	  		<a class="a" href="javascript:location.href=location.href"><p>STARTA OM</p></a>
+    	  	</div>
+      	</div>
+      	<div id="diplom" class="diplom small">
+        	<img id="diploma-image" src=""></img>
+        	<h4 id="diploma-title">Titel</h4>
+          	<p id="diploma-text">Beskrivning</p>
+          	<div id="needle1"><img src="bilder/barn_web/needle1.png"></div>
+          	<div id="needle2"><img src="bilder/barn_web/needle2.png"></div>
+   			<div id="restartbuttonbig">
+	      		<a class="a" href="javascript:location.href=location.href"><p>PROVA IGEN</p></a>
+    	  	</div>
+
+      	</div>
+    </div>
+
+    <script src="jquery.responsiveiframe.js"></script>
+	<script>
+		(function($) {
+			var ri = responsiveIframe();
+			ri.allowResponsiveEmbedding();
+		})(jQuery);
+	</script>
+    <script src="./js/d1e6d27177e07e2ba156.main.js" type="text/javascript"></script>
+</body>
+</html>

@@ -1,0 +1,382 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!-- Created with TexturePacker http://www.codeandweb.com/texturepacker-->
+<!-- $TexturePacker:SmartUpdate:e37c040ca8dd61c00b3e7bc48c1b0eb2:04308ebd1392424d6cb6c26cc7cd541f:6554c072ac916370a0820915263ca96d$ -->
+<TextureAtlas imagePath="caravanstate.png" width="1023" height="1131">
+    <SubTexture name="floor_menus/floor_menu_0" x="650" y="4" width="75" height="28"/>
+    <SubTexture name="floor_menus/floor_menu_1" x="731" y="4" width="75" height="28"/>
+    <SubTexture name="floor_menus/floor_menu_10" x="812" y="4" width="75" height="28"/>
+    <SubTexture name="floor_menus/floor_menu_11" x="893" y="4" width="75" height="28"/>
+    <SubTexture name="floor_menus/floor_menu_12" x="460" y="88" width="75" height="28"/>
+    <SubTexture name="floor_menus/floor_menu_13" x="78" y="507" rotated="true" width="28" height="75"/>
+    <SubTexture name="floor_menus/floor_menu_14" x="305" y="164" width="75" height="28"/>
+    <SubTexture name="floor_menus/floor_menu_15" x="305" y="198" width="75" height="28"/>
+    <SubTexture name="floor_menus/floor_menu_16" x="145" y="582" rotated="true" width="28" height="75"/>
+    <SubTexture name="floor_menus/floor_menu_17" x="206" y="647" rotated="true" width="28" height="75"/>
+    <SubTexture name="floor_menus/floor_menu_18" x="240" y="647" rotated="true" width="28" height="75"/>
+    <SubTexture name="floor_menus/floor_menu_19" x="620" y="92" width="75" height="28"/>
+    <SubTexture name="floor_menus/floor_menu_2" x="701" y="93" width="75" height="28"/>
+    <SubTexture name="floor_menus/floor_menu_20" x="128" y="1005" rotated="true" width="27" height="74" frameX="-2" frameY="-1" frameWidth="77" frameHeight="29"/>
+    <SubTexture name="floor_menus/floor_menu_21" x="620" y="126" width="75" height="28"/>
+    <SubTexture name="floor_menus/floor_menu_22" x="701" y="127" width="75" height="28"/>
+    <SubTexture name="floor_menus/floor_menu_23" x="225" y="155" width="74" height="26" frameX="-1" frameY="-1" frameWidth="76" frameHeight="28"/>
+    <SubTexture name="floor_menus/floor_menu_24" x="111" y="139" width="75" height="28"/>
+    <SubTexture name="floor_menus/floor_menu_25" x="225" y="187" width="74" height="26" frameX="-1" frameY="-1" frameWidth="76" frameHeight="28"/>
+    <SubTexture name="floor_menus/floor_menu_26" x="161" y="1005" rotated="true" width="26" height="73" frameX="-1" frameY="0" frameWidth="75" frameHeight="26"/>
+    <SubTexture name="floor_menus/floor_menu_3" x="288" y="232" width="75" height="28"/>
+    <SubTexture name="floor_menus/floor_menu_4" x="288" y="266" width="75" height="28"/>
+    <SubTexture name="floor_menus/floor_menu_5" x="287" y="300" width="75" height="28"/>
+    <SubTexture name="floor_menus/floor_menu_6" x="369" y="232" rotated="true" width="28" height="75"/>
+    <SubTexture name="floor_menus/floor_menu_7" x="228" y="403" width="75" height="28"/>
+    <SubTexture name="floor_menus/floor_menu_8" x="243" y="559" rotated="true" width="28" height="75"/>
+    <SubTexture name="floor_menus/floor_menu_9" x="277" y="559" rotated="true" width="28" height="75"/>
+    <SubTexture name="furniture_menus/furniture_menu_0_0" x="198" y="938" rotated="true" width="29" height="56" frameX="0" frameY="-18" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_0_1" x="573" y="202" rotated="true" width="53" height="43" frameX="-5" frameY="-5" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_0_10" x="403" y="101" rotated="true" width="51" height="32" frameX="-11" frameY="-5" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_0_11" x="694" y="260" rotated="true" width="45" height="34" frameX="-10" frameY="-10" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_0_12" x="527" y="357" width="54" height="31" frameX="0" frameY="-17" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_0_2" x="922" y="623" rotated="true" width="45" height="34" frameX="-10" frameY="-10" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_0_3" x="173" y="304" rotated="true" width="48" height="50" frameX="-2" frameY="-8" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_0_4" x="223" y="1039" width="45" height="39" frameX="-4" frameY="-13" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_0_5" x="422" y="394" width="51" height="51" frameX="-1" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_0_6" x="350" y="334" width="22" height="54" frameX="-16" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_0_7" x="811" y="161" rotated="true" width="29" height="57" frameX="0" frameY="-18" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_0_8" x="321" y="437" width="38" height="54" frameX="-7" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_0_9" x="388" y="857" width="48" height="54" frameX="-3" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_10_0" x="746" y="351" rotated="true" width="50" height="45" frameX="-4" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_10_1" x="475" y="556" rotated="true" width="53" height="33" frameX="-10" frameY="-5" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_10_2" x="694" y="352" width="46" height="45" frameX="-3" frameY="-10" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_10_3" x="570" y="300" width="27" height="51" frameX="-13" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_10_4" x="479" y="455" width="49" height="40" frameX="-2" frameY="-12" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_10_5" x="383" y="795" rotated="true" width="51" height="56" frameX="0" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_10_6" x="268" y="921" rotated="true" width="52" height="43" frameX="-5" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_10_7" x="534" y="514" width="51" height="49" frameX="-1" frameY="-8" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_10_8" x="873" y="277" rotated="true" width="50" height="38" frameX="-7" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_10_9" x="433" y="742" rotated="true" width="46" height="47" frameX="-3" frameY="-10" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_11_0" x="265" y="755" rotated="true" width="51" height="35" frameX="-9" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_11_1" x="365" y="437" rotated="true" width="48" height="54" frameX="0" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_11_2" x="751" y="402" width="45" height="42" frameX="-3" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_11_3" x="534" y="569" width="51" height="34" frameX="-1" frameY="-15" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_11_4" x="603" y="300" rotated="true" width="23" height="54" frameX="0" frameY="-23" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_11_5" x="587" y="360" width="39" height="44" frameX="-7" frameY="-10" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_11_6" x="694" y="403" rotated="true" width="51" height="41" frameX="-6" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_11_7" x="445" y="966" rotated="true" width="27" height="55" frameX="0" frameY="-19" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_11_8" x="916" y="409" rotated="true" width="51" height="35" frameX="-9" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_11_9" x="766" y="917" rotated="true" width="31" height="54" frameX="0" frameY="-17" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_12_0" x="525" y="656" width="49" height="50" frameX="-2" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_12_1" x="268" y="970" rotated="true" width="52" height="46" frameX="-4" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_12_2" x="861" y="401" rotated="true" width="49" height="41" frameX="-6" frameY="-8" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_12_3" x="449" y="917" rotated="true" width="49" height="43" frameX="-5" frameY="-8" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_12_4" x="449" y="259" width="57" height="35" frameX="0" frameY="-15" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_12_5" x="591" y="574" width="41" height="51" frameX="-6" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_12_6" x="525" y="855" rotated="true" width="31" height="56" frameX="0" frameY="-17" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_12_7" x="588" y="132" rotated="true" width="26" height="55" frameX="0" frameY="-20" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_12_8" x="233" y="928" width="29" height="48" frameX="-12" frameY="-8" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_12_9" x="742" y="674" rotated="true" width="39" height="38" frameX="-7" frameY="-13" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_13_0" x="779" y="450" width="39" height="49" frameX="-7" frameY="-8" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_13_1" x="504" y="917" rotated="true" width="38" height="43" frameX="-5" frameY="-14" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_13_2" x="638" y="633" width="41" height="42" frameX="-6" frameY="-12" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_13_3" x="929" y="277" width="50" height="42" frameX="-2" frameY="-11" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_13_4" x="927" y="325" rotated="true" width="52" height="25" frameX="-14" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_13_5" x="638" y="681" width="47" height="31" frameX="-3" frameY="-17" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_13_6" x="913" y="833" width="53" height="35" frameX="0" frameY="-14" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_13_7" x="309" y="394" width="46" height="37" frameX="-4" frameY="-13" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_13_8" x="379" y="1033" width="50" height="45" frameX="-2" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_13_9" x="382" y="691" width="39" height="58" frameX="-9" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_14_0" x="418" y="500" width="51" height="53" frameX="0" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_14_1" x="485" y="741" width="41" height="48" frameX="-6" frameY="-8" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_14_2" x="548" y="917" rotated="true" width="49" height="43" frameX="-5" frameY="-8" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_14_3" x="460" y="122" width="58" height="27" frameX="0" frameY="-19" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_14_4" x="678" y="775" width="39" height="48" frameX="-7" frameY="-8" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_14_5" x="274" y="707" rotated="true" width="37" height="42" frameX="-5" frameY="-14" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_14_6" x="512" y="259" width="56" height="35" frameX="0" frameY="-15" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_14_7" x="574" y="251" rotated="true" width="52" height="43" frameX="-5" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_14_8" x="787" y="663" rotated="true" width="23" height="49" frameX="-2" frameY="-21" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_14_9" x="723" y="775" rotated="true" width="41" height="50" frameX="0" frameY="-12" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_15_0" x="442" y="856" width="38" height="55" frameX="-8" frameY="-3" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_15_1" x="233" y="982" rotated="true" width="29" height="51" frameX="-1" frameY="-18" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_15_2" x="928" y="228" width="51" height="43" frameX="-1" frameY="-11" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_15_3" x="973" y="567" width="46" height="44" frameX="-1" frameY="-10" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_15_4" x="629" y="775" width="43" height="45" frameX="-5" frameY="-10" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_15_5" x="746" y="300" rotated="true" width="51" height="45" frameX="-4" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_15_6" x="587" y="631" width="45" height="43" frameX="-1" frameY="-9" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_15_7" x="361" y="394" rotated="true" width="55" height="37" frameX="-8" frameY="-3" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_15_8" x="915" y="450" rotated="true" width="52" height="40" frameX="-4" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_15_9" x="419" y="451" width="54" height="43" frameX="0" frameY="-11" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_16_0" x="724" y="450" width="49" height="45" frameX="-2" frameY="-10" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_16_1" x="747" y="977" width="43" height="44" frameX="-5" frameY="-10" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_16_10" x="814" y="578" rotated="true" width="55" height="23" frameX="-14" frameY="-3" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_16_2" x="691" y="679" rotated="true" width="45" height="33" frameX="-10" frameY="-10" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_16_3" x="617" y="1087" width="43" height="40" frameX="-5" frameY="-12" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_16_4" x="620" y="25" rotated="true" width="24" height="58" frameX="0" frameY="-20" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_16_5" x="320" y="1033" width="53" height="45" frameX="-1" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_16_6" x="473" y="714" rotated="true" width="52" height="21" frameX="-16" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_16_7" x="677" y="718" width="39" height="51" frameX="-7" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_16_8" x="811" y="224" rotated="true" width="54" height="21" frameX="-16" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_16_9" x="722" y="718" width="39" height="51" frameX="-7" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_17_0" x="985" y="228" rotated="true" width="34" height="54" frameX="0" frameY="-15" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_17_1" x="862" y="652" width="23" height="53" frameX="-15" frameY="-5" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_17_2" x="853" y="1085" width="38" height="38" frameX="-7" frameY="-14" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_17_3" x="846" y="99" rotated="true" width="30" height="57" frameX="0" frameY="-17" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_17_4" x="427" y="681" rotated="true" width="40" height="55" frameX="0" frameY="-12" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_17_5" x="846" y="162" width="30" height="55" frameX="-12" frameY="-1" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_17_6" x="467" y="358" rotated="true" width="54" height="30" frameX="-12" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_17_7" x="676" y="976" rotated="true" width="32" height="54" frameX="0" frameY="-17" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_17_8" x="803" y="314" width="56" height="31" frameX="0" frameY="-17" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_17_9" x="666" y="1087" rotated="true" width="41" height="40" frameX="-7" frameY="-12" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_18_0" x="585" y="410" width="54" height="38" frameX="0" frameY="-14" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_18_1" x="558" y="1027" width="39" height="54" frameX="-7" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_18_10" x="406" y="359" width="55" height="29" frameX="0" frameY="-18" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_18_2" x="202" y="868" rotated="true" width="25" height="58" frameX="0" frameY="-20" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_18_3" x="748" y="210" width="57" height="35" frameX="0" frameY="-14" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_18_4" x="689" y="300" width="51" height="46" frameX="-1" frameY="-9" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_18_5" x="815" y="775" width="31" height="53" frameX="-11" frameY="-5" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_18_6" x="440" y="795" rotated="true" width="40" height="55" frameX="0" frameY="-12" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_18_7" x="915" y="496" rotated="true" width="52" height="34" frameX="-9" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_18_8" x="922" y="663" width="44" height="44" frameX="-4" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_18_9" x="403" y="232" width="40" height="58" frameX="-7" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_19_0" x="873" y="224" width="49" height="47" frameX="-2" frameY="-9" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_19_1" x="802" y="351" width="51" height="44" frameX="-1" frameY="-11" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_19_10" x="645" y="387" rotated="true" width="43" height="51" frameX="-1" frameY="-11" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_19_2" x="632" y="352" width="56" height="29" frameX="0" frameY="-18" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_19_3" x="882" y="448" rotated="true" width="27" height="53" frameX="0" frameY="-19" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_19_4" x="972" y="805" rotated="true" width="47" height="37" frameX="-8" frameY="-9" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_19_5" x="377" y="497" rotated="true" width="35" height="56" frameX="0" frameY="-17" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_19_6" x="882" y="507" rotated="true" width="27" height="51" frameX="-1" frameY="-19" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_19_7" x="720" y="503" width="41" height="47" frameX="-6" frameY="-9" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_19_8" x="386" y="199" width="57" height="27" frameX="0" frameY="-19" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_19_9" x="767" y="505" rotated="true" width="51" height="37" frameX="-8" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_1_0" x="268" y="796" rotated="true" width="49" height="57" frameX="0" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_1_1" x="559" y="966" rotated="true" width="38" height="55" frameX="0" frameY="-13" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_1_10" x="524" y="132" width="58" height="26" frameX="0" frameY="-19" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_1_11" x="644" y="976" rotated="true" width="26" height="54" frameX="0" frameY="-19" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_1_2" x="583" y="826" width="55" height="29" frameX="0" frameY="-18" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_1_3" x="824" y="495" rotated="true" width="52" height="35" frameX="-9" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_1_4" x="326" y="957" width="57" height="32" frameX="0" frameY="-16" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_1_5" x="605" y="861" width="34" height="50" frameX="-9" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_1_6" x="486" y="855" rotated="true" width="33" height="56" frameX="0" frameY="-16" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_1_7" x="972" y="848" rotated="true" width="47" height="37" frameX="-7" frameY="-9" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_1_8" x="770" y="775" rotated="true" width="39" height="51" frameX="-1" frameY="-13" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_1_9" x="522" y="966" rotated="true" width="31" height="55" frameX="0" frameY="-17" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_20_0" x="435" y="1090" width="56" height="37" frameX="0" frameY="-15" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_20_1" x="915" y="536" rotated="true" width="52" height="38" frameX="-8" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_20_2" x="638" y="574" width="35" height="53" frameX="-9" frameY="-5" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_20_3" x="767" y="718" width="39" height="51" frameX="-7" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_20_4" x="603" y="1036" rotated="true" width="39" height="45" frameX="-4" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_20_5" x="824" y="536" rotated="true" width="52" height="36" frameX="-9" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_20_6" x="865" y="321" rotated="true" width="56" height="24" frameX="-15" frameY="-2" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_20_7" x="591" y="514" width="35" height="54" frameX="-9" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_20_8" x="824" y="448" rotated="true" width="52" height="41" frameX="-6" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_20_9" x="680" y="884" width="53" height="27" frameX="0" frameY="-19" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_21_0" x="648" y="1036" rotated="true" width="27" height="45" frameX="-4" frameY="-19" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_21_1" x="721" y="1036" width="37" height="48" frameX="-8" frameY="-8" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_21_2" x="803" y="940" width="49" height="33" frameX="-2" frameY="-16" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_21_3" x="974" y="4" rotated="true" width="45" height="55" frameX="0" frameY="-10" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_21_4" x="764" y="1027" rotated="true" width="31" height="54" frameX="0" frameY="-17" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_21_5" x="973" y="461" rotated="true" width="46" height="47" frameX="-3" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_21_6" x="233" y="864" rotated="true" width="29" height="58" frameX="0" frameY="-17" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_21_7" x="448" y="155" width="58" height="38" frameX="0" frameY="-13" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_21_8" x="583" y="768" width="40" height="52" frameX="-7" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_21_9" x="902" y="979" width="49" height="35" frameX="-2" frameY="-15" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_22_0" x="193" y="1005" rotated="true" width="24" height="58" frameX="0" frameY="-20" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_22_1" x="645" y="858" width="29" height="54" frameX="-12" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_22_10" x="110" y="173" width="54" height="58" frameX="0" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_22_2" x="812" y="718" rotated="true" width="34" height="51" frameX="-1" frameY="-15" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_22_3" x="803" y="891" width="43" height="43" frameX="-5" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_22_4" x="170" y="173" rotated="true" width="49" height="58" frameX="0" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_22_5" x="842" y="1027" width="23" height="52" frameX="-15" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_22_6" x="745" y="251" rotated="true" width="52" height="43" frameX="-5" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_22_7" x="486" y="795" rotated="true" width="41" height="54" frameX="0" frameY="-12" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_22_8" x="580" y="680" rotated="true" width="52" height="25" frameX="-14" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_22_9" x="973" y="514" rotated="true" width="46" height="47" frameX="-3" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_23_0" x="603" y="917" width="36" height="53" frameX="-9" frameY="-5" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_23_1" x="684" y="211" width="54" height="43" frameX="0" frameY="-11" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_23_2" x="4" y="1085" width="55" height="42" frameX="0" frameY="-11" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_23_3" x="957" y="969" rotated="true" width="48" height="34" frameX="-9" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_23_4" x="435" y="1027" width="32" height="57" frameX="-11" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_23_5" x="587" y="454" width="38" height="54" frameX="-8" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_23_6" x="669" y="503" width="45" height="49" frameX="-4" frameY="-8" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_23_7" x="390" y="917" width="53" height="43" frameX="0" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_23_8" x="713" y="1090" rotated="true" width="48" height="37" frameX="-8" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_23_9" x="782" y="99" rotated="true" width="58" height="56" frameX="0" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_24_0" x="723" y="831" rotated="true" width="41" height="44" frameX="-4" frameY="-11" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_24_1" x="810" y="1085" width="37" height="41" frameX="-7" frameY="-12" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_24_2" x="948" y="1044" width="36" height="36" frameX="-8" frameY="-14" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_24_3" x="770" y="832" width="38" height="48" frameX="-7" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_24_4" x="685" y="618" width="33" height="55" frameX="-6" frameY="-3" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_24_5" x="922" y="580" rotated="true" width="45" height="37" frameX="-8" frameY="-10" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_24_6" x="814" y="834" width="32" height="51" frameX="-11" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_24_7" x="620" y="160" width="58" height="35" frameX="0" frameY="-13" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_2_0" x="767" y="548" width="41" height="51" frameX="-6" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_2_1" x="972" y="663" rotated="true" width="47" height="43" frameX="-5" frameY="-9" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_2_10" x="478" y="966" width="38" height="55" frameX="-8" frameY="-3" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_2_11" x="679" y="558" width="38" height="54" frameX="-8" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_2_12" x="908" y="1020" rotated="true" width="34" height="49" frameX="-2" frameY="-15" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_2_2" x="645" y="918" width="35" height="52" frameX="-9" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_2_3" x="972" y="761" width="47" height="38" frameX="-3" frameY="-14" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_2_4" x="801" y="1027" width="35" height="52" frameX="-9" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_2_5" x="896" y="771" rotated="true" width="33" height="51" frameX="-1" frameY="-16" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_2_6" x="631" y="454" width="32" height="54" frameX="-10" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_2_7" x="378" y="313" rotated="true" width="22" height="58" frameX="0" frameY="-21" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_2_8" x="852" y="771" width="38" height="51" frameX="-7" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_2_9" x="285" y="497" width="51" height="56" frameX="-1" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_3_0" x="326" y="995" width="57" height="32" frameX="0" frameY="-16" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_3_1" x="274" y="1022" rotated="true" width="40" height="56" frameX="0" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_3_10" x="473" y="595" width="47" height="53" frameX="-4" frameY="-5" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_3_2" x="870" y="607" width="46" height="39" frameX="-3" frameY="-13" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_3_3" x="812" y="607" width="52" height="39" frameX="0" frameY="-9" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_3_4" x="533" y="772" rotated="true" width="44" height="54" frameX="0" frameY="-11" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_3_5" x="882" y="164" width="55" height="54" frameX="0" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_3_6" x="512" y="164" width="58" height="32" frameX="0" frameY="-16" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_3_7" x="724" y="615" width="37" height="53" frameX="-8" frameY="-5" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_3_8" x="532" y="394" rotated="true" width="47" height="54" frameX="0" frameY="-9" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_3_9" x="891" y="652" width="25" height="55" frameX="-14" frameY="-3" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_4_0" x="727" y="917" width="33" height="53" frameX="-10" frameY="-5" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_4_1" x="916" y="356" width="49" height="47" frameX="-2" frameY="-9" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_4_2" x="473" y="1027" rotated="true" width="35" height="57" frameX="0" frameY="-15" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_4_3" x="559" y="1087" width="52" height="40" frameX="0" frameY="-11" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_4_4" x="497" y="1090" rotated="true" width="56" height="37" frameX="-8" frameY="-2" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_4_5" x="681" y="1036" width="34" height="45" frameX="-10" frameY="-10" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_4_6" x="514" y="1027" rotated="true" width="38" height="57" frameX="0" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_4_7" x="972" y="712" rotated="true" width="47" height="43" frameX="-5" frameY="-9" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_4_8" x="852" y="864" width="54" height="29" frameX="0" frameY="-18" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_4_9" x="680" y="829" rotated="true" width="37" height="49" frameX="-2" frameY="-14" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_5_0" x="973" y="617" rotated="true" width="46" height="37" frameX="-8" frameY="-9" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_5_1" x="534" y="454" rotated="true" width="47" height="54" frameX="0" frameY="-9" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_5_2" x="852" y="711" width="33" height="54" frameX="-10" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_5_3" x="284" y="437" width="31" height="54" frameX="-11" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_5_4" x="972" y="891" rotated="true" width="46" height="37" frameX="-8" frameY="-9" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_5_5" x="723" y="556" width="38" height="53" frameX="-7" frameY="-5" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_5_6" x="632" y="260" width="56" height="33" frameX="0" frameY="-16" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_5_7" x="912" y="874" width="54" height="33" frameX="0" frameY="-16" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_5_8" x="767" y="605" width="39" height="52" frameX="-7" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_5_9" x="581" y="711" width="42" height="51" frameX="-6" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_6_0" x="406" y="296" rotated="true" width="37" height="57" frameX="0" frameY="-14" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_6_1" x="957" y="1009" rotated="true" width="49" height="29" frameX="-12" frameY="-8" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_6_10" x="510" y="300" rotated="true" width="54" height="51" frameX="-1" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_6_2" x="973" y="407" rotated="true" width="46" height="48" frameX="-3" frameY="-9" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_6_3" x="562" y="861" width="37" height="50" frameX="-8" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_6_4" x="714" y="976" rotated="true" width="27" height="54" frameX="-2" frameY="-19" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_6_5" x="915" y="913" width="33" height="52" frameX="-10" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_6_6" x="845" y="979" rotated="true" width="51" height="35" frameX="-9" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_6_7" x="859" y="351" rotated="true" width="51" height="44" frameX="-5" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_6_8" x="479" y="394" width="47" height="55" frameX="-3" frameY="-3" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_6_9" x="669" y="450" width="49" height="47" frameX="-2" frameY="-9" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_7_0" x="342" y="497" width="29" height="56" frameX="-12" frameY="-2" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_7_1" x="124" y="1085" rotated="true" width="52" height="42" frameX="-6" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_7_2" x="852" y="828" rotated="true" width="55" height="30" frameX="-12" frameY="-3" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_7_3" x="632" y="514" width="31" height="54" frameX="-11" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_7_4" x="629" y="718" width="42" height="51" frameX="-6" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_7_5" x="858" y="937" width="51" height="36" frameX="-1" frameY="-14" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_7_6" x="603" y="976" width="35" height="54" frameX="-9" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_7_7" x="475" y="501" rotated="true" width="53" height="49" frameX="-2" frameY="-5" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_7_8" x="632" y="299" width="51" height="47" frameX="-1" frameY="-9" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_7_9" x="802" y="401" rotated="true" width="53" height="41" frameX="-6" frameY="-5" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_8_0" x="816" y="652" width="40" height="51" frameX="-7" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_8_1" x="803" y="251" rotated="true" width="27" height="57" frameX="0" frameY="-19" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_8_2" x="935" y="713" width="31" height="54" frameX="-11" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_8_3" x="935" y="773" width="31" height="54" frameX="-11" frameY="-4" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_8_4" x="526" y="609" width="55" height="41" frameX="0" frameY="-12" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_8_5" x="891" y="713" width="38" height="52" frameX="-8" frameY="-6" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_8_6" x="532" y="712" width="43" height="54" frameX="-5" frameY="0" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_8_7" x="954" y="934" width="53" height="29" frameX="0" frameY="-18" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_8_8" x="686" y="917" width="35" height="53" frameX="-9" frameY="-5" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_8_9" x="985" y="348" width="34" height="53" frameX="-9" frameY="-5" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_9_0" x="852" y="899" width="54" height="32" frameX="0" frameY="-18" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_9_1" x="415" y="559" width="50" height="53" frameX="-1" frameY="-5" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_9_2" x="65" y="1085" width="53" height="42" frameX="0" frameY="-11" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_9_3" x="871" y="1020" width="31" height="50" frameX="-11" frameY="-7" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_9_4" x="985" y="288" rotated="true" width="34" height="54" frameX="0" frameY="-15" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_9_5" x="836" y="251" rotated="true" width="31" height="57" frameX="0" frameY="-17" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_9_6" x="382" y="755" width="45" height="34" frameX="-4" frameY="-15" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_9_7" x="739" y="886" rotated="true" width="53" height="25" frameX="-14" frameY="-5" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_9_8" x="767" y="1087" width="37" height="39" frameX="-8" frameY="-13" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_9_9" x="796" y="979" rotated="true" width="43" height="42" frameX="-6" frameY="-11" frameWidth="58" frameHeight="58"/>
+    <SubTexture name="furniture_menus/furniture_menu_bg" x="882" y="100" width="58" height="58" frameX="-1" frameY="-1" frameWidth="60" frameHeight="60"/>
+    <SubTexture name="smoke" x="990" y="1044" width="24" height="24" frameX="-4" frameY="-4" frameWidth="32" frameHeight="32"/>
+    <SubTexture name="stamps/stamp_1" x="4" y="142" width="100" height="110" frameX="-2" frameY="-20" frameWidth="102" frameHeight="131"/>
+    <SubTexture name="stamps/stamp_2" x="111" y="25" width="100" height="108" frameX="-2" frameY="-22" frameWidth="102" frameHeight="131"/>
+    <SubTexture name="stamps/stamp_3" x="4" y="25" width="101" height="111" frameX="-1" frameY="-19" frameWidth="102" frameHeight="131"/>
+    <SubTexture name="stamps/stamp_4" x="4" y="258" width="100" height="108" frameX="-2" frameY="-22" frameWidth="102" frameHeight="131"/>
+    <SubTexture name="star_new" x="644" y="826" width="26" height="26" frameX="-6" frameY="-6" frameWidth="37" frameHeight="37"/>
+    <SubTexture name="stash_bg" x="217" y="25" width="82" height="82"/>
+    <SubTexture name="stash_divider" x="217" y="113" rotated="true" width="82" height="36" frameX="-29" frameY="0" frameWidth="65" frameHeight="82"/>
+    <SubTexture name="stash_top" x="4" y="4" width="640" height="15"/>
+    <SubTexture name="sticker_menus/sticker_menu_0" x="955" y="65" rotated="true" width="64" height="63"/>
+    <SubTexture name="sticker_menus/sticker_menu_1" x="77" y="588" width="62" height="63"/>
+    <SubTexture name="sticker_menus/sticker_menu_10" x="144" y="663" width="56" height="63"/>
+    <SubTexture name="sticker_menus/sticker_menu_11" x="305" y="25" width="73" height="74"/>
+    <SubTexture name="sticker_menus/sticker_menu_12" x="71" y="1012" rotated="true" width="51" height="67" frameX="0" frameY="-1" frameWidth="67" frameHeight="52"/>
+    <SubTexture name="sticker_menus/sticker_menu_13" x="4" y="437" width="80" height="64"/>
+    <SubTexture name="sticker_menus/sticker_menu_14" x="4" y="656" width="65" height="66"/>
+    <SubTexture name="sticker_menus/sticker_menu_15" x="4" y="507" width="68" height="70"/>
+    <SubTexture name="sticker_menus/sticker_menu_16" x="4" y="871" rotated="true" width="64" height="65"/>
+    <SubTexture name="sticker_menus/sticker_menu_17" x="460" y="25" width="78" height="57"/>
+    <SubTexture name="sticker_menus/sticker_menu_18" x="384" y="25" width="70" height="70"/>
+    <SubTexture name="sticker_menus/sticker_menu_19" x="4" y="942" width="64" height="64"/>
+    <SubTexture name="sticker_menus/sticker_menu_2" x="90" y="437" width="60" height="64"/>
+    <SubTexture name="sticker_menus/sticker_menu_20" x="4" y="583" width="67" height="67"/>
+    <SubTexture name="sticker_menus/sticker_menu_21" x="74" y="798" width="63" height="63"/>
+    <SubTexture name="sticker_menus/sticker_menu_22" x="74" y="937" width="62" height="62"/>
+    <SubTexture name="sticker_menus/sticker_menu_23" x="4" y="372" width="94" height="59"/>
+    <SubTexture name="sticker_menus/sticker_menu_24" x="268" y="859" width="52" height="56" frameX="0" frameY="0" frameWidth="53" frameHeight="56"/>
+    <SubTexture name="sticker_menus/sticker_menu_3" x="74" y="728" width="63" height="64"/>
+    <SubTexture name="sticker_menus/sticker_menu_4" x="74" y="867" rotated="true" width="62" height="64"/>
+    <SubTexture name="sticker_menus/sticker_menu_5" x="156" y="437" width="60" height="64"/>
+    <SubTexture name="sticker_menus/sticker_menu_6" x="4" y="728" width="64" height="66"/>
+    <SubTexture name="sticker_menus/sticker_menu_7" x="4" y="800" width="64" height="65"/>
+    <SubTexture name="sticker_menus/sticker_menu_8" x="4" y="1012" width="61" height="67"/>
+    <SubTexture name="sticker_menus/sticker_menu_9" x="75" y="657" rotated="true" width="63" height="65"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_0" x="142" y="938" rotated="true" width="50" height="61"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_1" x="748" y="161" width="57" height="43" frameX="-1" frameY="0" frameWidth="58" frameHeight="44"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_10" x="168" y="360" rotated="true" width="54" height="56" frameX="-1" frameY="0" frameWidth="58" frameHeight="55"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_11" x="943" y="179" width="57" height="43" frameX="-1" frameY="0" frameWidth="58" frameHeight="43"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_12" x="227" y="279" rotated="true" width="54" height="56" frameX="-1" frameY="0" frameWidth="58" frameHeight="55"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_13" x="110" y="237" width="57" height="55" frameX="-1" frameY="0" frameWidth="58" frameHeight="55"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_14" x="228" y="341" rotated="true" width="54" height="56" frameX="-1" frameY="0" frameWidth="58" frameHeight="55"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_15" x="511" y="202" width="56" height="51" frameX="-1" frameY="0" frameWidth="57" frameHeight="52"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_16" x="288" y="334" width="56" height="54" frameX="-1" frameY="0" frameWidth="58" frameHeight="55"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_17" x="222" y="437" width="56" height="54" frameX="-1" frameY="0" frameWidth="58" frameHeight="55"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_18" x="110" y="298" width="57" height="55" frameX="-1" frameY="0" frameWidth="58" frameHeight="55"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_19" x="225" y="497" rotated="true" width="54" height="56" frameX="-1" frameY="0" frameWidth="58" frameHeight="55"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_2" x="246" y="1084" width="57" height="43" frameX="-1" frameY="0" frameWidth="58" frameHeight="44"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_20" x="322" y="733" rotated="true" width="54" height="56" frameX="-1" frameY="0" frameWidth="58" frameHeight="55"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_21" x="323" y="795" rotated="true" width="54" height="56" frameX="-1" frameY="0" frameWidth="58" frameHeight="55"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_22" x="386" y="139" width="56" height="54" frameX="-1" frameY="0" frameWidth="58" frameHeight="55"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_23" x="225" y="219" width="57" height="54" frameX="-1" frameY="0" frameWidth="59" frameHeight="55"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_24" x="309" y="1084" width="57" height="43" frameX="-1" frameY="0" frameWidth="58" frameHeight="44"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_25" x="449" y="199" width="56" height="54" frameX="-1" frameY="0" frameWidth="58" frameHeight="55"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_26" x="182" y="1084" width="58" height="43"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_3" x="311" y="559" rotated="true" width="46" height="60" frameX="-1" frameY="0" frameWidth="61" frameHeight="46"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_4" x="317" y="625" rotated="true" width="46" height="60" frameX="-1" frameY="0" frameWidth="61" frameHeight="46"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_5" x="372" y="1084" width="57" height="43" frameX="-1" frameY="0" frameWidth="58" frameHeight="43"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_6" x="363" y="559" rotated="true" width="46" height="60" frameX="-1" frameY="0" frameWidth="61" frameHeight="46"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_7" x="684" y="161" width="58" height="44" frameX="-1" frameY="0" frameWidth="59" frameHeight="44"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_8" x="326" y="857" width="56" height="54" frameX="-1" frameY="0" frameWidth="58" frameHeight="55"/>
+    <SubTexture name="wallpaper_menus/wallpaper_menu_9" x="424" y="618" rotated="true" width="43" height="57" frameX="-1" frameY="0" frameWidth="58" frameHeight="43"/>
+    <SubTexture name="window_menus/window_menu_0" x="305" y="105" rotated="true" width="72" height="53" frameX="-1" frameY="0" frameWidth="54" frameHeight="73"/>
+    <SubTexture name="window_menus/window_menu_1" x="728" y="38" rotated="true" width="71" height="49" frameX="-1" frameY="0" frameWidth="50" frameHeight="71"/>
+    <SubTexture name="window_menus/window_menu_10" x="112" y="507" width="44" height="69" frameX="-1" frameY="0" frameWidth="45" frameHeight="69"/>
+    <SubTexture name="window_menus/window_menu_11" x="206" y="728" width="53" height="62" frameX="-1" frameY="0" frameWidth="54" frameHeight="62"/>
+    <SubTexture name="window_menus/window_menu_12" x="632" y="201" width="46" height="53" frameX="-1" frameY="0" frameWidth="47" frameHeight="53"/>
+    <SubTexture name="window_menus/window_menu_13" x="805" y="38" rotated="true" width="71" height="55" frameX="-1" frameY="0" frameWidth="57" frameHeight="71"/>
+    <SubTexture name="window_menus/window_menu_14" x="143" y="732" rotated="true" width="57" height="62" frameX="-1" frameY="0" frameWidth="63" frameHeight="58"/>
+    <SubTexture name="window_menus/window_menu_15" x="143" y="800" width="60" height="62" frameX="-1" frameY="0" frameWidth="61" frameHeight="62"/>
+    <SubTexture name="window_menus/window_menu_16" x="389" y="966" width="50" height="55" frameX="-1" frameY="0" frameWidth="51" frameHeight="55"/>
+    <SubTexture name="window_menus/window_menu_17" x="369" y="625" width="49" height="60" frameX="-1" frameY="0" frameWidth="51" frameHeight="60"/>
+    <SubTexture name="window_menus/window_menu_18" x="882" y="38" rotated="true" width="67" height="56" frameX="-1" frameY="0" frameWidth="58" frameHeight="68"/>
+    <SubTexture name="window_menus/window_menu_19" x="162" y="507" width="57" height="64" frameX="-1" frameY="0" frameWidth="58" frameHeight="65"/>
+    <SubTexture name="window_menus/window_menu_2" x="317" y="691" rotated="true" width="59" height="36"/>
+    <SubTexture name="window_menus/window_menu_20" x="179" y="577" width="58" height="64" frameX="-1" frameY="0" frameWidth="59" frameHeight="64"/>
+    <SubTexture name="window_menus/window_menu_21" x="142" y="868" width="54" height="64" frameX="-1" frameY="0" frameWidth="55" frameHeight="64"/>
+    <SubTexture name="window_menus/window_menu_22" x="473" y="654" rotated="true" width="46" height="54"/>
+    <SubTexture name="window_menus/window_menu_23" x="209" y="796" width="53" height="62" frameX="-1" frameY="-1" frameWidth="55" frameHeight="65"/>
+    <SubTexture name="window_menus/window_menu_24" x="650" y="38" width="72" height="48" frameX="-1" frameY="0" frameWidth="73" frameHeight="48"/>
+    <SubTexture name="window_menus/window_menu_26" x="544" y="25" rotated="true" width="70" height="57" frameX="-1" frameY="0" frameWidth="59" frameHeight="71"/>
+    <SubTexture name="window_menus/window_menu_3" x="541" y="88" width="73" height="38"/>
+    <SubTexture name="window_menus/window_menu_4" x="104" y="372" width="58" height="59" frameX="-1" frameY="0" frameWidth="59" frameHeight="60"/>
+    <SubTexture name="window_menus/window_menu_5" x="326" y="917" rotated="true" width="58" height="34"/>
+    <SubTexture name="window_menus/window_menu_6" x="173" y="237" rotated="true" width="46" height="61" frameX="-1" frameY="0" frameWidth="62" frameHeight="46"/>
+    <SubTexture name="window_menus/window_menu_7" x="946" y="134" rotated="true" width="62" height="39" frameX="-1" frameY="0" frameWidth="41" frameHeight="62"/>
+    <SubTexture name="window_menus/window_menu_8" x="274" y="640" width="37" height="61" frameX="-1" frameY="0" frameWidth="39" frameHeight="62"/>
+    <SubTexture name="window_menus/window_menu_9" x="449" y="300" rotated="true" width="55" height="52"/>
+</TextureAtlas>
